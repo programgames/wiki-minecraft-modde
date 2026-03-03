@@ -1,0 +1,3737 @@
+
+<!doctype html>
+<html lang="fr" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Guide complet des mods Minecraft - Objets, Astuces, Guides">
+      
+      
+        <meta name="author" content="Julien">
+      
+      
+      
+        <link rel="prev" href="../keybinds/">
+      
+      
+        <link rel="next" href="../automation/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.3">
+    
+    
+      
+        <title>Maîtriser JEI - Wiki Minecraft Moddé</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="green" data-md-color-accent="lime">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#maitriser-jei-just-enough-items" class="md-skip">
+          Aller au contenu
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="En-tête">
+    <a href="../.." title="Wiki Minecraft Moddé" class="md-header__button md-logo" aria-label="Wiki Minecraft Moddé" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m6.2 2.44 11.9 11.9 2.12-2.12 1.41 1.41-2.47 2.47 3.18 3.18c.39.39.39 1.02 0 1.41l-.71.71a.996.996 0 0 1-1.41 0L17 18.23l-2.44 2.47-1.41-1.41 2.12-2.12-11.9-11.9V2.44zM15.89 10l4.74-4.74V2.44H17.8l-4.74 4.74zm-4.95 5-2.83-2.87-2.21 2.21-2.12-2.12-1.41 1.41 2.47 2.47-3.18 3.19a.996.996 0 0 0 0 1.41l.71.71c.39.39 1.02.39 1.41 0L7 18.23l2.44 2.47 1.41-1.41-2.12-2.12z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Wiki Minecraft Moddé
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Maîtriser JEI
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="green" data-md-color-accent="lime"  aria-label="Mode clair"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Mode clair" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="green" data-md-color-accent="lime"  aria-label="Mode sombre"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Mode sombre" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Rechercher" placeholder="Rechercher" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Recherche">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Effacer" aria-label="Effacer" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initialisation de la recherche
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Onglets" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Accueil
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Astuces
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../magie/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Catégories
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../tags/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Tags
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Wiki Minecraft Moddé" class="md-nav__button md-logo" aria-label="Wiki Minecraft Moddé" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m6.2 2.44 11.9 11.9 2.12-2.12 1.41 1.41-2.47 2.47 3.18 3.18c.39.39.39 1.02 0 1.41l-.71.71a.996.996 0 0 1-1.41 0L17 18.23l-2.44 2.47-1.41-1.41 2.12-2.12-11.9-11.9V2.44zM15.89 10l4.74-4.74V2.44H17.8l-4.74 4.74zm-4.95 5-2.83-2.87-2.21 2.21-2.12-2.12-1.41 1.41 2.47 2.47-3.18 3.19a.996.996 0 0 0 0 1.41l.71.71c.39.39 1.02.39 1.41 0L7 18.23l2.44 2.47 1.41-1.41-2.12-2.12z"/></svg>
+
+    </a>
+    Wiki Minecraft Moddé
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Accueil
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Astuces
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Astuces
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Progression
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Progression
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../getting-started/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Getting Started
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../early-game/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Early Game
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mid-game/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mid Game
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../late-game/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Late Game
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fondamentaux
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Fondamentaux
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../keybinds/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Raccourcis Clavier
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Maîtriser JEI
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Maîtriser JEI
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#utilisation-de-base" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Utilisation de Base
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#syntaxe-de-recherche-avancee" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Syntaxe de Recherche Avancée
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Syntaxe de Recherche Avancée">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#filtres-principaux" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Filtres Principaux
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#combinaison-de-filtres" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Combinaison de Filtres
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tags-utiles-a-connaitre" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tags Utiles à Connaître
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tags Utiles à Connaître">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tags-forge-standards" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tags Forge Standards
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tags-speciaux-par-mod" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tags Spéciaux par Mod
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#systeme-de-favoris-bookmarks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Système de Favoris (Bookmarks)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Système de Favoris (Bookmarks)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#gestion-des-favoris" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gestion des Favoris
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#astuces-de-visualisation-des-recettes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Astuces de Visualisation des Recettes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Astuces de Visualisation des Recettes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#transfert-vers-la-grille-de-craft" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Transfert vers la Grille de Craft
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#visualisation-multi-recettes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Visualisation Multi-Recettes
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#addons-jei-recommandes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Addons JEI Recommandés
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Addons JEI Recommandés">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#extensions-essentielles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Extensions Essentielles
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#configuration-des-addons" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Configuration des Addons
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pro-tips-exemples" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pro Tips &amp; Exemples
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Pro Tips &amp; Exemples">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#workflows-optimises" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Workflows Optimisés
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#raccourcis-memorises" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Raccourcis Mémorisés
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exemples-de-recherches-complexes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Exemples de Recherches Complexes
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#configuration-recommandee" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Configuration Recommandée
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resume" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Résumé
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../automation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bases Automation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ressources
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Ressources
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../energie/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Progression Énergie
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../enchantements/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Enchantements
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../farming/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Techniques de Farm
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_5" id="__nav_2_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Combat
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Combat
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../boss-prep/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Préparation Boss
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gear-progression/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Progression Équipement
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dimensions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dimensions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../optimisation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Optimisation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../erreurs-communes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Erreurs Communes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../glossaire/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Glossaire
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    FAQ
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../magie/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Catégories
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Catégories
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../technologie/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Technologie
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../utilitaire/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Utilitaire
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../farming/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Farming
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../combat/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Combat
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../building/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Building
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../stockage/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Stockage
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../deplacement/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Déplacement
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../energie/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Énergie
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../mob-farm/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mob Farm
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../qol/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    QOL
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tags/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tags
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#utilisation-de-base" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Utilisation de Base
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#syntaxe-de-recherche-avancee" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Syntaxe de Recherche Avancée
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Syntaxe de Recherche Avancée">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#filtres-principaux" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Filtres Principaux
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#combinaison-de-filtres" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Combinaison de Filtres
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tags-utiles-a-connaitre" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tags Utiles à Connaître
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tags Utiles à Connaître">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tags-forge-standards" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tags Forge Standards
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tags-speciaux-par-mod" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tags Spéciaux par Mod
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#systeme-de-favoris-bookmarks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Système de Favoris (Bookmarks)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Système de Favoris (Bookmarks)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#gestion-des-favoris" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gestion des Favoris
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#astuces-de-visualisation-des-recettes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Astuces de Visualisation des Recettes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Astuces de Visualisation des Recettes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#transfert-vers-la-grille-de-craft" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Transfert vers la Grille de Craft
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#visualisation-multi-recettes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Visualisation Multi-Recettes
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#addons-jei-recommandes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Addons JEI Recommandés
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Addons JEI Recommandés">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#extensions-essentielles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Extensions Essentielles
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#configuration-des-addons" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Configuration des Addons
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pro-tips-exemples" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pro Tips &amp; Exemples
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Pro Tips &amp; Exemples">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#workflows-optimises" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Workflows Optimisés
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#raccourcis-memorises" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Raccourcis Mémorisés
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exemples-de-recherches-complexes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Exemples de Recherches Complexes
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#configuration-recommandee" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Configuration Recommandée
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resume" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Résumé
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="maitriser-jei-just-enough-items">Maîtriser JEI (Just Enough Items)<a class="headerlink" href="#maitriser-jei-just-enough-items" title="Permanent link">&para;</a></h1>
+<div class="admonition info">
+<p class="admonition-title">Le compagnon indispensable</p>
+<p>JEI est <strong>LE</strong> mod essentiel pour naviguer dans les centaines de mods d'un modpack.
+Maîtriser ses fonctionnalités avancées vous fera gagner des heures de jeu.</p>
+</div>
+<hr />
+<h2 id="utilisation-de-base">Utilisation de Base<a class="headerlink" href="#utilisation-de-base" title="Permanent link">&para;</a></h2>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:3"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Raccourcis Essentiels</label><label for="__tabbed_1_2">Navigation Interface</label><label for="__tabbed_1_3">Dans l'Inventaire</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<table>
+<thead>
+<tr>
+<th>Touche</th>
+<th>Action</th>
+<th>Contexte</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>++r++</td>
+<td>Voir les <strong>recettes</strong> d'un item</td>
+<td>Survoler un item</td>
+</tr>
+<tr>
+<td>++u++</td>
+<td>Voir les <strong>utilisations</strong> d'un item</td>
+<td>Survoler un item</td>
+</tr>
+<tr>
+<td>++clic-gauche++</td>
+<td>Voir les recettes</td>
+<td>Dans la liste JEI</td>
+</tr>
+<tr>
+<td>++clic-droit++</td>
+<td>Voir les utilisations</td>
+<td>Dans la liste JEI</td>
+</tr>
+<tr>
+<td>++shift+clic++</td>
+<td>Voir l'item dans le wiki</td>
+<td>Si configuré</td>
+</tr>
+<tr>
+<td>++ctrl+clic++</td>
+<td>Ajouter aux favoris</td>
+<td>Sur un item</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="tabbed-block">
+<table>
+<thead>
+<tr>
+<th>Touche</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>++page-up++ / ++page-down++</td>
+<td>Naviguer dans les pages</td>
+</tr>
+<tr>
+<td>++home++</td>
+<td>Retour à la première page</td>
+</tr>
+<tr>
+<td>++end++</td>
+<td>Aller à la dernière page</td>
+</tr>
+<tr>
+<td>++escape++</td>
+<td>Fermer la fenêtre de recette</td>
+</tr>
+<tr>
+<td>++backspace++</td>
+<td>Retour à la recette précédente</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="tabbed-block">
+<table>
+<thead>
+<tr>
+<th>Touche</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>++ctrl+o++</td>
+<td>Ouvrir les options JEI</td>
+</tr>
+<tr>
+<td>++ctrl+f++</td>
+<td>Focus sur la barre de recherche</td>
+</tr>
+<tr>
+<td>++delete++</td>
+<td>Effacer la recherche</td>
+</tr>
+<tr>
+<td>++flèche-haut++ / ++flèche-bas++</td>
+<td>Historique de recherche</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Astuce de base</p>
+<p>Cliquez sur la barre de recherche et tapez le nom d'un item pour filtrer instantanément la liste.</p>
+</div>
+<hr />
+<h2 id="syntaxe-de-recherche-avancee">Syntaxe de Recherche Avancée<a class="headerlink" href="#syntaxe-de-recherche-avancee" title="Permanent link">&para;</a></h2>
+<h3 id="filtres-principaux">Filtres Principaux<a class="headerlink" href="#filtres-principaux" title="Permanent link">&para;</a></h3>
+<div class="tabbed-set tabbed-alternate" data-tabs="2:4"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><input id="__tabbed_2_3" name="__tabbed_2" type="radio" /><input id="__tabbed_2_4" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">@modname - Par Mod</label><label for="__tabbed_2_2">#tagname - Par Tag</label><label for="__tabbed_2_3">$tooltip - Par Tooltip</label><label for="__tabbed_2_4">^color - Par Couleur</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p>Filtre les items appartenant à un mod spécifique.</p>
+<table>
+<thead>
+<tr>
+<th>Recherche</th>
+<th>Résultat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>@thermal</code></td>
+<td>Tous les items de Thermal Series</td>
+</tr>
+<tr>
+<td><code>@mekanism</code></td>
+<td>Tous les items de Mekanism</td>
+</tr>
+<tr>
+<td><code>@create</code></td>
+<td>Tous les items de Create</td>
+</tr>
+<tr>
+<td><code>@botania</code></td>
+<td>Tous les items de Botania</td>
+</tr>
+<tr>
+<td><code>@ae2</code></td>
+<td>Tous les items d'Applied Energistics 2</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition example">
+<p class="admonition-title">Exemples pratiques</p>
+<div class="highlight"><pre><span></span><code>@thermal machine     → Machines de Thermal
+@mekanism ore        → Minerais de Mekanism
+@create gear         → Engrenages de Create
+</code></pre></div>
+</div>
+</div>
+<div class="tabbed-block">
+<p>Filtre par tags Forge/Fabric (catégories d'items).</p>
+<table>
+<thead>
+<tr>
+<th>Recherche</th>
+<th>Résultat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>#forge:ores</code></td>
+<td>Tous les minerais</td>
+</tr>
+<tr>
+<td><code>#forge:ingots</code></td>
+<td>Tous les lingots</td>
+</tr>
+<tr>
+<td><code>#forge:gems</code></td>
+<td>Toutes les gemmes</td>
+</tr>
+<tr>
+<td><code>#forge:storage_blocks</code></td>
+<td>Tous les blocs de stockage</td>
+</tr>
+<tr>
+<td><code>#c:crops</code></td>
+<td>Toutes les cultures</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition info">
+<p class="admonition-title">Tags vs Noms</p>
+<p>Les tags permettent de trouver des items <strong>fonctionnellement équivalents</strong> entre mods.
+Un <code>#forge:ingots/copper</code> trouvera le cuivre de tous les mods !</p>
+</div>
+</div>
+<div class="tabbed-block">
+<p>Recherche dans les descriptions et tooltips des items.</p>
+<table>
+<thead>
+<tr>
+<th>Recherche</th>
+<th>Résultat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>$rf</code></td>
+<td>Items mentionnant "RF" dans leur tooltip</td>
+</tr>
+<tr>
+<td><code>$energy</code></td>
+<td>Items liés à l'énergie</td>
+</tr>
+<tr>
+<td><code>$shift</code></td>
+<td>Items avec info supplémentaire au Shift</td>
+</tr>
+<tr>
+<td><code>$tier</code></td>
+<td>Items mentionnant leur tier</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition warning">
+<p class="admonition-title">Performance</p>
+<p>La recherche par tooltip est plus lente. Combinez avec d'autres filtres pour de meilleurs résultats.</p>
+</div>
+</div>
+<div class="tabbed-block">
+<p>Filtre les items par leur couleur dominante.</p>
+<table>
+<thead>
+<tr>
+<th>Recherche</th>
+<th>Résultat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>^red</code></td>
+<td>Items rouges</td>
+</tr>
+<tr>
+<td><code>^blue</code></td>
+<td>Items bleus</td>
+</tr>
+<tr>
+<td><code>^green</code></td>
+<td>Items verts</td>
+</tr>
+<tr>
+<td><code>^yellow</code></td>
+<td>Items jaunes</td>
+</tr>
+<tr>
+<td><code>^purple</code></td>
+<td>Items violets</td>
+</tr>
+<tr>
+<td><code>^black</code></td>
+<td>Items noirs</td>
+</tr>
+<tr>
+<td><code>^white</code></td>
+<td>Items blancs</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition tip">
+<p class="admonition-title">Utilité</p>
+<p>Parfait pour trouver des blocs décoratifs assortis ou des items de même "famille visuelle".</p>
+</div>
+</div>
+</div>
+</div>
+<h3 id="combinaison-de-filtres">Combinaison de Filtres<a class="headerlink" href="#combinaison-de-filtres" title="Permanent link">&para;</a></h3>
+<div class="admonition success">
+<p class="admonition-title">La puissance des recherches combinées</p>
+<p>Combinez plusieurs filtres avec des <strong>espaces</strong> pour des recherches ultra-précises.</p>
+</div>
+<table>
+<thead>
+<tr>
+<th>Recherche Combinée</th>
+<th>Résultat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>@thermal #forge:ingots</code></td>
+<td>Lingots de Thermal uniquement</td>
+</tr>
+<tr>
+<td><code>@mekanism $energy machine</code></td>
+<td>Machines Mekanism liées à l'énergie</td>
+</tr>
+<tr>
+<td><code>#forge:ores ^green</code></td>
+<td>Minerais de couleur verte</td>
+</tr>
+<tr>
+<td><code>@create gear #forge:ingots</code></td>
+<td>Engrenages Create en lingot</td>
+</tr>
+<tr>
+<td><code>sword @botania $mana</code></td>
+<td>Épées Botania utilisant le mana</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition example">
+<p class="admonition-title">Recherche complexe</p>
+<p><div class="highlight"><pre><span></span><code>@thermal #forge:gears $rf copper
+</code></pre></div>
+Trouve : Engrenages en cuivre de Thermal mentionnant RF</p>
+</div>
+<hr />
+<h2 id="tags-utiles-a-connaitre">Tags Utiles à Connaître<a class="headerlink" href="#tags-utiles-a-connaitre" title="Permanent link">&para;</a></h2>
+<h3 id="tags-forge-standards">Tags Forge Standards<a class="headerlink" href="#tags-forge-standards" title="Permanent link">&para;</a></h3>
+<div class="tabbed-set tabbed-alternate" data-tabs="3:4"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><input id="__tabbed_3_2" name="__tabbed_3" type="radio" /><input id="__tabbed_3_3" name="__tabbed_3" type="radio" /><input id="__tabbed_3_4" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="__tabbed_3_1">Matériaux</label><label for="__tabbed_3_2">Blocs</label><label for="__tabbed_3_3">Equipement</label><label for="__tabbed_3_4">Nourriture &amp; Farming</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<table>
+<thead>
+<tr>
+<th>Tag</th>
+<th>Description</th>
+<th>Exemple</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>#forge:ores</code></td>
+<td>Tous les minerais</td>
+<td>Fer, Cuivre, Osmium...</td>
+</tr>
+<tr>
+<td><code>#forge:ores/iron</code></td>
+<td>Minerai de fer spécifiquement</td>
+<td></td>
+</tr>
+<tr>
+<td><code>#forge:ingots</code></td>
+<td>Tous les lingots</td>
+<td></td>
+</tr>
+<tr>
+<td><code>#forge:nuggets</code></td>
+<td>Toutes les pépites</td>
+<td></td>
+</tr>
+<tr>
+<td><code>#forge:dusts</code></td>
+<td>Toutes les poudres</td>
+<td></td>
+</tr>
+<tr>
+<td><code>#forge:gems</code></td>
+<td>Toutes les gemmes</td>
+<td>Diamant, Émeraude...</td>
+</tr>
+<tr>
+<td><code>#forge:raw_materials</code></td>
+<td>Minerais bruts (raw)</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="tabbed-block">
+<table>
+<thead>
+<tr>
+<th>Tag</th>
+<th>Description</th>
+<th>Exemple</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>#forge:storage_blocks</code></td>
+<td>Blocs de stockage</td>
+<td>Bloc de fer, d'or...</td>
+</tr>
+<tr>
+<td><code>#forge:glass</code></td>
+<td>Tous les verres</td>
+<td></td>
+</tr>
+<tr>
+<td><code>#forge:glass_panes</code></td>
+<td>Vitres</td>
+<td></td>
+</tr>
+<tr>
+<td><code>#forge:stone</code></td>
+<td>Pierres</td>
+<td></td>
+</tr>
+<tr>
+<td><code>#forge:cobblestone</code></td>
+<td>Cobblestones</td>
+<td></td>
+</tr>
+<tr>
+<td><code>#forge:gravel</code></td>
+<td>Graviers</td>
+<td></td>
+</tr>
+<tr>
+<td><code>#forge:sand</code></td>
+<td>Sables</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="tabbed-block">
+<table>
+<thead>
+<tr>
+<th>Tag</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>#forge:tools</code></td>
+<td>Tous les outils</td>
+</tr>
+<tr>
+<td><code>#forge:tools/swords</code></td>
+<td>Épées</td>
+</tr>
+<tr>
+<td><code>#forge:tools/pickaxes</code></td>
+<td>Pioches</td>
+</tr>
+<tr>
+<td><code>#forge:tools/axes</code></td>
+<td>Haches</td>
+</tr>
+<tr>
+<td><code>#forge:tools/shovels</code></td>
+<td>Pelles</td>
+</tr>
+<tr>
+<td><code>#forge:tools/hoes</code></td>
+<td>Houes</td>
+</tr>
+<tr>
+<td><code>#forge:armors</code></td>
+<td>Toutes les armures</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="tabbed-block">
+<table>
+<thead>
+<tr>
+<th>Tag</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>#forge:crops</code></td>
+<td>Cultures</td>
+</tr>
+<tr>
+<td><code>#forge:seeds</code></td>
+<td>Graines</td>
+</tr>
+<tr>
+<td><code>#c:crops</code></td>
+<td>Cultures (Common tag)</td>
+</tr>
+<tr>
+<td><code>#forge:foods</code></td>
+<td>Nourriture</td>
+</tr>
+<tr>
+<td><code>#forge:vegetables</code></td>
+<td>Légumes</td>
+</tr>
+<tr>
+<td><code>#forge:fruits</code></td>
+<td>Fruits</td>
+</tr>
+<tr>
+<td><code>#forge:grain</code></td>
+<td>Céréales</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<h3 id="tags-speciaux-par-mod">Tags Spéciaux par Mod<a class="headerlink" href="#tags-speciaux-par-mod" title="Permanent link">&para;</a></h3>
+<div class="tabbed-set tabbed-alternate" data-tabs="4:4"><input checked="checked" id="__tabbed_4_1" name="__tabbed_4" type="radio" /><input id="__tabbed_4_2" name="__tabbed_4" type="radio" /><input id="__tabbed_4_3" name="__tabbed_4" type="radio" /><input id="__tabbed_4_4" name="__tabbed_4" type="radio" /><div class="tabbed-labels"><label for="__tabbed_4_1">Mekanism</label><label for="__tabbed_4_2">Thermal</label><label for="__tabbed_4_3">Botania</label><label for="__tabbed_4_4">Create</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<table>
+<thead>
+<tr>
+<th>Tag</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>#mekanism:alloys</code></td>
+<td>Alliages Mekanism</td>
+</tr>
+<tr>
+<td><code>#mekanism:enriched</code></td>
+<td>Items enrichis</td>
+</tr>
+<tr>
+<td><code>#mekanism:crystals</code></td>
+<td>Cristaux</td>
+</tr>
+<tr>
+<td><code>#mekanism:dirty_dusts</code></td>
+<td>Poudres sales</td>
+</tr>
+<tr>
+<td><code>#mekanism:clumps</code></td>
+<td>Morceaux</td>
+</tr>
+<tr>
+<td><code>#mekanism:shards</code></td>
+<td>Éclats</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="tabbed-block">
+<table>
+<thead>
+<tr>
+<th>Tag</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>#forge:gears</code></td>
+<td>Engrenages</td>
+</tr>
+<tr>
+<td><code>#forge:plates</code></td>
+<td>Plaques</td>
+</tr>
+<tr>
+<td><code>#forge:rods</code></td>
+<td>Tiges</td>
+</tr>
+<tr>
+<td><code>#forge:coins</code></td>
+<td>Pièces</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="tabbed-block">
+<table>
+<thead>
+<tr>
+<th>Tag</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>#botania:petals</code></td>
+<td>Pétales</td>
+</tr>
+<tr>
+<td><code>#botania:mystical_flowers</code></td>
+<td>Fleurs mystiques</td>
+</tr>
+<tr>
+<td><code>#botania:special_flowers</code></td>
+<td>Fleurs fonctionnelles</td>
+</tr>
+<tr>
+<td><code>#botania:runes</code></td>
+<td>Runes</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="tabbed-block">
+<table>
+<thead>
+<tr>
+<th>Tag</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>#create:crushed_raw_materials</code></td>
+<td>Minerais concassés</td>
+</tr>
+<tr>
+<td><code>#create:upright_on_belt</code></td>
+<td>Items debout sur convoyeur</td>
+</tr>
+<tr>
+<td><code>#create:valve_handles</code></td>
+<td>Poignées de valve</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr />
+<h2 id="systeme-de-favoris-bookmarks">Système de Favoris (Bookmarks)<a class="headerlink" href="#systeme-de-favoris-bookmarks" title="Permanent link">&para;</a></h2>
+<h3 id="gestion-des-favoris">Gestion des Favoris<a class="headerlink" href="#gestion-des-favoris" title="Permanent link">&para;</a></h3>
+<div class="tabbed-set tabbed-alternate" data-tabs="5:3"><input checked="checked" id="__tabbed_5_1" name="__tabbed_5" type="radio" /><input id="__tabbed_5_2" name="__tabbed_5" type="radio" /><input id="__tabbed_5_3" name="__tabbed_5" type="radio" /><div class="tabbed-labels"><label for="__tabbed_5_1">Ajouter/Retirer</label><label for="__tabbed_5_2">Organisation</label><label for="__tabbed_5_3">Bonnes Pratiques</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<table>
+<thead>
+<tr>
+<th>Action</th>
+<th>Comment</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Ajouter</strong> un favori</td>
+<td>++a++ sur un item OU ++ctrl+clic++</td>
+</tr>
+<tr>
+<td><strong>Retirer</strong> un favori</td>
+<td>++a++ sur le favori OU ++ctrl+clic++</td>
+</tr>
+<tr>
+<td><strong>Ajouter avec quantité</strong></td>
+<td>++shift+a++ (garde la quantité)</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition tip">
+<p class="admonition-title">Zone de favoris</p>
+<p>Les favoris apparaissent sur le <strong>côté gauche</strong> de l'inventaire par défaut.</p>
+</div>
+</div>
+<div class="tabbed-block">
+<p><strong>Réorganiser les favoris :</strong></p>
+<ul>
+<li><strong>Glisser-déposer</strong> pour réordonner</li>
+<li>Les favoris persistent entre les sessions</li>
+<li>Sauvegardés par monde/serveur</li>
+</ul>
+<p><strong>Groupes de favoris (si supporté) :</strong></p>
+<ol>
+<li>++shift+clic++ et glisser pour créer un groupe</li>
+<li>Nommer le groupe pour mieux s'organiser</li>
+<li>Replier/déplier les groupes</li>
+</ol>
+</div>
+<div class="tabbed-block">
+<div class="admonition success">
+<p class="admonition-title">Organisation recommandée</p>
+<p><strong>Groupez vos favoris par catégorie :</strong></p>
+<ul>
+<li><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.79 10.62 3.5 21.9l-1.4-1.4L13.38 9.21zm4.48-2.89.59-.59-.79-.79.64-.64-1.42-1.42-.64.64-.79-.79-.59.59c-1.74-1.42-3.7-2.56-5.8-3.36l-.83 1.79c1.75.92 3.36 2.03 4.86 3.34L14 7l3 3 .5-.5c1.31 1.5 2.42 3.11 3.34 4.86l1.79-.83c-.8-2.1-1.94-4.06-3.36-5.8"/></svg></span> <strong>Crafting actuel</strong> - Items pour votre projet en cours</li>
+<li><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.62L12 2 9.19 8.62 2 9.24l5.45 4.73L5.82 21z"/></svg></span> <strong>Essentiels</strong> - Items fréquemment craftés</li>
+<li><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 15.5A3.5 3.5 0 0 1 8.5 12 3.5 3.5 0 0 1 12 8.5a3.5 3.5 0 0 1 3.5 3.5 3.5 3.5 0 0 1-3.5 3.5m7.43-2.53c.04-.32.07-.64.07-.97s-.03-.66-.07-1l2.11-1.63c.19-.15.24-.42.12-.64l-2-3.46c-.12-.22-.39-.31-.61-.22l-2.49 1c-.52-.39-1.06-.73-1.69-.98l-.37-2.65A.506.506 0 0 0 14 2h-4c-.25 0-.46.18-.5.42l-.37 2.65c-.63.25-1.17.59-1.69.98l-2.49-1c-.22-.09-.49 0-.61.22l-2 3.46c-.13.22-.07.49.12.64L4.57 11c-.04.34-.07.67-.07 1s.03.65.07.97l-2.11 1.66c-.19.15-.25.42-.12.64l2 3.46c.12.22.39.3.61.22l2.49-1.01c.52.4 1.06.74 1.69.99l.37 2.65c.04.24.25.42.5.42h4c.25 0 .46-.18.5-.42l.37-2.65c.63-.26 1.17-.59 1.69-.99l2.49 1.01c.22.08.49 0 .61-.22l2-3.46c.12-.22.07-.49-.12-.64z"/></svg></span> <strong>Machines</strong> - Machines que vous construisez souvent</li>
+<li><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m15.07 11.25-.9.92C13.45 12.89 13 13.5 13 15h-2v-.5c0-1.11.45-2.11 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41a2 2 0 0 0-2-2 2 2 0 0 0-2 2H8a4 4 0 0 1 4-4 4 4 0 0 1 4 4 3.2 3.2 0 0 1-.93 2.25M13 19h-2v-2h2M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10c0-5.53-4.5-10-10-10"/></svg></span> <strong>À rechercher</strong> - Items à investiguer plus tard</li>
+</ul>
+</div>
+<div class="admonition example">
+<p class="admonition-title">Mon setup de favoris</p>
+<div class="highlight"><pre><span></span><code>[Favoris]
+├── En cours : Circuit Avancé, Plaque d&#39;acier
+├── Bases : Redstone, Fer, Or, Diamant
+├── Energy : Capacitor, Cable, Machine Frame
+└── À craft : Quantum Ring, ME Controller
+</code></pre></div>
+</div>
+</div>
+</div>
+</div>
+<hr />
+<h2 id="astuces-de-visualisation-des-recettes">Astuces de Visualisation des Recettes<a class="headerlink" href="#astuces-de-visualisation-des-recettes" title="Permanent link">&para;</a></h2>
+<h3 id="transfert-vers-la-grille-de-craft">Transfert vers la Grille de Craft<a class="headerlink" href="#transfert-vers-la-grille-de-craft" title="Permanent link">&para;</a></h3>
+<div class="tabbed-set tabbed-alternate" data-tabs="6:3"><input checked="checked" id="__tabbed_6_1" name="__tabbed_6" type="radio" /><input id="__tabbed_6_2" name="__tabbed_6" type="radio" /><input id="__tabbed_6_3" name="__tabbed_6" type="radio" /><div class="tabbed-labels"><label for="__tabbed_6_1">Transfert Basique</label><label for="__tabbed_6_2">Transfert Avancé</label><label for="__tabbed_6_3">Machines</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<table>
+<thead>
+<tr>
+<th>Action</th>
+<th>Résultat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>++plus++</td>
+<td>Transfère la recette vers la grille</td>
+</tr>
+<tr>
+<td>++shift+plus++</td>
+<td>Transfère le maximum craftable</td>
+</tr>
+<tr>
+<td>Clic sur ++"+"++</td>
+<td>Bouton visuel de transfert</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition warning">
+<p class="admonition-title">Prérequis</p>
+<ul>
+<li>La grille de craft doit être ouverte</li>
+<li>Vous devez avoir les ingrédients</li>
+<li>La recette doit être compatible (3x3 pour table de craft)</li>
+</ul>
+</div>
+</div>
+<div class="tabbed-block">
+<p><strong>Avec les mods de craft automatique :</strong></p>
+<table>
+<thead>
+<tr>
+<th>Mod</th>
+<th>Fonctionnalité</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Crafting Tweaks</strong></td>
+<td>Rotation, balance, clear de la grille</td>
+</tr>
+<tr>
+<td><strong>Mouse Tweaks</strong></td>
+<td>Glisser pour distribuer</td>
+</tr>
+<tr>
+<td><strong>Inventory Tweaks</strong></td>
+<td>Tri automatique</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition tip">
+<p class="admonition-title">Combo puissant</p>
+<p>JEI + Crafting Tweaks = Craft ultra-rapide !</p>
+<ol>
+<li>++r++ sur l'item voulu</li>
+<li>++plus++ pour transférer</li>
+<li>++shift+clic++ pour craft tout</li>
+</ol>
+</div>
+</div>
+<div class="tabbed-block">
+<p><strong>Pour les recettes de machines :</strong></p>
+<ul>
+<li>Le transfert fonctionne avec les machines compatibles</li>
+<li>Les slots sont automatiquement reconnus</li>
+<li>Certaines machines ont des intégrations spéciales</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Machine</th>
+<th>Support JEI</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Thermal Machines</td>
+<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 7 9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59z"/></svg></span> Complet</td>
+</tr>
+<tr>
+<td>Mekanism Machines</td>
+<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 7 9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59z"/></svg></span> Complet</td>
+</tr>
+<tr>
+<td>Create Machines</td>
+<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 7 9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59z"/></svg></span> Complet</td>
+</tr>
+<tr>
+<td>AE2 Crafting</td>
+<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 7 9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59z"/></svg></span> Via pattern</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<h3 id="visualisation-multi-recettes">Visualisation Multi-Recettes<a class="headerlink" href="#visualisation-multi-recettes" title="Permanent link">&para;</a></h3>
+<div class="tabbed-set tabbed-alternate" data-tabs="7:3"><input checked="checked" id="__tabbed_7_1" name="__tabbed_7" type="radio" /><input id="__tabbed_7_2" name="__tabbed_7" type="radio" /><input id="__tabbed_7_3" name="__tabbed_7" type="radio" /><div class="tabbed-labels"><label for="__tabbed_7_1">Navigation</label><label for="__tabbed_7_2">Types de Recettes</label><label for="__tabbed_7_3">Onglets de Recettes</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p>Quand un item a <strong>plusieurs recettes</strong> :</p>
+<table>
+<thead>
+<tr>
+<th>Navigation</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Flèches gauche/droite</td>
+<td>Changer de recette</td>
+</tr>
+<tr>
+<td>Cliquer sur les flèches</td>
+<td>Navigation visuelle</td>
+</tr>
+<tr>
+<td>++page-up++ / ++page-down++</td>
+<td>Page suivante/précédente</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition info">
+<p class="admonition-title">Indicateur</p>
+<p>Le nombre de recettes est affiché : <code>1/5</code> signifie recette 1 sur 5.</p>
+</div>
+</div>
+<div class="tabbed-block">
+<p>JEI affiche différents <strong>types</strong> de recettes :</p>
+<table>
+<thead>
+<tr>
+<th>Icône</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 4v4h4V4zm6 0v4h4V4zm0 6v4h4v-4zm0 6v4h4v-4zm-2 4v-4h-4v4zm-6 0v-4H4v4zm0-6v-4H4v4zm0-6V4H4v4zm2 6h4v-4h-4zM4 2h16a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H4c-1.08 0-2-.9-2-2V4a2 2 0 0 1 2-2"/></svg></span></td>
+<td>Crafting</td>
+<td>Table de craft</td>
+</tr>
+<tr>
+<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.66 11.2c-.23-.3-.51-.56-.77-.82-.67-.6-1.43-1.03-2.07-1.66C13.33 7.26 13 4.85 13.95 3c-.95.23-1.78.75-2.49 1.32-2.59 2.08-3.61 5.75-2.39 8.9.04.1.08.2.08.33 0 .22-.15.42-.35.5-.23.1-.47.04-.66-.12a.6.6 0 0 1-.14-.17c-1.13-1.43-1.31-3.48-.55-5.12C5.78 10 4.87 12.3 5 14.47c.06.5.12 1 .29 1.5.14.6.41 1.2.71 1.73 1.08 1.73 2.95 2.97 4.96 3.22 2.14.27 4.43-.12 6.07-1.6 1.83-1.66 2.47-4.32 1.53-6.6l-.13-.26c-.21-.46-.77-1.26-.77-1.26m-3.16 6.3c-.28.24-.74.5-1.1.6-1.12.4-2.24-.16-2.9-.82 1.19-.28 1.9-1.16 2.11-2.05.17-.8-.15-1.46-.28-2.23-.12-.74-.1-1.37.17-2.06.19.38.39.76.63 1.06.77 1 1.98 1.44 2.24 2.8.04.14.06.28.06.43.03.82-.33 1.72-.93 2.27"/></svg></span></td>
+<td>Smelting</td>
+<td>Four</td>
+</tr>
+<tr>
+<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11 15H6l7-14v8h5l-7 14z"/></svg></span></td>
+<td>Machine</td>
+<td>Recette de machine</td>
+</tr>
+<tr>
+<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 5v5c4.03 2.47-.56 4.97-3 6v3h15v-3c-6.41-2.73-3.53-7 1-8V5zM2 6c.81 2.13 2.42 3.5 5 4V6z"/></svg></span></td>
+<td>Smithing</td>
+<td>Table de forgeron</td>
+</tr>
+<tr>
+<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 19c0 1.1-.9 2-2 2H7c-1.1 0-2-.9-2-2v-7H3v-2h18v2h-2z"/></svg></span></td>
+<td>Brewing</td>
+<td>Alchimie</td>
+</tr>
+<tr>
+<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m15.9 18.5 6 1.6-.4 1.9-9.4-2.5L2.7 22l-.5-1.9 6-1.6-6.1-1.6.5-1.9 9.4 2.5 9.4-2.5.5 1.9zm.17-10.58c-.16-.22-.36-.42-.57-.59-.45-.43-1-.74-1.44-1.2C13 5.08 12.79 3.34 13.44 2c-.65.17-1.26.54-1.77.95C9.84 4.46 9.11 7.1 10 9.38c0 .07.04.15.04.24 0 .16-.11.3-.25.38a.51.51 0 0 1-.57-.23c-.8-1.03-.93-2.51-.38-3.7-1.19.99-1.84 2.65-1.73 4.22.02.36.07.71.19 1.07.11.44.29.87.52 1.25.75 1.25 2.08 2.15 3.5 2.33 1.52.2 3.14-.09 4.31-1.15 1.3-1.2 1.77-3.12 1.08-4.79l-.1-.17q-.21-.495-.57-.9zm-2.24 4.55c-.2.18-.52.36-.78.44-.79.28-1.59-.12-2.05-.6.84-.2 1.34-.84 1.5-1.48.11-.58-.11-1.05-.21-1.61-.08-.53-.07-.99.13-1.49.13.27.27.55.44.77.55.72 1.41 1.04 1.59 2 .02.13.05.22.05.33 0 .6-.24 1.24-.68 1.64"/></svg></span></td>
+<td>Campfire</td>
+<td>Feu de camp</td>
+</tr>
+<tr>
+<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m20.79 13.95-2.33.62-2-1.13v-2.88l2-1.13 2.33.62.52-1.93-1.77-.47.46-1.77-1.93-.52-.62 2.33-2 1.13L13 7.38V5.12l1.71-1.71L13.29 2 12 3.29 10.71 2 9.29 3.41 11 5.12v2.26L8.5 8.82l-2-1.13-.58-2.33L4 5.88l.47 1.77-1.77.47.52 1.93 2.33-.62 2 1.13v2.89l-2 1.13-2.33-.62-.52 1.93 1.77.47L4 18.12l1.93.52.62-2.33 2-1.13L11 16.62v2.26l-1.71 1.71L10.71 22 12 20.71 13.29 22l1.41-1.41-1.7-1.71v-2.26l2.5-1.45 2 1.13.62 2.33 1.88-.51-.47-1.77 1.77-.47zM9.5 10.56 12 9.11l2.5 1.45v2.88L12 14.89l-2.5-1.45z"/></svg></span></td>
+<td>Freezing</td>
+<td>Congélation (mods)</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="tabbed-block">
+<p>En haut de la fenêtre de recette, des <strong>onglets</strong> organisent par type :</p>
+<ol>
+<li>Cliquez sur un onglet pour filtrer</li>
+<li>Survolez pour voir le nom du type</li>
+<li>Les onglets dépendent des mods installés</li>
+</ol>
+<div class="admonition example">
+<p class="admonition-title">Exemple avec Mekanism</p>
+<p>Un minerai peut avoir des onglets pour :</p>
+<ul>
+<li>Furnace (four vanille)</li>
+<li>Enrichment Chamber</li>
+<li>Crusher</li>
+<li>Energized Smelter</li>
+<li>etc.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<hr />
+<h2 id="addons-jei-recommandes">Addons JEI Recommandés<a class="headerlink" href="#addons-jei-recommandes" title="Permanent link">&para;</a></h2>
+<h3 id="extensions-essentielles">Extensions Essentielles<a class="headerlink" href="#extensions-essentielles" title="Permanent link">&para;</a></h3>
+<div class="tabbed-set tabbed-alternate" data-tabs="8:4"><input checked="checked" id="__tabbed_8_1" name="__tabbed_8" type="radio" /><input id="__tabbed_8_2" name="__tabbed_8" type="radio" /><input id="__tabbed_8_3" name="__tabbed_8" type="radio" /><input id="__tabbed_8_4" name="__tabbed_8" type="radio" /><div class="tabbed-labels"><label for="__tabbed_8_1">JEI Integration</label><label for="__tabbed_8_2">Just Enough Resources (JER)</label><label for="__tabbed_8_3">Just Enough Professions</label><label for="__tabbed_8_4">Just Enough Effect Descriptions</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<div class="admonition success">
+<p class="admonition-title">Indispensable</p>
+<p>Ajoute le support de nombreux mods qui n'ont pas d'intégration native.</p>
+</div>
+<p><strong>Fonctionnalités :</strong></p>
+<ul>
+<li>Support étendu des mods populaires</li>
+<li>Tooltips améliorés</li>
+<li>Informations supplémentaires sur les items</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Mod Supporté</th>
+<th>Ajout</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Enchantments</td>
+<td>Voir les enchantements possibles</td>
+</tr>
+<tr>
+<td>Mob Drops</td>
+<td>Voir les drops des mobs</td>
+</tr>
+<tr>
+<td>Villager Trades</td>
+<td>Voir les échanges villageois</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="tabbed-block">
+<div class="admonition info">
+<p class="admonition-title">Pour les ressources</p>
+<p>Affiche OÙ trouver les ressources.</p>
+</div>
+<p><strong>Informations ajoutées :</strong></p>
+<table>
+<thead>
+<tr>
+<th>Info</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Génération minerai</strong></td>
+<td>Couches Y, biomes, chances</td>
+</tr>
+<tr>
+<td><strong>Drops de mobs</strong></td>
+<td>Avec pourcentages exacts</td>
+</tr>
+<tr>
+<td><strong>Loot de donjons</strong></td>
+<td>Coffres, chances, quantités</td>
+</tr>
+<tr>
+<td><strong>Drops de plantes</strong></td>
+<td>Agriculture</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition example">
+<p class="admonition-title">Exemple d'utilisation</p>
+<p>++u++ sur un diamant → Voir à quelles couches il spawn,
+dans quels biomes, avec quelles chances.</p>
+</div>
+</div>
+<div class="tabbed-block">
+<p><strong>Pour les villageois :</strong></p>
+<ul>
+<li>Voir tous les métiers possibles</li>
+<li>Échanges par niveau</li>
+<li>Blocs de métier requis</li>
+</ul>
+</div>
+<div class="tabbed-block">
+<p><strong>Pour les effets de potion :</strong></p>
+<ul>
+<li>Description détaillée de chaque effet</li>
+<li>Durée et puissance</li>
+<li>Sources de l'effet</li>
+</ul>
+</div>
+</div>
+</div>
+<h3 id="configuration-des-addons">Configuration des Addons<a class="headerlink" href="#configuration-des-addons" title="Permanent link">&para;</a></h3>
+<div class="tabbed-set tabbed-alternate" data-tabs="9:2"><input checked="checked" id="__tabbed_9_1" name="__tabbed_9" type="radio" /><input id="__tabbed_9_2" name="__tabbed_9" type="radio" /><div class="tabbed-labels"><label for="__tabbed_9_1">JER - Configuration</label><label for="__tabbed_9_2">Compatibilité</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code>Config → Just Enough Resources
+
+☑ Show ore distribution graph
+☑ Show mob drops percentages
+☑ Show dungeon loot
+☑ Show villager trades
+☐ Show plant drops (optional)
+</code></pre></div>
+</div>
+<div class="tabbed-block">
+<table>
+<thead>
+<tr>
+<th>Addon</th>
+<th>Forge</th>
+<th>Fabric</th>
+<th>Version</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>JEI Integration</td>
+<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 7 9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59z"/></svg></span></td>
+<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 7 9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59z"/></svg></span></td>
+<td>1.18+</td>
+</tr>
+<tr>
+<td>Just Enough Resources</td>
+<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 7 9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59z"/></svg></span></td>
+<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg></span></td>
+<td>1.16+</td>
+</tr>
+<tr>
+<td>JEI Professions</td>
+<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 7 9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59z"/></svg></span></td>
+<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 7 9 19l-5.5-5.5 1.41-1.41L9 16.17 19.59 5.59z"/></svg></span></td>
+<td>1.19+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr />
+<h2 id="pro-tips-exemples">Pro Tips &amp; Exemples<a class="headerlink" href="#pro-tips-exemples" title="Permanent link">&para;</a></h2>
+<h3 id="workflows-optimises">Workflows Optimisés<a class="headerlink" href="#workflows-optimises" title="Permanent link">&para;</a></h3>
+<div class="tabbed-set tabbed-alternate" data-tabs="10:3"><input checked="checked" id="__tabbed_10_1" name="__tabbed_10" type="radio" /><input id="__tabbed_10_2" name="__tabbed_10" type="radio" /><input id="__tabbed_10_3" name="__tabbed_10" type="radio" /><div class="tabbed-labels"><label for="__tabbed_10_1">Recherche de Recette Inconnue</label><label for="__tabbed_10_2">Trouver des Alternatives</label><label for="__tabbed_10_3">Debug de Craft</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<div class="admonition tip">
+<p class="admonition-title">Méthode systématique</p>
+</div>
+<p><strong>Scénario :</strong> Vous voulez crafter un item mais ne connaissez pas la recette.</p>
+<ol>
+<li>
+<p><strong>Recherche directe</strong>
+   <div class="highlight"><pre><span></span><code>quantum ring
+</code></pre></div></p>
+</li>
+<li>
+<p><strong>Si pas trouvé, chercher par mod</strong>
+   <div class="highlight"><pre><span></span><code>@ae2 ring
+</code></pre></div></p>
+</li>
+<li>
+<p><strong>Chercher par fonction</strong>
+   <div class="highlight"><pre><span></span><code>@ae2 $wireless
+</code></pre></div></p>
+</li>
+<li>
+<p><strong>Utiliser les tags</strong>
+   <div class="highlight"><pre><span></span><code>#ae2:cables
+</code></pre></div></p>
+</li>
+</ol>
+</div>
+<div class="tabbed-block">
+<div class="admonition tip">
+<p class="admonition-title">Même fonction, différents mods</p>
+</div>
+<p><strong>Scénario :</strong> Vous voulez du cuivre mais votre mod habituel n'est pas là.</p>
+<div class="highlight"><pre><span></span><code>#forge:ingots/copper
+</code></pre></div>
+<p>→ Trouve TOUS les lingots de cuivre de TOUS les mods !</p>
+<p><strong>Autres exemples :</strong></p>
+<table>
+<thead>
+<tr>
+<th>Besoin</th>
+<th>Recherche</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>N'importe quel fer</td>
+<td><code>#forge:ingots/iron</code></td>
+</tr>
+<tr>
+<td>N'importe quelle pioche</td>
+<td><code>#forge:tools/pickaxes</code></td>
+</tr>
+<tr>
+<td>N'importe quel câble énergétique</td>
+<td><code>cable $rf</code> ou <code>cable $energy</code></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="tabbed-block">
+<div class="admonition tip">
+<p class="admonition-title">Quand ça ne marche pas</p>
+</div>
+<p><strong>Scénario :</strong> La recette ne fonctionne pas.</p>
+<ol>
+<li><strong>Vérifier les tags</strong></li>
+<li>++u++ sur chaque ingrédient</li>
+<li>
+<p>Vérifier qu'ils ont les bons tags</p>
+</li>
+<li>
+<p><strong>Chercher des variantes</strong>
+   <div class="highlight"><pre><span></span><code>@modname ingredient
+</code></pre></div></p>
+</li>
+<li>
+<p><strong>Vérifier les tooltips</strong></p>
+</li>
+<li>Certains items ont des restrictions</li>
+<li>Lire les tooltips avec ++shift++</li>
+</ol>
+</div>
+</div>
+</div>
+<h3 id="raccourcis-memorises">Raccourcis Mémorisés<a class="headerlink" href="#raccourcis-memorises" title="Permanent link">&para;</a></h3>
+<div class="tabbed-set tabbed-alternate" data-tabs="11:3"><input checked="checked" id="__tabbed_11_1" name="__tabbed_11" type="radio" /><input id="__tabbed_11_2" name="__tabbed_11" type="radio" /><input id="__tabbed_11_3" name="__tabbed_11" type="radio" /><div class="tabbed-labels"><label for="__tabbed_11_1">Cheatsheet Recherche</label><label for="__tabbed_11_2">Cheatsheet Navigation</label><label for="__tabbed_11_3">Cheatsheet Tags Courants</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<table>
+<thead>
+<tr>
+<th>Je veux...</th>
+<th>Je tape...</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Items d'un mod</td>
+<td><code>@nomdumod</code></td>
+</tr>
+<tr>
+<td>Items d'une catégorie</td>
+<td><code>#forge:categorie</code></td>
+</tr>
+<tr>
+<td>Items avec un mot dans tooltip</td>
+<td><code>$motclé</code></td>
+</tr>
+<tr>
+<td>Items d'une couleur</td>
+<td><code>^couleur</code></td>
+</tr>
+<tr>
+<td>Combinaison précise</td>
+<td><code>@mod #tag $tooltip nom</code></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="tabbed-block">
+<table>
+<thead>
+<tr>
+<th>Je veux...</th>
+<th>Je fais...</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Voir comment crafter</td>
+<td>++r++</td>
+</tr>
+<tr>
+<td>Voir à quoi ça sert</td>
+<td>++u++</td>
+</tr>
+<tr>
+<td>Ajouter aux favoris</td>
+<td>++a++ ou ++ctrl+clic++</td>
+</tr>
+<tr>
+<td>Transférer la recette</td>
+<td>++plus++</td>
+</tr>
+<tr>
+<td>Retour recette précédente</td>
+<td>++backspace++</td>
+</tr>
+<tr>
+<td>Effacer la recherche</td>
+<td>++delete++</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="tabbed-block">
+<table>
+<thead>
+<tr>
+<th>Catégorie</th>
+<th>Tags Utiles</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Métaux</strong></td>
+<td><code>#forge:ingots</code>, <code>#forge:ores</code>, <code>#forge:nuggets</code>, <code>#forge:dusts</code></td>
+</tr>
+<tr>
+<td><strong>Craft</strong></td>
+<td><code>#forge:gears</code>, <code>#forge:plates</code>, <code>#forge:rods</code></td>
+</tr>
+<tr>
+<td><strong>Blocs</strong></td>
+<td><code>#forge:storage_blocks</code>, <code>#forge:glass</code>, <code>#forge:stone</code></td>
+</tr>
+<tr>
+<td><strong>Outils</strong></td>
+<td><code>#forge:tools</code>, <code>#forge:armors</code></td>
+</tr>
+<tr>
+<td><strong>Food</strong></td>
+<td><code>#forge:crops</code>, <code>#forge:foods</code>, <code>#forge:seeds</code></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<h3 id="exemples-de-recherches-complexes">Exemples de Recherches Complexes<a class="headerlink" href="#exemples-de-recherches-complexes" title="Permanent link">&para;</a></h3>
+<div class="admonition example">
+<p class="admonition-title">Recherches Avancées en Action</p>
+</div>
+<div class="tabbed-set tabbed-alternate" data-tabs="12:4"><input checked="checked" id="__tabbed_12_1" name="__tabbed_12" type="radio" /><input id="__tabbed_12_2" name="__tabbed_12" type="radio" /><input id="__tabbed_12_3" name="__tabbed_12" type="radio" /><input id="__tabbed_12_4" name="__tabbed_12" type="radio" /><div class="tabbed-labels"><label for="__tabbed_12_1">Exemple 1 : Énergie</label><label for="__tabbed_12_2">Exemple 2 : Stockage</label><label for="__tabbed_12_3">Exemple 3 : Processing</label><label for="__tabbed_12_4">Exemple 4 : Décoration</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p><strong>Objectif :</strong> Trouver toutes les machines générant de l'énergie</p>
+<p><div class="highlight"><pre><span></span><code>$rf $generate
+</code></pre></div>
+ou
+<div class="highlight"><pre><span></span><code>$fe generator
+</code></pre></div>
+ou par mod :
+<div class="highlight"><pre><span></span><code>@thermal dynamo
+@mekanism generator
+@powah reactor
+</code></pre></div></p>
+</div>
+<div class="tabbed-block">
+<p><strong>Objectif :</strong> Trouver des solutions de stockage</p>
+<p><div class="highlight"><pre><span></span><code>#forge:chests
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>@ae2 storage
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>@refinedstorage disk
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>drawer @storagedrawers
+</code></pre></div></p>
+</div>
+<div class="tabbed-block">
+<p><strong>Objectif :</strong> Trouver toutes les façons de traiter un minerai</p>
+<ol>
+<li>++u++ sur le minerai brut</li>
+<li>Voir tous les onglets de machines</li>
+<li>Comparer les outputs (doubling, tripling, etc.)</li>
+</ol>
+<div class="highlight"><pre><span></span><code>@mekanism #forge:ores $5x
+</code></pre></div>
+</div>
+<div class="tabbed-block">
+<p><strong>Objectif :</strong> Trouver des blocs décoratifs assortis</p>
+<p><div class="highlight"><pre><span></span><code>^blue @chisel
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>#forge:glass ^red
+</code></pre></div>
+<div class="highlight"><pre><span></span><code>@supplementaries decorat
+</code></pre></div></p>
+</div>
+</div>
+</div>
+<hr />
+<h2 id="configuration-recommandee">Configuration Recommandée<a class="headerlink" href="#configuration-recommandee" title="Permanent link">&para;</a></h2>
+<div class="admonition settings">
+<p class="admonition-title">Paramètres JEI Optimaux</p>
+</div>
+<div class="tabbed-set tabbed-alternate" data-tabs="13:3"><input checked="checked" id="__tabbed_13_1" name="__tabbed_13" type="radio" /><input id="__tabbed_13_2" name="__tabbed_13" type="radio" /><input id="__tabbed_13_3" name="__tabbed_13" type="radio" /><div class="tabbed-labels"><label for="__tabbed_13_1">Général</label><label for="__tabbed_13_2">Recherche</label><label for="__tabbed_13_3">Avancé</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<table>
+<thead>
+<tr>
+<th>Paramètre</th>
+<th>Valeur Recommandée</th>
+<th>Raison</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mode recherche</td>
+<td><code>REQUIRE_PREFIX</code></td>
+<td>Plus précis</td>
+</tr>
+<tr>
+<td>Afficher tooltips</td>
+<td><code>ON</code></td>
+<td>Plus d'infos</td>
+</tr>
+<tr>
+<td>Animations</td>
+<td><code>OFF</code></td>
+<td>Meilleure perf</td>
+</tr>
+<tr>
+<td>Items par page</td>
+<td><code>9x9</code> ou <code>9x10</code></td>
+<td>Bon compromis</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="tabbed-block">
+<table>
+<thead>
+<tr>
+<th>Paramètre</th>
+<th>Valeur</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Search mode</td>
+<td><code>ENABLED</code></td>
+<td>Toujours actif</td>
+</tr>
+<tr>
+<td>Search color</td>
+<td><code>ENABLED</code></td>
+<td>Permet ^color</td>
+</tr>
+<tr>
+<td>Search tooltip</td>
+<td><code>ENABLED</code></td>
+<td>Permet $tooltip</td>
+</tr>
+<tr>
+<td>Async search</td>
+<td><code>ON</code></td>
+<td>Recherche fluide</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="tabbed-block">
+<table>
+<thead>
+<tr>
+<th>Paramètre</th>
+<th>Valeur</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Low memory mode</td>
+<td>Selon votre RAM</td>
+</tr>
+<tr>
+<td>Debug mode</td>
+<td>OFF (sauf problèmes)</td>
+</tr>
+<tr>
+<td>Cheat mode</td>
+<td>OFF (survie) / ON (créatif)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr />
+<h2 id="resume">Résumé<a class="headerlink" href="#resume" title="Permanent link">&para;</a></h2>
+<div class="admonition abstract">
+<p class="admonition-title">Les Points Clés</p>
+<ol>
+<li><strong>++r++ et ++u++</strong> sont vos meilleurs amis</li>
+<li><strong>Combinez les filtres</strong> pour des recherches précises</li>
+<li><strong>Utilisez les tags</strong> pour trouver des alternatives entre mods</li>
+<li><strong>Organisez vos favoris</strong> par projet/catégorie</li>
+<li><strong>Installez JER</strong> pour savoir où trouver les ressources</li>
+<li>Le <strong>transfert ++plus++</strong> accélère énormément le craft</li>
+</ol>
+</div>
+<div class="admonition quote">
+<p class="admonition-title">Citation de joueur expérimenté</p>
+<p><em>"Je ne pourrais plus jouer à Minecraft moddé sans JEI. C'est comme essayer de coder sans documentation."</em></p>
+</div>
+<hr />
+<p><em>Guide complet - Mis à jour pour les versions modernes de JEI</em></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Retour en haut de la page
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2024 Julien
+    </div>
+  
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.sections", "navigation.expand", "navigation.top", "navigation.instant", "navigation.instant.prefetch", "navigation.tracking", "navigation.indexes", "search.suggest", "search.highlight", "content.tabs.link", "content.code.copy", "toc.follow"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>

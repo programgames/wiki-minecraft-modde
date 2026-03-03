@@ -1,0 +1,4116 @@
+
+<!doctype html>
+<html lang="fr" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Guide complet des mods Minecraft - Objets, Astuces, Guides">
+      
+      
+        <meta name="author" content="Julien">
+      
+      
+      
+        <link rel="prev" href="../jei-mastery/">
+      
+      
+        <link rel="next" href="../energie/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.3">
+    
+    
+      
+        <title>Bases Automation - Wiki Minecraft Moddé</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="green" data-md-color-accent="lime">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#guide-des-bases-de-lautomatisation" class="md-skip">
+          Aller au contenu
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="En-tête">
+    <a href="../.." title="Wiki Minecraft Moddé" class="md-header__button md-logo" aria-label="Wiki Minecraft Moddé" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m6.2 2.44 11.9 11.9 2.12-2.12 1.41 1.41-2.47 2.47 3.18 3.18c.39.39.39 1.02 0 1.41l-.71.71a.996.996 0 0 1-1.41 0L17 18.23l-2.44 2.47-1.41-1.41 2.12-2.12-11.9-11.9V2.44zM15.89 10l4.74-4.74V2.44H17.8l-4.74 4.74zm-4.95 5-2.83-2.87-2.21 2.21-2.12-2.12-1.41 1.41 2.47 2.47-3.18 3.19a.996.996 0 0 0 0 1.41l.71.71c.39.39 1.02.39 1.41 0L7 18.23l2.44 2.47 1.41-1.41-2.12-2.12z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Wiki Minecraft Moddé
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Bases Automation
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="green" data-md-color-accent="lime"  aria-label="Mode clair"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Mode clair" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="green" data-md-color-accent="lime"  aria-label="Mode sombre"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Mode sombre" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Rechercher" placeholder="Rechercher" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Recherche">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Effacer" aria-label="Effacer" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initialisation de la recherche
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Onglets" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Accueil
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Astuces
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../magie/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Catégories
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../tags/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Tags
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Wiki Minecraft Moddé" class="md-nav__button md-logo" aria-label="Wiki Minecraft Moddé" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m6.2 2.44 11.9 11.9 2.12-2.12 1.41 1.41-2.47 2.47 3.18 3.18c.39.39.39 1.02 0 1.41l-.71.71a.996.996 0 0 1-1.41 0L17 18.23l-2.44 2.47-1.41-1.41 2.12-2.12-11.9-11.9V2.44zM15.89 10l4.74-4.74V2.44H17.8l-4.74 4.74zm-4.95 5-2.83-2.87-2.21 2.21-2.12-2.12-1.41 1.41 2.47 2.47-3.18 3.19a.996.996 0 0 0 0 1.41l.71.71c.39.39 1.02.39 1.41 0L7 18.23l2.44 2.47 1.41-1.41-2.12-2.12z"/></svg>
+
+    </a>
+    Wiki Minecraft Moddé
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Accueil
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Astuces
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Astuces
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Progression
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Progression
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../getting-started/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Getting Started
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../early-game/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Early Game
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mid-game/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mid Game
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../late-game/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Late Game
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fondamentaux
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Fondamentaux
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../keybinds/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Raccourcis Clavier
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../jei-mastery/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Maîtriser JEI
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bases Automation
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bases Automation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#principes-fondamentaux" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Principes Fondamentaux
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Principes Fondamentaux">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#le-modele-input-process-output" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Le Modèle Input → Process → Output
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pourquoi-automatiser" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pourquoi Automatiser ?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#quand-automatiser-vs-manuel" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quand Automatiser vs Manuel ?
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#transport-ditems" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Transport d'Items
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Transport d&#39;Items">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#comparaison-des-methodes-de-transport" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Comparaison des Méthodes de Transport
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hoppers-vanilla-modded" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hoppers (Vanilla &amp; Modded)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pipes-systemes-modulaires" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pipes (Systèmes Modulaires)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#conduits-ender-io" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Conduits (Ender IO)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#item-collectors" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Item Collectors
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#transport-wireless" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Transport Wireless
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#filtrage-et-tri" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Filtrage et Tri
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Filtrage et Tri">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#servo-filters-thermal" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Servo Filters (Thermal)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#drawer-controllers-storage-drawers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Drawer Controllers (Storage Drawers)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#storage-buses-ae2rs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Storage Buses (AE2/RS)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#auto-crafting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Auto-Crafting
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Auto-Crafting">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#comparaison-des-systemes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Comparaison des Systèmes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rftools-crafter" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        RFTools Crafter
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#thermal-sequential-fabricator" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Thermal Sequential Fabricator
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ae2-auto-crafting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AE2 Auto-Crafting
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#refined-storage-auto-crafting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Refined Storage Auto-Crafting
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#create-mechanical-crafters" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Create Mechanical Crafters
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wixies-ars-nouveau" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Wixies (Ars Nouveau)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#patterns-dautomation-courants" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Patterns d'Automation Courants
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Patterns d&#39;Automation Courants">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ore-processing-chain" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ore Processing Chain
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mob-farm-items" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mob Farm → Items
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tree-farm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tree Farm
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#crop-farm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Crop Farm
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cobblegen-stone-resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cobblegen → Stone → Resources
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#erreurs-courantes-dautomation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Erreurs Courantes d'Automation
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Erreurs Courantes d&#39;Automation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#erreur-1-goulots-detranglement" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Erreur 1: Goulots d'Étranglement
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#erreur-2-pas-de-buffer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Erreur 2: Pas de Buffer
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#erreur-3-mauvaise-gestion-overflow" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Erreur 3: Mauvaise Gestion Overflow
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#erreur-4-ignorer-les-sous-produits" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Erreur 4: Ignorer les Sous-produits
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#erreur-5-dependances-circulaires" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Erreur 5: Dépendances Circulaires
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#erreur-6-mauvais-dimensionnement-energie" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Erreur 6: Mauvais Dimensionnement Énergie
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#checklist-de-debug" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Checklist de Debug
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resume" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Résumé
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ressources
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Ressources
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../energie/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Progression Énergie
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../enchantements/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Enchantements
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../farming/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Techniques de Farm
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_5" id="__nav_2_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Combat
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Combat
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../boss-prep/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Préparation Boss
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gear-progression/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Progression Équipement
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dimensions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dimensions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../optimisation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Optimisation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../erreurs-communes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Erreurs Communes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../glossaire/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Glossaire
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    FAQ
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../magie/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Catégories
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Catégories
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../technologie/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Technologie
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../utilitaire/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Utilitaire
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../farming/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Farming
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../combat/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Combat
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../building/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Building
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../stockage/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Stockage
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../deplacement/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Déplacement
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../energie/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Énergie
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../mob-farm/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mob Farm
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../qol/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    QOL
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tags/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tags
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#principes-fondamentaux" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Principes Fondamentaux
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Principes Fondamentaux">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#le-modele-input-process-output" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Le Modèle Input → Process → Output
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pourquoi-automatiser" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pourquoi Automatiser ?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#quand-automatiser-vs-manuel" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quand Automatiser vs Manuel ?
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#transport-ditems" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Transport d'Items
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Transport d&#39;Items">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#comparaison-des-methodes-de-transport" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Comparaison des Méthodes de Transport
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hoppers-vanilla-modded" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hoppers (Vanilla &amp; Modded)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pipes-systemes-modulaires" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pipes (Systèmes Modulaires)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#conduits-ender-io" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Conduits (Ender IO)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#item-collectors" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Item Collectors
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#transport-wireless" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Transport Wireless
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#filtrage-et-tri" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Filtrage et Tri
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Filtrage et Tri">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#servo-filters-thermal" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Servo Filters (Thermal)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#drawer-controllers-storage-drawers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Drawer Controllers (Storage Drawers)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#storage-buses-ae2rs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Storage Buses (AE2/RS)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#auto-crafting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Auto-Crafting
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Auto-Crafting">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#comparaison-des-systemes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Comparaison des Systèmes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rftools-crafter" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        RFTools Crafter
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#thermal-sequential-fabricator" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Thermal Sequential Fabricator
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ae2-auto-crafting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AE2 Auto-Crafting
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#refined-storage-auto-crafting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Refined Storage Auto-Crafting
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#create-mechanical-crafters" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Create Mechanical Crafters
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wixies-ars-nouveau" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Wixies (Ars Nouveau)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#patterns-dautomation-courants" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Patterns d'Automation Courants
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Patterns d&#39;Automation Courants">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ore-processing-chain" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ore Processing Chain
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mob-farm-items" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mob Farm → Items
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tree-farm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tree Farm
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#crop-farm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Crop Farm
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cobblegen-stone-resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cobblegen → Stone → Resources
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#erreurs-courantes-dautomation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Erreurs Courantes d'Automation
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Erreurs Courantes d&#39;Automation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#erreur-1-goulots-detranglement" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Erreur 1: Goulots d'Étranglement
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#erreur-2-pas-de-buffer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Erreur 2: Pas de Buffer
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#erreur-3-mauvaise-gestion-overflow" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Erreur 3: Mauvaise Gestion Overflow
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#erreur-4-ignorer-les-sous-produits" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Erreur 4: Ignorer les Sous-produits
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#erreur-5-dependances-circulaires" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Erreur 5: Dépendances Circulaires
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#erreur-6-mauvais-dimensionnement-energie" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Erreur 6: Mauvais Dimensionnement Énergie
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#checklist-de-debug" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Checklist de Debug
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resume" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Résumé
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="guide-des-bases-de-lautomatisation">Guide des Bases de l'Automatisation<a class="headerlink" href="#guide-des-bases-de-lautomatisation" title="Permanent link">&para;</a></h1>
+<p>L'automatisation est le coeur de toute progression en modpack. Ce guide couvre les concepts fondamentaux et les outils disponibles pour créer des systèmes efficaces.</p>
+<hr />
+<h2 id="principes-fondamentaux">Principes Fondamentaux<a class="headerlink" href="#principes-fondamentaux" title="Permanent link">&para;</a></h2>
+<h3 id="le-modele-input-process-output">Le Modèle Input → Process → Output<a class="headerlink" href="#le-modele-input-process-output" title="Permanent link">&para;</a></h3>
+<p>Toute automatisation suit ce schéma universel :</p>
+<pre class="mermaid"><code>flowchart LR
+    A[INPUT&lt;br&gt;Source] --&gt; B[PROCESS&lt;br&gt;Traitement]
+    B --&gt; C[OUTPUT&lt;br&gt;Stockage]</code></pre>
+<table>
+<thead>
+<tr>
+<th>Composant</th>
+<th>Rôle</th>
+<th>Exemples</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Input</strong></td>
+<td>Source des ressources</td>
+<td>Coffre, générateur, farm</td>
+</tr>
+<tr>
+<td><strong>Process</strong></td>
+<td>Transformation</td>
+<td>Fournaise, machine, crafter</td>
+</tr>
+<tr>
+<td><strong>Output</strong></td>
+<td>Destination finale</td>
+<td>Stockage, autre machine, void</td>
+</tr>
+</tbody>
+</table>
+<h3 id="pourquoi-automatiser">Pourquoi Automatiser ?<a class="headerlink" href="#pourquoi-automatiser" title="Permanent link">&para;</a></h3>
+<div class="admonition success">
+<p class="admonition-title">Avantages de l'automatisation</p>
+<ul>
+<li><strong>Gain de temps</strong> : Les machines travaillent pendant que vous explorez</li>
+<li><strong>Efficacité</strong> : Traitement 24/7 sans intervention</li>
+<li><strong>Scalabilité</strong> : Facile d'augmenter la production</li>
+<li><strong>Satisfaction</strong> : Le plaisir de voir un système fonctionner seul</li>
+</ul>
+</div>
+<h3 id="quand-automatiser-vs-manuel">Quand Automatiser vs Manuel ?<a class="headerlink" href="#quand-automatiser-vs-manuel" title="Permanent link">&para;</a></h3>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Automatiser si...</label><label for="__tabbed_1_2">Rester manuel si...</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<ul>
+<li>Tâche répétitive (smelting, crafting basique)</li>
+<li>Grande quantité nécessaire</li>
+<li>Ressource consommée régulièrement</li>
+<li>Process multi-étapes complexe</li>
+</ul>
+</div>
+<div class="tabbed-block">
+<ul>
+<li>Usage ponctuel ou rare</li>
+<li>Coût d'automatisation &gt; bénéfice</li>
+<li>Début de partie (ressources limitées)</li>
+<li>Craft unique ou expérimental</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Règle du 3</p>
+<p>Si vous faites la même action plus de 3 fois, envisagez l'automatisation.</p>
+</div>
+<hr />
+<h2 id="transport-ditems">Transport d'Items<a class="headerlink" href="#transport-ditems" title="Permanent link">&para;</a></h2>
+<h3 id="comparaison-des-methodes-de-transport">Comparaison des Méthodes de Transport<a class="headerlink" href="#comparaison-des-methodes-de-transport" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Méthode</th>
+<th>Mod</th>
+<th>Vitesse</th>
+<th>Coût</th>
+<th>Filtrage</th>
+<th>Complexité</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Hopper Vanilla</td>
+<td>Vanilla</td>
+<td>Lent</td>
+<td>Très bas</td>
+<td>Non</td>
+<td>Très simple</td>
+</tr>
+<tr>
+<td>Wooden Hopper</td>
+<td>Various</td>
+<td>Lent</td>
+<td>Très bas</td>
+<td>Non</td>
+<td>Très simple</td>
+</tr>
+<tr>
+<td>Pretty Pipes</td>
+<td>Pretty Pipes</td>
+<td>Moyen</td>
+<td>Bas</td>
+<td>Oui</td>
+<td>Simple</td>
+</tr>
+<tr>
+<td>Itemducts</td>
+<td>Thermal</td>
+<td>Rapide</td>
+<td>Moyen</td>
+<td>Oui</td>
+<td>Moyen</td>
+</tr>
+<tr>
+<td>Logistical Transporters</td>
+<td>Mekanism</td>
+<td>Rapide</td>
+<td>Moyen</td>
+<td>Oui</td>
+<td>Moyen</td>
+</tr>
+<tr>
+<td>Item Conduits</td>
+<td>Ender IO</td>
+<td>Très rapide</td>
+<td>Moyen-Haut</td>
+<td>Oui</td>
+<td>Moyen</td>
+</tr>
+<tr>
+<td>Entangled Block</td>
+<td>Entangled</td>
+<td>Instantané</td>
+<td>Haut</td>
+<td>Non</td>
+<td>Simple</td>
+</tr>
+<tr>
+<td>Ender Chest</td>
+<td>Ender Storage</td>
+<td>Instantané</td>
+<td>Haut</td>
+<td>Non</td>
+<td>Simple</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="hoppers-vanilla-modded">Hoppers (Vanilla &amp; Modded)<a class="headerlink" href="#hoppers-vanilla-modded" title="Permanent link">&para;</a></h3>
+<div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">Hopper Vanilla</label><label for="__tabbed_2_2">Wooden Hopper</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code>Crafting: 5 Iron + 1 Chest
+
+Caractéristiques:
+- 8 items/seconde
+- Tire depuis le dessus
+- Pousse vers la direction pointée
+- Désactivable par redstone
+</code></pre></div>
+<div class="admonition warning">
+<p class="admonition-title">Limitations</p>
+<ul>
+<li>Pas de filtrage natif</li>
+<li>Cause du lag en grande quantité</li>
+<li>Direction fixe une fois placé</li>
+</ul>
+</div>
+</div>
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code>Crafting: 5 Wood + 1 Chest (varie selon le mod)
+
+Caractéristiques:
+- Alternative early-game
+- Même fonctionnement que vanilla
+- Économise le fer
+</code></pre></div>
+</div>
+</div>
+</div>
+<hr />
+<h3 id="pipes-systemes-modulaires">Pipes (Systèmes Modulaires)<a class="headerlink" href="#pipes-systemes-modulaires" title="Permanent link">&para;</a></h3>
+<div class="tabbed-set tabbed-alternate" data-tabs="3:3"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><input id="__tabbed_3_2" name="__tabbed_3" type="radio" /><input id="__tabbed_3_3" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="__tabbed_3_1">Pretty Pipes</label><label for="__tabbed_3_2">Thermal Itemducts</label><label for="__tabbed_3_3">Mekanism Transporters</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p><strong>Le système le plus accessible pour débuter</strong></p>
+<table>
+<thead>
+<tr>
+<th>Composant</th>
+<th>Fonction</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Pipe</td>
+<td>Transport de base</td>
+</tr>
+<tr>
+<td>Extraction Module</td>
+<td>Tire les items d'un inventaire</td>
+</tr>
+<tr>
+<td>Filter Module</td>
+<td>Filtre ce qui passe</td>
+</tr>
+<tr>
+<td>Speed Module</td>
+<td>Augmente la vitesse</td>
+</tr>
+<tr>
+<td>Retrieval Module</td>
+<td>Demande des items spécifiques</td>
+</tr>
+</tbody>
+</table>
+<pre class="mermaid"><code>flowchart LR
+    A[Coffre] --&gt;|Extraction Module| B[Pipe]
+    B --&gt; C[Pipe]
+    C --&gt; D[Machine]</code></pre>
+<div class="admonition tip">
+<p class="admonition-title">Astuce Pretty Pipes</p>
+<p>Les modules Low/Medium/High déterminent la capacité de filtrage et la vitesse.</p>
+</div>
+</div>
+<div class="tabbed-block">
+<p><strong>Système polyvalent et performant</strong></p>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Utilisation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Itemduct</td>
+<td>Transport standard</td>
+</tr>
+<tr>
+<td>Itemduct (Opaque)</td>
+<td>Moins de lag (pas de rendu items)</td>
+</tr>
+<tr>
+<td>Impulse Itemduct</td>
+<td>Transport instantané</td>
+</tr>
+<tr>
+<td>Warp Itemduct</td>
+<td>Téléportation longue distance</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Composant</th>
+<th>Fonction</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Servo</td>
+<td>POUSSE depuis l'inventaire</td>
+</tr>
+<tr>
+<td>Retriever</td>
+<td>TIRE vers l'inventaire</td>
+</tr>
+<tr>
+<td>Filter</td>
+<td>Contrôle ce qui passe</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition info">
+<p class="admonition-title">Niveaux de Servo</p>
+<p>Reinforced → Signalum → Resonant (vitesse et slots de filtre croissants)</p>
+</div>
+</div>
+<div class="tabbed-block">
+<p><strong>Haute performance avec visual feedback</strong></p>
+<table>
+<thead>
+<tr>
+<th>Composant</th>
+<th>Fonction</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Logistical Transporter</td>
+<td>Transport d'items</td>
+</tr>
+<tr>
+<td>Restrictive Transporter</td>
+<td>Chemin de dernier recours</td>
+</tr>
+<tr>
+<td>Diversion Transporter</td>
+<td>Contrôle redstone</td>
+</tr>
+<tr>
+<td>Logistical Sorter</td>
+<td>Tri et filtrage avancé</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition info">
+<p class="admonition-title">Couleurs de tri</p>
+<ul>
+<li>Assignez des couleurs aux destinations</li>
+<li>Le sorter route par couleur</li>
+<li>Permet des systèmes complexes</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<hr />
+<h3 id="conduits-ender-io">Conduits (Ender IO)<a class="headerlink" href="#conduits-ender-io" title="Permanent link">&para;</a></h3>
+<p><strong>Solution tout-en-un compacte</strong></p>
+<div class="admonition success">
+<p class="admonition-title">Avantage majeur</p>
+<p>Plusieurs types de conduits dans le même bloc ! Items + Fluides + Énergie dans un seul espace.</p>
+</div>
+<table>
+<thead>
+<tr>
+<th>Type de Conduit</th>
+<th>Transporte</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Item Conduit</td>
+<td>Items</td>
+</tr>
+<tr>
+<td>Fluid Conduit</td>
+<td>Fluides</td>
+</tr>
+<tr>
+<td>Energy Conduit</td>
+<td>Énergie (FE/RF)</td>
+</tr>
+<tr>
+<td>Redstone Conduit</td>
+<td>Signal redstone</td>
+</tr>
+<tr>
+<td>ME Conduit</td>
+<td>Réseau AE2</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Mode de connexion</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Insert</td>
+<td>Pousse dans l'inventaire</td>
+</tr>
+<tr>
+<td>Extract</td>
+<td>Tire de l'inventaire</td>
+</tr>
+<tr>
+<td>Insert + Extract</td>
+<td>Les deux</td>
+</tr>
+<tr>
+<td>Disabled</td>
+<td>Connexion désactivée</td>
+</tr>
+</tbody>
+</table>
+<p><em>Configuration via clic droit avec Yeta Wrench</em></p>
+<div class="tabbed-set tabbed-alternate" data-tabs="4:2"><input checked="checked" id="__tabbed_4_1" name="__tabbed_4" type="radio" /><input id="__tabbed_4_2" name="__tabbed_4" type="radio" /><div class="tabbed-labels"><label for="__tabbed_4_1">Filtrage Item Conduit</label><label for="__tabbed_4_2">Round Robin</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<table>
+<thead>
+<tr>
+<th>Filtre</th>
+<th>Slots</th>
+<th>Fonctions</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Basic</td>
+<td>5</td>
+<td>Whitelist/Blacklist</td>
+</tr>
+<tr>
+<td>Advanced</td>
+<td>10</td>
+<td>+ NBT, Damage</td>
+</tr>
+<tr>
+<td>Speed Upgrade</td>
+<td>-</td>
+<td>Augmente le débit</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="tabbed-block">
+<p>Active "Round Robin" pour distribuer équitablement entre plusieurs destinations.</p>
+<table>
+<thead>
+<tr>
+<th>Mode</th>
+<th>Comportement</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Sans RR</td>
+<td>Tout va dans la 1ère fournaise disponible</td>
+</tr>
+<tr>
+<td>Avec RR</td>
+<td>Distribution 1→2→3→1→2→3...</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr />
+<h3 id="item-collectors">Item Collectors<a class="headerlink" href="#item-collectors" title="Permanent link">&para;</a></h3>
+<p><strong>Ramassage automatique dans une zone</strong></p>
+<table>
+<thead>
+<tr>
+<th>Mod</th>
+<th>Block</th>
+<th>Range</th>
+<th>Spécial</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mob Grinding Utils</td>
+<td>Item Collector</td>
+<td>9x9 configurable</td>
+<td>Filtre intégré</td>
+</tr>
+<tr>
+<td>Industrial Foregoing</td>
+<td>Item Collector</td>
+<td>Upgradeable</td>
+<td>Addons de range</td>
+</tr>
+<tr>
+<td>Cyclic</td>
+<td>Collector</td>
+<td>10 blocks</td>
+<td>Simple et efficace</td>
+</tr>
+<tr>
+<td>Modular Routers</td>
+<td>Item Router</td>
+<td>Flexible</td>
+<td>Modules combinables</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition tip">
+<p class="admonition-title">Usage optimal</p>
+<p>Placez au centre de votre zone de drop (mob farm, tree farm, etc.)</p>
+</div>
+<hr />
+<h3 id="transport-wireless">Transport Wireless<a class="headerlink" href="#transport-wireless" title="Permanent link">&para;</a></h3>
+<div class="tabbed-set tabbed-alternate" data-tabs="5:2"><input checked="checked" id="__tabbed_5_1" name="__tabbed_5" type="radio" /><input id="__tabbed_5_2" name="__tabbed_5" type="radio" /><div class="tabbed-labels"><label for="__tabbed_5_1">Entangled Block</label><label for="__tabbed_5_2">Ender Chests</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p><strong>Fonctionnement:</strong></p>
+<ol>
+<li>Craft Entangled Block + Entangled Binder</li>
+<li>Shift+clic droit sur bloc source avec Binder</li>
+<li>Place Entangled Block ailleurs</li>
+<li>L'Entangled Block "devient" le bloc source</li>
+</ol>
+<div class="admonition success">
+<p class="admonition-title">Cas d'usage parfait</p>
+</div>
+<ul>
+<li>Accès distant à un coffre</li>
+<li>Connecter machines éloignées</li>
+<li>Bypass de longues distances</li>
+</ul>
+</div>
+<div class="tabbed-block">
+<p><strong>Partage d'inventaire à distance infinie</strong></p>
+<table>
+<thead>
+<tr>
+<th>Variante</th>
+<th>Mod</th>
+<th>Particularité</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ender Chest Vanilla</td>
+<td>Vanilla</td>
+<td>Personnel au joueur</td>
+</tr>
+<tr>
+<td>Ender Chest (coloré)</td>
+<td>Ender Storage</td>
+<td>Code couleur = canal</td>
+</tr>
+<tr>
+<td>Ender Tank</td>
+<td>Ender Storage</td>
+<td>Pour les fluides</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition info">
+<p class="admonition-title">Système de couleurs (Ender Storage)</p>
+<ul>
+<li>3 slots de couleur = 16³ = 4096 canaux</li>
+<li>Même couleur = même inventaire</li>
+<li>Diamond sur lock = personnel</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<hr />
+<h2 id="filtrage-et-tri">Filtrage et Tri<a class="headerlink" href="#filtrage-et-tri" title="Permanent link">&para;</a></h2>
+<h3 id="servo-filters-thermal">Servo Filters (Thermal)<a class="headerlink" href="#servo-filters-thermal" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Type de filtrage</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Whitelist</strong></td>
+<td>SEULS ces items passent</td>
+</tr>
+<tr>
+<td><strong>Blacklist</strong></td>
+<td>TOUT SAUF ces items</td>
+</tr>
+<tr>
+<td><strong>NBT Match</strong></td>
+<td>Vérifie les données NBT</td>
+</tr>
+<tr>
+<td><strong>Metadata</strong></td>
+<td>Vérifie les sous-types</td>
+</tr>
+<tr>
+<td><strong>Ore Dict</strong></td>
+<td>Accepte équivalents (tags)</td>
+</tr>
+</tbody>
+</table>
+<div class="tabbed-set tabbed-alternate" data-tabs="6:2"><input checked="checked" id="__tabbed_6_1" name="__tabbed_6" type="radio" /><input id="__tabbed_6_2" name="__tabbed_6" type="radio" /><div class="tabbed-labels"><label for="__tabbed_6_1">Configuration Servo</label><label for="__tabbed_6_2">Exemple Tri Minerais</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<ol>
+<li>Place servo sur itemduct connecté à un inventaire</li>
+<li>Clic droit pour ouvrir GUI</li>
+<li>Configure whitelist/blacklist</li>
+<li>Place items de référence dans les slots</li>
+<li>Ajuste redstone control si nécessaire</li>
+</ol>
+</div>
+<div class="tabbed-block">
+<pre class="mermaid"><code>flowchart TD
+    A[Coffre Input] --&gt; B{Servo Whitelist: Fer}
+    B --&gt;|Fer| C[Fournaise Fer]
+    B --&gt;|Autres| D{Servo Whitelist: Or}
+    D --&gt;|Or| E[Fournaise Or]
+    D --&gt;|Autres| F[Coffre Divers]</code></pre>
+</div>
+</div>
+</div>
+<hr />
+<h3 id="drawer-controllers-storage-drawers">Drawer Controllers (Storage Drawers)<a class="headerlink" href="#drawer-controllers-storage-drawers" title="Permanent link">&para;</a></h3>
+<p><strong>Tri automatique par type</strong></p>
+<p>Configuration basique: Grille de Drawers (D) avec un Controller (C) au centre. Le Controller donne accès à tous les drawers connectés.</p>
+<table>
+<thead>
+<tr>
+<th>Composant</th>
+<th>Fonction</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Drawer Controller</td>
+<td>Point d'accès unique à tous les drawers connectés</td>
+</tr>
+<tr>
+<td>Drawer (1/2/4 slots)</td>
+<td>Stockage massif mono-type</td>
+</tr>
+<tr>
+<td>Compacting Drawer</td>
+<td>Convertit auto (nugget↔ingot↔block)</td>
+</tr>
+<tr>
+<td>Controller Slave</td>
+<td>Étend le réseau sans accès</td>
+</tr>
+<tr>
+<td>Trim</td>
+<td>Connecte sans stocker</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition tip">
+<p class="admonition-title">Astuce tri</p>
+<p>Connectez un pipe au Controller. Les items vont automatiquement dans le drawer approprié s'il existe, sinon restent dans le pipe.</p>
+</div>
+<hr />
+<h3 id="storage-buses-ae2rs">Storage Buses (AE2/RS)<a class="headerlink" href="#storage-buses-ae2rs" title="Permanent link">&para;</a></h3>
+<div class="tabbed-set tabbed-alternate" data-tabs="7:2"><input checked="checked" id="__tabbed_7_1" name="__tabbed_7" type="radio" /><input id="__tabbed_7_2" name="__tabbed_7" type="radio" /><div class="tabbed-labels"><label for="__tabbed_7_1">AE2 Storage Bus</label><label for="__tabbed_7_2">RS External Storage</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p><strong>Intègre un inventaire externe au réseau ME</strong></p>
+<pre class="mermaid"><code>flowchart LR
+    A[Coffre/Machine] --&gt; B[Storage Bus]
+    B --&gt; C[Cable ME]
+    C --&gt; D[Réseau]</code></pre>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Effet</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Priority</td>
+<td>Plus haut = stocké en premier</td>
+</tr>
+<tr>
+<td>Partition</td>
+<td>Limite aux items spécifiés</td>
+</tr>
+<tr>
+<td>Access</td>
+<td>Read/Write/Read-Write</td>
+</tr>
+<tr>
+<td>Fuzzy</td>
+<td>Ignore damage/NBT</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="tabbed-block">
+<p><strong>Équivalent Refined Storage</strong></p>
+<table>
+<thead>
+<tr>
+<th>Configuration</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Priority</td>
+<td>Ordre de stockage</td>
+</tr>
+<tr>
+<td>Whitelist/Blacklist</td>
+<td>Filtrage des items</td>
+</tr>
+<tr>
+<td>Compare modes</td>
+<td>NBT, damage</td>
+</tr>
+<tr>
+<td>Access modes</td>
+<td>Lecture/Écriture</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="admonition info">
+<p class="admonition-title">Pattern courant</p>
+<p>Storage Bus sur Drawer Controller = stockage massif intégré au réseau avec tri automatique.</p>
+</div>
+<hr />
+<h2 id="auto-crafting">Auto-Crafting<a class="headerlink" href="#auto-crafting" title="Permanent link">&para;</a></h2>
+<h3 id="comparaison-des-systemes">Comparaison des Systèmes<a class="headerlink" href="#comparaison-des-systemes" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Système</th>
+<th>Mod</th>
+<th>Complexité</th>
+<th>Scalabilité</th>
+<th>Coût</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RFTools Crafter</td>
+<td>RFTools</td>
+<td>Simple</td>
+<td>Moyenne</td>
+<td>Bas</td>
+</tr>
+<tr>
+<td>Sequential Fabricator</td>
+<td>Thermal</td>
+<td>Simple</td>
+<td>Basse</td>
+<td>Bas</td>
+</tr>
+<tr>
+<td>ME Auto-Crafting</td>
+<td>AE2</td>
+<td>Complexe</td>
+<td>Très haute</td>
+<td>Haut</td>
+</tr>
+<tr>
+<td>RS Auto-Crafting</td>
+<td>Refined Storage</td>
+<td>Moyen</td>
+<td>Haute</td>
+<td>Moyen</td>
+</tr>
+<tr>
+<td>Mechanical Crafter</td>
+<td>Create</td>
+<td>Moyen</td>
+<td>Moyenne</td>
+<td>Moyen</td>
+</tr>
+<tr>
+<td>Wixie</td>
+<td>Ars Nouveau</td>
+<td>Simple</td>
+<td>Basse</td>
+<td>Magie</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="rftools-crafter">RFTools Crafter<a class="headerlink" href="#rftools-crafter" title="Permanent link">&para;</a></h3>
+<div class="tabbed-set tabbed-alternate" data-tabs="8:2"><input checked="checked" id="__tabbed_8_1" name="__tabbed_8" type="radio" /><input id="__tabbed_8_2" name="__tabbed_8" type="radio" /><div class="tabbed-labels"><label for="__tabbed_8_1">Setup</label><label for="__tabbed_8_2">Configuration</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code>Crafting: Machine Frame + Crafting Table + Redstone
+
+Caractéristiques:
+- 8 recettes programmables
+- Garde les items internes ou output externe
+- Consomme RF
+- Chainable pour recettes complexes
+</code></pre></div>
+</div>
+<div class="tabbed-block">
+<ol>
+<li>Place la recette dans la grille fantôme</li>
+<li>Clic sur "Apply"</li>
+<li>Configure Keep/Output pour le résultat</li>
+<li>Alimente en items (hopper, pipe)</li>
+<li>Fournit RF</li>
+</ol>
+<div class="admonition tip">
+<p class="admonition-title">Multi-étapes</p>
+<p>Mets plusieurs crafters en série pour les recettes qui nécessitent des composants intermédiaires.</p>
+</div>
+</div>
+</div>
+</div>
+<hr />
+<h3 id="thermal-sequential-fabricator">Thermal Sequential Fabricator<a class="headerlink" href="#thermal-sequential-fabricator" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Caractéristique</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Recettes</td>
+<td>Craft automatique avec 1 recette</td>
+</tr>
+<tr>
+<td>Vitesse</td>
+<td>Rapide et simple</td>
+</tr>
+<tr>
+<td>Augments</td>
+<td>Vitesse, efficacité disponibles</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Augment</th>
+<th>Effet</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Auxiliary Sieve</td>
+<td>Chance de récupérer des inputs</td>
+</tr>
+<tr>
+<td>Fluidic Fabrication</td>
+<td>Utilise fluides dans les recettes</td>
+</tr>
+<tr>
+<td>Parabolic Flux</td>
+<td>Plus de RF = plus rapide</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="ae2-auto-crafting">AE2 Auto-Crafting<a class="headerlink" href="#ae2-auto-crafting" title="Permanent link">&para;</a></h3>
+<div class="tabbed-set tabbed-alternate" data-tabs="9:3"><input checked="checked" id="__tabbed_9_1" name="__tabbed_9" type="radio" /><input id="__tabbed_9_2" name="__tabbed_9" type="radio" /><input id="__tabbed_9_3" name="__tabbed_9" type="radio" /><div class="tabbed-labels"><label for="__tabbed_9_1">Composants requis</label><label for="__tabbed_9_2">Types de Patterns</label><label for="__tabbed_9_3">Setup Basique</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<table>
+<thead>
+<tr>
+<th>Block</th>
+<th>Fonction</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ME Pattern Provider</td>
+<td>Envoie les patterns aux machines</td>
+</tr>
+<tr>
+<td>ME Crafting CPU</td>
+<td>Gère les jobs de craft (1 par craft simultané)</td>
+</tr>
+<tr>
+<td>Crafting Storage</td>
+<td>Mémoire pour les crafts en cours</td>
+</tr>
+<tr>
+<td>Molecular Assembler</td>
+<td>Craft les recettes "processing" internes</td>
+</tr>
+<tr>
+<td>ME Interface</td>
+<td>Accès bidirectionnel inventaire ↔ réseau</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="tabbed-block">
+<table>
+<thead>
+<tr>
+<th>Pattern Type</th>
+<th>Usage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Processing Pattern</strong></td>
+<td>Pour machines externes (fournaise, etc.) - Input → Output défini manuellement</td>
+</tr>
+<tr>
+<td><strong>Crafting Pattern</strong></td>
+<td>Pour crafting table standard - Recette classique 3x3</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="tabbed-block">
+<ol>
+<li>Encode pattern dans ME Pattern Encoding Terminal</li>
+<li>Place dans Pattern Provider adjacent à la machine</li>
+<li>Configure ME Interface pour récupérer l'output</li>
+<li>Demande le craft via ME Terminal</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Pièges courants AE2</p>
+<ul>
+<li>CPU plein = craft bloqué (ajouter storage)</li>
+<li>Pattern Provider sans machine = items perdus</li>
+<li>Channels limités (8 par cable, 32 par dense)</li>
+</ul>
+</div>
+<hr />
+<h3 id="refined-storage-auto-crafting">Refined Storage Auto-Crafting<a class="headerlink" href="#refined-storage-auto-crafting" title="Permanent link">&para;</a></h3>
+<div class="tabbed-set tabbed-alternate" data-tabs="10:2"><input checked="checked" id="__tabbed_10_1" name="__tabbed_10" type="radio" /><input id="__tabbed_10_2" name="__tabbed_10" type="radio" /><div class="tabbed-labels"><label for="__tabbed_10_1">Composants</label><label for="__tabbed_10_2">Avantages vs AE2</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<table>
+<thead>
+<tr>
+<th>Block</th>
+<th>Fonction</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Crafter</td>
+<td>Stocke patterns et craft</td>
+</tr>
+<tr>
+<td>Crafter Manager</td>
+<td>Vue centralisée des crafters</td>
+</tr>
+<tr>
+<td>Pattern Grid</td>
+<td>Encode les patterns</td>
+</tr>
+<tr>
+<td>External Storage</td>
+<td>Connecte machines externes</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="tabbed-block">
+<ul>
+<li>Pas de système de channels</li>
+<li>Setup plus simple</li>
+<li>Crafters chainables par priorité</li>
+<li>Moins de composants nécessaires</li>
+</ul>
+</div>
+</div>
+</div>
+<hr />
+<h3 id="create-mechanical-crafters">Create Mechanical Crafters<a class="headerlink" href="#create-mechanical-crafters" title="Permanent link">&para;</a></h3>
+<p><strong>Crafting visuel et mécanique</strong></p>
+<pre class="mermaid"><code>flowchart TD
+    subgraph Grille 3x3
+        A1[→] --&gt; A2[→] --&gt; A3[→]
+        B1[→] --&gt; B2[→] --&gt; B3[→]
+        C1[→] --&gt; C2[→] --&gt; C3[↓]
+    end
+    C3 --&gt; OUT[Output]</code></pre>
+<p><em>Les flèches indiquent la direction du flux vers la sortie</em></p>
+<table>
+<thead>
+<tr>
+<th>Élément</th>
+<th>Fonction</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mechanical Crafter</td>
+<td>1 slot de la grille</td>
+</tr>
+<tr>
+<td>Rotation</td>
+<td>Définit le flux vers la sortie</td>
+</tr>
+<tr>
+<td>Cog/Shaft</td>
+<td>Fournit la rotation pour crafter</td>
+</tr>
+<tr>
+<td>Slot Cover</td>
+<td>Bloque un slot (recettes &lt; 9 items)</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition success">
+<p class="admonition-title">Points forts</p>
+<ul>
+<li>Visuellement satisfaisant</li>
+<li>Pas d'énergie (RF), juste rotation</li>
+<li>Peut crafter des items qui nécessitent Mechanical Crafter</li>
+</ul>
+</div>
+<hr />
+<h3 id="wixies-ars-nouveau">Wixies (Ars Nouveau)<a class="headerlink" href="#wixies-ars-nouveau" title="Permanent link">&para;</a></h3>
+<p><strong>Auto-crafting magique</strong></p>
+<p><strong>Setup:</strong></p>
+<ol>
+<li>Place un Arcane Pedestal</li>
+<li>Mets l'item RESULTAT voulu dessus</li>
+<li>Summon un Wixie (Wixie Charm)</li>
+<li>Place coffres à proximité avec ingrédients</li>
+<li>Wixie craft automatiquement dans le coffre adjacent</li>
+</ol>
+<div class="admonition info">
+<p class="admonition-title">Caractéristiques</p>
+<ul>
+<li>Pas d'énergie requise</li>
+<li>Range limité (coffres proches)</li>
+<li>Un Wixie = une recette</li>
+<li>Charm craftable avec source gem + améthyste</li>
+</ul>
+</div>
+<hr />
+<h2 id="patterns-dautomation-courants">Patterns d'Automation Courants<a class="headerlink" href="#patterns-dautomation-courants" title="Permanent link">&para;</a></h2>
+<h3 id="ore-processing-chain">Ore Processing Chain<a class="headerlink" href="#ore-processing-chain" title="Permanent link">&para;</a></h3>
+<pre class="mermaid"><code>flowchart TD
+    A[Mining] --&gt; B[Ore Input Chest]
+    B --&gt; C{Choix Processing}
+    C --&gt;|2x| D[Pulverizer/SAG Mill]
+    D --&gt; E[Dusts]
+    E --&gt; F[Smelter]
+    F --&gt; G[Ingots]
+    C --&gt;|3x+| H[Mekanism Chain]
+    H --&gt; I[Ore → 3x Clumps]
+    I --&gt; J[3x Dirty Dust]
+    J --&gt; K[3x Dust]
+    K --&gt; L[3x Ingots]</code></pre>
+<div class="tabbed-set tabbed-alternate" data-tabs="11:3"><input checked="checked" id="__tabbed_11_1" name="__tabbed_11" type="radio" /><input id="__tabbed_11_2" name="__tabbed_11" type="radio" /><input id="__tabbed_11_3" name="__tabbed_11" type="radio" /><div class="tabbed-labels"><label for="__tabbed_11_1">2x Processing (Simple)</label><label for="__tabbed_11_2">3x+ Processing (Mekanism)</label><label for="__tabbed_11_3">5x Processing (Mekanism Avancé)</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<table>
+<thead>
+<tr>
+<th>Étape</th>
+<th>Machine</th>
+<th>Output</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ore</td>
+<td>Pulverizer / SAG Mill</td>
+<td>2x Dust</td>
+</tr>
+<tr>
+<td>Dust</td>
+<td>Fournaise / Induction Smelter</td>
+<td>Ingots</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="tabbed-block">
+<table>
+<thead>
+<tr>
+<th>Étape</th>
+<th>Machine</th>
+<th>Output</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ore</td>
+<td>Enrichment Chamber</td>
+<td>Shard</td>
+</tr>
+<tr>
+<td>Shard</td>
+<td>Purification Chamber (+Oxygen)</td>
+<td>Clump</td>
+</tr>
+<tr>
+<td>Clump</td>
+<td>Crusher</td>
+<td>Dirty Dust</td>
+</tr>
+<tr>
+<td>Dirty Dust</td>
+<td>Enrichment Chamber</td>
+<td>Dust</td>
+</tr>
+<tr>
+<td>Dust</td>
+<td>Energized Smelter</td>
+<td>Ingot</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="tabbed-block">
+<p>Nécessite Chemical Injection, Chemical Dissolution, et beaucoup d'infrastructure gaz/fluide.</p>
+</div>
+</div>
+</div>
+<hr />
+<h3 id="mob-farm-items">Mob Farm → Items<a class="headerlink" href="#mob-farm-items" title="Permanent link">&para;</a></h3>
+<pre class="mermaid"><code>flowchart TD
+    A[Spawner/Dark Room] --&gt; B[Kill Method]
+    B --&gt; C[Item Collector]
+    C --&gt; D{Tri par type}
+    D --&gt;|Bones| E[Bone Meal → Storage]
+    D --&gt;|Rotten Flesh| F[Composter/Void]
+    D --&gt;|Armor| G[Recycler/Void]
+    D --&gt;|Rare drops| H[Storage prioritaire]</code></pre>
+<p><strong>Kill Methods disponibles:</strong></p>
+<ul>
+<li>Spikes (Mob Grinding Utils)</li>
+<li>Fan + Lava (Create)</li>
+<li>Player-damage (pour XP/looting)</li>
+</ul>
+<div class="admonition tip">
+<p class="admonition-title">Optimisations</p>
+<ul>
+<li>Looting sur l'arme/kill method pour plus de drops</li>
+<li>Cursed Earth ou Mob Spawner pour spawn rate</li>
+<li>Vector Plate pour déplacer les mobs vers le kill point</li>
+</ul>
+</div>
+<hr />
+<h3 id="tree-farm">Tree Farm<a class="headerlink" href="#tree-farm" title="Permanent link">&para;</a></h3>
+<div class="tabbed-set tabbed-alternate" data-tabs="12:3"><input checked="checked" id="__tabbed_12_1" name="__tabbed_12" type="radio" /><input id="__tabbed_12_2" name="__tabbed_12" type="radio" /><input id="__tabbed_12_3" name="__tabbed_12" type="radio" /><div class="tabbed-labels"><label for="__tabbed_12_1">Create Tree Farm</label><label for="__tabbed_12_2">Industrial Foregoing</label><label for="__tabbed_12_3">Botany Pots (Modded)</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<pre class="mermaid"><code>flowchart LR
+    A[Deployer + Sapling] --&gt; B[Attendre]
+    B --&gt; C[Mechanical Saw]
+    C --&gt; D[Items]
+    D --&gt;|Tri: Sapling| A</code></pre>
+</div>
+<div class="tabbed-block">
+<pre class="mermaid"><code>flowchart TD
+    A[Plant Gatherer] &lt;--&gt; B[Plant Sower]
+    A --&gt; C[Output Chest]
+    C --&gt;|Sapling| B
+    C --&gt; D[Logs, Saplings, Apples]</code></pre>
+</div>
+<div class="tabbed-block">
+<table>
+<thead>
+<tr>
+<th>Configuration</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Setup</td>
+<td>Botany Pot + Hopper + Appropriate Soil</td>
+</tr>
+<tr>
+<td>Avantage</td>
+<td>Compact</td>
+</tr>
+<tr>
+<td>Vitesse</td>
+<td>Configurable (soil type)</td>
+</tr>
+<tr>
+<td>Harvest</td>
+<td>Auto-harvest avec Hopper dessous</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<hr />
+<h3 id="crop-farm">Crop Farm<a class="headerlink" href="#crop-farm" title="Permanent link">&para;</a></h3>
+<pre class="mermaid"><code>flowchart TD
+    subgraph Option 1: Vanilla-style
+        A1[Dispenser + Bone Meal] --&gt; A2[Observer]
+        A2 --&gt; A3[Piston Break]
+    end
+    subgraph Option 2: Create
+        B1[Deployer plant] --&gt; B2[Wait]
+        B2 --&gt; B3[Harvester]
+        B3 --&gt; B4[Belt]
+    end
+    subgraph Option 3: Industrial Foregoing
+        C1[Plant Sower + Plant Gatherer]
+    end
+    subgraph Option 4: Botany Pots
+        D1[Hopping Botany Pot]
+    end</code></pre>
+<table>
+<thead>
+<tr>
+<th>Méthode</th>
+<th>Avantage</th>
+<th>Inconvénient</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Vanilla</td>
+<td>Pas de mod requis</td>
+<td>Lag si grand scale</td>
+</tr>
+<tr>
+<td>Create</td>
+<td>Visuel cool</td>
+<td>Setup complexe</td>
+</tr>
+<tr>
+<td>IF</td>
+<td>Très efficace</td>
+<td>Coût RF</td>
+</tr>
+<tr>
+<td>Botany Pots</td>
+<td>Ultra compact</td>
+<td>Un pot par crop</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="cobblegen-stone-resources">Cobblegen → Stone → Resources<a class="headerlink" href="#cobblegen-stone-resources" title="Permanent link">&para;</a></h3>
+<pre class="mermaid"><code>flowchart TD
+    A[Cobble Generator] --&gt; B[Crusher/Pulverizer]
+    B --&gt; C{Output}
+    C --&gt;|Gravel| D[Sieve]
+    D --&gt; E[Minerais, Gems]
+    C --&gt;|Stone| F[Smelter]
+    F --&gt; G[Stone → Stone Bricks]</code></pre>
+<p><strong>Types de Cobble Generator:</strong></p>
+<ul>
+<li>Transfer Node + Mining Upgrade (Extra Utils)</li>
+<li>Cobblestone Generator (IF)</li>
+<li>Block Placer + Block Breaker</li>
+</ul>
+<div class="admonition success">
+<p class="admonition-title">Progression Ex Nihilo</p>
+<p>Cobble → Gravel → Sand → Dust → Sieve chaque étape pour ressources variées.</p>
+</div>
+<hr />
+<h2 id="erreurs-courantes-dautomation">Erreurs Courantes d'Automation<a class="headerlink" href="#erreurs-courantes-dautomation" title="Permanent link">&para;</a></h2>
+<h3 id="erreur-1-goulots-detranglement">Erreur 1: Goulots d'Étranglement<a class="headerlink" href="#erreur-1-goulots-detranglement" title="Permanent link">&para;</a></h3>
+<div class="admonition failure">
+<p class="admonition-title">Le problème</p>
+<p>Une partie du système est plus lente que le reste, créant des backlogs.</p>
+</div>
+<pre class="mermaid"><code>flowchart LR
+    subgraph MAUVAIS
+        A1[10 miners] --&gt; B1[1 smelter]
+        B1 --&gt; C1[Backlog massif]
+    end
+    subgraph BON
+        A2[10 miners] --&gt; B2[Buffer]
+        B2 --&gt; C2[10 smelters]
+        C2 --&gt; D2[Flux équilibré]
+    end</code></pre>
+<p><strong>Solution</strong>: Identifie le bottleneck et scale cette partie.</p>
+<hr />
+<h3 id="erreur-2-pas-de-buffer">Erreur 2: Pas de Buffer<a class="headerlink" href="#erreur-2-pas-de-buffer" title="Permanent link">&para;</a></h3>
+<div class="admonition failure">
+<p class="admonition-title">Le problème</p>
+<p>Items perdus quand une machine est pleine ou le système s'arrête.</p>
+</div>
+<pre class="mermaid"><code>flowchart LR
+    subgraph MAUVAIS
+        A1[Input] --&gt; B1[Machine pleine]
+        B1 --&gt; C1[Items perdus/bloqués]
+    end
+    subgraph BON
+        A2[Input] --&gt; B2[Buffer Chest]
+        B2 --&gt; C2[Machine]
+        B2 --&gt; D2[Overflow handling]
+    end</code></pre>
+<p><strong>Solution</strong>: Toujours un coffre buffer entre les étapes.</p>
+<hr />
+<h3 id="erreur-3-mauvaise-gestion-overflow">Erreur 3: Mauvaise Gestion Overflow<a class="headerlink" href="#erreur-3-mauvaise-gestion-overflow" title="Permanent link">&para;</a></h3>
+<div class="admonition failure">
+<p class="admonition-title">Le problème</p>
+<p>Système bloqué quand le stockage est plein.</p>
+</div>
+<p><strong>Solutions:</strong></p>
+<ol>
+<li>Trash/Void pour items indésirables</li>
+<li>Overflow vers stockage secondaire</li>
+<li>Redstone control pour stopper input</li>
+<li>Recycler les excès (composter, etc.)</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>Item Type</th>
+<th>Overflow Solution</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cobble, Dirt</td>
+<td>Trash/Void</td>
+</tr>
+<tr>
+<td>Excès de ressources</td>
+<td>ME/RS overflow</td>
+</tr>
+<tr>
+<td>Items utiles</td>
+<td>Stockage extension</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="erreur-4-ignorer-les-sous-produits">Erreur 4: Ignorer les Sous-produits<a class="headerlink" href="#erreur-4-ignorer-les-sous-produits" title="Permanent link">&para;</a></h3>
+<div class="admonition failure">
+<p class="admonition-title">Le problème</p>
+<p>Les by-products s'accumulent et bloquent le système.</p>
+</div>
+<pre class="mermaid"><code>flowchart LR
+    A[Iron Ore] --&gt; B[SAG Mill]
+    B --&gt; C[Iron Dust - principal]
+    B --&gt; D[Cobblestone - by-product]
+    D --&gt; E[Sans gestion: remplit buffer]
+    E --&gt; F[Système bloqué]</code></pre>
+<p><strong>Solution</strong>: Filtre les outputs, void ou utilise les by-products.</p>
+<hr />
+<h3 id="erreur-5-dependances-circulaires">Erreur 5: Dépendances Circulaires<a class="headerlink" href="#erreur-5-dependances-circulaires" title="Permanent link">&para;</a></h3>
+<div class="admonition failure">
+<p class="admonition-title">Le problème</p>
+<p>Machine A attend output de B, B attend output de A = deadlock.</p>
+</div>
+<pre class="mermaid"><code>flowchart LR
+    subgraph MAUVAIS - Deadlock
+        A1[Crafter A: needs X] &lt;--&gt; B1[Crafter B: needs A output to make X]
+    end</code></pre>
+<p><strong>Solutions:</strong></p>
+<ul>
+<li>Seed le système avec des items initiaux</li>
+<li>Utilise des buffers pour casser les cycles</li>
+<li>Évite les dépendances circulaires dans les patterns</li>
+</ul>
+<hr />
+<h3 id="erreur-6-mauvais-dimensionnement-energie">Erreur 6: Mauvais Dimensionnement Énergie<a class="headerlink" href="#erreur-6-mauvais-dimensionnement-energie" title="Permanent link">&para;</a></h3>
+<div class="admonition failure">
+<p class="admonition-title">Le problème</p>
+<p>Pas assez d'énergie pour toutes les machines = ralentissement.</p>
+</div>
+<p><strong>Diagnostic:</strong></p>
+<ul>
+<li>Machines lentes ou qui s'arrêtent</li>
+<li>Energy buffer toujours vide</li>
+<li>Production inconsistante</li>
+</ul>
+<p><strong>Solution:</strong></p>
+<ol>
+<li>Calcule la consommation totale (RF/t)</li>
+<li>Vérifie la production (RF/t)</li>
+<li>Production &gt; Consommation + 20% marge</li>
+<li>Ajoute energy storage pour les pics</li>
+</ol>
+<hr />
+<h3 id="checklist-de-debug">Checklist de Debug<a class="headerlink" href="#checklist-de-debug" title="Permanent link">&para;</a></h3>
+<div class="admonition tip">
+<p class="admonition-title">Quand votre automation ne fonctionne pas</p>
+<ul>
+<li>[ ] Les pipes/conduits sont-ils connectés des deux côtés ?</li>
+<li>[ ] Mode Extract activé côté source ?</li>
+<li>[ ] Mode Insert activé côté destination ?</li>
+<li>[ ] Filtres correctement configurés (whitelist vs blacklist) ?</li>
+<li>[ ] Assez d'énergie pour toutes les machines ?</li>
+<li>[ ] Buffer pas plein / destination pas pleine ?</li>
+<li>[ ] Redstone signal ne bloque pas le système ?</li>
+<li>[ ] Les items correspondent exactement (NBT, metadata) ?</li>
+</ul>
+</div>
+<hr />
+<h2 id="resume">Résumé<a class="headerlink" href="#resume" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Concept</th>
+<th>Points Clés</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Principe</strong></td>
+<td>Input → Process → Output, toujours</td>
+</tr>
+<tr>
+<td><strong>Transport</strong></td>
+<td>Commencer simple (hoppers/pipes), upgrader si besoin</td>
+</tr>
+<tr>
+<td><strong>Filtrage</strong></td>
+<td>Whitelist pour précision, Blacklist pour exclusion</td>
+</tr>
+<tr>
+<td><strong>Auto-craft</strong></td>
+<td>RFTools pour simple, AE2/RS pour scalable</td>
+</tr>
+<tr>
+<td><strong>Patterns</strong></td>
+<td>Buffer entre chaque étape, gérer overflow</td>
+</tr>
+<tr>
+<td><strong>Debug</strong></td>
+<td>Vérifier connexions, énergie, filtres, redstone</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition success">
+<p class="admonition-title">Conseil final</p>
+<p>Commencez petit, testez chaque partie indépendamment, puis connectez. Un système complexe n'est qu'une série de systèmes simples liés ensemble.</p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Retour en haut de la page
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2024 Julien
+    </div>
+  
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.sections", "navigation.expand", "navigation.top", "navigation.instant", "navigation.instant.prefetch", "navigation.tracking", "navigation.indexes", "search.suggest", "search.highlight", "content.tabs.link", "content.code.copy", "toc.follow"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
