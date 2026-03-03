@@ -1,0 +1,112 @@
+site_name: Wiki Minecraft Moddé
+site_description: Guide complet des mods Minecraft - Objets, Astuces, Guides
+site_author: Julien
+
+theme:
+  name: material
+  language: fr
+  icon:
+    logo: material/sword-cross
+  palette:
+    - scheme: slate
+      primary: green
+      accent: lime
+      toggle:
+        icon: material/brightness-4
+        name: Mode clair
+    - scheme: default
+      primary: green
+      accent: lime
+      toggle:
+        icon: material/brightness-7
+        name: Mode sombre
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.tracking
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.copy
+    - toc.follow
+
+plugins:
+  - search:
+      lang: fr
+  - tags:
+      tags_file: tags.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - toc:
+      permalink: true
+  - attr_list
+  - md_in_html
+  - def_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/
+  generator: false
+
+copyright: Copyright &copy; 2024 Julien
+
+nav:
+  - Accueil: index.md
+  - Astuces:
+    - Vue d'ensemble: astuces/index.md
+    - Progression:
+      - Getting Started: astuces/getting-started.md
+      - Early Game: astuces/early-game.md
+      - Mid Game: astuces/mid-game.md
+      - Late Game: astuces/late-game.md
+    - Fondamentaux:
+      - Raccourcis Clavier: astuces/keybinds.md
+      - Maîtriser JEI: astuces/jei-mastery.md
+      - Bases Automation: astuces/automation.md
+    - Ressources:
+      - Progression Énergie: astuces/energie.md
+      - Enchantements: astuces/enchantements.md
+      - Techniques de Farm: astuces/farming.md
+    - Combat:
+      - Préparation Boss: astuces/boss-prep.md
+      - Progression Équipement: astuces/gear-progression.md
+      - Dimensions: astuces/dimensions.md
+    - Optimisation: astuces/optimisation.md
+    - Erreurs Communes: astuces/erreurs-communes.md
+    - Glossaire: astuces/glossaire.md
+    - FAQ: astuces/faq.md
+  - Catégories:
+    - Magie: magie/index.md
+    - Technologie: technologie/index.md
+    - Utilitaire: utilitaire/index.md
+    - Farming: farming/index.md
+    - Combat: combat/index.md
+    - Building: building/index.md
+    - Stockage: stockage/index.md
+    - Déplacement: deplacement/index.md
+    - Énergie: energie/index.md
+    - Mob Farm: mob-farm/index.md
+    - QOL: qol/index.md
+  - Tags: tags.md
