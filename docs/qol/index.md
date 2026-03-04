@@ -37,7 +37,7 @@
 </div>
 
 !!! info "Mods Secondaires"
-    **AppleSkin** (saturation) | **Inventory Tweaks Refoxed** (tri inventaire) | **Crafting Tweaks** (recettes) | **BetterF3** (debug) | **Just Zoom** (zoom) | **Extreme Sound Muffler** (sons)
+    **Jade/WTHIT** (info blocks) | **Xaero's Minimap** (alternative map) | **Mouse Tweaks** (inventaire) | **Quark** (vanilla+) | **Supplementaries** (vanilla+) | **AppleSkin** (saturation) | **Inventory Tweaks Refoxed** (tri) | **Crafting Tweaks** (recettes) | **BetterF3** (debug) | **Just Zoom** (zoom) | **Extreme Sound Muffler** (sons)
 
     [:octicons-arrow-down-24: Voir les mods secondaires](#mods-secondaires)
 
@@ -310,6 +310,205 @@
 ---
 
 ## Mods Secondaires
+
+??? note "Jade / WTHIT"
+
+    [Jade CurseForge](https://www.curseforge.com/minecraft/mc-mods/jade) | [WTHIT CurseForge](https://www.curseforge.com/minecraft/mc-mods/wthit)
+
+    !!! success "Quick Start"
+        1. Installe le mod - **actif automatiquement**
+        2. Regarde n'importe quel bloc ou entité
+        3. Un **tooltip** apparaît avec les informations
+        4. Configure les options dans le menu du mod
+        5. Affiche le contenu des machines, le fuel restant, etc.
+
+    === "Tips"
+
+        !!! tip "Informations Affichées"
+            - **Nom du bloc** et mod source
+            - **Contenu** des coffres et machines
+            - **Progression** des crafts et furnaces
+            - **État** des redstone, crops, etc.
+            - **Stats** des mobs (HP, effets)
+
+        !!! tip "Jade vs WTHIT"
+            - **Jade** : Plus populaire, plus de fonctionnalités
+            - **WTHIT** : Plus léger, successeur de HWYLA
+            - Choisis l'un ou l'autre, **pas les deux**
+            - Les deux héritent de l'ancien **Waila**
+
+        !!! warning "Essentiel"
+            - Un des mods **les plus importants** pour comprendre les mods tech
+            - Montre ce que les blocs moddés font sans ouvrir JEI
+            - **Indispensable** dans tout modpack
+
+    === "Objets Importants"
+
+        | Fonctionnalité | Description |
+        |----------------|-------------|
+        | Block Tooltip | :zap: RUSH - Infos sur tous les blocs |
+        | Entity Tooltip | Infos sur les mobs |
+        | Harvest Level | Montre l'outil requis |
+        | Crop Progress | Pourcentage de croissance |
+        | Fluid Info | Type et quantité de fluide |
+
+??? note "Xaero's Minimap"
+
+    [CurseForge](https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap) | [World Map](https://www.curseforge.com/minecraft/mc-mods/xaeros-world-map)
+
+    !!! success "Quick Start"
+        1. Installe Xaero's **Minimap** + **World Map** (deux mods)
+        2. La minimap apparaît dans un coin de l'écran
+        3. Appuie sur **U** pour la world map
+        4. **B** pour créer des waypoints
+        5. Configure la position et taille dans les options
+
+    === "Tips"
+
+        !!! tip "Alternative à JourneyMap"
+            - Plus **léger** en performances
+            - Interface différente, préférences personnelles
+            - **Waypoints** illimités avec icônes
+            - Compatible avec les serveurs sans mods client
+
+        !!! tip "Fonctionnalités"
+            - **Minimap** rotative ou fixe
+            - **World Map** avec zoom
+            - **Cave Mode** automatique
+            - **Mob Radar** configurable
+            - **Death Points** automatiques
+
+        !!! warning "Deux Mods"
+            - Installe **les deux** : Minimap + World Map
+            - Le World Map ajoute la carte plein écran
+            - Peuvent fonctionner indépendamment
+
+    === "Objets Importants"
+
+        | Fonctionnalité | Description |
+        |----------------|-------------|
+        | Minimap | :zap: RUSH - Carte en coin |
+        | World Map (U) | Carte plein écran |
+        | Waypoints (B) | Marques de navigation |
+        | Cave Mode | Affichage automatique sous terre |
+
+??? note "Mouse Tweaks"
+
+    [CurseForge](https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks)
+
+    !!! success "Quick Start"
+        1. Installe le mod - **actif automatiquement**
+        2. **LMB drag** avec un stack = distribue les items
+        3. **RMB drag** = place un item par slot
+        4. **Shift + Scroll** pour transférer rapidement
+        5. Configure les options dans le menu
+
+    === "Tips"
+
+        !!! tip "Contrôles Inventaire"
+            - **LMB drag** : Distribue également les items
+            - **RMB drag** : Place un item par slot
+            - **Shift + Scroll up/down** : Transfert rapide
+            - **Scroll sur stack** : Envoie un item à la fois
+
+        !!! tip "Pourquoi l'Utiliser"
+            - Rend la gestion d'inventaire **beaucoup plus rapide**
+            - Indispensable pour les **crafts en masse**
+            - Fonctionne dans tous les inventaires moddés
+
+    === "Objets Importants"
+
+        | Fonctionnalité | Description |
+        |----------------|-------------|
+        | LMB Drag | :zap: RUSH - Distribution égale |
+        | RMB Drag | Un item par slot |
+        | Scroll Transfer | Transfert rapide avec molette |
+
+??? note "Quark"
+
+    [CurseForge](https://www.curseforge.com/minecraft/mc-mods/quark) | [Documentation](https://quarkmod.net/)
+
+    !!! success "Quick Start"
+        1. Installe Quark - des **dizaines de features** activées
+        2. Configure dans les options du mod (menu Q)
+        3. Explore les nouvelles **fonctionnalités vanilla+**
+        4. Les changements sont subtils mais nombreux
+        5. Désactive ce qui ne te plaît pas
+
+    === "Tips"
+
+        !!! tip "Features Notables"
+            - **Inventory Sorting** (touche configurable)
+            - **Item Pipes** simples en bois
+            - **Nouveaux blocs** décoratifs
+            - **Totem of Holding** (récupère ton stuff)
+            - **Enchantments améliorés**
+            - **Amélioration des mobs** vanilla
+
+        !!! tip "Modules"
+            - **Automation** : Pipes, dispensers améliorés
+            - **Building** : Nouveaux blocs et textures
+            - **Management** : Tri inventaire, bags
+            - **Tweaks** : QOL divers
+            - **World** : Génération améliorée
+
+        !!! warning "Configuration"
+            - Beaucoup de features = **conflits possibles**
+            - Configure pour désactiver ce qui overlap avec d'autres mods
+            - Le menu de config est **très complet**
+
+    === "Objets Importants"
+
+        | Objet/Feature | Description |
+        |---------------|-------------|
+        | Inventory Sort | :zap: RUSH - Tri automatique |
+        | Item Pipes | Pipes basiques en bois |
+        | Totem of Holding | Récupère ton inventaire à la mort |
+        | Crates | Stockage compact |
+        | Rope | Corde escaladable |
+
+??? note "Supplementaries"
+
+    [CurseForge](https://www.curseforge.com/minecraft/mc-mods/supplementaries) | [Wiki](https://github.com/MehVahdJukworthy/Supplementaries/wiki)
+
+    !!! success "Quick Start"
+        1. Installe le mod - de nombreux **blocs vanilla-style**
+        2. Explore les recettes dans JEI (@supplementaries)
+        3. Craft un **Safe** pour stocker tes valuables
+        4. Place des **Signs** et **Flags** pour décorer
+        5. Utilise les **Jars** pour stocker et afficher items
+
+    === "Tips"
+
+        !!! tip "Blocs Utilitaires"
+            - **Safe** : Coffre privé (code ou clé)
+            - **Sack** : Bag transportable
+            - **Jar** : Stocke et affiche des items/fluides
+            - **Cage** : Capture et transporte des mobs
+            - **Rope** : Corde escaladable
+
+        !!! tip "Décoration"
+            - **Flags** : Bannières améliorées
+            - **Signs** : Panneaux colorés
+            - **Candles** : Bougies variées
+            - **Planters** : Pots décoratifs
+            - Style **vanilla-friendly**
+
+        !!! warning "Vanilla++"
+            - Tous les items ont un style **vanilla**
+            - S'intègre parfaitement au jeu de base
+            - Parfait pour les serveurs vanilla+
+
+    === "Objets Importants"
+
+        | Objet | Priorité | Description |
+        |-------|:--------:|-------------|
+        | Safe | :star: | Coffre privé sécurisé |
+        | Sack | :star: | Bag portable |
+        | Jar | :star: | Stockage décoratif |
+        | Cage | :star: | Capture et transport de mobs |
+        | Rope | :star: | Corde fonctionnelle |
+        | Flags | | Bannières décoratives |
 
 ??? note "AppleSkin"
 

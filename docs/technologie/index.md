@@ -37,7 +37,7 @@
 </div>
 
 !!! info "Mods Secondaires"
-    **Industrial Foregoing** (mob farms) | **Ender IO** (conduits) | **PneumaticCraft** (pression) | **RFTools** (builder/quarry) | **Flux Networks** (énergie sans fil) | **Draconic Evolution** (end-game)
+    **Immersive Engineering** (rétro-industriel) | **Industrial Foregoing** (mob farms) | **Ender IO** (conduits) | **PneumaticCraft** (pression) | **RFTools** (builder/quarry) | **Flux Networks** (énergie sans fil) | **Draconic Evolution** (end-game) | **Ad Astra** (exploration spatiale)
 
     [:octicons-arrow-down-24: Voir les mods secondaires](#mods-secondaires)
 
@@ -369,6 +369,88 @@
 ---
 
 ## Mods Secondaires
+
+??? note "Immersive Engineering"
+
+    [CurseForge](https://www.curseforge.com/minecraft/mc-mods/immersive-engineering) | [Wiki](https://ftb.fandom.com/wiki/Immersive_Engineering)
+
+    !!! success "Quick Start"
+        1. Craft un **Engineer's Manual** (livre + levier)
+        2. Construit un **Coke Oven** (multiblock) pour créer du Coke et Creosote
+        3. Construit un **Blast Furnace** pour faire de l'acier
+        4. Craft des **Wires** et **Connectors** pour transporter l'énergie
+        5. Place un **Water Wheel** ou **Windmill** pour générer du IF (énergie)
+
+    === "Tips"
+
+        !!! tip "Multiblocks Importants"
+            - **Coke Oven** : Crée du Coke (charbon amélioré) et Creosote Oil
+            - **Blast Furnace** : Fer + Coke = Steel (acier)
+            - **Crusher** : Ore doubling avec animations visuelles
+            - **Excavator** : Mine automatiquement des veines de minerais
+            - **Garden Cloche** : Farming automatique compact
+
+        !!! tip "Énergie & Câbles"
+            - Les **câbles suspendus** donnent un look industriel unique
+            - Les **Connectors** ont différentes capacités (LV, MV, HV)
+            - **Wire Coils** pour connecter sur de longues distances
+            - Compatible avec RF/FE des autres mods
+
+        !!! warning "Esthétique"
+            - L'un des mods tech les plus **visuellement impressionnants**
+            - Les machines ont des animations détaillées
+            - Parfait pour les bases industrielles réalistes
+
+    === "Objets Importants"
+
+        | Objet | Priorité | Description |
+        |-------|:--------:|-------------|
+        | Engineer's Manual | :zap: RUSH | Guide in-game essentiel |
+        | Coke Oven | :zap: RUSH | Premier multiblock, crée Coke + Creosote |
+        | Blast Furnace | :star: | Crée l'acier (Steel) |
+        | Crusher | :star: | Ore doubling avec style |
+        | Garden Cloche | :star: | Farming automatique compact |
+        | Excavator | :star: | Mining automatique de zone |
+        | Water Wheel | :star: | Génération passive d'énergie |
+        | Windmill | | Génération avec le vent |
+        | Wire Connectors | :star: | Transfert d'énergie avec câbles |
+        | Revolver | | Arme à feu customisable |
+        | Railgun | | Arme end-game puissante |
+
+??? note "Ad Astra"
+
+    [CurseForge](https://www.curseforge.com/minecraft/mc-mods/ad-astra)
+
+    !!! success "Quick Start"
+        1. Construis un **NASA Workbench** pour les crafts spatiaux
+        2. Craft une **Rocket** et du **Fuel**
+        3. Lance-toi vers la **Lune** puis **Mars** et au-delà
+        4. Établis des bases avec des **Oxygen Generators**
+        5. Explore les planètes pour des ressources uniques
+
+    === "Tips"
+
+        !!! tip "Exploration Spatiale"
+            - Progression : **Lune → Mars → Venus → Mercury → Glacio**
+            - Chaque planète a des **ressources uniques**
+            - Nécessite de l'**oxygène** et de la protection
+            - Les véhicules incluent **Rovers** et **Rockets**
+
+        !!! warning "Survie Spatiale"
+            - L'**oxygène** est critique hors de l'Overworld
+            - La **température** varie selon les planètes
+            - Les **combinaisons spatiales** sont obligatoires
+
+    === "Objets Importants"
+
+        | Objet | Priorité | Description |
+        |-------|:--------:|-------------|
+        | NASA Workbench | :zap: RUSH | Crafting des items spatiaux |
+        | Space Suit | :star: | Protection spatiale |
+        | Rocket | :star: | Transport vers les planètes |
+        | Oxygen Gear | :star: | Respiration hors atmosphère |
+        | Oxygen Generator | :star: | Produit O2 pour les bases |
+        | Rover | | Véhicule de surface |
 
 ??? note "Industrial Foregoing"
 

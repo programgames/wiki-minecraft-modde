@@ -37,7 +37,7 @@
 </div>
 
 !!! info "Mods Secondaires"
-    **Twilight Forest** (dimension) | **Blue Skies** (2 dimensions) | **Cataclysm** (boss difficiles) | **Mob Grinding Utils** (farms) | **Hostile Neural Networks** (simulation) | **Reliquary** (items magiques)
+    **The Aether** (dimension paradis) | **Alex's Mobs** (89+ mobs) | **Ice and Fire** (dragons!) | **Twilight Forest** (dimension) | **Blue Skies** (2 dimensions) | **Cataclysm** (boss difficiles) | **Mob Grinding Utils** (farms) | **Hostile Neural Networks** (simulation) | **Reliquary** (items magiques) | **Deeper and Darker** (dimension End+)
 
     [:octicons-arrow-down-24: Voir les mods secondaires](#mods-secondaires)
 
@@ -348,6 +348,163 @@
 ---
 
 ## Mods Secondaires
+
+??? note "The Aether"
+
+    [CurseForge](https://www.curseforge.com/minecraft/mc-mods/aether) | [Wiki](https://aether.wiki.gg/)
+
+    !!! success "Quick Start"
+        1. Construit un portail avec des **Glowstone** (cadre comme le Nether)
+        2. Active avec un **Bucket d'eau** au lieu du briquet
+        3. Entre dans l'**Aether**, la dimension du ciel
+        4. Explore les **îles flottantes** et donjons
+        5. Vaincs les boss pour obtenir le loot unique
+
+    === "Tips"
+
+        !!! tip "Dimension du Paradis"
+            - Opposé du Nether : **îles flottantes** dans le ciel
+            - 3 donjons avec **boss uniques** (Bronze, Silver, Gold)
+            - Mobs uniques : **Moas** (montures volantes), **Swets**, etc.
+            - Ressources exclusives : **Ambrosium**, **Gravitite**, **Zanite**
+
+        !!! tip "Moas"
+            - Les **Moas** peuvent être apprivoisés avec des graines
+            - Ils peuvent voler! Excellente monture
+            - Différentes couleurs avec stats variées
+
+        !!! warning "Attention"
+            - **Tomber de l'Aether = retour dans l'Overworld** (chute mortelle possible)
+            - Les **lits explosent** comme dans le Nether
+            - Certains mobs sont **très agressifs**
+
+    === "Objets Importants"
+
+        | Objet | Priorité | Description |
+        |-------|:--------:|-------------|
+        | Aether Portal | :zap: RUSH | Cadre de Glowstone + eau |
+        | Gravitite Armor | :star: | Permet de sauter très haut |
+        | Zanite Tools | :star: | Plus efficaces quand usés |
+        | Moa | :star: | Monture volante |
+        | Cloud Staff | | Place des blocs de nuage temporaires |
+        | Valkyrie Equipment | :star: | Loot des boss donjons |
+
+??? note "Alex's Mobs"
+
+    [CurseForge](https://www.curseforge.com/minecraft/mc-mods/alexs-mobs) | [Wiki](https://alexs-mobs-unofficial.fandom.com/)
+
+    !!! success "Quick Start"
+        1. Explore le monde : les mobs spawn naturellement dans leurs biomes
+        2. Craft un **Animal Dictionary** pour les infos
+        3. Apprivoise certains mobs comme animaux de compagnie
+        4. Certains mobs droppent des **items uniques** très utiles
+        5. Interagis avec les mobs pour des effets spéciaux
+
+    === "Tips"
+
+        !!! tip "89+ Mobs Uniques"
+            - Mobs **réalistes** (Grizzly Bear, Crocodile, Gorilla)
+            - Mobs **fantastiques** (Bone Serpent, Endergade, Void Worm)
+            - Chaque mob a un **comportement unique**
+            - La plupart ont des **drops utiles**
+
+        !!! tip "Mobs à Priorité"
+            | Mob | Drop/Effet | Intérêt |
+            |-----|------------|---------|
+            | Roadrunner | Plumes de vitesse | Boots speed |
+            | Crocodile | Cuir de croco | Armure amphibie |
+            | Elephant | Défenses | Trading |
+            | Void Worm | Essence du Void | Items end-game |
+            | Endergrade | Perles améliorées | TP longue distance |
+
+        !!! warning "Mobs Dangereux"
+            - **Void Worm** : Boss dans l'End, très difficile
+            - **Bone Serpent** : Dans le Nether, mortel
+            - **Crocodile** : Attaque dans l'eau!
+
+    === "Objets Importants"
+
+        | Objet | Priorité | Description |
+        |-------|:--------:|-------------|
+        | Animal Dictionary | :zap: RUSH | Guide de tous les mobs |
+        | Roadrunner Feather | :star: | Crafts liés à la vitesse |
+        | Crocodile Armor | :star: | Respiration aquatique |
+        | Endergrade Cape | :star: | Téléportation améliorée |
+        | Void Worm Mandible | :star: | Arme end-game |
+
+??? note "Ice and Fire: Dragons"
+
+    [CurseForge](https://www.curseforge.com/minecraft/mc-mods/ice-and-fire-dragons) | [Wiki](https://ice-and-fire-mod.fandom.com/)
+
+    !!! success "Quick Start"
+        1. Trouve un **Dragon Nest** (grottes pour Fire, montagnes pour Ice)
+        2. Tue le dragon parent (très difficile!) ou vole l'oeuf
+        3. Fais éclore l'oeuf avec la bonne température
+        4. Élève ton dragon et équipe-le
+        5. **Vole sur ton dragon** une fois adulte!
+
+    === "Tips"
+
+        !!! tip "Types de Dragons"
+            - **Fire Dragons** : Crachent du feu, vivent dans les grottes
+            - **Ice Dragons** : Crachent de la glace, vivent en montagne
+            - **Lightning Dragons** : Nocturnes, attaques électriques
+            - Tous peuvent être **montés** une fois apprivoisés et adultes
+
+        !!! tip "Autres Créatures"
+            - **Hippogryph** : Monture volante plus accessible
+            - **Cyclops** : Boss géant
+            - **Siren** : Attire les joueurs dans l'eau
+            - **Death Worm** : Menace dans les déserts
+
+        !!! warning "Danger Extrême"
+            - Les dragons sauvages sont **TRÈS dangereux**
+            - Un dragon adulte peut one-shot un joueur mal équipé
+            - Les **Dragon Bones/Scales** sont nécessaires pour les crafts
+
+    === "Objets Importants"
+
+        | Objet | Priorité | Description |
+        |-------|:--------:|-------------|
+        | Dragon Egg | :star: | À faire éclore |
+        | Dragon Bone Sword | :star: | Arme très puissante |
+        | Dragon Scale Armor | :star: | Meilleure armure du mod |
+        | Dragonforge | :star: | Crafting avancé |
+        | Dragon Staff | :star: | Contrôle ton dragon |
+        | Hippogryph | :zap: RUSH | Monture volante accessible |
+        | Bestiary | :zap: RUSH | Guide des créatures |
+
+??? note "Deeper and Darker"
+
+    [CurseForge](https://www.curseforge.com/minecraft/mc-mods/deeperdarker)
+
+    !!! success "Quick Start"
+        1. Craft un **Heart of the Deep** avec des items de la Deep Dark
+        2. Construit un portail dans la **Deep Dark** vanilla
+        3. Active avec le Heart pour accéder à l'**Otherside**
+        4. Explore cette dimension alternative sombre
+        5. Collecte des ressources uniques et affronte le **Warden** amélioré
+
+    === "Tips"
+
+        !!! tip "Dimension Otherside"
+            - Extension de la **Deep Dark** vanilla
+            - Nouveaux biomes sombres et dangereux
+            - Le **Warden** a des variants plus puissants
+            - Ressources exclusives pour crafts end-game
+
+        !!! warning "Extrêmement Dangereux"
+            - Plus difficile que le Nether ou l'End
+            - Les ennemis sont **nombreux et forts**
+            - Prépare un équipement **end-game** avant d'entrer
+
+    === "Objets Importants"
+
+        | Objet | Priorité | Description |
+        |-------|:--------:|-------------|
+        | Heart of the Deep | :star: | Active le portail |
+        | Warden Armor | :star: | Armure très puissante |
+        | Sculk Items | :star: | Crafts uniques |
 
 ??? note "Twilight Forest"
 

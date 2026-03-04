@@ -37,7 +37,7 @@
 </div>
 
 !!! info "Mods Secondaires"
-    **Industrial Foregoing** (automation) | **Cyclic** (Sprinkler) | **Bonsai Trees** (arbres miniatures) | **Cooking for Blockheads** (cuisine) | **Croptopia** (crops)
+    **Pam's HarvestCraft 2** (60+ crops) | **AgriCraft** (mutations) | **Forestry** (abeilles classiques) | **Industrial Foregoing** (automation) | **Cyclic** (Sprinkler) | **Bonsai Trees** (arbres miniatures) | **Cooking for Blockheads** (cuisine) | **Croptopia** (crops)
 
     [:octicons-arrow-down-24: Voir les mods secondaires](#mods-secondaires)
 
@@ -328,6 +328,125 @@
 ---
 
 ## Mods Secondaires
+
+??? note "Pam's HarvestCraft 2"
+
+    [CurseForge](https://www.curseforge.com/minecraft/mc-mods/pams-harvestcraft-2-food-core) | [Wiki](https://pamharvestcraft.fandom.com/)
+
+    !!! success "Quick Start"
+        1. Explore le monde - les **crops sauvages** génèrent naturellement
+        2. Récupère les graines et plante sur du farmland
+        3. Craft un **Presser** pour les huiles et fromages
+        4. Craft une **Cutting Board** pour préparer les ingrédients
+        5. Crée des **centaines de recettes** de nourriture
+
+    === "Tips"
+
+        !!! tip "Énorme Variété"
+            - **60+ cultures** différentes
+            - **1400+ recettes** de nourriture
+            - Arbres fruitiers avec **fruits saisonniers**
+            - Compatible avec Cooking for Blockheads
+
+        !!! tip "Machines de Cuisine"
+            - **Presser** : Huiles, tofu, fromage
+            - **Cutting Board** : Découpe ingrédients
+            - **Oven** : Cuisson avancée
+            - **Pot** : Soupes et plats cuisinés
+
+        !!! warning "Complexité"
+            - Les recettes peuvent être **longues**
+            - Utilise JEI pour trouver les étapes
+            - Commence par les plats simples
+
+    === "Objets Importants"
+
+        | Objet | Priorité | Description |
+        |-------|:--------:|-------------|
+        | Presser | :zap: RUSH | Crée huiles, tofu, fromage |
+        | Cutting Board | :star: | Découpe les ingrédients |
+        | Market | :star: | Achète des graines avec émeraudes |
+        | Shipping Bin | | Vend automatiquement |
+        | Arbres fruitiers | :star: | Fruits renouvelables |
+
+??? note "AgriCraft"
+
+    [CurseForge](https://www.curseforge.com/minecraft/mc-mods/agricraft)
+
+    !!! success "Quick Start"
+        1. Craft des **Crop Sticks** et place-les sur du farmland
+        2. Plante des seeds sur les crop sticks
+        3. Utilise le **Seed Analyzer** pour voir les stats
+        4. **Croise** deux plants adjacents pour obtenir de nouvelles variétés
+        5. Améliore les **stats** (Growth, Gain, Strength) par sélection
+
+    === "Tips"
+
+        !!! tip "Système de Génétique"
+            - Chaque seed a 3 stats : **Growth**, **Gain**, **Strength**
+            - **10/10/10** est le maximum pour chaque stat
+            - Les plants se **croisent** pour créer de meilleures seeds
+            - Certaines **mutations** donnent de nouvelles crops
+
+        !!! tip "Progression"
+            - Utilise le **Journal** pour voir les mutations possibles
+            - Les **Sprinklers** accélèrent la croissance
+            - Automatise avec des **Seed Chests** et harvesters
+
+        !!! warning "Patience**
+            - Le breeding prend du **temps**
+            - Les seeds 10/10/10 valent l'investissement
+            - Growth 10 = récolte ultra-rapide
+
+    === "Objets Importants"
+
+        | Objet | Priorité | Description |
+        |-------|:--------:|-------------|
+        | Crop Sticks | :zap: RUSH | Support pour les plants |
+        | Seed Analyzer | :star: | Analyse les stats des seeds |
+        | Journal | :star: | Montre les mutations |
+        | Clipper | | Copie les seeds sans les casser |
+        | Sprinkler | :star: | Accélère la croissance |
+
+??? note "Forestry"
+
+    [CurseForge](https://www.curseforge.com/minecraft/mc-mods/forestry) | [Wiki](https://forestryforminecraft.info/)
+
+    !!! success "Quick Start"
+        1. Trouve un **nid d'abeilles** sauvage dans la nature
+        2. Utilise un **Scoop** pour récolter une **Queen**
+        3. Place-la dans un **Apiary** avec des frames
+        4. Collecte le **miel et les produits**
+        5. **Croise** des abeilles pour obtenir de nouvelles espèces
+
+    === "Tips"
+
+        !!! tip "Apiculture Classique"
+            - Le mod d'**abeilles original** de Minecraft moddé
+            - Système de **génétique complexe** avec traits
+            - Produit : **miel, cire, propolis**, etc.
+            - Certaines abeilles produisent des **ressources**
+
+        !!! tip "Arboriculture"
+            - **Arbres génétiques** avec traits
+            - Croisements pour de nouvelles espèces d'arbres
+            - Certains arbres produisent des **fruits** ou **résines**
+
+        !!! warning "Complexe mais Puissant"
+            - Courbe d'apprentissage **élevée**
+            - Le breeding prend du temps
+            - **Productive Bees** est plus accessible
+
+    === "Objets Importants"
+
+        | Objet | Priorité | Description |
+        |-------|:--------:|-------------|
+        | Scoop | :zap: RUSH | Récolte les nids d'abeilles |
+        | Apiary | :star: | Ruche principale |
+        | Frames | :star: | Augmentent la production |
+        | Beealyzer | :star: | Analyse les traits des abeilles |
+        | Squeezer | | Presse les items |
+        | Centrifuge | | Sépare les combs |
 
 ??? note "Industrial Foregoing"
 

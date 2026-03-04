@@ -37,7 +37,7 @@
 </div>
 
 !!! info "Mods Secondaires"
-    **EvilCraft** (vol early) | **Nature's Aura** | **Forbidden & Arcanus** (Eternal Stella!) | **Iron's Spells** (combat RPG) | **Spirit** (spawners)
+    **Astral Sorcery** (constellations) | **EvilCraft** (vol early) | **Nature's Aura** | **Forbidden & Arcanus** (Eternal Stella!) | **Iron's Spells** (combat RPG) | **Spirit** (spawners) | **Hexerei** (witchcraft) | **Malum** (dark magic)
 
     [:octicons-arrow-down-24: Voir les mods secondaires](#mods-secondaires)
 
@@ -335,6 +335,119 @@
 ---
 
 ## Mods Secondaires
+
+??? note "Astral Sorcery"
+
+    [CurseForge](https://www.curseforge.com/minecraft/mc-mods/astral-sorcery) | [Wiki](https://minecraftguides.net/AS/)
+
+    !!! success "Quick Start"
+        1. Craft un **Resonating Wand** pour interagir avec les structures Astral
+        2. Trouve un **Temple Astral** pour le Collector Crystal et le guide
+        3. Craft une **Luminous Crafting Table** pour les recettes basiques
+        4. Découvre les **constellations** la nuit avec le Telescope
+        5. Progresse vers le **Starlight Crafting Altar** pour les items avancés
+
+    === "Tips"
+
+        !!! tip "Système de Starlight"
+            - Les structures Astral génèrent du **Starlight** la nuit
+            - **Collector Crystals** amplifient la collecte
+            - Plus tu es **haut en altitude**, plus le starlight est fort
+            - Les **liens entre cristaux** créent des réseaux
+
+        !!! tip "Constellations"
+            - Chaque constellation donne des **perks uniques**
+            - Utilise le **Linking Tool** pour connecter les cristaux
+            - Les **mantles** donnent des capacités spéciales
+            - Certaines constellations sont **rares** (apparaissent rarement)
+
+        !!! warning "Progression"
+            - Le mod a une **progression linéaire** dans le livre
+            - Ne skip pas les étapes, chaque craft dépend du précédent
+            - Le **Starlight Infuser** est clé pour les items end-game
+
+    === "Objets Importants"
+
+        | Objet | Priorité | Description |
+        |-------|:--------:|-------------|
+        | Resonating Wand | :zap: RUSH | Outil de base pour tout le mod |
+        | Luminous Crafting Table | :star: | Table de craft Tier 1 |
+        | Starlight Crafting Altar | :star: | Table de craft Tier 2 (multiblock) |
+        | Telescope | :star: | Découvre les constellations |
+        | Collector Crystal | :star: | Collecte et amplifie le starlight |
+        | Linking Tool | :star: | Connecte les cristaux entre eux |
+        | Perk Seal | | Bloque un perk pour le repositionner |
+        | Mantle of Stars | :star: | Cape avec effets de constellation |
+
+??? note "Hexerei"
+
+    [CurseForge](https://www.curseforge.com/minecraft/mc-mods/hexerei)
+
+    !!! success "Quick Start"
+        1. Trouve des **Mandrakes** dans les forêts (plantes avec des yeux)
+        2. Craft un **Mixing Cauldron** pour créer des potions et items
+        3. Craft un **Broom** pour le vol early game!
+        4. Apprivoise un **Crow** comme familier
+        5. Utilise les **Candles** pour des buffs de zone
+
+    === "Tips"
+
+        !!! tip "Système de Witchcraft"
+            - Thème **sorcellerie** moderne et accessible
+            - Les **Brooms** permettent le vol très early!
+            - Les **Crows** peuvent transporter des items
+            - Le **Mixing Cauldron** remplace beaucoup de crafting tables
+
+        !!! tip "Familiers"
+            - **Crows** : Transport d'items, attaque les ennemis
+            - **Owls** : Détectent les mobs hostiles
+            - Les familiers peuvent être **dressés** et équipés
+
+    === "Objets Importants"
+
+        | Objet | Priorité | Description |
+        |-------|:--------:|-------------|
+        | Broom | :zap: RUSH | Vol early game très accessible! |
+        | Mixing Cauldron | :star: | Crafting central du mod |
+        | Coffer | :star: | Coffre magique portable |
+        | Crow | :star: | Familier utile |
+        | Candles | | Buffs de zone variés |
+        | Moon Water | | Ingrédient pour potions |
+
+??? note "Malum"
+
+    [CurseForge](https://www.curseforge.com/minecraft/mc-mods/malum)
+
+    !!! success "Quick Start"
+        1. Craft un **Encyclopedia Arcana** pour le guide
+        2. Collecte du **Soulstone** dans le monde
+        3. Craft un **Spirit Altar** pour commencer
+        4. Tue des mobs pour collecter leurs **âmes**
+        5. Utilise les âmes pour craft des items puissants
+
+    === "Tips"
+
+        !!! tip "Système d'Âmes"
+            - Alternative **dark magic** à Blood Magic
+            - Les mobs droppent des **Spirit Shards** en mourant
+            - Différents types d'âmes pour différents crafts
+            - Le **Soul Staff** extrait plus d'âmes
+
+        !!! tip "Progression"
+            - Les **totems** donnent des effets passifs
+            - Le **Scythe** est une excellente arme early-mid
+            - Combiner avec **Apotheosis** pour des armes puissantes
+
+    === "Objets Importants"
+
+        | Objet | Priorité | Description |
+        |-------|:--------:|-------------|
+        | Encyclopedia Arcana | :zap: RUSH | Guide in-game |
+        | Spirit Altar | :star: | Table de craft avec âmes |
+        | Soul Staff | :star: | Extrait plus d'âmes des mobs |
+        | Scythe | :star: | Arme puissante AOE |
+        | Totem Bases | :star: | Effets passifs de zone |
+        | Spirit Pouches | | Stocke les âmes |
 
 ??? note "EvilCraft"
 

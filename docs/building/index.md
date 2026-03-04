@@ -38,11 +38,14 @@
 
 !!! info "Mods secondaires de building"
     - [:material-link: Framed Blocks](#framed-blocks) - Blocs camouflables avec formes spéciales
+    - [:material-link: MrCrayfish's Furniture](#mrcrayfishs-furniture) - 450+ meubles fonctionnels
+    - [:material-link: Macaw's Mods](#macaws-mods) - Portes, ponts, toits, fenêtres
     - [:material-link: Handcrafted](#handcrafted) - Meubles réalistes et interactifs
     - [:material-link: Bibliocraft](#bibliocraft) - Meubles fonctionnels et décoratifs
     - [:material-link: Exchangers](#exchangers) - Remplacement de blocs en zone
     - [:material-link: OpenBlocks Elevator](#openblocks-elevator) - Ascenseurs simples
     - [:material-link: Rechiseled](#rechiseled) - Variations de textures supplémentaires
+    - [:material-link: Create](#create-building) - Blocs décoratifs Create
 
 ---
 
@@ -267,6 +270,70 @@
 ---
 
 ## Mods Secondaires
+
+<a id="mrcrayfishs-furniture"></a>
+??? note "MrCrayfish's Furniture Mod"
+    [:material-download: CurseForge](https://www.curseforge.com/minecraft/mc-mods/mrcrayfish-furniture-mod){ .md-button }
+
+    Plus de **450 meubles** fonctionnels pour créer des intérieurs réalistes.
+
+    **Tips :**
+
+    - Tous les meubles sont **fonctionnels** (on peut s'asseoir, stocker, etc.)
+    - **Électroménager** : Frigo, four, lave-vaisselle, TV
+    - **Salon** : Canapés, tables, lampes, cheminées
+    - **Cuisine** : Plans de travail, éviers, hottes
+    - **Jardin** : Barrières, chaises, grills
+    - Compatible avec toutes les essences de bois
+
+    | Catégorie | Exemples |
+    |-----------|----------|
+    | Cuisine | Frigo, Four, Évier, Comptoirs |
+    | Salon | Canapé, TV, Cheminée, Table basse |
+    | Chambre | Lit amélioré, Armoire, Bureau |
+    | Salle de bain | Baignoire, Toilettes, Lavabo |
+    | Extérieur | Grill, Chaises de jardin, Parasol |
+
+<a id="macaws-mods"></a>
+??? note "Macaw's Mods (Collection)"
+    Collection de mods par **Macaw** pour améliorer la construction.
+
+    **Mods disponibles :**
+
+    | Mod | Description | Lien |
+    |-----|-------------|------|
+    | Macaw's Doors | 100+ portes avec animations | [:material-download:](https://www.curseforge.com/minecraft/mc-mods/macaws-doors) |
+    | Macaw's Windows | Fenêtres variées | [:material-download:](https://www.curseforge.com/minecraft/mc-mods/macaws-windows) |
+    | Macaw's Bridges | Ponts décoratifs | [:material-download:](https://www.curseforge.com/minecraft/mc-mods/macaws-bridges) |
+    | Macaw's Roofs | Toitures réalistes | [:material-download:](https://www.curseforge.com/minecraft/mc-mods/macaws-roofs) |
+    | Macaw's Fences | Clôtures et barrières | [:material-download:](https://www.curseforge.com/minecraft/mc-mods/macaws-fences-and-walls) |
+    | Macaw's Trapdoors | Trappes variées | [:material-download:](https://www.curseforge.com/minecraft/mc-mods/macaws-trapdoors) |
+    | Macaw's Paths | Chemins décoratifs | [:material-download:](https://www.curseforge.com/minecraft/mc-mods/macaws-paths-and-pavings) |
+    | Macaw's Lights | Éclairages | [:material-download:](https://www.curseforge.com/minecraft/mc-mods/macaws-lights-and-lamps) |
+    | Macaw's Furniture | Meubles | [:material-download:](https://www.curseforge.com/minecraft/mc-mods/macaws-furniture) |
+
+    **Tips :**
+
+    - Tous compatibles entre eux pour un **style cohérent**
+    - Supporte toutes les **essences de bois**
+    - Parfait pour les **builds médiévaux** ou modernes
+
+<a id="create-building"></a>
+??? note "Create (Déco)"
+    [:material-download: CurseForge](https://www.curseforge.com/minecraft/mc-mods/create){ .md-button }
+
+    Create ajoute de nombreux **blocs décoratifs** en plus des machines.
+
+    **Blocs décoratifs :**
+
+    - **Girders** : Structures métalliques
+    - **Cogwheels** : Engrenages visibles
+    - **Brass Blocks** : Blocs de laiton
+    - **Copper Tiles** : Carrelage cuivré
+    - **Windows** : Vitres industrielles
+    - **Seats** : Sièges fonctionnels
+
+    **Addon déco :** [Create: Deco](https://www.curseforge.com/minecraft/mc-mods/create-deco) ajoute encore plus de blocs décoratifs dans le style Create.
 
 <a id="framed-blocks"></a>
 ??? note "Framed Blocks"

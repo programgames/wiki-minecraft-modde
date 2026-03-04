@@ -37,7 +37,7 @@
 </div>
 
 !!! info "Mods Secondaires"
-    **Dank Storage** (compact portable) | **RFTools Storage** (mini-AE2) | **Occultism Storage** (dimensionnel) | **Mekanism QIO** (wireless end-game) | **Ender Storage** (cross-dimension)
+    **Storage Drawers** (le classique) | **Iron Chests** (coffres améliorés) | **Colossal Chests** (coffres géants) | **Simple Storage Network** (réseau simple) | **Dank Storage** (compact portable) | **RFTools Storage** (mini-AE2) | **Occultism Storage** (dimensionnel) | **Mekanism QIO** (wireless end-game) | **Ender Storage** (cross-dimension)
 
     [:octicons-arrow-down-24: Voir les mods secondaires](#mods-secondaires)
 
@@ -340,6 +340,158 @@
 ---
 
 ## Mods Secondaires
+
+??? note "Storage Drawers"
+
+    [CurseForge](https://www.curseforge.com/minecraft/mc-mods/storage-drawers)
+
+    !!! success "Quick Start"
+        1. Craft des **Drawers** (1x1, 1x2, 2x2) avec du bois
+        2. Place-les et **right-click** avec des items pour stocker
+        3. Craft un **Drawer Controller** pour accès centralisé
+        4. Connecte les drawers au controller avec des **Trim** ou adjacence
+        5. Ajoute des **Upgrades** pour augmenter la capacité
+
+    === "Tips"
+
+        !!! tip "Types de Drawers"
+            - **1x1** : Maximum de capacité pour un seul type
+            - **1x2** : Deux types, capacité divisée
+            - **2x2** : Quatre types, capacité divisée par 4
+            - **Compacting Drawer** : Auto-conversion ingot/block/nugget
+
+        !!! tip "Upgrades"
+            - **Storage Upgrade** (I → V) : Augmente la capacité
+            - **Void Upgrade** : Détruit le surplus
+            - **Redstone Upgrade** : Signal selon le remplissage
+
+        !!! warning "Le mod original"
+            - **Functional Storage** est un fork moderne
+            - Storage Drawers est le **classique** qui a inspiré beaucoup
+            - Compatible avec la plupart des mods de transport
+
+    === "Objets Importants"
+
+        | Objet | Priorité | Description |
+        |-------|:--------:|-------------|
+        | Basic Drawer (1x1) | :zap: RUSH | Meilleure capacité par type |
+        | Compacting Drawer | :star: | Auto-conversion ingot/block/nugget |
+        | Drawer Controller | :star: | Accès centralisé à tous les drawers |
+        | Drawer Key | | Configure le lock/unlock |
+        | Storage Upgrades | :star: | Augmente la capacité (Tier I-V) |
+        | Void Upgrade | :star: | Détruit le surplus automatiquement |
+
+??? note "Iron Chests"
+
+    [CurseForge](https://www.curseforge.com/minecraft/mc-mods/iron-chests)
+
+    !!! success "Quick Start"
+        1. Craft un **Iron Chest** (coffre + lingots de fer)
+        2. Upgrade vers **Gold → Diamond → Obsidian → Crystal**
+        3. Utilise les **Chest Upgrades** pour upgrade sans vider
+        4. Le **Crystal Chest** est transparent et montre le contenu
+        5. Compatible avec hoppers et tous les mods de transport
+
+    === "Tips"
+
+        !!! tip "Tiers de Coffres"
+            | Tier | Slots | Notes |
+            |------|:-----:|-------|
+            | Iron | 54 | Double d'un coffre |
+            | Gold | 81 | Bon rapport |
+            | Diamond | 108 | Large capacité |
+            | Obsidian | 108 | Résiste aux explosions |
+            | Crystal | 108 | Transparent! |
+
+        !!! tip "Upgrades In-Place"
+            - Les **Chest Upgrades** permettent d'upgrade **sans vider**
+            - Iron → Gold, Gold → Diamond, etc.
+            - Très pratique pour ne pas tout déplacer
+
+    === "Objets Importants"
+
+        | Objet | Priorité | Description |
+        |-------|:--------:|-------------|
+        | Iron Chest | :zap: RUSH | 54 slots, première upgrade |
+        | Diamond Chest | :star: | 108 slots |
+        | Crystal Chest | :star: | 108 slots, transparent |
+        | Chest Upgrades | :star: | Upgrade sans vider |
+
+??? note "Colossal Chests"
+
+    [CurseForge](https://www.curseforge.com/minecraft/mc-mods/colossal-chests)
+
+    !!! success "Quick Start"
+        1. Craft des **Colossal Chest Wall** blocks
+        2. Construit une structure **cube** de n'importe quelle taille (2x2x2 minimum)
+        3. Place un **Colossal Chest Core** quelque part dans la structure
+        4. Right-click pour former le coffre géant
+        5. Plus c'est grand, plus il y a de stockage!
+
+    === "Tips"
+
+        !!! tip "Tailles et Capacité"
+            - Taille minimum : **2x2x2** (intérieur)
+            - Taille maximum : configurable (souvent 20x20x20)
+            - La capacité **scale avec le volume**
+            - Un 5x5x5 = des centaines de slots
+
+        !!! tip "Matériaux"
+            - **Wood** : Basique, économique
+            - **Copper** : Plus de capacité
+            - **Iron** : Encore plus
+            - **Diamond** : Maximum de capacité par bloc
+
+        !!! warning "Performance"
+            - Les très grands coffres peuvent être **lents** à ouvrir
+            - Utilise plutôt plusieurs petits que un énorme
+
+    === "Objets Importants"
+
+        | Objet | Priorité | Description |
+        |-------|:--------:|-------------|
+        | Colossal Chest Wall | :star: | Blocs pour construire la structure |
+        | Colossal Chest Core | :star: | Active la structure |
+        | Interface | | Connexion pour pipes/AE2 |
+
+??? note "Simple Storage Network"
+
+    [CurseForge](https://www.curseforge.com/minecraft/mc-mods/simple-storage-network)
+
+    !!! success "Quick Start"
+        1. Craft un **Storage Network Master** (cerveau)
+        2. Craft des **Network Cables** pour connecter
+        3. Craft des **Storage Link Cables** pour lier les coffres
+        4. Place un **Storage Request Table** pour accéder au réseau
+        5. Tous les coffres connectés sont maintenant accessibles!
+
+    === "Tips"
+
+        !!! tip "Système Simple"
+            - Alternative **très simple** à AE2/RS
+            - Pas de channels, pas de complexité
+            - Parfait pour **débuter** l'automatisation
+
+        !!! tip "Composants"
+            - **Master** : Un seul par réseau
+            - **Link Cable** : Connecte un inventaire
+            - **Import/Export Cable** : Automation basique
+            - **Request Table** : Interface utilisateur
+
+        !!! warning "Limitations"
+            - Pas d'autocrafting intégré
+            - Pas de stockage digital (utilise les coffres existants)
+            - Pour les systèmes plus complexes, passer à AE2/RS
+
+    === "Objets Importants"
+
+        | Objet | Priorité | Description |
+        |-------|:--------:|-------------|
+        | Storage Network Master | :zap: RUSH | Cerveau du réseau |
+        | Network Cable | :star: | Connecte les éléments |
+        | Storage Link Cable | :star: | Lie un coffre au réseau |
+        | Storage Request Table | :star: | Interface utilisateur |
+        | Import/Export Cable | | Automation basique |
 
 ??? note "Dank Storage"
 

@@ -37,7 +37,7 @@
 </div>
 
 !!! info "Mods Secondaires"
-    **Carry On** (porter blocs) | **Tempad** (TP style Loki) | **Pretty Pipes** (transport items) | **Mekanism Jetpack** (hydrogen) | **Angel Ring** (vol créatif) | **Elevators** (ascenseurs)
+    **Carry On** (porter blocs) | **Tempad** (TP style Loki) | **Elytra Slot** (slot curio) | **Paragliders** (glider BOTW) | **Pretty Pipes** (transport items) | **Mekanism Jetpack** (hydrogen) | **Angel Ring** (vol créatif) | **Elevators** (ascenseurs)
 
     [:octicons-arrow-down-24: Voir les mods secondaires](#mods-secondaires)
 
@@ -520,6 +520,75 @@
         |-------|:--------:|-------------|
         | Elevator Block | :star::star: | Téléportation verticale instantanée |
         | Colored Variants | :star: | 16 couleurs disponibles |
+
+??? note "Elytra Slot / Curious Elytra"
+
+    [Elytra Slot](https://www.curseforge.com/minecraft/mc-mods/elytra-slot) | [Curious Elytra](https://www.curseforge.com/minecraft/mc-mods/curious-elytra)
+
+    !!! success "Quick Start"
+        1. Installe le mod compatible avec ton modpack
+        2. L'**Elytra** peut maintenant être équipée en **slot Curios**
+        3. Tu peux porter **Elytra + Plastron** en même temps!
+        4. Active le vol avec le double-jump
+        5. Combine avec un jetpack pour le décollage
+
+    === "Tips"
+
+        !!! tip "Avantages Majeurs"
+            - **Elytra + Armure** en même temps = plus de protection
+            - Compatible avec les **Elytra enchantées**
+            - Fonctionne avec les **skins d'Elytra** moddées
+            - Garde ton slot de plastron pour armure ou jetpack
+
+        !!! tip "Combinaisons"
+            - **Elytra + Jetpack** : Décollage vertical + plané
+            - **Elytra + Mekasuit** : Meilleur des deux mondes
+            - Utilise des **Fireworks** pour booster le vol
+
+    === "Objets Importants"
+
+        | Objet | Priorité | Description |
+        |-------|:--------:|-------------|
+        | Elytra (slot Curios) | :star: | Vol + protection |
+        | Firework Rockets | :star: | Boost de vitesse |
+
+??? note "Paragliders"
+
+    [CurseForge](https://www.curseforge.com/minecraft/mc-mods/paragliders)
+
+    !!! success "Quick Start"
+        1. Craft un **Paraglider** (Deku Leaf ou Paraglider)
+        2. Équipe dans ta main ou slot Curios
+        3. **Saute** et active pour planer
+        4. Utilise la **stamina** pour voler
+        5. Récupère de la stamina au sol
+
+    === "Tips"
+
+        !!! tip "Système de Stamina"
+            - Inspiré de **Breath of the Wild**
+            - La stamina se **recharge au sol**
+            - Plus tu voles, plus tu consommes
+            - Des items augmentent la stamina max
+
+        !!! tip "Types de Gliders"
+            - **Deku Leaf** : Version early game
+            - **Paraglider** : Version améliorée
+            - Différentes **couleurs** disponibles
+
+        !!! warning "Limitations"
+            - Pas de vol vertical (seulement plané)
+            - Nécessite un point **haut** pour décoller
+            - Combine avec Slimesling pour la propulsion
+
+    === "Objets Importants"
+
+        | Objet | Priorité | Description |
+        |-------|:--------:|-------------|
+        | Deku Leaf | :zap: RUSH | Planeur early game |
+        | Paraglider | :star: | Planeur amélioré |
+        | Spirit Orbs | | Augmentent la stamina |
+        | Stamina Vessels | | Plus de stamina |
 
 ??? note "Slimesling + Glider Combo"
 
