@@ -7,13 +7,13 @@
 
 ## Objectifs End-Game
 
-| Objectif | Difficulté | Temps estimé | Prérequis |
-|----------|------------|--------------|-----------|
-| Armure Draconic complète | :material-star: :material-star: :material-star: :material-star: | 10-20h | Chaos Guardian tué |
-| MekaSuit maxé | :material-star: :material-star: :material-star: | 5-10h | Fusion nucléaire |
-| EMC infini | :material-star: :material-star: | 3-5h | Transmutation Table |
-| Réacteur Draconic stable | :material-star: :material-star: :material-star: :material-star: :material-star: | 15-30h | Awakened Draconium |
-| Items créatifs | :material-star: :material-star: :material-star: :material-star: :material-star: | 50h+ | Tout le reste |
+| Objectif                       | Difficulté  | Temps estimé | Prérequis              |
+|:-------------------------------|:-----------:|:------------:|:-----------------------|
+| Armure Draconic complète       | ★★★★☆       | 10-20h       | Chaos Guardian tué     |
+| MekaSuit maxé                  | ★★★☆☆       | 5-10h        | Fusion nucléaire       |
+| EMC infini                     | ★★☆☆☆       | 3-5h         | Transmutation Table    |
+| Réacteur Draconic stable       | ★★★★★       | 15-30h       | Awakened Draconium     |
+| Items créatifs                 | ★★★★★       | 50h+         | Tout le reste          |
 
 ---
 
@@ -21,16 +21,16 @@
 
 ### Comparatif des Armures End-Game
 
-| Armure | Protection | Mobilité | Capacités spéciales | Coût |
-|--------|------------|----------|---------------------|------|
-| **Draconic Evolution** | ∞ | Vol créatif | Bouclier, effets, stockage RF | Très élevé |
-| **MekaSuit** | Très haute | Jetpack intégré | Modules modulaires, vision | Élevé |
-| **Supremium** | Haute | Normale | Essence farming boost | Moyen |
-| **Terrasteel (Botania)** | Haute | Normale | Régénération mana | Moyen |
+| Armure                              | Protection   | Mobilité        | Capacités spéciales                | Coût        |
+|:------------------------------------|:------------:|:---------------:|:-----------------------------------|:-----------:|
+| 🐉 **Draconic Evolution**           | ∞            | Vol créatif     | Bouclier, effets, stockage RF      | Très élevé  |
+| ⚗️ **MekaSuit**                     | Très haute   | Jetpack intégré | Modules modulaires, vision         | Élevé       |
+| 🌿 **Supremium**                    | Haute        | Normale         | Essence farming boost              | Moyen       |
+| 🌸 **Terrasteel (Botania)**         | Haute        | Normale         | Régénération mana                  | Moyen       |
 
 ---
 
-### Draconic Evolution Armor
+### 🐉 Draconic Evolution Armor
 
 !!! warning "Attention"
     L'armure Draconic nécessite de tuer le **Chaos Guardian** pour obtenir les Chaos Shards, l'un des boss les plus difficiles du modpack.
@@ -47,14 +47,14 @@
 
 === "Upgrades recommandés"
 
-    | Upgrade | Effet | Priorité |
-    |---------|-------|----------|
-    | Shield Capacity | Bouclier absorbant les dégâts | :material-star: :material-star: :material-star: |
-    | Shield Recovery | Régénération du bouclier | :material-star: :material-star: :material-star: |
-    | RF Capacity | Stockage d'énergie interne | :material-star: :material-star: |
-    | Speed | Vitesse de déplacement | :material-star: :material-star: |
-    | Jump Boost | Hauteur de saut | :material-star: |
-    | Flight Speed | Vitesse de vol | :material-star: :material-star: :material-star: |
+    | Upgrade          | Effet                          | Priorité  |
+    |:-----------------|:-------------------------------|:---------:|
+    | Shield Capacity  | Bouclier absorbant les dégâts  | ★★★       |
+    | Shield Recovery  | Régénération du bouclier       | ★★★       |
+    | RF Capacity      | Stockage d'énergie interne     | ★★☆       |
+    | Speed            | Vitesse de déplacement         | ★★☆       |
+    | Jump Boost       | Hauteur de saut                | ★☆☆       |
+    | Flight Speed     | Vitesse de vol                 | ★★★       |
 
 === "Configuration optimale"
 
@@ -79,21 +79,21 @@
 
 ---
 
-### MekaSuit
+### ⚗️ MekaSuit
 
 !!! tip "Alternative modulaire"
     Le MekaSuit est plus accessible que l'armure Draconic et offre une grande flexibilité grâce à son système de modules.
 
 === "Modules essentiels"
 
-    | Module | Pièce | Fonction |
-    |--------|-------|----------|
-    | Jetpack | Plastron | Vol (hydrogène) |
-    | Gravitational Modulator | Plastron | Vol créatif |
-    | Vision Enhancement | Casque | Night vision + zoom |
-    | Nutritional Injection | Casque | Auto-alimentation |
-    | Hydrostatic Repulsor | Bottes | Marche sur l'eau |
-    | Magnetic Attraction | Plastron | Ramassage à distance |
+    | Module                   | Pièce     | Fonction               |
+    |:-------------------------|:----------|:-----------------------|
+    | Jetpack                  | Plastron  | Vol (hydrogène)        |
+    | Gravitational Modulator  | Plastron  | Vol créatif            |
+    | Vision Enhancement       | Casque    | Night vision + zoom    |
+    | Nutritional Injection    | Casque    | Auto-alimentation      |
+    | Hydrostatic Repulsor     | Bottes    | Marche sur l'eau       |
+    | Magnetic Attraction      | Plastron  | Ramassage à distance   |
 
 === "Craft du MekaSuit"
 
@@ -112,22 +112,22 @@
 
     **Options d'alimentation:**
 
-    - Générateur solaire portable (Mekanism)
+    - Générateur solaire portable (⚗️ Mekanism)
     - QIO Charging (recommandé)
     - Induction Matrix wireless charger
 
 ---
 
-### Supremium Armor (Mystical Agriculture)
+### 🌿 Supremium Armor (Mystical Agriculture)
 
 !!! info "Pour les farmers"
     L'armure Supremium booste significativement la croissance des essences et le drop des mobs.
 
-| Set Bonus | Effet |
-|-----------|-------|
-| 2 pièces | +10% vitesse de croissance des crops |
-| 3 pièces | +25% vitesse de croissance |
-| 4 pièces | +50% vitesse + Flight |
+| Set Bonus   | Effet                                    |
+|:------------|:-----------------------------------------|
+| 2 pièces    | +10% vitesse de croissance des crops     |
+| 3 pièces    | +25% vitesse de croissance               |
+| 4 pièces    | +50% vitesse + Flight                    |
 
 **Craft:**
 ```
@@ -144,34 +144,34 @@ Supremium Ingots: 24 au total
 
 === "Armure"
 
-    | Enchantement | Niveau max | Effet |
-    |--------------|------------|-------|
-    | Protection | IV | Réduction dégâts globale |
-    | Unbreaking | III | Durabilité x4 |
-    | Mending | I | Réparation via XP |
-    | Soul Speed | III | Vitesse sur Soul Sand |
-    | Depth Strider | III | Vitesse aquatique |
-    | Feather Falling | IV | Réduction dégâts de chute |
+    | Enchantement     | Niveau max | Effet                         |
+    |:-----------------|:----------:|:------------------------------|
+    | Protection       | IV         | Réduction dégâts globale      |
+    | Unbreaking       | III        | Durabilité x4                 |
+    | Mending          | I          | Réparation via XP             |
+    | Soul Speed       | III        | Vitesse sur Soul Sand         |
+    | Depth Strider    | III        | Vitesse aquatique             |
+    | Feather Falling  | IV         | Réduction dégâts de chute     |
 
 === "Épée"
 
-    | Enchantement | Niveau max | Priorité |
-    |--------------|------------|----------|
-    | Sharpness | V | :material-star: :material-star: :material-star: |
-    | Looting | III | :material-star: :material-star: :material-star: |
-    | Sweeping Edge | III | :material-star: :material-star: |
-    | Unbreaking | III | :material-star: :material-star: |
-    | Mending | I | :material-star: :material-star: :material-star: |
-    | Fire Aspect | II | :material-star: |
+    | Enchantement   | Niveau max | Priorité  |
+    |:---------------|:----------:|:---------:|
+    | Sharpness      | V          | ★★★       |
+    | Looting        | III        | ★★★       |
+    | Sweeping Edge  | III        | ★★☆       |
+    | Unbreaking     | III        | ★★☆       |
+    | Mending        | I          | ★★★       |
+    | Fire Aspect    | II         | ★☆☆       |
 
 === "Arc/Arbalète"
 
-    | Enchantement | Niveau max | Notes |
-    |--------------|------------|-------|
-    | Power | V | Dégâts +150% |
-    | Infinity | I | Flèches infinies |
-    | Punch | II | Knockback |
-    | Flame | I | Dégâts de feu |
+    | Enchantement | Niveau max | Notes           |
+    |:-------------|:----------:|:----------------|
+    | Power        | V          | Dégâts +150%    |
+    | Infinity     | I          | Flèches infinies|
+    | Punch        | II         | Knockback       |
+    | Flame        | I          | Dégâts de feu   |
 
 !!! warning "Incompatibilités"
     - **Infinity** et **Mending** sont incompatibles sur un arc
@@ -181,10 +181,10 @@ Supremium Ingots: 24 au total
 
 ## Ressources Infinies
 
-### Système EMC (ProjectE)
+### 🔮 Système EMC (ProjectE)
 
 !!! success "Le Saint Graal"
-    ProjectE permet de convertir n'importe quel item en EMC (énergie) puis de la reconvertir en n'importe quel autre item.
+    🔮 ProjectE permet de convertir n'importe quel item en EMC (énergie) puis de la reconvertir en n'importe quel autre item.
 
 === "Setup de base"
 
@@ -206,39 +206,39 @@ Supremium Ingots: 24 au total
 
 === "Farm EMC optimisé"
 
-    | Source | EMC/tick | Difficulté setup |
-    |--------|----------|------------------|
-    | Collector MK1 | 4 | Facile |
-    | Collector MK2 | 12 | Moyen |
-    | Collector MK3 | 40 | Difficile |
-    | Blaze farm + Condenser | ~1000+ | Moyen |
-    | Wither farm + Condenser | ~5000+ | Difficile |
+    | Source                      | EMC/tick | Difficulté setup |
+    |:----------------------------|:--------:|:----------------:|
+    | Collector MK1               | 4        | Facile           |
+    | Collector MK2               | 12       | Moyen            |
+    | Collector MK3               | 40       | Difficile        |
+    | Blaze farm + Condenser      | ~1000+   | Moyen            |
+    | Wither farm + Condenser     | ~5000+   | Difficile        |
 
 === "Items haute valeur EMC"
 
-    | Item | Valeur EMC | Source recommandée |
-    |------|------------|-------------------|
-    | Nether Star | 139,264 | Wither farm |
-    | Dragon Egg | 139,264 | Ender Dragon |
-    | Beacon | 147,456 | Craft avec Nether Stars |
-    | Awakened Draconium | ~500,000+ | Draconic Evolution |
+    | Item                | Valeur EMC  | Source recommandée         |
+    |:--------------------|:-----------:|:---------------------------|
+    | Nether Star         | 139,264     | Wither farm                |
+    | Dragon Egg          | 139,264     | Ender Dragon               |
+    | Beacon              | 147,456     | Craft avec Nether Stars    |
+    | Awakened Draconium  | ~500,000+   | 🐉 Draconic Evolution      |
 
 ---
 
-### Mystical Agriculture Automation
+### 🌿 Mystical Agriculture Automation
 
 !!! tip "Ressources organiques infinies"
-    Avec Mystical Agriculture, vous pouvez farmer littéralement n'importe quelle ressource.
+    Avec 🌿 Mystical Agriculture, vous pouvez farmer littéralement n'importe quelle ressource.
 
 === "Tiers des essences"
 
-    | Tier | Couleur | Exemples | Temps croissance |
-    |------|---------|----------|------------------|
-    | 1 | Blanc | Inferium, Stone | Rapide |
-    | 2 | Jaune | Iron, Coal | Moyen |
-    | 3 | Orange | Gold, Redstone | Moyen |
-    | 4 | Violet | Diamond, Emerald | Lent |
-    | 5 | Rouge | Nether Star, Dragon Egg | Très lent |
+    | Tier | Couleur | Exemples                 | Temps croissance |
+    |:----:|:--------|:-------------------------|:-----------------|
+    | 1    | Blanc   | Inferium, Stone          | Rapide           |
+    | 2    | Jaune   | Iron, Coal               | Moyen            |
+    | 3    | Orange  | Gold, Redstone           | Moyen            |
+    | 4    | Violet  | Diamond, Emerald         | Lent             |
+    | 5    | Rouge   | Nether Star, Dragon Egg  | Très lent        |
 
 === "Setup automatisé"
 
@@ -257,13 +257,13 @@ Supremium Ingots: 24 au total
 
 === "Boosters de croissance"
 
-    | Item | Bonus | Stackable |
-    |------|-------|-----------|
-    | Growth Accelerator | +20% par bloc | Oui (x64) |
-    | Supremium Soil | +25% base | Non |
-    | Greenhouse Glass | +30% | Oui |
-    | Lily of the Valley (Botania) | Variable | Non |
-    | Watering Can (automatisé) | +200% | Non |
+    | Item                            | Bonus        | Stackable |
+    |:--------------------------------|:------------:|:---------:|
+    | Growth Accelerator              | +20% par bloc| Oui (x64) |
+    | Supremium Soil                  | +25% base    | Non       |
+    | Greenhouse Glass                | +30%         | Oui       |
+    | Lily of the Valley (🌸 Botania) | Variable     | Non       |
+    | Watering Can (automatisé)       | +200%        | Non       |
 
 ---
 
@@ -272,7 +272,7 @@ Supremium Ingots: 24 au total
 !!! info "Minage sans miner"
     Les Void Miners génèrent des ressources à partir de rien, parfait pour les serveurs où le minage intensif lag.
 
-=== "Mekanism Digital Miner"
+=== "⚗️ Mekanism Digital Miner"
 
     Bien que pas vraiment "void", le Digital Miner avec Silk Touch:
 
@@ -280,28 +280,28 @@ Supremium Ingots: 24 au total
     - Filtres précis par ore
     - Auto-replacement avec Cobblestone
 
-    **Combo avec Laser Drill (Industrial Foregoing):**
+    **Combo avec Laser Drill (🏭 Industrial Foregoing):**
 
-    | Lens couleur | Ressources | Rareté |
-    |--------------|------------|--------|
-    | Rouge | Redstone | Commun |
-    | Bleu | Lapis, Diamond | Rare |
-    | Vert | Emerald | Très rare |
-    | Blanc | Quartz, Certus | Commun |
-    | Noir | Coal, Obsidian | Commun |
+    | Lens couleur | Ressources           | Rareté     |
+    |:-------------|:---------------------|:-----------|
+    | Rouge        | Redstone             | Commun     |
+    | Bleu         | Lapis, Diamond       | Rare       |
+    | Vert         | Emerald              | Très rare  |
+    | Blanc        | Quartz, Certus       | Commun     |
+    | Noir         | Coal, Obsidian       | Commun     |
 
-=== "Environmental Tech Void Miners"
+=== "🌍 Environmental Tech Void Miners"
 
-    | Tier | RF/tick | Output |
-    |------|---------|--------|
-    | 1 | 2,000 | Faible |
-    | 2 | 8,000 | Moyen |
-    | 3 | 32,000 | Bon |
-    | 4 | 128,000 | Très bon |
-    | 5 | 512,000 | Excellent |
-    | 6 | 2,000,000 | Insane |
+    | Tier | RF/tick   | Output     |
+    |:----:|:---------:|:-----------|
+    | 1    | 2,000     | Faible     |
+    | 2    | 8,000     | Moyen      |
+    | 3    | 32,000    | Bon        |
+    | 4    | 128,000   | Très bon   |
+    | 5    | 512,000   | Excellent  |
+    | 6    | 2,000,000 | Insane     |
 
-=== "RFTools Builder"
+=== "📡 RFTools Builder"
 
     ```
     Configuration Quarry alternative:
@@ -317,20 +317,20 @@ Supremium Ingots: 24 au total
 
 ## Énergie Maximale
 
-### Draconic Reactor
+### 🐉 Draconic Reactor
 
 !!! danger "ATTENTION: Explosion potentielle"
     Le réacteur Draconic peut exploser et détruire TOUT dans un rayon de ~500 blocks si mal géré. **TOUJOURS construire dans une dimension de test d'abord!**
 
 === "Composants requis"
 
-    | Composant | Quantité | Fonction |
-    |-----------|----------|----------|
-    | Reactor Core | 1 | Centre du réacteur |
-    | Reactor Stabilizer | 4 | Contrôle containment |
-    | Energy Injector | 1+ | Démarre le réacteur |
-    | Flux Gate | 2+ | Contrôle flux entrant/sortant |
-    | Awakened Draconium Blocks | 4+ | Fuel |
+    | Composant                  | Quantité | Fonction                 |
+    |:---------------------------|:--------:|:-------------------------|
+    | Reactor Core               | 1        | Centre du réacteur       |
+    | Reactor Stabilizer         | 4        | Contrôle containment     |
+    | Energy Injector            | 1+       | Démarre le réacteur      |
+    | Flux Gate                  | 2+       | Contrôle flux entrant/sortant |
+    | Awakened Draconium Blocks  | 4+       | Fuel                     |
 
 === "Paramètres sûrs"
 
@@ -350,21 +350,21 @@ Supremium Ingots: 24 au total
 
 === "Output énergétique"
 
-    | Configuration | RF/tick | Durée fuel |
-    |---------------|---------|------------|
-    | Safe mode | 500,000 | Plusieurs heures réelles |
-    | Optimal | 2,000,000+ | ~1-2 heures |
-    | Maximum | 5,000,000+ | ~30 minutes |
+    | Configuration | RF/tick     | Durée fuel                   |
+    |:--------------|:-----------:|:-----------------------------|
+    | Safe mode     | 500,000     | Plusieurs heures réelles     |
+    | Optimal       | 2,000,000+  | ~1-2 heures                  |
+    | Maximum       | 5,000,000+  | ~30 minutes                  |
 
     !!! tip "Conseil"
-        Utilisez ComputerCraft/OpenComputers pour automatiser la surveillance!
+        Utilisez 🖥️ ComputerCraft/OpenComputers pour automatiser la surveillance!
 
 ---
 
-### Mekanism Fusion Reactor
+### ⚗️ Mekanism Fusion Reactor
 
 !!! success "Alternative plus sûre"
-    Le réacteur à fusion Mekanism ne peut pas exploser et offre une excellente production d'énergie.
+    Le réacteur à fusion ⚗️ Mekanism ne peut pas exploser et offre une excellente production d'énergie.
 
 === "Structure"
 
@@ -383,12 +383,12 @@ Supremium Ingots: 24 au total
 
 === "Production optimale"
 
-    | Configuration | RF/tick | Injection Rate |
-    |---------------|---------|----------------|
-    | Minimum viable | 100,000 | 2 mB/t |
-    | Standard | 500,000 | 10 mB/t |
-    | Optimisé | 2,000,000 | 98 mB/t |
-    | Maximum | 5,000,000+ | 98 mB/t + Hohlraum |
+    | Configuration    | RF/tick     | Injection Rate       |
+    |:-----------------|:-----------:|:---------------------|
+    | Minimum viable   | 100,000     | 2 mB/t               |
+    | Standard         | 500,000     | 10 mB/t              |
+    | Optimisé         | 2,000,000   | 98 mB/t              |
+    | Maximum          | 5,000,000+  | 98 mB/t + Hohlraum   |
 
 === "Chaîne de production fuel"
 
@@ -415,27 +415,27 @@ Supremium Ingots: 24 au total
 
 ### Solutions de Stockage RF
 
-| Solution | Capacité | Avantages | Inconvénients |
-|----------|----------|-----------|---------------|
-| **Draconic Energy Core** | 9.2 quintillions RF (Tier 8) | Capacité insane | Très cher |
-| **Induction Matrix** | ~400 milliards RF (max) | Modulaire | Moins que Draconic |
-| **Flux Networks** | Transfert wireless | Pratique | Nécessite autre stockage |
-| **EnderIO Capacitor Banks** | Modéré | Facile à craft | Limité |
+| Solution                        | Capacité                     | Avantages                | Inconvénients              |
+|:--------------------------------|:-----------------------------|:-------------------------|:---------------------------|
+| 🐉 **Draconic Energy Core**     | 9.2 quintillions RF (Tier 8) | Capacité insane          | Très cher                  |
+| ⚗️ **Induction Matrix**         | ~400 milliards RF (max)      | Modulaire                | Moins que Draconic         |
+| ⚡ **Flux Networks**            | Transfert wireless           | Pratique                 | Nécessite autre stockage   |
+| 🔌 **EnderIO Capacitor Banks**  | Modéré                       | Facile à craft           | Limité                     |
 
-=== "Draconic Energy Core"
+=== "🐉 Draconic Energy Core"
 
-    | Tier | Capacité | Blocks requis |
-    |------|----------|---------------|
-    | 1 | 45.5M RF | 4 Draconium |
-    | 2 | 273M RF | 28 Draconium |
-    | 3 | 1.64B RF | 52 Drac + 32 Redstone |
-    | 4 | 9.8B RF | 76 Drac + 92 Redstone |
-    | 5 | 59B RF | 100 Drac + 176 Redstone |
-    | 6 | 355B RF | 124 Drac + 284 Redstone |
-    | 7 | 2.14T RF | 148 Drac + 416 Redstone |
-    | 8 | 9.2E RF | 172 Awakened + 572 Drac |
+    | Tier | Capacité   | Blocks requis                      |
+    |:----:|:-----------|:-----------------------------------|
+    | 1    | 45.5M RF   | 4 Draconium                        |
+    | 2    | 273M RF    | 28 Draconium                       |
+    | 3    | 1.64B RF   | 52 Drac + 32 Redstone              |
+    | 4    | 9.8B RF    | 76 Drac + 92 Redstone              |
+    | 5    | 59B RF     | 100 Drac + 176 Redstone            |
+    | 6    | 355B RF    | 124 Drac + 284 Redstone            |
+    | 7    | 2.14T RF   | 148 Drac + 416 Redstone            |
+    | 8    | 9.2E RF    | 172 Awakened + 572 Drac            |
 
-=== "Induction Matrix"
+=== "⚗️ Induction Matrix"
 
     ```
     Configuration recommandée:
@@ -458,15 +458,15 @@ Supremium Ingots: 24 au total
 
 ### Items "Créatifs" par Mod
 
-| Mod | Item | Effet | Difficulté |
-|-----|------|-------|------------|
-| **Draconic Evolution** | Creative Flux Capacitor | Énergie infinie | Extrême |
-| **Mekanism** | Creative Energy Cube | Énergie infinie | Extrême |
-| **ProjectE** | Red Matter Furnace/Tools | Production quasi-infinie | Haute |
-| **Avaritia** | Infinity Armor/Tools | Invincibilité totale | Insane |
-| **Extra Utilities 2** | Creative Drum | Fluides infinis | Très haute |
+| Mod                          | Item                       | Effet                        | Difficulté  |
+|:-----------------------------|:---------------------------|:-----------------------------|:-----------:|
+| 🐉 **Draconic Evolution**    | Creative Flux Capacitor    | Énergie infinie              | Extrême     |
+| ⚗️ **Mekanism**              | Creative Energy Cube       | Énergie infinie              | Extrême     |
+| 🔮 **ProjectE**              | Red Matter Furnace/Tools   | Production quasi-infinie     | Haute       |
+| ♾️ **Avaritia**              | Infinity Armor/Tools       | Invincibilité totale         | Insane      |
+| 🔧 **Extra Utilities 2**     | Creative Drum              | Fluides infinis              | Très haute  |
 
-=== "Avaritia (si présent)"
+=== "♾️ Avaritia (si présent)"
 
     ```
     Progression Avaritia:
@@ -484,7 +484,7 @@ Supremium Ingots: 24 au total
        └── Invincible, one-hit kill, flight
     ```
 
-=== "Draconic Creative Items"
+=== "🐉 Draconic Creative Items"
 
     Généralement non-craftables en survie, mais certains packs permettent:
 
@@ -503,12 +503,12 @@ Supremium Ingots: 24 au total
 
 === "Équipement minimum"
 
-    | Slot | Item recommandé | Pourquoi |
-    |------|-----------------|----------|
-    | Armure | Wyvern full set minimum | Bouclier + vol |
-    | Arme | Draconic Staff of Power | Dégâts + range |
-    | Baubles | Flight ring + Regen | Mobilité + survie |
-    | Potions | Strength II, Regen II | Boost combat |
+    | Slot     | Item recommandé               | Pourquoi              |
+    |:---------|:------------------------------|:----------------------|
+    | Armure   | Wyvern full set minimum       | Bouclier + vol        |
+    | Arme     | Draconic Staff of Power       | Dégâts + range        |
+    | Baubles  | Flight ring + Regen           | Mobilité + survie     |
+    | Potions  | Strength II, Regen II         | Boost combat          |
 
 === "Stratégie de combat"
 
@@ -533,11 +533,11 @@ Supremium Ingots: 24 au total
 
 === "Rewards"
 
-    | Drop | Quantité | Utilité |
-    |------|----------|---------|
-    | Chaos Shard | 1-4 | Craft armure Draconic |
-    | Dragon Heart | 1 | Craft Resurrection Stone |
-    | Massive XP | ~100 niveaux | Enchantements |
+    | Drop         | Quantité     | Utilité                      |
+    |:-------------|:------------:|:-----------------------------|
+    | Chaos Shard  | 1-4          | Craft armure Draconic        |
+    | Dragon Heart | 1            | Craft Resurrection Stone     |
+    | Massive XP   | ~100 niveaux | Enchantements                |
 
 ---
 
@@ -556,7 +556,7 @@ Supremium Ingots: 24 au total
 
 === "Farm setup"
 
-    Avec certains mods (Draconic Evolution), possibilité de farm automatiquement:
+    Avec certains mods (🐉 Draconic Evolution), possibilité de farm automatiquement:
 
     1. **Mob Grinder** positionné au spawn
     2. **Redstone Clock** pour respawn automatique
@@ -581,11 +581,11 @@ Supremium Ingots: 24 au total
 
 === "Farm automatique"
 
-    | Mod | Méthode | Output/heure |
-    |-----|---------|--------------|
-    | Industrial Foregoing | Wither Builder + Mob Crusher | 60+ |
-    | Draconic Evolution | Mob Grinder | 120+ |
-    | RFTools | Builder + Shield | 100+ |
+    | Mod                          | Méthode                      | Output/heure |
+    |:-----------------------------|:-----------------------------|:------------:|
+    | 🏭 Industrial Foregoing      | Wither Builder + Mob Crusher | 60+          |
+    | 🐉 Draconic Evolution        | Mob Grinder                  | 120+         |
+    | 📡 RFTools                   | Builder + Shield             | 100+         |
 
 === "Ressources nécessaires"
 
@@ -597,7 +597,7 @@ Supremium Ingots: 24 au total
     Farm de Skulls:
     ├── Wither Skeletons dans Nether Fortress
     ├── Looting III épée obligatoire
-    └── Ou Mystical Agriculture Wither Skeleton seeds
+    └── Ou 🌿 Mystical Agriculture Wither Skeleton seeds
     ```
 
 ---
@@ -609,13 +609,13 @@ Supremium Ingots: 24 au total
 
 ### Règles d'or
 
-| Pratique | Impact | Alternative |
-|----------|--------|-------------|
-| Chunk loading excessif | Très mauvais | Limiter à 9-25 chunks |
-| Machines non-utilisées ON | Mauvais | Redstone control |
-| Pipes/cables exposés | Moyen | Utiliser facades |
-| Entités en masse | Très mauvais | Kill switches |
-| Draconic Reactor | Potentiel désastre | Dimension séparée |
+| Pratique                   | Impact           | Alternative                  |
+|:---------------------------|:----------------:|:-----------------------------|
+| Chunk loading excessif     | Très mauvais     | Limiter à 9-25 chunks        |
+| Machines non-utilisées ON  | Mauvais          | Redstone control             |
+| Pipes/cables exposés       | Moyen            | Utiliser facades             |
+| Entités en masse           | Très mauvais     | Kill switches                |
+| Draconic Reactor           | Potentiel désastre | Dimension séparée          |
 
 ### Optimisations recommandées
 
@@ -670,25 +670,25 @@ Supremium Ingots: 24 au total
 
 ### Checklist End-Game
 
-- [ ] Toutes les armures tier max obtenues
-- [ ] EMC > 1 milliard
-- [ ] Chaos Guardian tué (solo)
-- [ ] Draconic Reactor stable 24h+
-- [ ] Toutes les quêtes complétées (si modpack avec quêtes)
-- [ ] Base 100% automatisée
-- [ ] Chaque mod majeur maîtrisé
+- Toutes les armures tier max obtenues
+- EMC > 1 milliard
+- Chaos Guardian tué (solo)
+- Draconic Reactor stable 24h+
+- Toutes les quêtes complétées (si modpack avec quêtes)
+- Base 100% automatisée
+- Chaque mod majeur maîtrisé
 
 ### Nouveaux défis
 
 === "Challenges personnels"
 
-    | Défi | Description |
-    |------|-------------|
-    | **Speedrun** | Refaire le pack en moins de temps |
-    | **Hardcore** | Tout refaire en Hardcore mode |
+    | Défi           | Description                           |
+    |:---------------|:--------------------------------------|
+    | **Speedrun**   | Refaire le pack en moins de temps     |
+    | **Hardcore**   | Tout refaire en Hardcore mode         |
     | **Minimalist** | Atteindre end-game avec base compacte |
-    | **One Block** | Tout faire dans un chunk |
-    | **Pacifist** | Éviter de tuer (autant que possible) |
+    | **One Block**  | Tout faire dans un chunk              |
+    | **Pacifist**   | Éviter de tuer (autant que possible)  |
 
 === "Contributions communautaires"
 
@@ -722,14 +722,14 @@ Supremium Ingots: 24 au total
 !!! success "Félicitations!"
     Si vous avez atteint ce stade, vous maîtrisez les aspects les plus avancés de Minecraft moddé. Voici un récap des priorités end-game:
 
-| Priorité | Objectif | Pourquoi |
-|----------|----------|----------|
-| 1 | Énergie stable infinie | Base de tout |
-| 2 | Armure Draconic/MekaSuit | Survie garantie |
-| 3 | EMC system | Ressources infinies |
-| 4 | Automation complète | Temps libre |
-| 5 | Boss kills | Achievements + drops |
-| 6 | Items créatifs | Flexibilité totale |
+| Priorité | Objectif               | Pourquoi            |
+|:--------:|:-----------------------|:--------------------|
+| 1        | Énergie stable infinie | Base de tout        |
+| 2        | Armure Draconic/MekaSuit | Survie garantie   |
+| 3        | EMC system             | Ressources infinies |
+| 4        | Automation complète    | Temps libre         |
+| 5        | Boss kills             | Achievements + drops|
+| 6        | Items créatifs         | Flexibilité totale  |
 
 !!! tip "Dernier conseil"
     Le vrai end-game de Minecraft, c'est de s'amuser. Si vous ne vous amusez plus, c'est peut-être le moment de faire une pause ou d'essayer quelque chose de nouveau. Le jeu sera toujours là quand vous reviendrez!
@@ -738,7 +738,7 @@ Supremium Ingots: 24 au total
 
 ## Voir aussi
 
-- [:octicons-arrow-right-24: Mid-Game Guide](mid-game.md) - Revenir aux fondations de l'automatisation
-- [:octicons-arrow-right-24: Préparation Boss](boss-prep.md) - Stratégies détaillées pour les boss fights
-- [:octicons-arrow-right-24: Progression Équipement](gear-progression.md) - Guide complet des armures et outils
-- [:octicons-arrow-right-24: Dimensions](dimensions.md) - Explorer les dimensions alternatives
+- [Mid-Game Guide](mid-game.md) - Revenir aux fondations de l'automatisation
+- [Préparation Boss](boss-prep.md) - Stratégies détaillées pour les boss fights
+- [Progression Équipement](gear-progression.md) - Guide complet des armures et outils
+- [Dimensions](dimensions.md) - Explorer les dimensions alternatives

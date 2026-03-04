@@ -25,10 +25,10 @@
 !!! tip "Conseil de Pro"
     Commencez simple avec un mod, maîtrisez-le, puis explorez les alternatives.
 
-=== "Thermal Dynamics"
+=== "🌡️ Thermal Dynamics"
 
     | Composant | Utilisation | Recette de base |
-    |-----------|-------------|-----------------|
+    |:----------|:------------|:----------------|
     | Itemduct | Transport d'items | Étain + Verre |
     | Servo | Extraction | Redstone + Fer |
     | Filter | Filtrage | Papier + Fer |
@@ -41,10 +41,10 @@
         A[Coffre Source] -->|Servo + Itemduct| B[Machine Cible]
     ```
 
-=== "Mekanism"
+=== "⚗️ Mekanism"
 
     | Composant | Utilisation | Avantage |
-    |-----------|-------------|----------|
+    |:----------|:------------|:---------|
     | Logistical Transporter | Transport universel | Très rapide |
     | Logistical Sorter | Tri intelligent | Auto-éjection |
     | Bin | Stockage en ligne | Grande capacité |
@@ -52,19 +52,19 @@
     !!! note "Vitesse"
         Les transporteurs Mekanism sont parmi les plus rapides du jeu.
 
-=== "Pretty Pipes"
+=== "🔧 Pretty Pipes"
 
     | Composant | Utilisation | Simplicité |
-    |-----------|-------------|------------|
+    |:----------|:------------|:-----------|
     | Pipe | Transport de base | Très simple |
     | Extraction Module | Extraction | Low/Mid/High tiers |
     | Filter Module | Filtrage | Tags supportés |
     | Crafting Module | Auto-craft basique | Sans contrôleur |
 
-=== "XNet"
+=== "🌐 XNet"
 
     | Composant | Utilisation | Puissance |
-    |-----------|-------------|-----------|
+    |:----------|:------------|:----------|
     | Controller | Cerveau du réseau | 8 canaux |
     | Connector | Connexion machines | Multi-type |
     | Cable | Liaison | Items/Fluides/Énergie |
@@ -76,12 +76,12 @@
 
 ### Systèmes d'Auto-Crafting
 
-=== "RFTools Crafter"
+=== "🔨 RFTools Crafter"
 
     **Tier 1 - Crafter1**
 
     | Caractéristique | Valeur |
-    |-----------------|--------|
+    |:----------------|:-------|
     | Recettes | 2 |
     | Vitesse | Lente |
     | Coût RF | Faible |
@@ -89,7 +89,7 @@
     **Tier 2 - Crafter2**
 
     | Caractéristique | Valeur |
-    |-----------------|--------|
+    |:----------------|:-------|
     | Recettes | 4 |
     | Vitesse | Moyenne |
     | Coût RF | Moyen |
@@ -97,22 +97,22 @@
     **Tier 3 - Crafter3**
 
     | Caractéristique | Valeur |
-    |-----------------|--------|
+    |:----------------|:-------|
     | Recettes | 8 |
     | Vitesse | Rapide |
     | Coût RF | Élevé |
 
-=== "Thermal Expansion"
+=== "🌡️ Thermal Expansion"
 
     | Machine | Fonction | Upgrades |
-    |---------|----------|----------|
+    |:--------|:---------|:---------|
     | Sequential Fabricator | Crafting automatique | Augments disponibles |
     | Redstone Furnace | Smelting auto | Speed/Energy augments |
 
-=== "Create"
+=== "⚙️ Create"
 
     | Composant | Fonction |
-    |-----------|----------|
+    |:----------|:---------|
     | Mechanical Crafter | Crafting rotatif |
     | Deployer | Utilisation d'items |
     | Spout | Remplissage fluides |
@@ -141,18 +141,18 @@ graph LR
 ### De Coffres vers ME/RS
 
 | Phase | Solution | Capacité | Complexité |
-|-------|----------|----------|------------|
+|:-----:|:---------|:---------|:-----------|
 | 1 | Coffres basiques | ~27 stacks/coffre | Très faible |
-| 2 | Iron Chests | ~108 stacks/coffre | Faible |
-| 3 | Storage Drawers | Illimité (upgrades) | Moyenne |
-| 4 | RS/ME System | Millions d'items | Élevée |
+| 2 | 📦 Iron Chests | ~108 stacks/coffre | Faible |
+| 3 | 🗄️ Storage Drawers | Illimité (upgrades) | Moyenne |
+| 4 | 💾 RS/ME System | Millions d'items | Élevée |
 
-=== "Applied Energistics 2 (ME)"
+=== "💠 Applied Energistics 2 (ME)"
 
     **Composants essentiels:**
 
     | Composant | Fonction | Priorité |
-    |-----------|----------|:--------:|
+    |:----------|:---------|:--------:|
     | ME Controller | Cerveau du réseau | :material-star: :material-star: :material-star: |
     | ME Drive | Stocke les cellules | :material-star: :material-star: :material-star: |
     | ME Terminal | Accès aux items | :material-star: :material-star: :material-star: |
@@ -166,18 +166,18 @@ graph LR
     **Cellules de stockage:**
 
     | Cellule | Capacité Types | Capacité Items |
-    |---------|----------------|----------------|
+    |:--------|:--------------:|:--------------:|
     | 1k | 63 types | 8,128 items |
     | 4k | 63 types | 32,512 items |
     | 16k | 63 types | 130,048 items |
     | 64k | 63 types | 520,192 items |
 
-=== "Refined Storage (RS)"
+=== "💿 Refined Storage (RS)"
 
     **Composants essentiels:**
 
     | Composant | Fonction | Priorité |
-    |-----------|----------|:--------:|
+    |:----------|:---------|:--------:|
     | Controller | Cerveau du réseau | :material-star: :material-star: :material-star: |
     | Disk Drive | Stocke les disques | :material-star: :material-star: :material-star: |
     | Grid | Accès aux items | :material-star: :material-star: :material-star: |
@@ -191,7 +191,7 @@ graph LR
     **Disques de stockage:**
 
     | Disque | Capacité |
-    |--------|----------|
+    |:-------|:--------:|
     | 1k | 1,000 items |
     | 4k | 4,000 items |
     | 16k | 16,000 items |
@@ -199,10 +199,10 @@ graph LR
 
 ---
 
-### Storage Drawers - Système de Tiroirs
+### 🗄️ Storage Drawers - Système de Tiroirs
 
 | Composant | Fonction |
-|-----------|----------|
+|:----------|:---------|
 | Drawer Controller | Connecte tous les tiroirs (rayon 12 blocs) |
 | Compacting Drawer | Conversion auto (lingot/bloc/nugget) |
 | Drawer Upgrades | Augmente capacité (x2 à x32) |
@@ -218,28 +218,28 @@ graph LR
 ### Progression des Générateurs
 
 | Phase | Générateur | Production | Combustible |
-|:-----:|------------|:----------:|-------------|
+|:-----:|:-----------|:----------:|:------------|
 | 1 | Stirling Generator | 40 RF/t | Charbon |
 | 2 | Culinary Generator | 60-200 RF/t | Nourriture |
 | 3 | Magmatic Dynamo | 80 RF/t | Lave |
 | 4 | Steam Dynamo | 80 RF/t | Vapeur |
-| 5 | Big Reactor | 1000+ RF/t | Yellorium |
-| 6 | Mekanism Fusion | 50k+ RF/t | D-T Fuel |
+| 5 | 🔋 Big Reactor | 1000+ RF/t | Yellorium |
+| 6 | ⚗️ Mekanism Fusion | 50k+ RF/t | D-T Fuel |
 
-=== "Thermal Series"
+=== "🌡️ Thermal Series"
 
     | Dynamo | Combustible | RF/t | Conseil |
-    |--------|-------------|:----:|---------|
+    |:-------|:------------|:----:|:--------|
     | Steam | Vapeur | 40-80 | Augments recommandés |
     | Magmatic | Lave | 40-80 | Pompage Nether |
     | Compression | Carburant | 40-80 | Tree oil efficace |
     | Numismatic | Monnaie | 40-80 | Emeralds farmables |
     | Lapidary | Gemmes | 40-80 | Lapis efficace |
 
-=== "Mekanism"
+=== "⚗️ Mekanism"
 
     | Générateur | Production | Note |
-    |------------|:----------:|------|
+    |:-----------|:----------:|:-----|
     | Heat Generator | 20 RF/t | Passif avec lave |
     | Gas-Burning Generator | Variable | Ethylène très efficace |
     | Bio Generator | 70 RF/t | Bio Fuel |
@@ -247,13 +247,13 @@ graph LR
     | Advanced Solar | 300 RF/t | Jour seulement |
     | Wind Generator | Variable | Y level dépendant |
 
-=== "Bigger Reactors"
+=== "☢️ Bigger Reactors"
 
     !!! info "Recommandation Mid-Game"
         Un petit réacteur 3x3x3 interne produit facilement **1000-3000 RF/t**.
 
     | Composant | Quantité Min |
-    |-----------|:------------:|
+    |:----------|:------------:|
     | Reactor Casing | ~25 |
     | Reactor Controller | 1 |
     | Fuel Rod | 1+ |
@@ -281,15 +281,15 @@ flowchart TB
 ```
 
 | Câble/Conduit | Capacité | Mod |
-|---------------|:--------:|-----|
-| Leadstone | 1,000 RF/t | Thermal |
-| Hardened | 4,000 RF/t | Thermal |
-| Signalum | 16,000 RF/t | Thermal |
-| Resonant | 64,000 RF/t | Thermal |
-| Basic Cable | 8,000 RF/t | Mekanism |
-| Advanced Cable | 128,000 RF/t | Mekanism |
-| Elite Cable | 512,000 RF/t | Mekanism |
-| Ultimate Cable | 2,048,000 RF/t | Mekanism |
+|:--------------|:--------:|:----|
+| Leadstone | 1,000 RF/t | 🌡️ Thermal |
+| Hardened | 4,000 RF/t | 🌡️ Thermal |
+| Signalum | 16,000 RF/t | 🌡️ Thermal |
+| Resonant | 64,000 RF/t | 🌡️ Thermal |
+| Basic Cable | 8,000 RF/t | ⚗️ Mekanism |
+| Advanced Cable | 128,000 RF/t | ⚗️ Mekanism |
+| Elite Cable | 512,000 RF/t | ⚗️ Mekanism |
+| Ultimate Cable | 2,048,000 RF/t | ⚗️ Mekanism |
 
 ---
 
@@ -298,17 +298,17 @@ flowchart TB
 ### Tableau Comparatif des Multiplicateurs
 
 | Niveau | Multiplicateur | Méthode | Mod |
-|:------:|:--------------:|---------|-----|
-| 1 | 1x | Four vanilla | Vanilla |
-| 2 | 2x | Pulverizer → Smelt | Thermal |
-| 3 | 3x | SAG Mill (billes) → Smelt | EnderIO |
-| 4 | 3x | Enrichment → Smelt | Mekanism |
-| 5 | 4x | Purification → Enrichment → Smelt | Mekanism |
-| 6 | 5x | Chaîne complète | Mekanism |
+|:------:|:--------------:|:--------|:----|
+| 1 | 1x | Four vanilla | 🎮 Vanilla |
+| 2 | 2x | Pulverizer puis Smelt | 🌡️ Thermal |
+| 3 | 3x | SAG Mill (billes) puis Smelt | 🔌 EnderIO |
+| 4 | 3x | Enrichment puis Smelt | ⚗️ Mekanism |
+| 5 | 4x | Purification puis Enrichment puis Smelt | ⚗️ Mekanism |
+| 6 | 5x | Chaîne complète | ⚗️ Mekanism |
 
 ---
 
-### Mekanism 5x Processing
+### ⚗️ Mekanism 5x Processing
 
 !!! warning "Complexité"
     Le processing 5x de Mekanism nécessite une infrastructure conséquente. Commencez par le 3x!
@@ -316,29 +316,29 @@ flowchart TB
 === "Tier 1: 3x (Recommandé)"
 
     | Machine | Fonction |
-    |---------|----------|
-    | Enrichment Chamber | Minerai → 2x Enriched Ore |
-    | Energized Smelter | Enriched → Lingot |
+    |:--------|:---------|
+    | Enrichment Chamber | Minerai devient 2x Enriched Ore |
+    | Energized Smelter | Enriched devient Lingot |
 
     **Résultat: 1 minerai = 3 lingots**
 
 === "Tier 2: 4x"
 
     | Machine | Fonction | Gaz requis |
-    |---------|----------|------------|
-    | Purification Chamber | Minerai → 3x Clump | Oxygen |
-    | Crusher | Clump → Dirty Dust | - |
-    | Enrichment Chamber | Dirty → Clean Dust | - |
-    | Energized Smelter | Dust → Lingot | - |
+    |:--------|:---------|:-----------|
+    | Purification Chamber | Minerai devient 3x Clump | Oxygen |
+    | Crusher | Clump devient Dirty Dust | - |
+    | Enrichment Chamber | Dirty devient Clean Dust | - |
+    | Energized Smelter | Dust devient Lingot | - |
 
     **Production d'Oxygen:**
 
-    - Electrolytic Separator (eau → H + O)
+    - Electrolytic Separator (eau devient H + O)
 
 === "Tier 3: 5x"
 
     | Étape | Machine | Input | Output | Gaz |
-    |:-----:|---------|-------|--------|-----|
+    |:-----:|:--------|:------|:-------|:----|
     | 1 | Dissolution Chamber | Minerai | Slurry | Sulfuric Acid |
     | 2 | Chemical Washer | Slurry | Clean Slurry | Water |
     | 3 | Chemical Crystallizer | Clean Slurry | Crystal | - |
@@ -351,8 +351,8 @@ flowchart TB
     **Infrastructure gaz requise:**
 
     | Gaz | Production |
-    |-----|------------|
-    | Sulfuric Acid | Chemical Oxidizer (Sulfur) → Chemical Infuser |
+    |:----|:-----------|
+    | Sulfuric Acid | Chemical Oxidizer (Sulfur) puis Chemical Infuser |
     | Hydrogen Chloride | Chemical Infuser (H + Cl) |
     | Oxygen | Electrolytic Separator |
     | Chlorine | Electrolytic Separator (Brine) |
@@ -363,10 +363,10 @@ flowchart TB
 
 ### Extraction Automatique
 
-=== "Quarry (BuildCraft/RFTools)"
+=== "⛏️ Quarry (BuildCraft/RFTools)"
 
-    | Caractéristique | RFTools Builder | BuildCraft Quarry |
-    |-----------------|:---------------:|:-----------------:|
+    | Caractéristique | 🔨 RFTools Builder | 🏗️ BuildCraft Quarry |
+    |:----------------|:------------------:|:---------------------:|
     | Taille max | 512x512 | 64x64 |
     | Énergie | Variable | ~40 RF/t |
     | Filtrage | Oui (Shape Card) | Non |
@@ -376,10 +376,10 @@ flowchart TB
     !!! tip "RFTools Builder"
         Utilisez la **Quarry Card** avec le mode "Void" pour les cobblestone/dirt.
 
-=== "Digital Miner (Mekanism)"
+=== "⚗️ Digital Miner (Mekanism)"
 
     | Avantage | Description |
-    |----------|-------------|
+    |:---------|:------------|
     | Filtrage | Cible des minerais spécifiques |
     | Silk Touch | Mode disponible |
     | Remplacement | Peut remplacer par de la pierre |
@@ -388,25 +388,25 @@ flowchart TB
     **Configuration recommandée:**
 
     | Filtre | Tag/Item |
-    |--------|----------|
+    |:-------|:---------|
     | Tag | `forge:ores` |
     | Exclusion | Stone, Deepslate, Netherrack |
 
     !!! success "Combo Efficace"
         Silk Touch + Processing 5x = Maximum de ressources!
 
-=== "Void Miners"
+=== "🌌 Void Miners"
 
     | Mod | Machine | Prérequis |
-    |-----|---------|-----------|
-    | Environmental Tech | Void Miner | Multibloc + Cristaux |
-    | Industrial Foregoing | Laser Drill | Lens colorées |
-    | Mekanism | Digital Miner (Deep) | Y négatif |
+    |:----|:--------|:----------|
+    | 🌿 Environmental Tech | Void Miner | Multibloc + Cristaux |
+    | 🏭 Industrial Foregoing | Laser Drill | Lens colorées |
+    | ⚗️ Mekanism | Digital Miner (Deep) | Y négatif |
 
-    **Industrial Foregoing Laser Drill:**
+    **🏭 Industrial Foregoing Laser Drill:**
 
     | Couleur Lens | Cible Principale |
-    |--------------|------------------|
+    |:-------------|:-----------------|
     | White | Charbon, Fer |
     | Orange | Cuivre, Or |
     | Magenta | Redstone, Lapis |
@@ -420,20 +420,20 @@ flowchart TB
 
 ## Progression Magique Mid-Game
 
-=== "Botania"
+=== "🌸 Botania"
 
     | Objectif | Composant | Priorité |
-    |----------|-----------|:--------:|
+    |:---------|:----------|:--------:|
     | Génération Mana stable | Endoflames / Kekimurus | :material-star: :material-star: :material-star: |
     | Mana Spreader optimisé | Elven Spreader | :material-star: :material-star: |
     | Alfheim Portal | Terra Steel | :material-star: :material-star: |
     | Terrasteel | Crafting avancé | :material-star: :material-star: |
     | Corporea | Système de stockage | :material-star: |
 
-=== "Blood Magic"
+=== "🩸 Blood Magic"
 
     | Objectif | Tier | LP requis |
-    |----------|:----:|:---------:|
+    |:---------|:----:|:---------:|
     | Tier 3 Altar | 3 | 5,000 |
     | Bound Tools | 3 | Variable |
     | Rituals basiques | 3 | Variable |
@@ -443,20 +443,20 @@ flowchart TB
     !!! tip "Well of Suffering"
         Ce rituel génère du LP automatiquement avec des mobs. Utilisez un cursed earth pour spawn!
 
-=== "Ars Nouveau"
+=== "✨ Ars Nouveau"
 
     | Objectif | Focus |
-    |----------|-------|
+    |:---------|:------|
     | Spell Turret | Automation sorts |
     | Source Generator | Génération auto source |
     | Enchanting Apparatus | Enchantements custom |
     | Wixie | Auto-crafting magique |
     | Starby | Collecte automatique |
 
-=== "Astral Sorcery"
+=== "🌟 Astral Sorcery"
 
     | Objectif | Structure | Note |
-    |----------|-----------|------|
+    |:---------|:----------|:-----|
     | Attunement Altar | 5x5 multibloc | Alignement constellation |
     | Ritual Pedestal | Cristal parfait | Buffs de zone |
     | Celestial Gateway | Téléportation | Network de portails |
@@ -469,42 +469,42 @@ flowchart TB
 
 ### Automatisation
 
-- [ ] Système de transport d'items fonctionnel
-- [ ] Auto-smelting connecté au stockage
-- [ ] Au moins 3 machines en auto-craft
-- [ ] Chaîne de processing minerai automatisée
+- Système de transport d'items fonctionnel
+- Auto-smelting connecté au stockage
+- Au moins 3 machines en auto-craft
+- Chaîne de processing minerai automatisée
 
 ### Stockage
 
-- [ ] Système ME ou RS fonctionnel
-- [ ] Minimum 4 cellules/disques 16k ou plus
-- [ ] Terminal de crafting accessible
-- [ ] Import automatique des ressources
+- Système ME ou RS fonctionnel
+- Minimum 4 cellules/disques 16k ou plus
+- Terminal de crafting accessible
+- Import automatique des ressources
 
 ### Énergie
 
-- [ ] Production stable 1000+ RF/t
-- [ ] Buffer énergétique (1M RF minimum)
-- [ ] Réseau de distribution câblé
-- [ ] Backup generator (au cas où)
+- Production stable 1000+ RF/t
+- Buffer énergétique (1M RF minimum)
+- Réseau de distribution câblé
+- Backup generator (au cas où)
 
 ### Extraction
 
-- [ ] Une méthode d'extraction automatique active
-- [ ] Filtrage/tri des déchets
-- [ ] Silk Touch disponible pour certains minerais
+- Une méthode d'extraction automatique active
+- Filtrage/tri des déchets
+- Silk Touch disponible pour certains minerais
 
 ### Ore Processing
 
-- [ ] Minimum 3x sur tous les minerais
-- [ ] Infrastructure gaz basique (Mekanism)
-- [ ] Système automatisé bout en bout
+- Minimum 3x sur tous les minerais
+- Infrastructure gaz basique (Mekanism)
+- Système automatisé bout en bout
 
 ### Magie (Optionnel)
 
-- [ ] Au moins un mod magique Tier 2+
-- [ ] Source de mana/LP/source stable
-- [ ] Un outil magique principal
+- Au moins un mod magique Tier 2+
+- Source de mana/LP/source stable
+- Un outil magique principal
 
 ---
 
@@ -521,12 +521,12 @@ flowchart TB
     5. **Mobilité** : Méthode de TP ou vol
 
 | Prochaine Étape | Description |
-|-----------------|-------------|
-| Bigger Reactors | Réacteur optimisé haute production |
-| ME/RS Auto-crafting | Patterns pour tout crafter |
-| Dimension Mining | Mining dans d'autres dimensions |
-| Boss Fights | Préparation combats end-game |
-| Creative Items | Objectifs ultimes des mods |
+|:----------------|:------------|
+| ☢️ Bigger Reactors | Réacteur optimisé haute production |
+| 💾 ME/RS Auto-crafting | Patterns pour tout crafter |
+| 🌌 Dimension Mining | Mining dans d'autres dimensions |
+| ⚔️ Boss Fights | Préparation combats end-game |
+| 🎨 Creative Items | Objectifs ultimes des mods |
 
 ---
 
@@ -537,7 +537,7 @@ flowchart TB
 
 ## Voir aussi
 
-- [:octicons-arrow-right-24: Early Game Guide](early-game.md) - Revenir aux bases et optimiser le début de partie
-- [:octicons-arrow-right-24: Late Game Guide](late-game.md) - Préparer la transition vers l'end-game
+- [:octicons-arrow-right-24: Guide Early Game](early-game.md) - Revenir aux bases et optimiser le début de partie
+- [:octicons-arrow-right-24: Guide Late Game](late-game.md) - Préparer la transition vers l'end-game
 - [:octicons-arrow-right-24: Automation](automation.md) - Approfondir les techniques d'automatisation
 - [:octicons-arrow-right-24: Énergie](energie.md) - Systèmes de production et distribution d'énergie

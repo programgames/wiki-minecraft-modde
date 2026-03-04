@@ -1,133 +1,133 @@
 # Guide Early Game
 
 !!! success "Checklist Rapide - Premiers Jours"
-    - [ ] Fabriquer une pioche Tinker ou Silent Gear
-    - [ ] Configurer FTB Ultimine / Ore Excavation / VeinMiner
-    - [ ] Obtenir un sac d'inventaire (Backpack, Tool Belt)
-    - [ ] Crafter un Sleeping Bag
-    - [ ] Placer un premier Waystone
-    - [ ] Trouver un magnet pour les drops
+    - Fabriquer une pioche :hammer_and_wrench: Tinker's ou Silent Gear
+    - Configurer FTB Ultimine / Ore Excavation / VeinMiner
+    - Obtenir un sac d'inventaire (Backpack, Tool Belt)
+    - Crafter un Sleeping Bag
+    - Placer un premier Waystone
+    - Trouver un magnet pour les drops
 
 !!! tip "Principe Fondamental"
-    Utiliser de l'automatisation simple plutôt que rush des gros setups. L'efficacité vient de la simplicite en early game !
+    Utiliser de l'automatisation simple plutôt que rush des gros setups. L'efficacité vient de la simplicité en early game !
 
 ---
 
-## Priorites RUSH
+## Priorités RUSH
 
 === "Outils"
 
-    | Item | Mod | Priorite | Description |
-    |------|-----|----------|-------------|
-    | Pioche Tinker / Silent Gear | @Tinker / @SilentGear | :zap: RUSH | Outils custom evolutifs |
-    | FTB Ultimine | @FTB | :zap: RUSH | Miner plusieurs blocs a la fois |
-    | Ore Excavation / VeinMiner | - | :zap: RUSH | Alternative a Ultimine |
-    | Sledgehammer | @Tinker | :zap: RUSH | Miner rapidement sand, cobble... |
-    | Pulverizer | @Thermal | :star: | Doublage de minerais |
+    | Item                         | Mod                                        | Priorité   | Description                      |
+    |------------------------------|--------------------------------------------|------------|----------------------------------|
+    | Pioche Tinker / Silent Gear  | :hammer_and_wrench: Tinker's / Silent Gear | :zap: RUSH | Outils custom évolutifs          |
+    | FTB Ultimine                 | FTB                                        | :zap: RUSH | Miner plusieurs blocs à la fois  |
+    | Ore Excavation / VeinMiner   | -                                          | :zap: RUSH | Alternative à Ultimine           |
+    | Sledgehammer                 | :hammer_and_wrench: Tinker's               | :zap: RUSH | Miner rapidement sand, cobble... |
+    | Pulverizer                   | :fire: Thermal                             | :star:     | Doublage de minerais             |
 
     !!! example "Astuce Doublage"
-        Regarder les options de doublage de minerais : Pulverizer @Thermal, Enrichment Chamber @Mekanism, etc.
+        Regarder les options de doublage de minerais : Pulverizer :fire: Thermal, Enrichment Chamber :gear: Mekanism, etc.
 
 === "Inventaire"
 
-    | Item | Mod | Priorite | Description |
-    |------|-----|----------|-------------|
-    | Tool Belt / Backpack / Bag | - | :zap: RUSH | Transporter plus d'items |
-    | Search in nearby inventory | - | :zap: RUSH | Recherche rapide dans coffres proches |
-    | Portable Crafting | @CraftingOnAStick | :zap: RUSH | Craft n'importe ou + raccourcis |
-    | Magnet | - | :zap: RUSH | Ramasser automatiquement les drops |
-    | Ender Bag | @EnderUtilities | :zap: RUSH | Acces distant a l'inventaire |
-    | Cyclic inventory upgrade | @Cyclic | :zap: RUSH | Plus de slots d'inventaire |
-    | Clay Bucket | @Ceramics | :star: | Transporter liquides sans fer |
+    | Item                       | Mod                     | Priorité   | Description                       |
+    |----------------------------|-------------------------|------------|-----------------------------------|
+    | Tool Belt / Backpack / Bag | -                       | :zap: RUSH | Transporter plus d'items          |
+    | Search in nearby inventory | -                       | :zap: RUSH | Recherche rapide dans coffres     |
+    | Portable Crafting          | Crafting On A Stick     | :zap: RUSH | Craft n'importe où + raccourcis   |
+    | Magnet                     | -                       | :zap: RUSH | Ramasser automatiquement les drops|
+    | Ender Bag                  | Ender Utilities         | :zap: RUSH | Accès distant à l'inventaire      |
+    | Cyclic inventory upgrade   | :package: Cyclic        | :zap: RUSH | Plus de slots d'inventaire        |
+    | Clay Bucket                | Ceramics                | :star:     | Transporter liquides sans fer     |
 
     !!! tip "Recherche JEI"
         Chercher `bag` dans JEI pour voir toutes les options de sacs disponibles dans le modpack.
 
-=== "Deplacement"
+=== "Déplacement"
 
-    | Item | Mod | Priorite | Description |
-    |------|-----|----------|-------------|
-    | Travelers Boots | @Tinker | :zap: RUSH | Bottes de vitesse |
-    | Glider | - | :zap: RUSH | Planer dans les airs |
-    | Speed Boots | - | :zap: RUSH | Bonus de vitesse |
-    | Sleeping Bag | - | :zap: RUSH | Dormir sans spawn point |
-    | Waystone | @Waystones | :zap: RUSH | Teleportation entre waypoints |
-    | Explorer Compass | - | :zap: RUSH | Trouver structures |
-    | Nature's Compass | - | :zap: RUSH | Trouver biomes |
-    | Ender Book | @Cyclic | :zap: RUSH | Teleportation sauvegardee |
-    | Jetpack | @IronJetpacks / @Mekanism / @SimplyJetpacks | :star: | Vol (verifier le prix) |
+    | Item              | Mod                                                            | Priorité   | Description                   |
+    |-------------------|----------------------------------------------------------------|------------|-------------------------------|
+    | Travelers Boots   | :hammer_and_wrench: Tinker's                                   | :zap: RUSH | Bottes de vitesse             |
+    | Glider            | -                                                              | :zap: RUSH | Planer dans les airs          |
+    | Speed Boots       | -                                                              | :zap: RUSH | Bonus de vitesse              |
+    | Sleeping Bag      | -                                                              | :zap: RUSH | Dormir sans spawn point       |
+    | Waystone          | Waystones                                                      | :zap: RUSH | Téléportation entre waypoints |
+    | Explorer Compass  | -                                                              | :zap: RUSH | Trouver structures            |
+    | Nature's Compass  | -                                                              | :zap: RUSH | Trouver biomes                |
+    | Ender Book        | :package: Cyclic                                               | :zap: RUSH | Téléportation sauvegardée     |
+    | Jetpack           | Iron Jetpacks / :gear: Mekanism / Simply Jetpacks              | :star:     | Vol (vérifier le prix)        |
 
-=== "Eclairage"
+=== "Éclairage"
 
-    | Item | Mod | Priorite | Description |
-    |------|-----|----------|-------------|
-    | Torch Launcher | - | :zap: RUSH | Lancer des torches a distance |
-    | Mega Torch | - | :star: | Grande zone sans spawn de mobs |
-    | Torches sans bois | - | :star: | Economiser le bois |
+    | Item            | Mod | Priorité   | Description                    |
+    |-----------------|-----|------------|--------------------------------|
+    | Torch Launcher  | -   | :zap: RUSH | Lancer des torches à distance  |
+    | Mega Torch      | -   | :star:     | Grande zone sans spawn de mobs |
+    | Torches sans bois | - | :star:     | Économiser le bois             |
 
     !!! tip "Off-hand"
         Utiliser l'off-hand pour placer des torches en minant - garde la main principale libre pour la pioche !
 
-=== "Energie"
+=== "Énergie"
 
-    | Item | Mod | Priorite | Description |
-    |------|-----|----------|-------------|
-    | Batteries | - | :zap: RUSH | Stockage d'energie portable |
-    | Tiny Charcoal | - | :star: | Combustible economique |
-    | Bucket Mode | @Mekanism | :star: | Generation d'energie facile |
+    | Item          | Mod              | Priorité   | Description                   |
+    |---------------|------------------|------------|-------------------------------|
+    | Batteries     | -                | :zap: RUSH | Stockage d'énergie portable   |
+    | Tiny Charcoal | -                | :star:     | Combustible économique        |
+    | Bucket Mode   | :gear: Mekanism  | :star:     | Génération d'énergie facile   |
 
-    !!! warning "Priorite Batteries"
+    !!! warning "Priorité Batteries"
         Faire des batteries le plus vite possible pour alimenter vos machines !
 
 === "Production"
 
-    | Item | Mod | Priorite | Description |
-    |------|-----|----------|-------------|
-    | Mechanical Saw + Hand Crank | @Create | :zap: RUSH | Bois facile en early |
-    | Botany Pots | - | :star: | Farming passif (verifier prix) |
-    | Iron Furnaces | @IronFurnaces | :star: | Fours ameliores |
-    | Wooden Hopper | - | :star: | Hopper economique |
+    | Item                       | Mod                    | Priorité   | Description                    |
+    |----------------------------|------------------------|------------|--------------------------------|
+    | Mechanical Saw + Hand Crank| :wrench: Create        | :zap: RUSH | Bois facile en early           |
+    | Botany Pots                | -                      | :star:     | Farming passif (vérifier prix) |
+    | Iron Furnaces              | Iron Furnaces          | :star:     | Fours améliorés                |
+    | Wooden Hopper              | -                      | :star:     | Hopper économique              |
 
 === "Buffs"
 
-    | Item | Type | Priorite | Description |
-    |------|------|----------|-------------|
-    | Ring / Amulet / Glove | Accessoire | :star: | Bonus passifs |
-    | Anklet / Charm | Accessoire | :star: | Bonus passifs |
-    | Glyph of Leap | Enchantement | :star: | Saut ameliore |
-    | Feet Affix | @Apotheosis | :star: | Bonus de bottes |
+    | Item                  | Type         | Priorité | Description         |
+    |-----------------------|--------------|----------|---------------------|
+    | Ring / Amulet / Glove | Accessoire   | :star:   | Bonus passifs       |
+    | Anklet / Charm        | Accessoire   | :star:   | Bonus passifs       |
+    | Glyph of Leap         | Enchantement | :star:   | Saut amélioré       |
+    | Feet Affix            | Apotheosis   | :star:   | Bonus de bottes     |
 
     !!! tip "Recherche JEI"
         Rechercher : `ring`, `amulet`, `glove`, `hand`, `anklet`, `charm` dans JEI pour trouver tous les accessoires.
 
 ---
 
-## Fermes a Mobs
+## Fermes à Mobs
 
 === "Items Prioritaires"
 
-    | Item | Mod | Priorite | Description |
-    |------|-----|----------|-------------|
-    | Water Candle | @Cyclic | :zap: RUSH | Augmente le spawn rate |
-    | Monolith of Spawning | @EnderUtilities | :zap: RUSH | Zone de spawn amelioree |
-    | Leads | Vanilla | :star: | Deplacer les mobs |
-    | Safari Net / Lasso | - | :star: | Capturer les mobs |
-    | Mob Imprisonment Tool | @IndustrialForegoing | :star: | Capturer les mobs |
+    | Item                  | Mod                          | Priorité   | Description               |
+    |-----------------------|------------------------------|------------|---------------------------|
+    | Water Candle          | :package: Cyclic             | :zap: RUSH | Augmente le spawn rate    |
+    | Monolith of Spawning  | Ender Utilities              | :zap: RUSH | Zone de spawn améliorée   |
+    | Leads                 | Vanilla                      | :star:     | Déplacer les mobs         |
+    | Safari Net / Lasso    | -                            | :star:     | Capturer les mobs         |
+    | Mob Imprisonment Tool | :factory: Industrial Foregoing| :star:    | Capturer les mobs         |
 
 === "Industrial Foregoing"
 
     !!! info "Machines Essentielles"
         - **Mob Crusher** - Tue les mobs automatiquement
-        - **Mob Duplicator** - Duplique les mobs captures
-        - **Sewage Composter** - Recycle les dechets
-        - **Baby Separator** - Separe bebes et adultes
+        - **Mob Duplicator** - Duplique les mobs capturés
+        - **Sewage Composter** - Recycle les déchets
+        - **Baby Separator** - Sépare bébés et adultes
 
 === "Cyclic"
 
-    !!! info "Machines Essentielles"
-        - **Harvester** - Recolte automatique
+    !!! info "Machines Essentielles :package: Cyclic"
+        - **Harvester** - Récolte automatique
         - **Breeder** - Reproduction automatique
-        - **Transporter** - Deplace les entites
+        - **Transporter** - Déplace les entités
 
     !!! tip "Shearing Automatique"
         Chercher `shear` dans JEI pour les options de shearing automatique.
@@ -138,35 +138,35 @@
 
 === "Croissance des Plantes"
 
-    | Item | Mod | Priorite | Description |
-    |------|-----|----------|-------------|
-    | Sprinkler | @Cyclic | :zap: RUSH | Accelere croissance + hydrate |
-    | Multi Hoe | - | :star: | Labourer plusieurs blocs |
-    | Crop Support | @PneumaticCraft | :star: | Support de culture |
-    | Phyto-Gro | @Thermal | :star: | Fertilisant puissant |
-    | Garden Cloche | @ImmersiveEngineering | :star: | Farming automatique |
-    | Growth Accelerators | - | :star: | Accelere croissance |
-    | Terra Preta | @Cyclic | :star: | Sol fertile |
-    | Growth Crystal Tier 3 | @TinyProgression | :star: | Acceleration de zone |
+    | Item                  | Mod                          | Priorité   | Description              |
+    |-----------------------|------------------------------|------------|--------------------------|
+    | Sprinkler             | :package: Cyclic             | :zap: RUSH | Accélère croissance + hydrate |
+    | Multi Hoe             | -                            | :star:     | Labourer plusieurs blocs |
+    | Crop Support          | :lung: PneumaticCraft        | :star:     | Support de culture       |
+    | Phyto-Gro             | :fire: Thermal               | :star:     | Fertilisant puissant     |
+    | Garden Cloche         | :construction: Immersive Engineering | :star: | Farming automatique    |
+    | Growth Accelerators   | -                            | :star:     | Accélère croissance      |
+    | Terra Preta           | :package: Cyclic             | :star:     | Sol fertile              |
+    | Growth Crystal Tier 3 | Tiny Progression             | :star:     | Accélération de zone     |
     | [Hydrogel](https://www.curseforge.com/minecraft/mc-mods/hydrogel) | - | :star: | Hydratation automatique |
-    | SNAD | - | :star: | Sable accelerateur |
+    | SNAD                  | -                            | :star:     | Sable accélérateur       |
 
     !!! tip "Recherche JEI"
-        Chercher `#crop` dans JEI pour trouver tous les accelerateurs de croissance disponibles.
+        Chercher `#crop` dans JEI pour trouver tous les accélérateurs de croissance disponibles.
 
 === "Production de Ressources"
 
-    | Item | Mod | Description |
-    |------|-----|-------------|
-    | Chicken Nest | - | Production d'oeufs automatique |
-    | Cow in a Jar | - | Lait infini |
-    | Cobblestone Generator | - | Pierre infinie |
-    | Pump / Water Source Block | - | Eau infinie |
-    | Aqueous Accumulator | @Thermal | Source d'eau automatique |
-    | Controller Miner | @Cyclic | Mining automatique |
-    | Digital Miner | @Mekanism | Mining cible par minerai |
-    | Void Miner | @EnvironmentalTech | Mining dimension vide |
-    | Sourcery | @ArsNouveau / @Occultism | Magie pour ressources |
+    | Item                        | Mod                              | Description                   |
+    |-----------------------------|----------------------------------|-------------------------------|
+    | Chicken Nest                | -                                | Production d'oeufs automatique|
+    | Cow in a Jar                | -                                | Lait infini                   |
+    | Cobblestone Generator       | -                                | Pierre infinie                |
+    | Pump / Water Source Block   | -                                | Eau infinie                   |
+    | Aqueous Accumulator         | :fire: Thermal                   | Source d'eau automatique      |
+    | Controller Miner            | :package: Cyclic                 | Mining automatique            |
+    | Digital Miner               | :gear: Mekanism                  | Mining ciblé par minerai      |
+    | Void Miner                  | Environmental Tech               | Mining dimension vide         |
+    | Sourcery                    | :sparkles: Ars Nouveau / Occultism | Magie pour ressources       |
 
 === "JEI Tips"
 
@@ -183,38 +183,38 @@
 
 === "Mods de Farming"
 
-    !!! info "Mods Recommandes"
-        | Mod | Lien | Description |
-        |-----|------|-------------|
-        | Caupona | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/caupona) | Cuisine romaine |
-        | Farmer's Delight | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/farmers-delight) | Farming + cuisine (+ addons) |
-        | Farming for Blockheads | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/farming-for-blockheads) | Marche fermier |
-        | Cooking for Blockheads | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/cooking-for-blockheads) | Cuisine automatisee |
-        | Croptopia | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/croptopia) | Nouvelles cultures |
+    !!! info "Mods Recommandés"
+        | Mod                    | Lien                                                                          | Description               |
+        |------------------------|-------------------------------------------------------------------------------|---------------------------|
+        | Caupona                | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/caupona)            | Cuisine romaine           |
+        | Farmer's Delight       | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/farmers-delight)    | Farming + cuisine (+ addons) |
+        | Farming for Blockheads | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/farming-for-blockheads) | Marché fermier        |
+        | Cooking for Blockheads | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/cooking-for-blockheads) | Cuisine automatisée   |
+        | Croptopia              | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/croptopia)          | Nouvelles cultures        |
 
     !!! info "Autres Options"
         - **Bonsai Tree** - Arbres miniatures
         - **Botany Pots / Hopper Pots** - Pots de culture automatiques
         - **Market** - Achat de graines
-        - **@AnimalCrops** - Cultures d'animaux
-        - **Fishers** - Peche automatique
+        - **Animal Crops** - Cultures d'animaux
+        - **Fishers** - Pêche automatique
         - **Composter** - Compostage automatique
 
 === "Industrial Foregoing"
 
-    !!! success "Setup Farming Complet"
-        | Machine | Fonction |
-        |---------|----------|
-        | Plant Fertilizer | Fertilise automatiquement |
-        | Sower | Plante automatiquement |
-        | Gatherer | Recolte automatiquement |
-        | Spore Recreator | Reproduction de champignons |
-        | Village Trade Exchanger | Commerce avec villageois |
+    !!! success "Setup Farming Complet :factory: Industrial Foregoing"
+        | Machine                  | Fonction                     |
+        |--------------------------|------------------------------|
+        | Plant Fertilizer         | Fertilise automatiquement    |
+        | Sower                    | Plante automatiquement       |
+        | Gatherer                 | Récolte automatiquement      |
+        | Spore Recreator          | Reproduction de champignons  |
+        | Village Trade Exchanger  | Commerce avec villageois     |
 
 === "Cyclic Extras"
 
     !!! tip "Glutony Charm"
-        Le **Glutony Charm** de @EnderUtilities permet de manger automatiquement quand la faim baisse !
+        Le **Glutony Charm** de Ender Utilities permet de manger automatiquement quand la faim baisse !
 
 ---
 

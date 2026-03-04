@@ -1,611 +1,783 @@
-# Guide des 25 Premières Heures
+# Guide des 25 Premieres Heures
 
 !!! abstract "Vue d'ensemble"
-    Ce guide vous accompagne dans vos **25 premières heures** de jeu sur n'importe quel modpack Minecraft.
-    Suivez cette progression structurée pour établir une base solide et découvrir les mécaniques essentielles.
+    Ce guide vous accompagne dans vos **25 premieres heures** de jeu sur n'importe quel modpack Minecraft.
+    Suivez cette progression structuree pour etablir une base solide et decouvrir les mecaniques essentielles.
 
 ---
 
-## Aperçu de la Progression
+## Apercu de la Progression
 
 ```mermaid
 timeline
-    title Progression des 25 premières heures
+    title Progression des 25 premieres heures
     Heures 1-5 : Survie de base : Abri, nourriture, outils
-    Heures 5-10 : Premiers mods : Outils moddés, énergie basique
+    Heures 5-10 : Premiers mods : Outils moddes, energie basique
     Heures 10-15 : Automation : Pipes, fermes automatiques
-    Heures 15-20 : Expansion : Énergie avancée, dimensions
-    Heures 20-25 : Consolidation : Système ME/RS, auto-crafting
+    Heures 15-20 : Expansion : Energie avancee, dimensions
+    Heures 20-25 : Consolidation : Systeme ME/RS, auto-crafting
 ```
 
-| Phase | Heures | Focus Principal | Difficulté |
-|-------|--------|-----------------|------------|
-| :material-shield-home: Survie | 1-5 | Établir une base sécurisée | :star: |
-| :material-wrench: Premiers Mods | 5-10 | Découvrir les outils moddés | :star::star: |
-| :material-cog: Automation | 10-15 | Automatiser les tâches répétitives | :star::star::star: |
-| :material-rocket-launch: Expansion | 15-20 | Étendre vos capacités | :star::star::star::star: |
-| :material-check-all: Consolidation | 20-25 | Optimiser et organiser | :star::star::star::star::star: |
+<div class="grid cards" markdown>
+
+-   :material-shield-home: **Phase 1 - Survie**
+
+    ---
+
+    **Heures 1-5** | Difficulte : :star:
+
+    Etablir une base securisee avec abri, nourriture et outils de base.
+
+-   :material-wrench: **Phase 2 - Premiers Mods**
+
+    ---
+
+    **Heures 5-10** | Difficulte : :star::star:
+
+    Decouvrir les outils moddes et l'energie basique.
+
+-   :material-cog: **Phase 3 - Automation**
+
+    ---
+
+    **Heures 10-15** | Difficulte : :star::star::star:
+
+    Automatiser les taches repetitives avec pipes et fermes.
+
+-   :material-rocket-launch: **Phase 4 - Expansion**
+
+    ---
+
+    **Heures 15-20** | Difficulte : :star::star::star::star:
+
+    Etendre vos capacites avec energie avancee et dimensions.
+
+-   :material-check-all: **Phase 5 - Consolidation**
+
+    ---
+
+    **Heures 20-25** | Difficulte : :star::star::star::star::star:
+
+    Optimiser et organiser avec systeme ME/RS et auto-crafting.
+
+</div>
 
 ---
 
-## Progression Détaillée
+## Progression Detaillee
 
-=== "Heures 1-5"
-
-    ## :material-shield-home: Phase 1 : Survie de Base
+=== ":material-shield-home: Heures 1-5 : Survie de Base"
 
     !!! tip "Objectif Principal"
-        Établir les fondations de votre survie : abri sécurisé, nourriture stable, et outils de base.
+        Etablir les fondations de votre survie : abri securise, nourriture stable, et outils de base.
 
-    ### Objectifs Principaux
+    ---
 
-    - [ ] Construire un abri temporaire (au moins 5x5)
-    - [ ] Sécuriser une source de nourriture
-    - [ ] Crafter un set d'outils complet (fer minimum)
-    - [ ] Explorer JEI et comprendre les recettes
-    - [ ] Trouver les guides Patchouli des mods
-    - [ ] Mettre en place le premier ore doubling
-    - [ ] Obtenir un backpack ou expansion d'inventaire
+    ### :dart: Objectifs Principaux
 
-    ### Mods à Explorer
+    1. Construire un abri temporaire (au moins 5x5)
+    2. Securiser une source de nourriture
+    3. Crafter un set d'outils complet (fer minimum)
+    4. Explorer JEI et comprendre les recettes
+    5. Trouver les guides Patchouli des mods
+    6. Mettre en place le premier ore doubling
+    7. Obtenir un backpack ou expansion d'inventaire
 
-    | Mod | Utilité | Priorité |
-    |-----|---------|----------|
-    | **JEI** | Recherche de recettes (touche R/U) | :material-star: Essentiel |
-    | **Patchouli** | Guides in-game des mods | :material-star: Essentiel |
-    | **Sophisticated Backpacks** | Extension d'inventaire | Haute |
-    | **Tinkers' Construct** | Outils améliorables | Haute |
-    | **Cooking for Blockheads** | Cuisine simplifiée | Moyenne |
+    ---
 
-    ### Items à Crafter
+    ### :package: Mods a Explorer
+
+    | Mod                                              | Utilite                                                   | Priorite              |
+    |:-------------------------------------------------|:----------------------------------------------------------|:----------------------|
+    | :mag: **JEI**                                    | Recherche de recettes (**`R`** / **`U`**)                 | :star: **Essentiel**  |
+    | :book: **Patchouli**                             | Guides in-game des mods                                   | :star: **Essentiel**  |
+    | :school_satchel: **Sophisticated Backpacks**    | Extension d'inventaire                                    | :arrow_up: Haute      |
+    | :hammer_and_wrench: **Tinkers' Construct**       | Outils ameliorables                                       | :arrow_up: Haute      |
+    | :cook: **Cooking for Blockheads**                | Cuisine simplifiee                                        | :arrow_right: Moyenne |
+
+    ---
+
+    ### :hammer: Items a Crafter
 
     !!! example "Crafts Prioritaires"
 
-        **Outils de base :**
+        === "Outils de base"
 
-        - :material-pickaxe: Pioche en fer (ou équivalent moddé)
-        - :material-axe: Hache en fer
-        - :material-shovel: Pelle en fer
-        - :material-sword: Épée en fer
+            | Item                          | Description                    |
+            |:------------------------------|:-------------------------------|
+            | :pick: Pioche en fer          | Ou equivalent modde            |
+            | :axe: Hache en fer            | Pour le bois                   |
+            | :spade: Pelle en fer          | Pour la terre/gravier          |
+            | :crossed_swords: Epee en fer  | Protection contre les mobs     |
 
-        **Survie :**
+        === "Survie"
 
-        - :material-bed: Lit
-        - :material-torch: Torches (64+)
-        - :material-chest: Coffres (10+)
-        - :material-bucket: Seaux (3 minimum)
+            | Item                    | Quantite          |
+            |:------------------------|:------------------|
+            | :bed: Lit               | 1                 |
+            | :candle: Torches        | 64+               |
+            | :package: Coffres       | 10+               |
+            | :bucket: Seaux          | 3 minimum         |
 
-        **Premier ore doubling :**
+        === "Premier Ore Doubling"
 
-        - Four vanilla OU
-        - Pulverizer/Crusher basique
-        - Grindstone (Tinkers'/Create)
+            - Four vanilla **OU**
+            - Pulverizer / Crusher basique
+            - Grindstone (:hammer_and_wrench: Tinkers' / :factory: Create)
 
-    ### Tips Spécifiques
+    ---
 
-    !!! warning "Erreurs Courantes à Éviter"
-        - Ne pas ignorer les guides Patchouli - ils contiennent des infos cruciales
-        - Ne pas miner sans torches - le spawn de mobs vous ralentira
-        - Ne pas négliger la nourriture - la faim réduit votre efficacité
+    ### :bulb: Tips Specifiques
+
+    !!! warning "Erreurs Courantes a Eviter"
+        - **Ne pas ignorer les guides Patchouli** - ils contiennent des infos cruciales
+        - **Ne pas miner sans torches** - le spawn de mobs vous ralentira
+        - **Ne pas negliger la nourriture** - la faim reduit votre efficacite
 
     !!! success "Astuces Efficaces"
-        - **JEI Bookmarks** : Appuyez sur `A` pour sauvegarder des recettes fréquentes
-        - **Bed hop** : Dormez dès que possible pour éviter les mobs
-        - **Charbon** : Priorité aux veines de charbon pour les torches
-        - **Fer** : Gardez 32+ lingots pour l'ore doubling
 
-    **Checklist Rapide Phase 1:**
+        | Astuce                | Description                                               |
+        |:----------------------|:----------------------------------------------------------|
+        | **JEI Bookmarks**     | Appuyez sur **`A`** pour sauvegarder des recettes         |
+        | **Bed hop**           | Dormez des que possible pour eviter les mobs              |
+        | **Charbon**           | Priorite aux veines de charbon pour les torches           |
+        | **Fer**               | Gardez 32+ lingots pour l'ore doubling                    |
 
-    | Tâche | Status |
-    |-------|--------|
-    | Abri sécurisé construit | :material-checkbox-blank-outline: |
-    | Lit placé | :material-checkbox-blank-outline: |
-    | 64+ torches craftées | :material-checkbox-blank-outline: |
-    | Source de nourriture stable | :material-checkbox-blank-outline: |
-    | Outils fer complets | :material-checkbox-blank-outline: |
-    | JEI maîtrisé (R/U/A) | :material-checkbox-blank-outline: |
-    | Guides Patchouli trouvés | :material-checkbox-blank-outline: |
-    | Premier ore doubling actif | :material-checkbox-blank-outline: |
-    | Backpack ou équivalent obtenu | :material-checkbox-blank-outline: |
+    ---
 
-=== "Heures 5-10"
+    ### :clipboard: Checklist Phase 1
 
-    ## :material-wrench: Phase 2 : Premiers Mods
+    | #   | Tache                              | A faire                          |
+    |:---:|:-----------------------------------|:---------------------------------|
+    | 1   | Abri securise construit            | :material-checkbox-blank-outline: |
+    | 2   | Lit place                          | :material-checkbox-blank-outline: |
+    | 3   | 64+ torches craftees               | :material-checkbox-blank-outline: |
+    | 4   | Source de nourriture stable        | :material-checkbox-blank-outline: |
+    | 5   | Outils fer complets                | :material-checkbox-blank-outline: |
+    | 6   | JEI maitrise (**`R`**/**`U`**/**`A`**) | :material-checkbox-blank-outline: |
+    | 7   | Guides Patchouli trouves           | :material-checkbox-blank-outline: |
+    | 8   | Premier ore doubling actif         | :material-checkbox-blank-outline: |
+    | 9   | Backpack ou equivalent obtenu      | :material-checkbox-blank-outline: |
+
+---
+
+=== ":material-wrench: Heures 5-10 : Premiers Mods"
 
     !!! tip "Objectif Principal"
-        Découvrir et utiliser vos premiers outils moddés, établir un système de transport et une source d'énergie basique.
+        Decouvrir et utiliser vos premiers outils moddes, etablir un systeme de transport et une source d'energie basique.
 
-    ### Objectifs Principaux
+    ---
 
-    - [ ] Crafter des outils Tinkers' ou Silent Gear
-    - [ ] Placer des Waystones stratégiques
-    - [ ] Construire un générateur basique (furnace generator)
-    - [ ] Créer une première mob farm simple
-    - [ ] Organiser le stockage avec labels/catégories
+    ### :dart: Objectifs Principaux
 
-    ### Mods à Explorer
+    1. Crafter des outils :hammer_and_wrench: Tinkers' ou Silent Gear
+    2. Placer des Waystones strategiques
+    3. Construire un generateur basique (furnace generator)
+    4. Creer une premiere mob farm simple
+    5. Organiser le stockage avec labels/categories
 
-    | Mod | Utilité | Priorité |
-    |-----|---------|----------|
-    | **Tinkers' Construct** | Outils personnalisables | :material-star: Essentiel |
-    | **Silent Gear** | Alternative à Tinkers' | :material-star: Essentiel |
-    | **Waystones** | Téléportation rapide | Haute |
-    | **FTB Utilities** | Claims et homes | Haute |
-    | **Thermal/Mekanism** | Énergie et machines | Haute |
-    | **Mob Grinding Utils** | Mob farms faciles | Moyenne |
+    ---
 
-    ### Items à Crafter
+    ### :package: Mods a Explorer
+
+    | Mod                                              | Utilite                           | Priorite              |
+    |:-------------------------------------------------|:----------------------------------|:----------------------|
+    | :hammer_and_wrench: **Tinkers' Construct**       | Outils personnalisables           | :star: **Essentiel**  |
+    | :tools: **Silent Gear**                          | Alternative a Tinkers'            | :star: **Essentiel**  |
+    | :milky_way: **Waystones**                        | Teleportation rapide              | :arrow_up: Haute      |
+    | :shield: **FTB Utilities**                       | Claims et homes                   | :arrow_up: Haute      |
+    | :gear: **Mekanism** / :fire: **Thermal**         | Energie et machines               | :arrow_up: Haute      |
+    | :skull: **Mob Grinding Utils**                   | Mob farms faciles                 | :arrow_right: Moyenne |
+
+    ---
+
+    ### :hammer: Items a Crafter
 
     !!! example "Crafts Prioritaires"
 
-        **Outils moddés :**
+        === "Outils Moddes"
 
-        - Pioche Tinkers' (cobalt tip si possible)
-        - Hammer/Excavator pour minage rapide
-        - Lumber axe pour arbres entiers
-        - Épée avec looting
+            | Item                          | Description                        |
+            |:------------------------------|:-----------------------------------|
+            | :pick: Pioche Tinkers'        | Cobalt tip si possible             |
+            | :hammer: Hammer/Excavator     | Pour minage rapide                 |
+            | :evergreen_tree: Lumber Axe   | Pour arbres entiers                |
+            | :crossed_swords: Epee Looting | Bonus de drop                      |
 
-        **Transport :**
+        === "Transport"
 
-        - 3-5 Waystones
-        - Boots avec step assist
-        - Glider ou parachute
+            | Item                          | Quantite / Notes                   |
+            |:------------------------------|:-----------------------------------|
+            | :milky_way: Waystones         | 3-5 strategiquement places         |
+            | :athletic_shoe: Step Boots    | Boots avec step assist             |
+            | :parachute: Glider            | Ou parachute pour descentes        |
 
-        **Énergie :**
+        === "Energie"
 
-        - Furnace Generator
-        - Câbles/conduits basiques
-        - Batterie/Energy Cell
+            | Item                          | Description                        |
+            |:------------------------------|:-----------------------------------|
+            | :fire: Furnace Generator      | Source d'energie initiale          |
+            | :electric_plug: Cables        | Conduits basiques                  |
+            | :battery: Energy Cell         | Stockage d'energie                 |
 
-        **Mob Farm :**
+        === "Mob Farm"
 
-        - Spawner room (9x9 minimum)
-        - Système de kill (fall damage/lava)
-        - Hoppers ou pipes de collecte
+            | Composant                     | Specification                      |
+            |:------------------------------|:-----------------------------------|
+            | Spawner Room                  | 9x9 minimum                        |
+            | Systeme de Kill               | Fall damage ou lava                |
+            | Collecte                      | Hoppers ou pipes                   |
 
-    ### Tips Spécifiques
+    ---
+
+    ### :bulb: Tips Specifiques
 
     !!! info "Tinkers' vs Silent Gear"
 
-        | Aspect | Tinkers' Construct | Silent Gear |
-        |--------|-------------------|-------------|
-        | Complexité | Moyenne | Faible |
-        | Upgrades | Modifiers limités | Traits empilables |
-        | Réparation | Station requise | Anvil vanilla |
-        | Disponibilité | Packs tech | Packs variés |
+        | Aspect          | :hammer_and_wrench: Tinkers' Construct | :tools: Silent Gear       |
+        |:----------------|:---------------------------------------|:--------------------------|
+        | **Complexite**  | Moyenne                                | Faible                    |
+        | **Upgrades**    | Modifiers limites                      | Traits empilables         |
+        | **Reparation**  | Station requise                        | Anvil vanilla             |
+        | **Disponibilite** | Packs tech                           | Packs varies              |
 
-        **Conseil** : Choisissez celui présent dans votre pack et maîtrisez-le.
+        **Conseil** : Choisissez celui present dans votre pack et maitrisez-le.
 
     !!! success "Astuces Efficaces"
-        - **Waystones** : Placez-en à la base, au spawn, et aux biomes clés
-        - **Furnace Gen** : 1 charbon = beaucoup de RF, économique au début
-        - **Mob Farm** : Commencez simple - un dark room + eau + lava blade suffit
-        - **Storage** : Utilisez des panneaux ou Item Frames pour identifier les coffres
 
-    !!! warning "Pièges à Éviter"
-        - Ne pas over-engineer la mob farm - simple est mieux au début
-        - Ne pas gaspiller les ressources sur des machines tier 1 inutiles
-        - Ne pas oublier de claim votre base (griefing/protection)
+        | Astuce              | Description                                                        |
+        |:--------------------|:-------------------------------------------------------------------|
+        | **Waystones**       | Placez-en a la base, au spawn, et aux biomes cles                  |
+        | **Furnace Gen**     | 1 charbon = beaucoup de RF, economique au debut                    |
+        | **Mob Farm**        | Commencez simple - dark room + eau + lava blade suffit             |
+        | **Storage**         | Utilisez des panneaux ou Item Frames pour identifier les coffres   |
 
-    **Checklist Rapide Phase 2:**
+    !!! warning "Pieges a Eviter"
+        - **Ne pas over-engineer** la mob farm - simple est mieux au debut
+        - **Ne pas gaspiller** les ressources sur des machines tier 1 inutiles
+        - **Ne pas oublier** de claim votre base (griefing/protection)
 
-    | Tâche | Status |
-    |-------|--------|
-    | Outil Tinkers'/Silent Gear crafté | :material-checkbox-blank-outline: |
-    | 3+ Waystones placées | :material-checkbox-blank-outline: |
-    | Furnace Generator fonctionnel | :material-checkbox-blank-outline: |
-    | Câbles d'énergie installés | :material-checkbox-blank-outline: |
-    | Mob farm basique opérationnelle | :material-checkbox-blank-outline: |
-    | Stockage organisé par catégorie | :material-checkbox-blank-outline: |
-    | Base claimée/protégée | :material-checkbox-blank-outline: |
-    | Home set configuré | :material-checkbox-blank-outline: |
+    ---
 
-=== "Heures 10-15"
+    ### :clipboard: Checklist Phase 2
 
-    ## :material-cog: Phase 3 : Automation Basique
+    | #   | Tache                                    | A faire                          |
+    |:---:|:-----------------------------------------|:---------------------------------|
+    | 1   | Outil Tinkers'/Silent Gear crafte        | :material-checkbox-blank-outline: |
+    | 2   | 3+ Waystones placees                     | :material-checkbox-blank-outline: |
+    | 3   | Furnace Generator fonctionnel            | :material-checkbox-blank-outline: |
+    | 4   | Cables d'energie installes               | :material-checkbox-blank-outline: |
+    | 5   | Mob farm basique operationnelle          | :material-checkbox-blank-outline: |
+    | 6   | Stockage organise par categorie          | :material-checkbox-blank-outline: |
+    | 7   | Base claimee/protegee                    | :material-checkbox-blank-outline: |
+    | 8   | Home set configure                       | :material-checkbox-blank-outline: |
+
+---
+
+=== ":material-cog: Heures 10-15 : Automation Basique"
 
     !!! tip "Objectif Principal"
-        Automatiser les tâches répétitives : smelting, farming, et collecte de ressources.
+        Automatiser les taches repetitives : smelting, farming, et collecte de ressources.
 
-    ### Objectifs Principaux
+    ---
 
-    - [ ] Installer un système de pipes/conduits
-    - [ ] Automatiser le smelting (auto-smelt)
-    - [ ] Créer une crop farm automatique
-    - [ ] Mettre en place une tree farm
-    - [ ] Implémenter un système de stockage (AE2/RS/Drawers)
+    ### :dart: Objectifs Principaux
 
-    ### Mods à Explorer
+    1. Installer un systeme de pipes/conduits
+    2. Automatiser le smelting (auto-smelt)
+    3. Creer une crop farm automatique
+    4. Mettre en place une tree farm
+    5. Implementer un systeme de stockage (:floppy_disk: AE2 / RS / Drawers)
 
-    | Mod | Utilité | Priorité |
-    |-----|---------|----------|
-    | **Pipez/XNet/Mekanism Pipes** | Transport d'items | :material-star: Essentiel |
-    | **Storage Drawers** | Stockage bulk | :material-star: Essentiel |
-    | **Applied Energistics 2** | Système ME | Haute |
-    | **Refined Storage** | Alternative à AE2 | Haute |
-    | **Industrial Foregoing** | Farming automatique | Haute |
-    | **Create** | Automation mécanique | Moyenne |
+    ---
 
-    ### Items à Crafter
+    ### :package: Mods a Explorer
+
+    | Mod                                              | Utilite                           | Priorite              |
+    |:-------------------------------------------------|:----------------------------------|:----------------------|
+    | :gear: **Pipez / XNet / Mekanism Pipes**         | Transport d'items                 | :star: **Essentiel**  |
+    | :file_cabinet: **Storage Drawers**               | Stockage bulk                     | :star: **Essentiel**  |
+    | :floppy_disk: **Applied Energistics 2**          | Systeme ME                        | :arrow_up: Haute      |
+    | :cd: **Refined Storage**                         | Alternative a AE2                 | :arrow_up: Haute      |
+    | :tractor: **Industrial Foregoing**               | Farming automatique               | :arrow_up: Haute      |
+    | :factory: **Create**                             | Automation mecanique              | :arrow_right: Moyenne |
+
+    ---
+
+    ### :hammer: Items a Crafter
 
     !!! example "Crafts Prioritaires"
 
-        **Système de Pipes :**
+        === "Systeme de Pipes"
 
-        - 64+ pipes/conduits basiques
-        - Servos/extracteurs
-        - Filtres d'items
-        - Speed upgrades
+            | Item                          | Quantite / Notes                   |
+            |:------------------------------|:-----------------------------------|
+            | Pipes/conduits basiques       | 64+                                |
+            | Servos/extracteurs            | Pour sortir les items              |
+            | Filtres d'items               | Pour router correctement           |
+            | Speed upgrades                | Acceleration optionnelle           |
 
-        **Auto-Smelting :**
+        === "Auto-Smelting"
 
-        - Powered Furnace / Alloy Smelter
-        - Input/Output hoppers ou pipes
-        - Upgrade de vitesse
+            | Item                          | Description                        |
+            |:------------------------------|:-----------------------------------|
+            | Powered Furnace               | Ou Alloy Smelter                   |
+            | Input/Output                  | Hoppers ou pipes                   |
+            | Speed Upgrade                 | Acceleration du smelting           |
 
-        **Crop Farm :**
+        === "Crop Farm"
 
-        - Farmer block (Industrial Foregoing/autres)
-        - Zone de 9x9 minimum
-        - Auto-replant activé
-        - Collecte vers stockage
+            | Composant                     | Specification                      |
+            |:------------------------------|:-----------------------------------|
+            | Farmer block                  | Industrial Foregoing ou similaire  |
+            | Zone de culture               | 9x9 minimum                        |
+            | Auto-replant                  | Active                             |
+            | Collecte                      | Vers stockage central              |
 
-        **Tree Farm :**
+        === "Tree Farm"
 
-        - Mechanical User ou Axe block
-        - Sapling replanter
-        - Leaf destroyer (optionnel)
+            | Composant                     | Description                        |
+            |:------------------------------|:-----------------------------------|
+            | Mechanical User               | Ou Axe block                       |
+            | Sapling replanter             | Automatique                        |
+            | Leaf destroyer                | Optionnel mais recommande          |
 
-        **Stockage Intermédiaire :**
+        === "Stockage Intermediaire"
 
-        - Storage Drawers (2x2 et 1x1)
-        - Drawer Controller
-        - Compacting Drawers
-        - Void Upgrade (trash overflow)
+            | Item                          | Description                        |
+            |:------------------------------|:-----------------------------------|
+            | Storage Drawers               | 2x2 et 1x1                         |
+            | Drawer Controller             | Point d'acces central              |
+            | Compacting Drawers            | Conversion auto ingot/block        |
+            | Void Upgrade                  | Trash overflow                     |
 
-    ### Tips Spécifiques
+    ---
 
-    !!! info "Comparaison Systèmes de Stockage"
+    ### :bulb: Tips Specifiques
 
-        | Système | Complexité | Capacité | Recherche | Idéal Pour |
-        |---------|------------|----------|-----------|------------|
-        | **Drawers** | Faible | Moyenne | Non | Bulk items |
-        | **RS** | Moyenne | Haute | Oui | Débutants |
-        | **AE2** | Haute | Très Haute | Oui | Long terme |
-        | **Hybrid** | Variable | Maximale | Oui | Optimal |
+    !!! info "Comparaison Systemes de Stockage"
+
+        | Systeme                        | Complexite | Capacite    | Recherche | Ideal Pour        |
+        |:-------------------------------|:-----------|:------------|:----------|:------------------|
+        | :file_cabinet: **Drawers**     | Faible     | Moyenne     | Non       | Bulk items        |
+        | :cd: **Refined Storage**       | Moyenne    | Haute       | Oui       | Debutants         |
+        | :floppy_disk: **AE2**          | Haute      | Tres Haute  | Oui       | Long terme        |
+        | :jigsaw: **Hybrid**            | Variable   | Maximale    | Oui       | Optimal           |
 
         **Recommandation** : Drawers maintenant, RS/AE2 plus tard.
 
     !!! success "Astuces Efficaces"
-        - **Pipe Priority** : Utilisez les priorités pour router les items correctement
-        - **Overflow** : Toujours prévoir un void/trash pour éviter les jams
-        - **Compacting** : Les Compacting Drawers convertissent auto (ingot↔block)
-        - **Labels** : Verrouillez les drawers avec un item pour éviter le mélange
 
-    !!! example "Layout Farm Efficace"
-        **Légende:** S = Soil/Crop, W = Water, F = Farmer
+        | Astuce              | Description                                                        |
+        |:--------------------|:-------------------------------------------------------------------|
+        | **Pipe Priority**   | Utilisez les priorites pour router les items correctement          |
+        | **Overflow**        | Toujours prevoir un void/trash pour eviter les jams                |
+        | **Compacting**      | Les Compacting Drawers convertissent auto (ingot <-> block)        |
+        | **Labels**          | Verrouillez les drawers avec un item pour eviter le melange        |
 
-        | | | | | | | |
-        |---|---|---|---|---|---|---|
-        | S | S | S | S | S | S | S |
-        | S | S | S | S | S | S | S |
-        | S | S | S | W | S | S | S |
-        | S | S | S | F | S | S | S |
-        | S | S | S | W | S | S | S |
-        | S | S | S | S | S | S | S |
-        | S | S | S | S | S | S | S |
+    !!! example "Layout Farm Efficace (9x9 = 80 crops)"
 
-        **9x9 = 80 crops** - Output vers Drawers
+        **Legende :** `S` = Soil/Crop | `W` = Water | `F` = Farmer
 
-    **Checklist Rapide Phase 3:**
+        ```
+        +---+---+---+---+---+---+---+---+---+
+        | S | S | S | S | S | S | S | S | S |
+        +---+---+---+---+---+---+---+---+---+
+        | S | S | S | S | S | S | S | S | S |
+        +---+---+---+---+---+---+---+---+---+
+        | S | S | S | S | S | S | S | S | S |
+        +---+---+---+---+---+---+---+---+---+
+        | S | S | S | W | F | W | S | S | S |
+        +---+---+---+---+---+---+---+---+---+
+        | S | S | S | S | S | S | S | S | S |
+        +---+---+---+---+---+---+---+---+---+
+        | S | S | S | S | S | S | S | S | S |
+        +---+---+---+---+---+---+---+---+---+
+        | S | S | S | S | S | S | S | S | S |
+        +---+---+---+---+---+---+---+---+---+
+        ```
 
-    | Tâche | Status |
-    |-------|--------|
-    | Système de pipes installé | :material-checkbox-blank-outline: |
-    | Auto-smelting fonctionnel | :material-checkbox-blank-outline: |
-    | Crop farm 9x9+ automatique | :material-checkbox-blank-outline: |
-    | Tree farm opérationnelle | :material-checkbox-blank-outline: |
-    | Storage Drawers configurés | :material-checkbox-blank-outline: |
-    | Drawer Controller connecté | :material-checkbox-blank-outline: |
-    | Overflow/Void en place | :material-checkbox-blank-outline: |
-    | Toutes les fermes reliées | :material-checkbox-blank-outline: |
+        **Output** vers Storage Drawers avec Drawer Controller
 
-=== "Heures 15-20"
+    ---
 
-    ## :material-rocket-launch: Phase 4 : Expansion
+    ### :clipboard: Checklist Phase 3
+
+    | #   | Tache                                    | A faire                          |
+    |:---:|:-----------------------------------------|:---------------------------------|
+    | 1   | Systeme de pipes installe                | :material-checkbox-blank-outline: |
+    | 2   | Auto-smelting fonctionnel                | :material-checkbox-blank-outline: |
+    | 3   | Crop farm 9x9+ automatique               | :material-checkbox-blank-outline: |
+    | 4   | Tree farm operationnelle                 | :material-checkbox-blank-outline: |
+    | 5   | Storage Drawers configures               | :material-checkbox-blank-outline: |
+    | 6   | Drawer Controller connecte               | :material-checkbox-blank-outline: |
+    | 7   | Overflow/Void en place                   | :material-checkbox-blank-outline: |
+    | 8   | Toutes les fermes reliees                | :material-checkbox-blank-outline: |
+
+---
+
+=== ":material-rocket-launch: Heures 15-20 : Expansion"
 
     !!! tip "Objectif Principal"
-        Étendre vos capacités : meilleure énergie, processing avancé, exploration de mods magiques, et préparation aux dimensions.
+        Etendre vos capacites : meilleure energie, processing avance, exploration de mods magiques, et preparation aux dimensions.
 
-    ### Objectifs Principaux
+    ---
 
-    - [ ] Upgrader vers une meilleure source d'énergie
-    - [ ] Améliorer le ore processing (3x/4x)
-    - [ ] Explorer un mod magique (Botania/Blood Magic/etc)
-    - [ ] Obtenir le vol (jetpack ou Angel Ring)
-    - [ ] Préparer l'exploration du Nether/autres dimensions
+    ### :dart: Objectifs Principaux
 
-    ### Mods à Explorer
+    1. Upgrader vers une meilleure source d'energie
+    2. Ameliorer le ore processing (3x/4x)
+    3. Explorer un mod magique (:herb: Botania / Blood Magic / etc)
+    4. Obtenir le vol (jetpack ou Angel Ring)
+    5. Preparer l'exploration du Nether/autres dimensions
 
-    | Mod | Utilité | Priorité |
-    |-----|---------|----------|
-    | **Mekanism** | Ore 5x, énergie | :material-star: Essentiel |
-    | **Thermal Series** | Machines polyvalentes | Haute |
-    | **Botania** | Magie naturelle | Haute |
-    | **Blood Magic** | Magie de sang | Moyenne |
-    | **Ars Nouveau** | Spellcasting | Moyenne |
-    | **Simply Jetpacks** | Vol | Haute |
+    ---
 
-    ### Items à Crafter
+    ### :package: Mods a Explorer
+
+    | Mod                                              | Utilite                           | Priorite              |
+    |:-------------------------------------------------|:----------------------------------|:----------------------|
+    | :gear: **Mekanism**                              | Ore 5x, energie                   | :star: **Essentiel**  |
+    | :fire: **Thermal Series**                        | Machines polyvalentes             | :arrow_up: Haute      |
+    | :herb: **Botania**                               | Magie naturelle                   | :arrow_up: Haute      |
+    | :drop_of_blood: **Blood Magic**                  | Magie de sang                     | :arrow_right: Moyenne |
+    | :sparkles: **Ars Nouveau**                       | Spellcasting                      | :arrow_right: Moyenne |
+    | :rocket: **Simply Jetpacks**                     | Vol                               | :arrow_up: Haute      |
+
+    ---
+
+    ### :hammer: Items a Crafter
 
     !!! example "Crafts Prioritaires"
 
-        **Énergie Avancée :**
+        === "Energie Avancee"
 
-        - Big Reactor / Mekanism Reactor
-        - Solar Panels tier 2+
-        - Energy Storage (millions RF+)
-        - Câbles haute capacité
+            | Item                          | Description                        |
+            |:------------------------------|:-----------------------------------|
+            | Big Reactor                   | Ou :gear: Mekanism Reactor         |
+            | Solar Panels tier 2+          | Energie passive                    |
+            | Energy Storage                | Millions RF+ de capacite           |
+            | Cables haute capacite         | Pour transfert rapide              |
 
-        **Ore Processing :**
+        === "Ore Processing"
 
-        - Enrichment Chamber
-        - Purification Chamber
-        - Energized Smelter
-        - Chemical systems (Mekanism 5x)
+            | Item                          | Description                        |
+            |:------------------------------|:-----------------------------------|
+            | Enrichment Chamber            | :gear: Mekanism                    |
+            | Purification Chamber          | :gear: Mekanism                    |
+            | Energized Smelter             | :gear: Mekanism                    |
+            | Chemical Systems              | Pour le 5x ore processing          |
 
-        **Vol :**
+        === "Vol"
 
-        - Jetpack (Simply Jetpacks)
-        - Angel Ring (Extra Utilities)
-        - Creative Flight item (si disponible)
-        - Elytra + Fireworks (backup)
+            | Item                          | Source / Notes                     |
+            |:------------------------------|:-----------------------------------|
+            | :rocket: Jetpack              | Simply Jetpacks                    |
+            | :angel: Angel Ring            | Extra Utilities                    |
+            | Creative Flight item          | Si disponible dans le pack         |
+            | Elytra + Fireworks            | Backup vanilla                     |
 
-        **Magie (Botania exemple) :**
+        === "Magie (Botania)"
 
-        - Mana Pool
-        - Mana Spreader
-        - Generating Flora (Endoflame, etc)
-        - Functional Flora utiles
+            | Item                          | Description                        |
+            |:------------------------------|:-----------------------------------|
+            | :herb: Mana Pool              | Stockage de mana                   |
+            | Mana Spreader                 | Transport de mana                  |
+            | Generating Flora              | Endoflame, etc                     |
+            | Functional Flora              | Utilitaires varies                 |
 
-    ### Tips Spécifiques
+    ---
 
-    !!! info "Comparaison Vol"
+    ### :bulb: Tips Specifiques
 
-        | Item | Vitesse | Fuel | Difficulté | Recommandé |
-        |------|---------|------|------------|------------|
-        | **Jetpack T1** | Lente | Oui | Facile | Early game |
-        | **Jetpack T4** | Rapide | Oui | Moyen | Mid game |
-        | **Angel Ring** | Moyenne | Non | Difficile | Long terme |
-        | **Creative Flight** | Variable | Non | Très Difficile | End game |
+    !!! info "Comparaison Options de Vol"
+
+        | Item                          | Vitesse  | Fuel | Difficulte     | Recommande Pour   |
+        |:------------------------------|:---------|:-----|:---------------|:------------------|
+        | :rocket: **Jetpack T1**       | Lente    | Oui  | Facile         | Early game        |
+        | :rocket: **Jetpack T4**       | Rapide   | Oui  | Moyen          | Mid game          |
+        | :angel: **Angel Ring**        | Moyenne  | Non  | Difficile      | Long terme        |
+        | :star2: **Creative Flight**   | Variable | Non  | Tres Difficile | End game          |
 
     !!! success "Astuces Efficaces"
-        - **Mekanism 5x** : Investissez tôt, le ROI est énorme
-        - **Botania** : Commencez par les Endoflames, simples et efficaces
-        - **Nether** : Apportez Waystones, eau (cauldron), et blocs de construction
-        - **Jetpack** : Gardez toujours du fuel de secours
 
-    !!! warning "Préparation Dimensions"
+        | Astuce                | Description                                                        |
+        |:----------------------|:-------------------------------------------------------------------|
+        | **Mekanism 5x**       | Investissez tot, le ROI est enorme                                 |
+        | **Botania**           | Commencez par les Endoflames, simples et efficaces                 |
+        | **Nether**            | Apportez Waystones, eau (cauldron), et blocs de construction       |
+        | **Jetpack**           | Gardez toujours du fuel de secours                                 |
 
-        **Nether Essentials :**
+    !!! warning "Preparation Dimensions"
 
-        - [ ] Fire Resistance potions (8+ minutes)
-        - [ ] Golden apples (4+)
-        - [ ] Blocks de construction (cobble 128+)
-        - [ ] Waystone portable ou bed
-        - [ ] Pickaxe efficace (efficiency 4+)
-        - [ ] Bucket of water (cauldron pour placer)
+        === ":fire: Nether Essentials"
 
-        **End Prep (si applicable) :**
+            | Item                          | Quantite / Notes                   |
+            |:------------------------------|:-----------------------------------|
+            | Fire Resistance potions       | 8+ minutes                         |
+            | Golden apples                 | 4+                                 |
+            | Blocks de construction        | Cobble 128+                        |
+            | Waystone portable             | Ou bed                             |
+            | Pickaxe efficace              | Efficiency 4+                      |
+            | Bucket of water               | Cauldron pour placer               |
 
-        - [ ] Ender pearls (12+)
-        - [ ] Slow falling potions
-        - [ ] Bow avec Power/Infinity
-        - [ ] Pumpkin head (optionnel)
+        === ":dragon: End Prep"
 
-    **Checklist Rapide Phase 4:**
+            | Item                          | Quantite / Notes                   |
+            |:------------------------------|:-----------------------------------|
+            | Ender pearls                  | 12+                                |
+            | Slow falling potions          | Plusieurs                          |
+            | Bow Power/Infinity            | Pour le dragon                     |
+            | Pumpkin head                  | Optionnel (Endermen)               |
 
-    | Tâche | Status |
-    |-------|--------|
-    | Énergie 100k+ RF/t disponible | :material-checkbox-blank-outline: |
-    | Ore processing 3x+ actif | :material-checkbox-blank-outline: |
-    | Vol obtenu et fonctionnel | :material-checkbox-blank-outline: |
-    | Mod magique débuté | :material-checkbox-blank-outline: |
-    | Nether exploré | :material-checkbox-blank-outline: |
-    | Ressources Nether stockées | :material-checkbox-blank-outline: |
-    | Waystone Nether placée | :material-checkbox-blank-outline: |
-    | Dimension prep complète | :material-checkbox-blank-outline: |
+    ---
 
-=== "Heures 20-25"
+    ### :clipboard: Checklist Phase 4
 
-    ## :material-check-all: Phase 5 : Consolidation
+    | #   | Tache                                    | A faire                          |
+    |:---:|:-----------------------------------------|:---------------------------------|
+    | 1   | Energie 100k+ RF/t disponible            | :material-checkbox-blank-outline: |
+    | 2   | Ore processing 3x+ actif                 | :material-checkbox-blank-outline: |
+    | 3   | Vol obtenu et fonctionnel                | :material-checkbox-blank-outline: |
+    | 4   | Mod magique debute                       | :material-checkbox-blank-outline: |
+    | 5   | Nether explore                           | :material-checkbox-blank-outline: |
+    | 6   | Ressources Nether stockees               | :material-checkbox-blank-outline: |
+    | 7   | Waystone Nether placee                   | :material-checkbox-blank-outline: |
+    | 8   | Dimension prep complete                  | :material-checkbox-blank-outline: |
+
+---
+
+=== ":material-check-all: Heures 20-25 : Consolidation"
 
     !!! tip "Objectif Principal"
-        Consolider vos systèmes : stockage centralisé, auto-crafting, enchantement, et organisation finale de la base.
+        Consolider vos systemes : stockage centralise, auto-crafting, enchantement, et organisation finale de la base.
 
-    ### Objectifs Principaux
+    ---
 
-    - [ ] Installer un système ME ou RS complet
-    - [ ] Configurer l'auto-crafting
-    - [ ] Créer un setup d'enchantement optimisé
-    - [ ] Upgrader la mob farm
-    - [ ] Organiser et décorer la base
+    ### :dart: Objectifs Principaux
 
-    ### Mods à Explorer
+    1. Installer un systeme ME ou RS complet
+    2. Configurer l'auto-crafting
+    3. Creer un setup d'enchantement optimise
+    4. Upgrader la mob farm
+    5. Organiser et decorer la base
 
-    | Mod | Utilité | Priorité |
-    |-----|---------|----------|
-    | **Applied Energistics 2** | Stockage digital ME | :material-star: Essentiel |
-    | **Refined Storage** | Alternative RS | :material-star: Essentiel |
-    | **Apotheosis** | Enchantements améliorés | Haute |
-    | **Industrial Foregoing** | Mob farm avancée | Haute |
-    | **Draconic Evolution** | End game | Moyenne |
+    ---
 
-    ### Items à Crafter
+    ### :package: Mods a Explorer
+
+    | Mod                                              | Utilite                           | Priorite              |
+    |:-------------------------------------------------|:----------------------------------|:----------------------|
+    | :floppy_disk: **Applied Energistics 2**          | Stockage digital ME               | :star: **Essentiel**  |
+    | :cd: **Refined Storage**                         | Alternative RS                    | :star: **Essentiel**  |
+    | :sparkles: **Apotheosis**                        | Enchantements ameliores           | :arrow_up: Haute      |
+    | :tractor: **Industrial Foregoing**               | Mob farm avancee                  | :arrow_up: Haute      |
+    | :dragon: **Draconic Evolution**                  | End game                          | :arrow_right: Moyenne |
+
+    ---
+
+    ### :hammer: Items a Crafter
 
     !!! example "Crafts Prioritaires"
 
-        **Système ME/RS :**
+        === "Systeme ME/RS"
 
-        - ME Controller / RS Controller
-        - Drives + Storage Cells (64k+)
-        - ME Terminal / Grid
-        - Crafting CPU / Crafter
-        - Import/Export Bus
-        - Interface pour automation
+            | Item                          | Description                        |
+            |:------------------------------|:-----------------------------------|
+            | ME/RS Controller              | Coeur du systeme                   |
+            | Drives + Storage Cells        | 64k+ recommande                    |
+            | ME Terminal / Grid            | Interface utilisateur              |
+            | Crafting CPU / Crafter        | Pour auto-crafting                 |
+            | Import/Export Bus             | Automation entree/sortie           |
+            | Interface                     | Connexion machines                 |
 
-        **Auto-Crafting :**
+        === "Auto-Crafting"
 
-        - Patterns (encode les recettes)
-        - Crafting CPUs (multi-block)
-        - Pattern Provider / Interface
-        - Molecular Assembler
+            | Item                          | Description                        |
+            |:------------------------------|:-----------------------------------|
+            | Patterns                      | Encode les recettes                |
+            | Crafting CPUs                 | Multi-block pour parallelisme      |
+            | Pattern Provider              | Ou Interface                       |
+            | Molecular Assembler           | Execute les crafts                 |
 
-        **Enchanting Setup :**
+        === "Enchanting Setup"
 
-        - Enchanting table max level
-        - 15+ bookshelves (ou Apotheosis shelves)
-        - Disenchanter
-        - Anvil auto-repair (si dispo)
-        - XP storage/fluid
+            | Item                          | Description                        |
+            |:------------------------------|:-----------------------------------|
+            | Enchanting table              | Max level                          |
+            | Bookshelves                   | 15+ (ou Apotheosis shelves)        |
+            | Disenchanter                  | Recuperer enchants                 |
+            | Anvil auto-repair             | Si disponible                      |
+            | XP storage/fluid              | Stockage experience                |
 
-        **Mob Farm Upgrade :**
+        === "Mob Farm Upgrade"
 
-        - Mob Crusher (Industrial Foregoing)
-        - Looting upgrade
-        - XP collection
-        - Cursed Earth ou similaire
+            | Item                          | Description                        |
+            |:------------------------------|:-----------------------------------|
+            | Mob Crusher                   | Industrial Foregoing               |
+            | Looting upgrade               | Bonus de drops                     |
+            | XP collection                 | Vers stockage                      |
+            | Cursed Earth                  | Ou similaire pour spawn rate       |
 
-    ### Tips Spécifiques
+    ---
+
+    ### :bulb: Tips Specifiques
 
     !!! info "ME vs RS - Choix Final"
 
-        | Aspect | Applied Energistics 2 | Refined Storage |
-        |--------|----------------------|-----------------|
-        | Setup | Channels, complex | Simple, no channels |
-        | Puissance | Très haute | Haute |
-        | Courbe | Difficile | Facile |
-        | Crafting | Très flexible | Flexible |
-        | **Recommandé** | Experts | Débutants/Mid |
+        | Aspect                        | :floppy_disk: Applied Energistics 2 | :cd: Refined Storage    |
+        |:------------------------------|:------------------------------------|:------------------------|
+        | **Setup**                     | Channels, complexe                  | Simple, no channels     |
+        | **Puissance**                 | Tres haute                          | Haute                   |
+        | **Courbe d'apprentissage**    | Difficile                           | Facile                  |
+        | **Auto-Crafting**             | Tres flexible                       | Flexible                |
+        | **Recommande**                | Experts                             | Debutants/Mid           |
 
     !!! success "Astuces Auto-Crafting"
-        - **Patterns** : Créez des patterns pour TOUS les items fréquents
-        - **Sub-crafting** : Les patterns peuvent appeler d'autres patterns
-        - **CPU Size** : Plus de CPUs = crafts parallèles
-        - **Interface + Drawers** : Combo puissant pour bulk crafting
+
+        | Astuce                | Description                                                        |
+        |:----------------------|:-------------------------------------------------------------------|
+        | **Patterns**          | Creez des patterns pour TOUS les items frequents                   |
+        | **Sub-crafting**      | Les patterns peuvent appeler d'autres patterns                     |
+        | **CPU Size**          | Plus de CPUs = crafts paralleles                                   |
+        | **Interface+Drawers** | Combo puissant pour bulk crafting                                  |
 
     !!! example "Layout Enchanting Optimal"
-        **Légende:** E = Enchanting Table, B = Bookshelves (15 min), A = Anvil
 
-        | | | | | |
-        |---|---|---|---|---|
+        **Legende :** `E` = Enchanting Table | `B` = Bookshelves (15 min) | `A` = Anvil
+
+        ```
+        +---+---+---+---+---+
         | B | B | B | B | B |
-        | B | | | | B |
-        | B | | E | | B |
-        | B | | | | B |
+        +---+---+---+---+---+
+        | B |   |   |   | B |
+        +---+---+---+---+---+
+        | B |   | E |   | B |
+        +---+---+---+---+---+
+        | B |   |   |   | B |
+        +---+---+---+---+---+
         | B | B | B | B | B |
+        +---+---+---+---+---+
+        ```
 
-        + Apotheosis shelves - Anvil à proximité
+        + :sparkles: Apotheosis shelves pour bonus supplementaires
+        + Anvil a proximite pour combiner enchants
 
-    !!! warning "Organisation Base - Zones Recommandées"
+    !!! warning "Organisation Base - Zones Recommandees"
 
-        | Zone | Contenu | Distance ME |
-        |------|---------|-------------|
-        | **Central** | ME/RS, Crafting | Core |
-        | **Power** | Générateurs, stockage | 10-20 blocks |
-        | **Processing** | Ore, smelting | Connecté |
-        | **Farming** | Crops, mobs, arbres | Peut être distant |
-        | **Storage Bulk** | Drawers overflow | Connecté |
-        | **Enchanting** | Table, anvil, XP | Proche |
+        | Zone                          | Contenu                            | Distance ME             |
+        |:------------------------------|:-----------------------------------|:------------------------|
+        | :house: **Central**           | ME/RS, Crafting                    | Core                    |
+        | :zap: **Power**               | Generateurs, stockage              | 10-20 blocks            |
+        | :gear: **Processing**         | Ore, smelting                      | Connecte                |
+        | :seedling: **Farming**        | Crops, mobs, arbres                | Peut etre distant       |
+        | :file_cabinet: **Storage Bulk** | Drawers overflow                 | Connecte                |
+        | :sparkles: **Enchanting**     | Table, anvil, XP                   | Proche                  |
 
-    **Checklist Rapide Phase 5:**
+    ---
 
-    | Tâche | Status |
-    |-------|--------|
-    | Système ME/RS installé | :material-checkbox-blank-outline: |
-    | 1M+ items de stockage | :material-checkbox-blank-outline: |
-    | Auto-crafting configuré | :material-checkbox-blank-outline: |
-    | Patterns essentiels encodés | :material-checkbox-blank-outline: |
-    | Enchanting setup optimisé | :material-checkbox-blank-outline: |
-    | Mob farm avec looting/XP | :material-checkbox-blank-outline: |
-    | Base organisée par zones | :material-checkbox-blank-outline: |
-    | Énergie stable et suffisante | :material-checkbox-blank-outline: |
+    ### :clipboard: Checklist Phase 5
+
+    | #   | Tache                                    | A faire                          |
+    |:---:|:-----------------------------------------|:---------------------------------|
+    | 1   | Systeme ME/RS installe                   | :material-checkbox-blank-outline: |
+    | 2   | 1M+ items de stockage                    | :material-checkbox-blank-outline: |
+    | 3   | Auto-crafting configure                  | :material-checkbox-blank-outline: |
+    | 4   | Patterns essentiels encodes              | :material-checkbox-blank-outline: |
+    | 5   | Enchanting setup optimise                | :material-checkbox-blank-outline: |
+    | 6   | Mob farm avec looting/XP                 | :material-checkbox-blank-outline: |
+    | 7   | Base organisee par zones                 | :material-checkbox-blank-outline: |
+    | 8   | Energie stable et suffisante             | :material-checkbox-blank-outline: |
 
 ---
 
-## Checklist Récapitulatif Global
+## :trophy: Checklist Recapitulatif Global
 
-!!! abstract "Progression Complète - 25 Heures"
+!!! abstract "Progression Complete - 25 Heures"
 
-### Phase 1 : Survie (Heures 1-5)
-
-| # | Tâche | Status |
-|---|-------|--------|
-| 1 | Abri sécurisé | :material-checkbox-blank-outline: |
-| 2 | Source de nourriture | :material-checkbox-blank-outline: |
-| 3 | Outils fer complets | :material-checkbox-blank-outline: |
-| 4 | JEI maîtrisé | :material-checkbox-blank-outline: |
-| 5 | Guides Patchouli trouvés | :material-checkbox-blank-outline: |
-| 6 | Premier ore doubling | :material-checkbox-blank-outline: |
-| 7 | Backpack obtenu | :material-checkbox-blank-outline: |
-
-### Phase 2 : Premiers Mods (Heures 5-10)
-
-| # | Tâche | Status |
-|---|-------|--------|
-| 8 | Outils Tinkers'/Silent Gear | :material-checkbox-blank-outline: |
-| 9 | Waystones placées | :material-checkbox-blank-outline: |
-| 10 | Furnace Generator | :material-checkbox-blank-outline: |
-| 11 | Mob farm basique | :material-checkbox-blank-outline: |
-| 12 | Stockage organisé | :material-checkbox-blank-outline: |
-
-### Phase 3 : Automation (Heures 10-15)
-
-| # | Tâche | Status |
-|---|-------|--------|
-| 13 | Système de pipes | :material-checkbox-blank-outline: |
-| 14 | Auto-smelting | :material-checkbox-blank-outline: |
-| 15 | Crop farm automatique | :material-checkbox-blank-outline: |
-| 16 | Tree farm | :material-checkbox-blank-outline: |
-| 17 | Storage Drawers setup | :material-checkbox-blank-outline: |
-
-### Phase 4 : Expansion (Heures 15-20)
-
-| # | Tâche | Status |
-|---|-------|--------|
-| 18 | Énergie avancée | :material-checkbox-blank-outline: |
-| 19 | Ore processing 3x+ | :material-checkbox-blank-outline: |
-| 20 | Vol obtenu | :material-checkbox-blank-outline: |
-| 21 | Mod magique débuté | :material-checkbox-blank-outline: |
-| 22 | Nether exploré | :material-checkbox-blank-outline: |
-
-### Phase 5 : Consolidation (Heures 20-25)
-
-| # | Tâche | Status |
-|---|-------|--------|
-| 23 | Système ME/RS complet | :material-checkbox-blank-outline: |
-| 24 | Auto-crafting fonctionnel | :material-checkbox-blank-outline: |
-| 25 | Enchanting setup | :material-checkbox-blank-outline: |
-| 26 | Mob farm upgradée | :material-checkbox-blank-outline: |
-| 27 | Base organisée | :material-checkbox-blank-outline: |
+    Utilisez cette checklist pour suivre votre progression globale a travers les 5 phases.
 
 ---
 
-## Conseils Finaux
+### :material-shield-home: Phase 1 : Survie (Heures 1-5)
 
-!!! tip "Clés du Succès"
+| #   | Tache                                    | Status                           |
+|:---:|:-----------------------------------------|:---------------------------------|
+| 1   | Abri securise                            | :material-checkbox-blank-outline: |
+| 2   | Source de nourriture                     | :material-checkbox-blank-outline: |
+| 3   | Outils fer complets                      | :material-checkbox-blank-outline: |
+| 4   | JEI maitrise                             | :material-checkbox-blank-outline: |
+| 5   | Guides Patchouli trouves                 | :material-checkbox-blank-outline: |
+| 6   | Premier ore doubling                     | :material-checkbox-blank-outline: |
+| 7   | Backpack obtenu                          | :material-checkbox-blank-outline: |
 
-    1. **Ne pas rusher** - Chaque phase construit sur la précédente
-    2. **Lire les guides** - Les manuels Patchouli sont vos amis
-    3. **Automatiser tôt** - Le temps investi est récupéré x10
-    4. **Backup réguliers** - Sauvegardez votre monde
-    5. **Expérimenter** - Chaque modpack est unique
+---
+
+### :material-wrench: Phase 2 : Premiers Mods (Heures 5-10)
+
+| #   | Tache                                    | Status                           |
+|:---:|:-----------------------------------------|:---------------------------------|
+| 8   | Outils Tinkers'/Silent Gear              | :material-checkbox-blank-outline: |
+| 9   | Waystones placees                        | :material-checkbox-blank-outline: |
+| 10  | Furnace Generator                        | :material-checkbox-blank-outline: |
+| 11  | Mob farm basique                         | :material-checkbox-blank-outline: |
+| 12  | Stockage organise                        | :material-checkbox-blank-outline: |
+
+---
+
+### :material-cog: Phase 3 : Automation (Heures 10-15)
+
+| #   | Tache                                    | Status                           |
+|:---:|:-----------------------------------------|:---------------------------------|
+| 13  | Systeme de pipes                         | :material-checkbox-blank-outline: |
+| 14  | Auto-smelting                            | :material-checkbox-blank-outline: |
+| 15  | Crop farm automatique                    | :material-checkbox-blank-outline: |
+| 16  | Tree farm                                | :material-checkbox-blank-outline: |
+| 17  | Storage Drawers setup                    | :material-checkbox-blank-outline: |
+
+---
+
+### :material-rocket-launch: Phase 4 : Expansion (Heures 15-20)
+
+| #   | Tache                                    | Status                           |
+|:---:|:-----------------------------------------|:---------------------------------|
+| 18  | Energie avancee                          | :material-checkbox-blank-outline: |
+| 19  | Ore processing 3x+                       | :material-checkbox-blank-outline: |
+| 20  | Vol obtenu                               | :material-checkbox-blank-outline: |
+| 21  | Mod magique debute                       | :material-checkbox-blank-outline: |
+| 22  | Nether explore                           | :material-checkbox-blank-outline: |
+
+---
+
+### :material-check-all: Phase 5 : Consolidation (Heures 20-25)
+
+| #   | Tache                                    | Status                           |
+|:---:|:-----------------------------------------|:---------------------------------|
+| 23  | Systeme ME/RS complet                    | :material-checkbox-blank-outline: |
+| 24  | Auto-crafting fonctionnel                | :material-checkbox-blank-outline: |
+| 25  | Enchanting setup                         | :material-checkbox-blank-outline: |
+| 26  | Mob farm upgradee                        | :material-checkbox-blank-outline: |
+| 27  | Base organisee                           | :material-checkbox-blank-outline: |
+
+---
+
+## :bulb: Conseils Finaux
+
+!!! tip "Cles du Succes"
+
+    | #   | Conseil                                  | Description                                    |
+    |:---:|:-----------------------------------------|:-----------------------------------------------|
+    | 1   | **Ne pas rusher**                        | Chaque phase construit sur la precedente       |
+    | 2   | **Lire les guides**                      | Les manuels Patchouli sont vos amis            |
+    | 3   | **Automatiser tot**                      | Le temps investi est recupere x10              |
+    | 4   | **Backup reguliers**                     | Sauvegardez votre monde                        |
+    | 5   | **Experimenter**                         | Chaque modpack est unique                      |
 
 !!! quote "Rappel Important"
-    Ce guide est une **feuille de route**, pas une règle stricte.
-    Adaptez-le à votre modpack spécifique et à votre style de jeu.
+    Ce guide est une **feuille de route**, pas une regle stricte.
+    Adaptez-le a votre modpack specifique et a votre style de jeu.
     L'important est de **progresser** et de **s'amuser** !
 
 ---
 
-*Dernière mise à jour : Guide universel compatible avec la majorité des modpacks 1.16+*
+*Derniere mise a jour : Guide universel compatible avec la majorite des modpacks 1.16+*
