@@ -41,19 +41,19 @@
 
     [:octicons-arrow-down-24: Voir les mods secondaires](#mods-secondaires)
 
-## Comparaison des Mods
+## Comparaison Rapide
 
-| Mod | Difficulté | Automation | Capacité | Utilité | Phase |
-|-----|:----------:|:----------:|:--------:|:-------:|:-----:|
-| Applied Energistics 2 | :star::star::star::star: | :star::star::star::star::star: | :star::star::star::star::star: | :star::star::star::star::star: | Mid → Late |
-| Refined Storage | :star::star: | :star::star::star::star: | :star::star::star::star: | :star::star::star::star: | Mid → Late |
-| Functional Storage | :star: | :star::star::star: | :star::star::star::star: | :star::star::star::star: | Early → Late |
-| Sophisticated Backpacks | :star: | :star::star: | :star::star::star: | :star::star::star::star::star: | Early → Late |
-| Dank Storage | :star: | :star: | :star::star::star: | :star::star::star: | Early → Mid |
-| RFTools Storage | :star::star: | :star::star::star: | :star::star::star: | :star::star::star::star: | Early → Mid |
-| Occultism Storage | :star::star: | :star::star::star::star: | :star::star::star::star::star: | :star::star::star::star::star: | Early → Late |
-| Mekanism QIO | :star::star::star: | :star::star::star::star: | :star::star::star::star::star: | :star::star::star::star: | Late |
-| Ender Storage | :star: | :star::star: | :star::star: | :star::star::star::star: | Early → Late |
+| Mod | Difficulté | Capacité | Phase | Recommandé pour |
+|-----|:----------:|:--------:|:-----:|-----------------|
+| Applied Energistics 2 | 4/5 | 5/5 | Mid → Late | Autocrafting avancé, end-game |
+| Refined Storage | 2/5 | 4/5 | Mid → Late | Alternative simple à AE2 |
+| Functional Storage | 1/5 | 4/5 | Early → Late | Stockage de masse (drawers) |
+| Sophisticated Backpacks | 1/5 | 3/5 | Early → Late | Stockage portable |
+| Dank Storage | 1/5 | 3/5 | Early → Mid | Stockage compact rapide |
+| RFTools Storage | 2/5 | 3/5 | Early → Mid | Mini-AE2 économique |
+| Occultism Storage | 2/5 | 5/5 | Early → Late | Stockage magique illimité |
+| Mekanism QIO | 3/5 | 5/5 | Late | Wireless sans limite |
+| Ender Storage | 1/5 | 2/5 | Early → Late | Partage cross-dimension |
 
 ## Progression Recommandée
 
@@ -147,15 +147,15 @@
     | Objet | Priorité | Description |
     |-------|:--------:|-------------|
     | ME Controller | :zap: RUSH | Cerveau du réseau (obligatoire >8 channels) |
-    | ME Drive | :star: | Contient jusqu'à 10 disques de stockage |
-    | Storage Cells (1k→256k) | :star: | Plus gros = plus de types mais même espace |
-    | Crafting Terminal | :star: | Interface utilisateur avec crafting intégré |
-    | Pattern Provider | :star: | Envoie les items aux machines externes |
-    | Molecular Assembler | :star: | Craft les recettes internes |
-    | Import/Export Bus | :star: | Transfert automatique |
-    | Storage Bus | :star: | Connecte inventaires externes au réseau |
+    | ME Drive | - | Contient jusqu'à 10 disques de stockage |
+    | Storage Cells (1k→256k) | - | Plus gros = plus de types mais même espace |
+    | Crafting Terminal | - | Interface utilisateur avec crafting intégré |
+    | Pattern Provider | - | Envoie les items aux machines externes |
+    | Molecular Assembler | - | Craft les recettes internes |
+    | Import/Export Bus | - | Transfert automatique |
+    | Storage Bus | - | Connecte inventaires externes au réseau |
     | Inscriber | :zap: RUSH | Fabrique les processeurs (crucial early) |
-    | Charger | :star: | Charge outils et Certus Quartz |
+    | Charger | - | Charge outils et Certus Quartz |
     | ME Wireless Access Point | | Accès sans fil dans la zone |
 
 === "Guides"
@@ -215,13 +215,13 @@
     | Objet | Priorité | Description |
     |-------|:--------:|-------------|
     | Controller | :zap: RUSH | Cœur du réseau |
-    | Disk Drive | :star: | Contient les disques de stockage |
-    | Storage Disks (1k→64k) | :star: | Plus de variantes avec addons |
-    | Grid | :star: | Interface utilisateur basique |
-    | Crafting Grid | :star: | Grid avec crafting intégré |
-    | Pattern Grid | :star: | Crée les patterns d'autocrafting |
-    | Crafter | :star: | Machine d'autocrafting |
-    | External Storage | :star: | Connecte inventaires externes |
+    | Disk Drive | - | Contient les disques de stockage |
+    | Storage Disks (1k→64k) | - | Plus de variantes avec addons |
+    | Grid | - | Interface utilisateur basique |
+    | Crafting Grid | - | Grid avec crafting intégré |
+    | Pattern Grid | - | Crée les patterns d'autocrafting |
+    | Crafter | - | Machine d'autocrafting |
+    | External Storage | - | Connecte inventaires externes |
     | Importer/Exporter | | Transfert automatique |
     | Wireless Transmitter | | Accès sans fil |
     | Wireless Grid | | Accès portable au réseau |
@@ -270,15 +270,15 @@
     | Objet | Priorité | Description |
     |-------|:--------:|-------------|
     | 1x1 Drawer | :zap: RUSH | Un slot, capacité maximale par item |
-    | 2x2 / 4x4 Drawer | :star: | Plus de slots, moins de capacité chacun |
-    | Compacting Drawer | :star: | Stocke ingot + block + nugget auto |
-    | Storage Controller | :star: | Accès centralisé à tous les drawers liés |
+    | 2x2 / 4x4 Drawer | - | Plus de slots, moins de capacité chacun |
+    | Compacting Drawer | - | Stocke ingot + block + nugget auto |
+    | Storage Controller | - | Accès centralisé à tous les drawers liés |
     | Linking Tool | :zap: RUSH | Lie les drawers au controller |
     | Ender Drawer | | Synchronisé cross-dimension |
-    | Void Upgrade | :star: | Détruit le surplus |
+    | Void Upgrade | - | Détruit le surplus |
     | Collector Upgrade | | Vacuum items par terre |
     | Puller/Pusher Upgrade | | Transfert automatique |
-    | Storage Upgrade (tiers) | :star: | Augmente la capacité |
+    | Storage Upgrade (tiers) | - | Augmente la capacité |
 
 === "Guides"
 
@@ -323,11 +323,11 @@
     | Objet | Priorité | Description |
     |-------|:--------:|-------------|
     | Leather Backpack | :zap: RUSH | Premier backpack craftable |
-    | Iron/Gold/Diamond/Netherite | :star: | Tiers supérieurs |
-    | Feeding Upgrade | :star: | Auto-feed depuis le backpack |
-    | Pickup Upgrade | :star: | Collecte items au sol |
+    | Iron/Gold/Diamond/Netherite | - | Tiers supérieurs |
+    | Feeding Upgrade | - | Auto-feed depuis le backpack |
+    | Pickup Upgrade | - | Collecte items au sol |
     | Filter Upgrade | | Filtre les entrées |
-    | Crafting Upgrade | :star: | Table de craft portable |
+    | Crafting Upgrade | - | Table de craft portable |
     | Magnet Upgrade | | Attire les items |
     | Void Upgrade | | Détruit items spécifiés |
     | Stack Upgrade | | Augmente la taille des stacks |
@@ -375,11 +375,11 @@
         | Objet | Priorité | Description |
         |-------|:--------:|-------------|
         | Basic Drawer (1x1) | :zap: RUSH | Meilleure capacité par type |
-        | Compacting Drawer | :star: | Auto-conversion ingot/block/nugget |
-        | Drawer Controller | :star: | Accès centralisé à tous les drawers |
+        | Compacting Drawer | - | Auto-conversion ingot/block/nugget |
+        | Drawer Controller | - | Accès centralisé à tous les drawers |
         | Drawer Key | | Configure le lock/unlock |
-        | Storage Upgrades | :star: | Augmente la capacité (Tier I-V) |
-        | Void Upgrade | :star: | Détruit le surplus automatiquement |
+        | Storage Upgrades | - | Augmente la capacité (Tier I-V) |
+        | Void Upgrade | - | Détruit le surplus automatiquement |
 
 ??? note "Iron Chests"
 
@@ -413,9 +413,9 @@
         | Objet | Priorité | Description |
         |-------|:--------:|-------------|
         | Iron Chest | :zap: RUSH | 54 slots, première upgrade |
-        | Diamond Chest | :star: | 108 slots |
-        | Crystal Chest | :star: | 108 slots, transparent |
-        | Chest Upgrades | :star: | Upgrade sans vider |
+        | Diamond Chest | - | 108 slots |
+        | Crystal Chest | - | 108 slots, transparent |
+        | Chest Upgrades | - | Upgrade sans vider |
 
 ??? note "Colossal Chests"
 
@@ -450,8 +450,8 @@
 
         | Objet | Priorité | Description |
         |-------|:--------:|-------------|
-        | Colossal Chest Wall | :star: | Blocs pour construire la structure |
-        | Colossal Chest Core | :star: | Active la structure |
+        | Colossal Chest Wall | - | Blocs pour construire la structure |
+        | Colossal Chest Core | - | Active la structure |
         | Interface | | Connexion pour pipes/AE2 |
 
 ??? note "Simple Storage Network"
@@ -488,9 +488,9 @@
         | Objet | Priorité | Description |
         |-------|:--------:|-------------|
         | Storage Network Master | :zap: RUSH | Cerveau du réseau |
-        | Network Cable | :star: | Connecte les éléments |
-        | Storage Link Cable | :star: | Lie un coffre au réseau |
-        | Storage Request Table | :star: | Interface utilisateur |
+        | Network Cable | - | Connecte les éléments |
+        | Storage Link Cable | - | Lie un coffre au réseau |
+        | Storage Request Table | - | Interface utilisateur |
         | Import/Export Cable | | Automation basique |
 
 ??? note "Dank Storage"
@@ -514,7 +514,7 @@
 
         | Objet | Priorité | Description |
         |-------|:--------:|-------------|
-        | Dank 1-7 | :star: | Tiers croissants de stockage |
+        | Dank 1-7 | - | Tiers croissants de stockage |
         | Dock | | Place le Dank comme bloc |
 
 ??? note "RFTools Storage"
@@ -542,8 +542,8 @@
         | Objet | Priorité | Description |
         |-------|:--------:|-------------|
         | Storage Scanner | :zap: RUSH | Recherche dans tous les inventaires |
-        | Modular Storage | :star: | Stockage modulaire |
-        | Storage Tablet | :star: | Accès portable au Scanner |
+        | Modular Storage | - | Stockage modulaire |
+        | Storage Tablet | - | Accès portable au Scanner |
         | Screen | | Affiche les informations |
 
 ??? note "Occultism Storage"
@@ -573,7 +573,7 @@
         | Objet | Priorité | Description |
         |-------|:--------:|-------------|
         | Dimensional Storage Actuator | :zap: RUSH | Bloc de stockage principal |
-        | Storage Accessor | :star: | Accès portable au stockage |
+        | Storage Accessor | - | Accès portable au stockage |
         | Storage Stabilizer Tier 1-4 | | Augmente la capacité |
         | Stable Wormhole | | Accès distant fixe |
         | Storage Remote | | Accès wireless |
@@ -608,9 +608,9 @@
 
         | Objet | Priorité | Description |
         |-------|:--------:|-------------|
-        | QIO Drive Array | :star: | Contient les QIO Drives |
-        | QIO Dashboard | :star: | Interface utilisateur |
-        | QIO Drives (tiers) | :star: | Stockage (plusieurs capacités) |
+        | QIO Drive Array | - | Contient les QIO Drives |
+        | QIO Dashboard | - | Interface utilisateur |
+        | QIO Drives (tiers) | - | Stockage (plusieurs capacités) |
         | QIO Importer/Exporter | | Transfert automatique |
         | Portable QIO Dashboard | :zap: RUSH | Accès portable wireless |
         | QIO Crafting Window | | Autocrafting intégré |
@@ -646,7 +646,7 @@
         |-------|:--------:|-------------|
         | Ender Chest | :zap: RUSH | Coffre partagé par couleurs |
         | Ender Tank | | Tank partagé par couleurs |
-        | Ender Pouch | :star: | Accès portable à un Ender Chest |
+        | Ender Pouch | - | Accès portable à un Ender Chest |
 
 ---
 

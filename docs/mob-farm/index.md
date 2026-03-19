@@ -41,17 +41,17 @@
 
     [:octicons-arrow-down-24: Voir les mods secondaires](#mods-secondaires)
 
-## Comparaison des Mods
+## Comparaison Rapide
 
-| Mod | Difficulté | Spawning | Drops | Utilité | Phase |
-|-----|:----------:|:--------:|:-----:|:-------:|:-----:|
-| Apotheosis | :star::star: | :star::star::star::star::star: | :star::star::star::star: | :star::star::star::star::star: | Early → Late |
-| Industrial Foregoing | :star::star: | :star::star::star::star: | :star::star::star::star::star: | :star::star::star::star::star: | Mid → Late |
-| Hostile Neural Networks | :star::star::star: | :star::star::star::star::star: | :star::star::star::star::star: | :star::star::star::star: | Mid → Late |
-| Mob Grinding Utils | :star: | :star::star: | :star::star::star::star: | :star::star::star::star: | Early → Mid |
-| Deep Mob Learning | :star::star::star: | :star::star::star::star::star: | :star::star::star::star: | :star::star::star::star: | Mid → Late |
-| Cyclic | :star: | :star::star::star: | :star: | :star::star::star: | Early |
-| Mini Utilities | :star: | :star: | :star::star::star: | :star::star::star: | Early |
+| Mod | Difficulté | Efficacité | Phase | Recommandé pour |
+|-----|:----------:|:----------:|:-----:|-----------------|
+| Apotheosis | 2/5 | 5/5 | Early → Late | Modifier les spawners vanilla |
+| Industrial Foregoing | 2/5 | 5/5 | Mid → Late | Automation complète |
+| Hostile Neural Networks | 3/5 | 5/5 | Mid → Late | Simulation sans spawning |
+| Mob Grinding Utils | 1/5 | 4/5 | Early → Mid | Mob Masher enchantable |
+| Deep Mob Learning | 3/5 | 4/5 | Mid → Late | Alternative à HNN |
+| Cyclic | 1/5 | 3/5 | Early | Water Candle pour spawn boost |
+| Mini Utilities | 1/5 | 3/5 | Early | Spikes pour player kill |
 
 ## Progression Recommandée
 
@@ -140,9 +140,9 @@
     |-------|:--------:|-------------|
     | Sugar | :zap: RUSH | -5 ticks délai minimum par item |
     | Clock | :zap: RUSH | -5 ticks délai maximum par item |
-    | Fermented Spider Eye | :star: | +1 mob par spawn |
-    | Cobweb | :star: | No AI (mobs immobiles) |
-    | Glowstone | :star: | Ignore la lumière |
+    | Fermented Spider Eye | - | +1 mob par spawn |
+    | Cobweb | - | No AI (mobs immobiles) |
+    | Glowstone | - | Ignore la lumière |
     | Comparator | | Redstone control |
     | Nether Star | | Echoing (double loot) - très cher |
     | Ender Lead | | Déplace les Endermen sans TP |
@@ -197,10 +197,10 @@
     | Objet | Priorité | Description |
     |-------|:--------:|-------------|
     | Mob Imprisonment Tool | :zap: RUSH | Capture n'importe quel mob |
-    | Mob Crusher | :star: | Tue et génère Essence (300 dmg/tick) |
-    | Mob Duplicator | :star: | Spawne des mobs depuis Safari Net |
-    | Mob Slaughter Factory | :star: | Génère Pink Slime et Meat |
-    | Range Addon | :star: | Augmente la zone des machines |
+    | Mob Crusher | - | Tue et génère Essence (300 dmg/tick) |
+    | Mob Duplicator | - | Spawne des mobs depuis Safari Net |
+    | Mob Slaughter Factory | - | Génère Pink Slime et Meat |
+    | Range Addon | - | Augmente la zone des machines |
     | Animal Rancher | | Collecte laine, lait, oeufs |
     | Animal Feeder | | Nourrit automatiquement |
     | Animal Baby Separator | | Sépare bébés des adultes |
@@ -258,9 +258,9 @@
     | Objet | Priorité | Description |
     |-------|:--------:|-------------|
     | Data Model | :zap: RUSH | Un par type de mob, apprend en tuant |
-    | Simulation Chamber | :star: | Génère des Predictions depuis les modèles |
-    | Loot Fabricator | :star: | Convertit Predictions en drops réels |
-    | Prediction Matrix | :star: | Matériau de craft pour les machines |
+    | Simulation Chamber | - | Génère des Predictions depuis les modèles |
+    | Loot Fabricator | - | Convertit Predictions en drops réels |
+    | Prediction Matrix | - | Matériau de craft pour les machines |
     | Deep Learner | | Stocke plusieurs Data Models |
 
 === "Guides"
@@ -311,11 +311,11 @@
     |-------|:--------:|-------------|
     | Mob Masher | :zap: RUSH | Tue automatiquement, enchantable! |
     | Absorption Hopper | :zap: RUSH | Collecte items ET XP |
-    | Fan | :star: | Pousse les mobs (configurable, upgradable) |
-    | XP Tap | :star: | Extrait l'XP du hopper en fluide |
-    | Tank | :star: | Stocke l'XP liquide |
-    | Spikes | :star: | Tue les mobs (Diamond = player kill) |
-    | Ender Inhibitor | :star: | Empêche les Endermen de TP (rayon 8) |
+    | Fan | - | Pousse les mobs (configurable, upgradable) |
+    | XP Tap | - | Extrait l'XP du hopper en fluide |
+    | Tank | - | Stocke l'XP liquide |
+    | Spikes | - | Tue les mobs (Diamond = player kill) |
+    | Ender Inhibitor | - | Empêche les Endermen de TP (rayon 8) |
     | Mob Swab | | Collecte les gènes pour breeding |
     | GM Chicken Feed | | Breeding de chickens modifiés |
     | XP Solidifier | | Convertit XP en items |
@@ -356,10 +356,10 @@
 
         | Objet | Priorité | Description |
         |-------|:--------:|-------------|
-        | Data Model | :star: | Apprend d'un type de mob |
-        | Simulation Chamber | :star: | Simule les mobs pour drops |
-        | Extraction Chamber | :star: | Extrait Living/Pristine Matter |
-        | Loot Fabricator | :star: | Convertit la matière en drops |
+        | Data Model | - | Apprend d'un type de mob |
+        | Simulation Chamber | - | Simule les mobs pour drops |
+        | Extraction Chamber | - | Extrait Living/Pristine Matter |
+        | Loot Fabricator | - | Convertit la matière en drops |
         | Trial Keystone | | Lance des trials pour récompenses |
         | Glitch Armor | | Armure end-game puissante |
 
@@ -399,7 +399,7 @@
     | Item | Mod | Notes |
     |------|-----|-------|
     | Spike | Mini Utilities | Plusieurs tiers disponibles |
-    | Diamond Spike | Mini Utilities | :star: Player kill (XP + rare loot) |
+    | Diamond Spike | Mini Utilities | - Player kill (XP + rare loot) |
     | Vector Plate | Dark Utilities | Déplace les mobs automatiquement |
     | Mob Crusher | Industrial Foregoing | 300 dégâts/tick, génère Essence |
     | Mob Masher | Mob Grinding Utils | Enchantable! |

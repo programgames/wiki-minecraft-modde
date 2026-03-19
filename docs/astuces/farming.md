@@ -10,16 +10,16 @@ Tout ce qu'il faut savoir pour optimiser la production de ressources via le farm
 
 | Methode | Mod | Difficulte | Efficacite | Stackable | Phase |
 |---------|-----|:----------:|:----------:|:---------:|:-----:|
-| Sprinkler | Cyclic | :star: | :star::star::star: | Non | :zap: RUSH |
-| Growth Accelerator | Mystical Agriculture | :star::star: | :star::star::star::star::star: | Oui (64x) | Early -> Late |
-| Lily Pad of Fertility | Reliquary | :star: | :star::star::star: | Non | Early |
-| Phyto-Gro | Thermal | :star::star: | :star::star::star::star: | N/A (consomme) | Mid |
-| Growth Crystal T3 | Tiny Progression | :star::star: | :star::star::star::star: | Non | Mid |
-| Terra Preta | Cyclic | :star: | :star::star: | N/A (sol) | Early |
-| Crop Support | PneumaticCraft | :star::star: | :star::star::star: | Non | Mid |
-| SNAD | SNAD | :star: | :star::star::star: | N/A (sol) | Early |
-| Garden Cloche | Immersive Engineering | :star::star: | :star::star::star::star: | Non | Mid |
-| Hydroponic Bed | Industrial Foregoing | :star::star::star: | :star::star::star::star::star: | Non | Mid -> Late |
+| Sprinkler | Cyclic | - | --- | Non | :zap: RUSH |
+| Growth Accelerator | Mystical Agriculture | -- | ----- | Oui (64x) | Early -> Late |
+| Lily Pad of Fertility | Reliquary | - | --- | Non | Early |
+| Phyto-Gro | Thermal | -- | ---- | N/A (consomme) | Mid |
+| Growth Crystal T3 | Tiny Progression | -- | ---- | Non | Mid |
+| Terra Preta | Cyclic | - | -- | N/A (sol) | Early |
+| Crop Support | PneumaticCraft | -- | --- | Non | Mid |
+| SNAD | SNAD | - | --- | N/A (sol) | Early |
+| Garden Cloche | Immersive Engineering | -- | ---- | Non | Mid |
+| Hydroponic Bed | Industrial Foregoing | --- | ----- | Non | Mid -> Late |
 
 ### Sprinkler (Cyclic)
 
@@ -107,10 +107,10 @@ Recherche JEI : phyto-gro @thermal
 
 | Machine | Fonction | Priorite |
 |---------|----------|:--------:|
-| Plant Sower | Plante automatiquement les seeds | :star: |
-| Plant Gatherer | Recolte automatiquement les crops | :star: |
-| Plant Fertilizer | Applique bone meal automatiquement | :star: |
-| Hydroponic Bed | Sol ultra-rapide | :star: |
+| Plant Sower | Plante automatiquement les seeds | - |
+| Plant Gatherer | Recolte automatiquement les crops | - |
+| Plant Fertilizer | Applique bone meal automatiquement | - |
+| Hydroponic Bed | Sol ultra-rapide | - |
 | Animal Rancher | Collecte laine, lait, oeufs | |
 | Animal Baby Separator | Separe bebes des adultes | |
 | Mob Duplicator | Clone des mobs captures | |
@@ -127,7 +127,7 @@ Setup basique :
 
 | Machine | Fonction | Priorite |
 |---------|----------|:--------:|
-| Harvester | Recolte en zone | :star: |
+| Harvester | Recolte en zone | - |
 | Forester | Coupe les arbres automatiquement | |
 | Sprinkler | Accelere la croissance | :zap: RUSH |
 

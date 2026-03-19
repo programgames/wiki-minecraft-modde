@@ -7,6 +7,47 @@
 
 ## 1. Erreurs de Démarrage
 
+### Ne pas se documenter avant de jouer
+
+!!! danger "Erreur critique"
+    Se lancer dans un modpack sans préparation = perdre des dizaines d'heures.
+
+!!! tip "Solution"
+    **Avant de commencer un modpack :**
+
+    - Lire le **wiki officiel** du modpack (ATM, FTB, etc.)
+    - Rejoindre le **Discord** et lire les **messages épinglés**
+    - Parcourir le wiki [All The Mods](https://allthemods.github.io/alltheguides/) de fond en comble
+    - Regarder comment les autres joueurs construisent leurs bases
+    - Chercher des messages sur des thèmes spécifiques dans les channels Discord
+
+    !!! quote "Conseil d'expert"
+        *"Quelques heures de lecture au début peuvent en faire gagner des centaines plus tard."*
+
+---
+
+### Vouloir tout faire
+
+!!! warning "Erreur d'ambition"
+    Essayer de maîtriser **tous** les mods d'un gros modpack est impossible et contre-productif.
+
+    Beaucoup de mods font la même chose à quelques détails près. Tout vouloir faire à fond n'est pas adapté pour une progression saine.
+
+!!! tip "Solution"
+    **Spécialisez-vous dans 2-3 mods maximum :**
+
+    - Choisissez vos mods favoris et apprenez-les à fond
+    - Ignorez les autres même s'ils sont "plus forts"
+    - Faire toutes les quêtes de tous les mods est inutile
+    - Faites une **todo list** des petits mods à découvrir plus tard
+
+    !!! example "Exemple de spécialisation"
+        - **Tech** : Mekanism + AE2
+        - **Magie** : Ars Nouveau + Occultism
+        - **Farming** : Mystical Agriculture + Botany Pots
+
+---
+
 ### Ne pas lire les guides in-game
 
 !!! warning "Erreur fréquente"
@@ -156,6 +197,21 @@
 ---
 
 ## 3. Erreurs d'Énergie
+
+### Rush un mod d'énergie sans vérifier les nerfs
+
+!!! danger "Erreur de planification"
+    Certains mods sont **nerfés** sur certains modpacks. Investir des heures dans un mod pour découvrir qu'il produit 10x moins que prévu.
+
+!!! tip "Solution"
+    **Avant de rush un mod d'énergie :**
+
+    - Vérifier si le modpack a changé les **configs**
+    - Consulter le **Discord** du modpack pour les changements
+    - Pour les mods comme **NuclearCraft**, utiliser les générateurs en ligne adaptés à la config du pack
+    - Tester en créatif si possible avant d'investir des ressources
+
+---
 
 ### Pas assez de stockage
 

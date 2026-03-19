@@ -41,19 +41,19 @@
 
     [:octicons-arrow-down-24: Voir les mods secondaires](#mods-secondaires)
 
-## Comparaison des Mods
+## Comparaison Rapide
 
-| Mod | Difficulté | Automation | Combat | Utilité | Phase |
-|-----|:----------:|:----------:|:------:|:-------:|:-----:|
-| Ars Nouveau | :star::star: | :star::star::star::star: | :star::star::star::star: | :star::star::star::star::star: | Early → Late |
-| Blood Magic | :star::star::star: | :star::star::star: | :star::star::star::star: | :star::star::star: | Mid → Late |
-| Botania | :star::star::star: | :star::star::star::star::star: | :star::star::star: | :star::star::star::star: | Early → Late |
-| Occultism | :star::star: | :star::star::star::star::star: | :star::star: | :star::star::star::star::star: | Early → Late |
-| EvilCraft | :star::star: | :star::star::star: | :star::star: | :star::star::star: | Early → Mid |
-| Nature's Aura | :star::star::star: | :star::star::star::star: | :star: | :star::star::star::star: | Mid → Late |
-| Forbidden & Arcanus | :star: | :star: | :star::star: | :star::star::star::star::star: | Early |
-| Iron's Spells | :star::star: | :star: | :star::star::star::star::star: | :star::star: | Early → Late |
-| Spirit | :star: | :star::star::star: | :star: | :star::star::star: | Mid |
+| Mod | Difficulté | Phase | Recommandé pour |
+|-----|:----------:|:-----:|-----------------|
+| Ars Nouveau | 2/5 | Early → Late | Spells modulaires, automation |
+| Blood Magic | 3/5 | Mid → Late | Rituels et Living Armor |
+| Botania | 3/5 | Early → Late | Automation avec fleurs |
+| Occultism | 2/5 | Early → Late | Stockage dimensionnel gratuit |
+| EvilCraft | 2/5 | Early → Mid | Broom pour vol early |
+| Nature's Aura | 3/5 | Mid → Late | Farming et chunk loading |
+| Forbidden & Arcanus | 1/5 | Early | Eternal Stella (indestructible) |
+| Iron's Spells | 2/5 | Early → Late | Combat magique RPG |
+| Spirit | 1/5 | Mid | Spawners craftables |
 
 ## Progression Recommandée
 
@@ -133,23 +133,29 @@
         - **Combat** : Orb + AOE devastation + knockback
         - **Mining** : Touch + Break + AOE + Extract
         - **Téléportation** : Blink + Self
+        - **Extraction à distance** : Projectile + Extract = récupère items d'une machine à distance
+        - **Placement auto** : Touch + Place = pose des blocs automatiquement
+        - **Farm AOE** : AoE + Harvest = remplace une farm de récolte entière
+
+    !!! success "Drygmy pour farmer les BOSS"
+        Les **Drygmys** peuvent farmer les drops de boss si placés correctement. Chercher "Drigmys Boss Farm" sur YouTube pour les setups.
 
 === "Objets Importants"
 
     | Objet | Priorité | Description |
     |-------|:--------:|-------------|
     | Worn Notebook | :zap: RUSH | Guide in-game complet |
-    | Spell Book | :star: | Contient jusqu'à 10 spells |
-    | Source Jar | :star: | Stockage de Source (mana) |
-    | Enchanting Apparatus | :star: | Station de craft centrale |
+    | Spell Book | - | Contient jusqu'à 10 spells |
+    | Source Jar | - | Stockage de Source (mana) |
+    | Enchanting Apparatus | - | Station de craft centrale |
     | Imbuement Chamber | | Crée les composants de sorts |
-    | Scribes Table | :star: | Design et modifie les spells |
-    | Starbuncle Charm | :star: | Esprits transporteurs d'items |
-    | Wixie Charm | :star: | Esprits auto-crafters |
-    | Drygmy Charm | :star: | Esprits farmers de drops |
+    | Scribes Table | - | Design et modifie les spells |
+    | Starbuncle Charm | - | Esprits transporteurs d'items |
+    | Wixie Charm | - | Esprits auto-crafters |
+    | Drygmy Charm | - | Esprits farmers de drops |
     | Whirlisprig Charm | | Esprits planteurs d'arbres |
     | Ritual Brazier | | Rituels de zone puissants |
-    | Warp Portal | :star: | Téléportation longue distance |
+    | Warp Portal | - | Téléportation longue distance |
     | Glyph of Leap | | Double saut |
 
 === "Guides"
@@ -195,17 +201,17 @@
 
     | Objet | Priorité | Description |
     |-------|:--------:|-------------|
-    | Blood Altar | :star: | Centre du mod, tier up pour débloquer |
-    | Sacrificial Knife | :star: | Générer du LP avec ton sang |
-    | Dagger of Sacrifice | :star: | Sacrifier des mobs pour plus de LP |
+    | Blood Altar | - | Centre du mod, tier up pour débloquer |
+    | Sacrificial Knife | - | Générer du LP avec ton sang |
+    | Dagger of Sacrifice | - | Sacrifier des mobs pour plus de LP |
     | Divination Sigil | :zap: RUSH | Montre LP et tier de l'altar |
     | Air Sigil | | Vol type créatif temporaire |
     | Lava Sigil | | Place de la lave (cobblegen) |
     | Sigil of the Green Grove | | Accélère croissance des plantes |
-    | Well of Suffering | :star: | Rituel auto-dégâts mobs → LP |
-    | Bound Blade | :star: | Épée puissante qui te heal |
+    | Well of Suffering | - | Rituel auto-dégâts mobs → LP |
+    | Bound Blade | - | Épée puissante qui te heal |
     | Sentient Sword | | Scale avec Demon Will |
-    | Living Armor | :star: | Armure qui gagne des traits |
+    | Living Armor | - | Armure qui gagne des traits |
     | Incense Altar | | Double le LP de self-sacrifice |
 
 === "Guides"
@@ -237,6 +243,7 @@
         - **Gourmaryllis** : meilleure nourriture = plus de mana
         - **Munchdew** mange les feuilles, bon avec des arbres
         - **Agricarnation** accélère les crops
+        - **Entropinnyum** = mana par explosion TNT, une des sources les plus denses du jeu si automatisé
 
     !!! warning "Fleurs Passives"
         - **Passive flowers decay** - Hydroangeas disparaissent avec le temps
@@ -258,20 +265,20 @@
     | Objet | Priorité | Description |
     |-------|:--------:|-------------|
     | Lexica Botania | :zap: RUSH | Guide essentiel (Book + Sapling) |
-    | Mana Pool | :star: | Stockage de mana central |
-    | Mana Spreader | :star: | Transfère le mana |
-    | Wand of the Forest | :star: | Configure les blocs |
-    | Runic Altar | :star: | Crée les runes |
-    | Endoflame | :star: | Génère du mana avec combustibles |
+    | Mana Pool | - | Stockage de mana central |
+    | Mana Spreader | - | Transfère le mana |
+    | Wand of the Forest | - | Configure les blocs |
+    | Runic Altar | - | Crée les runes |
+    | Endoflame | - | Génère du mana avec combustibles |
     | Gourmaryllis | | Génère du mana avec nourriture |
     | Hopperhock | | Ramasse les items |
     | Open Crate | | Drop items pour automation |
-    | Mana Tablet | :star: | Batterie portable de mana |
-    | Terra Blade | :star: | Épée avec projectiles |
-    | Terrasteel | :star: | Matériau end-game |
+    | Mana Tablet | - | Batterie portable de mana |
+    | Terra Blade | - | Épée avec projectiles |
+    | Terrasteel | - | Matériau end-game |
     | Ring of Magnetization | | Attire les items |
-    | Sojourner's Sash | :star: | Vitesse et step assist |
-    | Eye of the Flugel | :star: | Vol creative-like (end-game) |
+    | Sojourner's Sash | - | Vitesse et step assist |
+    | Eye of the Flugel | - | Vol creative-like (end-game) |
 
 === "Guides"
 
@@ -303,6 +310,8 @@
         - **Transporter Spirits** déplacent les items sans pipes
         - **Spirit Lamps** étendent la zone de travail des esprits
         - Les **workers liés** ne nécessitent plus de cercles d'invocation
+        - **Djinn de mining** = mine une zone sans ta présence, alternative magique au Digital Miner
+        - **Foliot Crusher** broie les ores avec bonus de ressources
 
     !!! warning "Pentacles"
         - **Vérifier les pentacles** - mauvais pentacle = mauvais esprit
@@ -319,12 +328,12 @@
     | Objet | Priorité | Description |
     |-------|:--------:|-------------|
     | Dimensional Storage Actuator | :zap: RUSH | Stockage quasi-illimité |
-    | Storage Accessor | :star: | Accès distant au stockage |
+    | Storage Accessor | - | Accès distant au stockage |
     | Storage Stabilizer | | Étend la capacité du stockage |
-    | Familiar Ring | :star: | Porter un familiar comme accessoire |
-    | Chalk | :star: | Pour dessiner les pentagrammes |
-    | Book of Calling | :star: | Contrôler les esprits invoqués |
-    | Miner Spirits | :star: | Minent dans des dimensions void |
+    | Familiar Ring | - | Porter un familiar comme accessoire |
+    | Chalk | - | Pour dessiner les pentagrammes |
+    | Book of Calling | - | Contrôler les esprits invoqués |
+    | Miner Spirits | - | Minent dans des dimensions void |
     | Crusher Spirit | :zap: RUSH | Broie les minerais (ore doubling) |
     | Transporter Spirit | | Déplace les items automatiquement |
 
@@ -371,13 +380,13 @@
         | Objet | Priorité | Description |
         |-------|:--------:|-------------|
         | Resonating Wand | :zap: RUSH | Outil de base pour tout le mod |
-        | Luminous Crafting Table | :star: | Table de craft Tier 1 |
-        | Starlight Crafting Altar | :star: | Table de craft Tier 2 (multiblock) |
-        | Telescope | :star: | Découvre les constellations |
-        | Collector Crystal | :star: | Collecte et amplifie le starlight |
-        | Linking Tool | :star: | Connecte les cristaux entre eux |
+        | Luminous Crafting Table | - | Table de craft Tier 1 |
+        | Starlight Crafting Altar | - | Table de craft Tier 2 (multiblock) |
+        | Telescope | - | Découvre les constellations |
+        | Collector Crystal | - | Collecte et amplifie le starlight |
+        | Linking Tool | - | Connecte les cristaux entre eux |
         | Perk Seal | | Bloque un perk pour le repositionner |
-        | Mantle of Stars | :star: | Cape avec effets de constellation |
+        | Mantle of Stars | - | Cape avec effets de constellation |
 
 ??? note "Hexerei"
 
@@ -408,9 +417,9 @@
         | Objet | Priorité | Description |
         |-------|:--------:|-------------|
         | Broom | :zap: RUSH | Vol early game très accessible! |
-        | Mixing Cauldron | :star: | Crafting central du mod |
-        | Coffer | :star: | Coffre magique portable |
-        | Crow | :star: | Familier utile |
+        | Mixing Cauldron | - | Crafting central du mod |
+        | Coffer | - | Coffre magique portable |
+        | Crow | - | Familier utile |
         | Candles | | Buffs de zone variés |
         | Moon Water | | Ingrédient pour potions |
 
@@ -443,10 +452,10 @@
         | Objet | Priorité | Description |
         |-------|:--------:|-------------|
         | Encyclopedia Arcana | :zap: RUSH | Guide in-game |
-        | Spirit Altar | :star: | Table de craft avec âmes |
-        | Soul Staff | :star: | Extrait plus d'âmes des mobs |
-        | Scythe | :star: | Arme puissante AOE |
-        | Totem Bases | :star: | Effets passifs de zone |
+        | Spirit Altar | - | Table de craft avec âmes |
+        | Soul Staff | - | Extrait plus d'âmes des mobs |
+        | Scythe | - | Arme puissante AOE |
+        | Totem Bases | - | Effets passifs de zone |
         | Spirit Pouches | | Stocke les âmes |
 
 ??? note "EvilCraft"
@@ -473,15 +482,20 @@
 
         | Objet | Priorité | Description |
         |-------|:--------:|-------------|
-        | Blood Infuser | :star: | Station de craft principale |
-        | Sanguinary Pedestal | :star: | Génère du blood |
+        | Blood Infuser | - | Station de craft principale |
+        | Sanguinary Pedestal | - | Génère du blood |
         | Dark Tank | | Stocke le blood |
         | Spirit Furnace | | Process les âmes de mobs |
         | Broom | :zap: RUSH | Vol early game! |
         | Spectral Glasses | | Voir les esprits invisibles |
-        | Rejuvenated Flesh | | Nourriture infinie |
+        | Rejuvenated Flesh | - | Nourriture infinie (très utile!) |
         | Blood Chest | | Répare les items avec blood |
         | Exalted Crafter | | Auto-crafting au blood |
+        | Effortless Ring | - | Marche rapide |
+        | Ring of Thunder | | Invoque la foudre |
+        | Vengeance Pickaxe | | Pioche puissante |
+        | Necromentar Staff | | Arme de combat |
+        | Spirit Reanimator | - | Génère des œufs de mobs |
 
 ??? note "Nature's Aura"
 
@@ -511,12 +525,22 @@
         | Objet | Priorité | Description |
         |-------|:--------:|-------------|
         | Natural Altar | :zap: RUSH | Station de craft basique |
-        | Environmental Eye | :star: | Voir les niveaux d'aura |
-        | Farming Stencil | :star: | Ferme automatisée |
-        | Lamp of Sanctuary | :star: | Bloque spawn mobs (grande zone) |
-        | World Eye | | Chunk loader |
-        | Ring of Last Chance | :star: | Totem of Undying intégré |
+        | Environmental Eye | - | Voir les niveaux d'aura |
+        | Farming Stencil | - | Ferme automatisée |
+        | Lamp of Sanctuary | - | Bloque spawn mobs (grande zone) |
+        | World Eye | - | Chunk loader |
+        | Ring of Last Chance | - | Totem of Undying intégré |
         | Imperceptible Builder | | Construction auto invisible |
+        | Everlasting Spring | - | Eau infinie pour ferme/cobble gen |
+        | Energetic Aura Forge | | Créer de l'électricité |
+        | Cloudshifter | | Changer le temps |
+        | Shifting Sundial | | Changer le temps du jour |
+        | Ender Ocular | - | Accéder à l'inventaire à distance |
+        | Eye of the Shulker | | Trouver End City |
+        | Eye of the Blaze | | Trouver Nether Fortresses |
+        | Ancient Knowledge | | Trouver Ancient Debris |
+        | Staff of Riches | | Trouver des coffres |
+        | Nature's Mend enchant | | + Aura = item incassable |
 
 ??? note "Forbidden & Arcanus"
 
@@ -538,11 +562,13 @@
         | Objet | Priorité | Description |
         |-------|:--------:|-------------|
         | Eternal Stella | :zap: RUSH | Rend un item indestructible |
-        | Quantum Catcher | :star: | Capture n'importe quelle entité |
-        | Magical Farmland | :star: | Sol qui accélère x3 |
+        | Quantum Catcher | - | Capture n'importe quelle entité (même boss!) |
+        | Magical Farmland | - | Sol qui accélère x3 |
         | Arcane Bone Meal | | Croissance instantanée |
         | Obsidian Skull | | Protection feu (Curio) |
         | Hephaestus Forge | | Station de craft avancée |
+        | Gavel | | Comme un hammer, mine en zone |
+        | Splimex Pickaxe | | Silk Touch intégré |
 
 ??? note "Iron's Spells 'n Spellbooks"
 
@@ -566,16 +592,47 @@
 
         | Objet | Priorité | Description |
         |-------|:--------:|-------------|
-        | Spell Book | :star: | Contient les sorts (tiers: leather → netherite) |
-        | Scroll | :star: | Apprend un nouveau sort |
-        | Arcane Anvil | :star: | Upgrade spellbooks |
+        | Spell Book | - | Contient les sorts (tiers: leather → netherite) |
+        | Scroll | - | Apprend un nouveau sort |
+        | Arcane Anvil | - | Upgrade spellbooks |
         | Inscription Table | | Crée des scrolls |
-        | Wizard Armor | :star: | Boost les stats magiques |
-        | Mana Regeneration Ring | :star: | Accélère la regen |
+        | Wizard Armor | - | Boost les stats magiques |
+        | Mana Regeneration Ring | - | Accélère la regen |
 
     **Addons:** [All the Wizard Gear](https://www.curseforge.com/minecraft/mc-mods/all-the-wizard-gear)
 
     **Guides:** [Progression](https://iron.wiki/progression/) | [Spell Tier List](https://iron.wiki/spells/)
+
+??? note "Eidolon Repraised"
+
+    [CurseForge](https://www.curseforge.com/minecraft/mc-mods/eidolon-repraised)
+
+    === "Tips"
+
+        !!! tip "Dark Magic"
+            - Mod de magie noire avec thème alchimie/necromancy
+            - Système de rituels et d'invocations
+            - Potions et effets uniques
+
+    === "Objets Importants"
+
+        | Objet | Priorité | Description |
+        |-------|:--------:|-------------|
+        | Crucible | - | Craft central pour alchimie |
+        | Brazier | - | Pour les rituels |
+        | Athame | | Dague rituelle |
+        | Soul Shard | | Ressource pour invocations |
+
+??? note "Potions Master"
+
+    [CurseForge](https://www.curseforge.com/minecraft/mc-mods/potionsmaster)
+
+    === "Tips"
+
+        !!! tip "Potions Avancées"
+            - Système de brewing amélioré
+            - Potions avec effets plus puissants
+            - Plus de contrôle sur la création de potions
 
 ??? note "Spirit"
 
@@ -594,8 +651,8 @@
 
         | Objet | Priorité | Description |
         |-------|:--------:|-------------|
-        | Soul Cage | :star: | Spawner craftable |
-        | Soul Gem | :star: | Capture les âmes |
+        | Soul Cage | - | Spawner craftable |
+        | Soul Gem | - | Capture les âmes |
         | Crude Soul Gem | | Version basique (un seul type) |
         | Soul Pedestal | | Augmente le tier du cage |
 

@@ -41,20 +41,20 @@
 
     [:octicons-arrow-down-24: Voir les mods secondaires](#mods-secondaires)
 
-## Comparaison des Mods
+## Comparaison Rapide
 
-| Mod | Difficulté | Automation | Combat | Utilité | Phase |
-|-----|:----------:|:----------:|:------:|:-------:|:-----:|
-| Applied Energistics 2 | :star::star::star: | :star::star::star::star::star: | :star: | :star::star::star::star::star: | Mid → Late |
-| Create | :star::star: | :star::star::star::star: | :star::star: | :star::star::star::star: | Early → Late |
-| Mekanism | :star::star::star: | :star::star::star::star::star: | :star::star::star: | :star::star::star::star::star: | Early → Late |
-| Thermal Series | :star::star: | :star::star::star::star: | :star: | :star::star::star::star: | Early → Mid |
-| Industrial Foregoing | :star::star: | :star::star::star::star::star: | :star: | :star::star::star::star: | Mid → Late |
-| Ender IO | :star::star: | :star::star::star::star: | :star::star::star: | :star::star::star::star: | Mid → Late |
-| PneumaticCraft | :star::star::star::star: | :star::star::star::star: | :star::star: | :star::star::star: | Mid → Late |
-| RFTools | :star::star: | :star::star::star: | :star: | :star::star::star::star: | Early → Late |
-| Flux Networks | :star: | :star::star::star: | :star: | :star::star::star::star::star: | Mid → Late |
-| Draconic Evolution | :star::star::star::star: | :star::star: | :star::star::star::star::star: | :star::star::star::star: | Late |
+| Mod | Difficulté | Phase | Recommandé pour |
+|-----|:----------:|:-----:|-----------------|
+| Applied Energistics 2 | 3/5 | Mid → Late | Stockage digital, autocrafting |
+| Create | 2/5 | Early → Late | Automation visuelle, trains |
+| Mekanism | 3/5 | Early → Late | Ore 5x, MekaSuit end-game |
+| Thermal Series | 2/5 | Early → Mid | Ore 2x rapide, augments |
+| Industrial Foregoing | 2/5 | Mid → Late | Mob farms, Laser Drill |
+| Ender IO | 2/5 | Mid → Late | Conduits tout-en-un |
+| PneumaticCraft | 4/5 | Mid → Late | Drones programmables |
+| RFTools | 2/5 | Early → Late | Mini-AE2, Builder quarry |
+| Flux Networks | 1/5 | Mid → Late | Énergie sans fil cross-dim |
+| Draconic Evolution | 4/5 | Late | Outils/armures ultimes |
 
 ## Progression Recommandée
 
@@ -133,30 +133,44 @@
         - Utiliser des **Acceleration Cards** dans les Assemblers pour plus de vitesse
         - **Blocking Mode** sur Pattern Provider pour machines qui ne prennent qu'un batch à la fois
         - Séparer les **crafting steps** pour paralléliser les jobs
+        - Pour les **crafts répétitifs**, utiliser la modification des quantités pour crafter par batch (ça change tout!)
+
+    !!! tip "Planification Réseau"
+        - Commencer et prévoir son réseau AE2 **propre et extensible dès le début**
+        - Choisir entre **channels vs wireless** selon votre style de jeu
+        - Utiliser **tous les types de cells** avec les addons : Infinity, Mega, FE Storage, Chemical, Source, Mana, Fluid...
+
+    !!! tip "Subnetworks & Optimisation"
+        - Créer un **sous-réseau dédié** aux machines lourdes (ex: Mekanism)
+        - Relier au réseau principal via **Storage Bus** pour éviter les conflits de channels
+        - **ME Chest avec priorité élevée** = buffer pour items importants
+        - **Level Emitter + Crafting Card** = autocraft quand le stock descend sous un seuil
 
     !!! warning "Attention"
         - **Middle click** dans le terminal pour ajuster les quantités des crafts
         - On peut changer l'incrément du nombre d'objets par batch dans la **config AE2**
+        - Utiliser des **nuggets pour réparer outils Tinkers** = économie de ressources
 
     !!! example "Setups Utiles"
         - **Crystal Growth Accelerators** autour des cristaux dans l'eau = growth x17 plus rapide
         - **Storage Bus sur un chest** comme buffer temporaire pour les crafts
         - **Formation Plane** peut placer des blocs dans le monde automatiquement
         - **Level Emitter** émet redstone quand un item atteint un seuil
+        - **Mechanical Arm (Create)** peut importer vers ME Interface = intégration Create dans l'autocrafting
 
 === "Objets Importants"
 
     | Objet | Priorité | Description |
     |-------|:--------:|-------------|
     | ME Controller | :zap: RUSH | Cerveau du réseau (obligatoire pour >8 channels) |
-    | ME Drive | :star: | Contient les disques de stockage |
+    | ME Drive | - | Contient les disques de stockage |
     | Inscriber | :zap: RUSH | Fabrique les processeurs (crucial early) |
-    | Charger | :star: | Charge les outils et certum quartz |
-    | Fluix Crystal | :star: | Matériau de base (craft dans l'eau) |
-    | Crafting CPU | :star: | Gère les jobs d'autocrafting |
-    | Pattern Provider | :star: | Envoie les items aux machines externes |
-    | Molecular Assembler | :star: | Craft les recettes internes |
-    | ME Terminal | :star: | Interface utilisateur |
+    | Charger | - | Charge les outils et certum quartz |
+    | Fluix Crystal | - | Matériau de base (craft dans l'eau) |
+    | Crafting CPU | - | Gère les jobs d'autocrafting |
+    | Pattern Provider | - | Envoie les items aux machines externes |
+    | Molecular Assembler | - | Craft les recettes internes |
+    | ME Terminal | - | Interface utilisateur |
     | Import/Export Bus | | Transfert automatique avec le monde |
     | Storage Bus | | Connecte des inventaires externes au réseau |
 
@@ -211,21 +225,23 @@
         - **Steam Engine** + Boiler = meilleure génération mid-game
         - **Contraptions** avec Portable Storage Interface = systèmes mobiles
         - Les **Trains** sont le meilleur transport long-distance
+        - **Mechanical Harvester sur Bearing** = farm rotative automatique, ajouter un Deployer pour replanter
+        - **Schematicannon + chest AE2** = constructions automatiques à grande échelle depuis un fichier .nbt
 
 === "Objets Importants"
 
     | Objet | Priorité | Description |
     |-------|:--------:|-------------|
     | Hand Crank | :zap: RUSH | Génère de la rotation manuellement (early) |
-    | Water Wheel | :star: | Génère rotation avec eau courante |
-    | Windmill | :star: | Génère rotation avec le vent |
-    | Steam Engine | :star: | Génération puissante avec vapeur |
-    | Mechanical Press | :star: | Compresse les items, fait des sheets |
+    | Water Wheel | - | Génère rotation avec eau courante |
+    | Windmill | - | Génère rotation avec le vent |
+    | Steam Engine | - | Génération puissante avec vapeur |
+    | Mechanical Press | - | Compresse les items, fait des sheets |
     | Mechanical Saw | :zap: RUSH | Coupe bois, tue mobs |
-    | Millstone | :star: | Broie les items (early) |
+    | Millstone | - | Broie les items (early) |
     | Crushing Wheels | | Version améliorée du Millstone |
-    | Mixer | :star: | Mélange les recettes |
-    | Deployer | :star: | Utilise des items comme un joueur |
+    | Mixer | - | Mélange les recettes |
+    | Deployer | - | Utilise des items comme un joueur |
     | Mechanical Arm | | Transporte items entre inventaires |
     | Schematicannon | | Place des structures automatiquement |
 
@@ -251,6 +267,7 @@
 
 - [Mekanism Generators](https://www.curseforge.com/minecraft/mc-mods/mekanism-generators) : Fission, Fusion, Turbines
 - [Mekanism Tools](https://www.curseforge.com/minecraft/mc-mods/mekanism-tools) : Outils en Refined materials
+- [Gravitational Modulating Additional Unit](https://www.curseforge.com/minecraft/mc-mods/gravitational-modulating-additional-unit) : Modules de gravité
 
 === "Tips"
 
@@ -275,6 +292,7 @@
         - **Cardboard Box** peut déplacer n'importe quel bloc avec son contenu
         - **Gauge Dropper** pour vider les machines de leurs fluides/gaz
         - **Robit** est un compagnon portable avec crafting table, chest, et furnace
+        - **Diversion Transporter** : transfère seulement avec un signal redstone
 
 === "Objets Importants"
 
@@ -282,14 +300,14 @@
     |-------|:--------:|-------------|
     | Metallurgic Infuser | :zap: RUSH | Infuse des matériaux (crucial pour crafts) |
     | Enrichment Chamber | :zap: RUSH | Ore doubling (2x) |
-    | Purification Chamber | :star: | Ore tripling (3x) avec Oxygen |
-    | Chemical Injection Chamber | :star: | Ore quadrupling (4x) |
+    | Purification Chamber | - | Ore tripling (3x) avec Oxygen |
+    | Chemical Injection Chamber | - | Ore quadrupling (4x) |
     | Chemical Dissolution Chamber | | Ore quintupling (5x) |
-    | Digital Miner | :star: | Mine automatiquement selon des filtres |
-    | Teleporter | :star: | Téléportation entre bases |
-    | Jetpack | :star: | Vol early-mid game |
-    | Atomic Disassembler | :star: | Multi-tool puissant |
-    | MekaSuit | :star: | Armure modulaire end-game |
+    | Digital Miner | - | Mine automatiquement selon des filtres |
+    | Teleporter | - | Téléportation entre bases |
+    | Jetpack | - | Vol early-mid game |
+    | Atomic Disassembler | - | Multi-tool puissant |
+    | MekaSuit | - | Armure modulaire end-game |
     | Fission Reactor | | Génération d'énergie massive |
     | Fusion Reactor | | Énergie quasi-infinie (end-game) |
     | QIO Drive Array | | Stockage end-game (comme AE2) |
@@ -299,6 +317,8 @@
     - [Getting Started Tutorial](https://wiki.aidancbrady.com/wiki/Tutorials/Getting_Started)
     - [Ore Processing Guide](https://wiki.aidancbrady.com/wiki/Ore_Processing)
     - [Ore Processing ATM Guide](https://jangro.com/2024/12/22/mastering-mekanism-ore-processing-from-2x-3x-4x-to-5x)
+    - [Schémas Énergie (Google Drive)](https://drive.google.com/drive/folders/1-qBYHOeW_2hcmvpxyCtwaYuf6TTEZLNU)
+    - [Réacteur Fission Max (Reddit)](https://www.reddit.com/r/feedthebeast/comments/m109gs/making_the_largest_fission_reactor_from_mekanism/)
 
 ---
 
@@ -342,22 +362,33 @@
         - **Pulverizer** pour ore doubling + byproducts
         - **Induction Smelter** pour créer les alliages
         - **Fluid Transposer** pour ajouter/retirer fluides des items
+        - **Phytogenic Insolator** pour farming automatique - [Guide d'automatisation](https://imgur.com/a/auto-phytogenic-insolator-upgrading-configurating-wt6uTT6)
+
+    !!! success "Augments Cachés"
+        Les machines Thermal acceptent des **Augments** qui changent fondamentalement leur comportement :
+
+        - **Pulverizer + Reagent Recovery** : conserve les réactifs
+        - **Fluid Encapsulator + Trivection Chamber** : cuit les items dans le fluide
+        - Explorez JEI systématiquement — beaucoup sont sous-documentés !
+
+    !!! tip "Satchel Auto-Tri"
+        Le **Satchel filtrable** aspire automatiquement certains types d'items (ores, drops) de votre inventaire vers le sac, ou bloque certains items. Indispensable en mining pour garder l'inventaire propre sans gestion manuelle.
 
 === "Objets Importants"
 
     | Objet | Priorité | Description |
     |-------|:--------:|-------------|
     | Pulverizer | :zap: RUSH | Ore doubling + chance de byproducts |
-    | Redstone Furnace | :star: | Furnace rapide avec augments |
-    | Induction Smelter | :star: | Combine minerais pour alliages |
+    | Redstone Furnace | - | Furnace rapide avec augments |
+    | Induction Smelter | - | Combine minerais pour alliages |
     | Fluid Transposer | | Ajoute/retire fluides des items |
-    | Dynamos | :star: | Génération d'énergie (Steam, Magmatic, etc.) |
-    | Energy Cell | :star: | Stockage d'énergie |
-    | Aqueous Accumulator | :star: | Source d'eau infinie |
+    | Dynamos | - | Génération d'énergie (Steam, Magmatic, etc.) |
+    | Energy Cell | - | Stockage d'énergie |
+    | Aqueous Accumulator | - | Source d'eau infinie |
     | Phyto Soil | | Sol qui accélère les crops |
     | Watering Can | | Accélère crops manuellement |
-    | Insightful Crystal | :star: | Stocke jusqu'à 63 niveaux d'XP |
-    | Fluxduct | :star: | Câbles d'énergie |
+    | Insightful Crystal | - | Stocke jusqu'à 63 niveaux d'XP |
+    | Fluxduct | - | Câbles d'énergie |
     | Itemduct / Servos | | Transport d'items |
     | Satchel | | Inventaire portable |
 
@@ -407,15 +438,30 @@
         |-------|:--------:|-------------|
         | Engineer's Manual | :zap: RUSH | Guide in-game essentiel |
         | Coke Oven | :zap: RUSH | Premier multiblock, crée Coke + Creosote |
-        | Blast Furnace | :star: | Crée l'acier (Steel) |
-        | Crusher | :star: | Ore doubling avec style |
-        | Garden Cloche | :star: | Farming automatique compact |
-        | Excavator | :star: | Mining automatique de zone |
-        | Water Wheel | :star: | Génération passive d'énergie |
+        | Blast Furnace | - | Crée l'acier (Steel) |
+        | Crusher | - | Ore doubling avec style |
+        | Garden Cloche | - | Farming automatique compact |
+        | Excavator | - | Mining automatique de zone |
+        | Water Wheel | - | Génération passive d'énergie |
         | Windmill | | Génération avec le vent |
-        | Wire Connectors | :star: | Transfert d'énergie avec câbles |
+        | Wire Connectors | - | Transfert d'énergie avec câbles |
         | Revolver | | Arme à feu customisable |
         | Railgun | | Arme end-game puissante |
+        | Turrets | | Défense automatique |
+        | Charging Station | | Recharge outils électriques |
+        | Silo | | Stockage de masse |
+
+    **Addon:** [Immersive Petroleum](https://www.curseforge.com/minecraft/mc-mods/immersive-petroleum) - Pétrole, raffinage, bateaux améliorés
+
+    === "Immersive Petroleum"
+
+        | Objet | Description |
+        |-------|-------------|
+        | Seismic Survey Tool | Trouver des fluides souterrains |
+        | Motorboat | Bateau amélioré plus rapide |
+        | Pumpjack | Extrait le pétrole |
+        | Distillation Tower | Raffine le pétrole |
+        | Asphalt Concrete | Bloc de route qui donne Speed |
 
 ??? note "Ad Astra"
 
@@ -446,11 +492,13 @@
         | Objet | Priorité | Description |
         |-------|:--------:|-------------|
         | NASA Workbench | :zap: RUSH | Crafting des items spatiaux |
-        | Space Suit | :star: | Protection spatiale |
-        | Rocket | :star: | Transport vers les planètes |
-        | Oxygen Gear | :star: | Respiration hors atmosphère |
-        | Oxygen Generator | :star: | Produit O2 pour les bases |
+        | Space Suit | - | Protection spatiale |
+        | Rocket | - | Transport vers les planètes |
+        | Oxygen Gear | - | Respiration hors atmosphère |
+        | Oxygen Generator | - | Produit O2 pour les bases |
         | Rover | | Véhicule de surface |
+
+    **Addon:** [Giselle Addon](https://www.curseforge.com/minecraft/mc-mods/ad-astra-giselle-addon) - QoL et features supplémentaires
 
 ??? note "Industrial Foregoing"
 
@@ -478,11 +526,11 @@
 
         | Objet | Priorité | Description |
         |-------|:--------:|-------------|
-        | Mob Crusher | :star: | Tue les mobs et stocke l'Essence |
-        | Mob Duplicator | :star: | Duplique les mobs capturés |
-        | Plant Gatherer / Sower | :star: | Farming automatique |
-        | Laser Drill / Laser Base | :star: | Génère des ressources depuis le void |
-        | Black Hole Unit | :star: | Stockage massif d'un type d'item |
+        | Mob Crusher | - | Tue les mobs et stocke l'Essence |
+        | Mob Duplicator | - | Duplique les mobs capturés |
+        | Plant Gatherer / Sower | - | Farming automatique |
+        | Laser Drill / Laser Base | - | Génère des ressources depuis le void |
+        | Black Hole Unit | - | Stockage massif d'un type d'item |
         | Black Hole Tank | | Stockage massif de fluides |
         | Hydroponic Bed | | Accélère les crops |
         | Meat Feeder | | Mange automatiquement |
@@ -520,11 +568,11 @@
         | Objet | Priorité | Description |
         |-------|:--------:|-------------|
         | Conduits | :zap: RUSH | Transport tout-en-un (item, fluid, energy) |
-        | SAG Mill | :star: | Ore doubling + byproducts |
-        | Alloy Smelter | :star: | Crée les alliages (Dark Steel, etc.) |
-        | Capacitor Bank | :star: | Stockage d'énergie |
-        | Powered Spawner | :star: | Spawner alimenté en RF |
-        | Dark Steel Tools | :star: | Outils upgradables (empowered) |
+        | SAG Mill | - | Ore doubling + byproducts |
+        | Alloy Smelter | - | Crée les alliages (Dark Steel, etc.) |
+        | Capacitor Bank | - | Stockage d'énergie |
+        | Powered Spawner | - | Spawner alimenté en RF |
+        | Dark Steel Tools | - | Outils upgradables (empowered) |
         | Dark Steel Armor | | Armure upgradable |
         | Travel Anchor | | Téléportation courte distance |
         | Soul Vial | | Capture l'âme des mobs |
@@ -566,19 +614,46 @@
             - Les **Drones** peuvent prendre jusqu'à 15 Armor Upgrades
             - Les Drones peuvent **Match by Block** pour matcher des blocs spécifiques
 
+        !!! success "Drones Programmables"
+            Les **Drones PneumaticCraft** sont programmables via un éditeur visuel. Ils peuvent miner, farmer, transporter, combattre et interagir avec des inventaires. Un Drone bien configuré remplace un réseau entier de machines pour des tâches complexes et conditionnelles.
+
+        !!! success "Amadron Automation"
+            Le système marchand **Amadron** échange des ressources automatiquement via des Tablets programmables. Couplé à une **Pressure Chamber automatisée** et un réseau AE2, convertit des items abondants en ressources rares en continu, sans intervention.
+
+        !!! example "Pressure Chamber pour Enchantements"
+            La **Pressure Chamber** (3x3x3 suffit, pression > 2.0 bar) peut appliquer des enchantements qui bypass les caps de l'enclume normale. Elle peut même combiner des enchantements normalement incompatibles (ex: Decrepitude + Sanctified).
+
     === "Objets Importants"
 
         | Objet | Priorité | Description |
         |-------|:--------:|-------------|
-        | Air Compressor | :star: | Génère de l'air comprimé |
-        | Pressure Chamber | :star: | Crafting avec pression |
+        | Air Compressor | - | Génère de l'air comprimé |
+        | Pressure Chamber | - | Crafting avec pression + enchantements spéciaux |
         | Assembly System | | Crafting automatisé avancé |
-        | Drone | :star: | Automatisation programmable complète |
-        | Pneumatic Jackhammer | | Outil de minage puissant |
+        | Drone | - | Automatisation programmable complète |
+        | Pneumatic Jackhammer | - | Outil de minage puissant |
         | Refinery | | Raffine le pétrole en fuel |
-        | Seismic Sensor | :star: | Trouve le pétrole |
-        | Heat Sink | :star: | Dissipe la chaleur |
+        | Seismic Sensor | - | Trouve le pétrole |
+        | Heat Sink | - | Dissipe la chaleur |
         | Minigun | | Arme à distance puissante |
+        | Liquid Hopper | | Hopper pour fluides |
+        | Omni Hopper | | Hopper universel items+fluides |
+        | Reinforced Chest | | Coffre améliorable |
+        | Thermal Lagging | | Évite rejet de chaleur |
+        | Gas Lift | | Pompe fluides + détection |
+        | Air Grate Module | | Attire les mobs |
+        | Logistic Modules | | Transport items/liquides |
+        | Sentry Turret | | Défense automatique |
+        | Kerosene Lamp | | Torch portable (30 blocs range) |
+        | Air Cannon | | Transport d'items à distance |
+        | Elevator | | Ascenseur pneumatique |
+        | Collector Drone | | Ramasse items par terre |
+        | Harvesting Drone | | Récolte automatique |
+        | Memory Stick | | Gérer XP joueur |
+        | Aerial Interface | | Connecte au joueur (auto-feeding, charge) |
+        | Transfer Gadget | | Transfert item/fluid entre 2 blocs |
+        | Crop Support | | Accélère croissance |
+        | Vacuum Trap | | Capture mobs |
 
     **Guide:** [Guide Reddit ATM](https://www.reddit.com/r/allthemods/comments/1d05ovt/pneumaticcraft_repressurized_guide/)
 
@@ -608,10 +683,10 @@
         | Objet | Priorité | Description |
         |-------|:--------:|-------------|
         | Storage Scanner | :zap: RUSH | Recherche dans tous les inventaires |
-        | Modular Storage | :star: | Stockage extensible |
-        | Tablet | :star: | Accès distant au Storage Scanner |
+        | Modular Storage | - | Stockage extensible |
+        | Tablet | - | Accès distant au Storage Scanner |
         | Screen | | Affiche des informations |
-        | Builder | :star: | Copie/colle structures, quarry |
+        | Builder | - | Copie/colle structures, quarry |
         | Spawner | | Spawn des mobs avec énergie |
         | Environmental Controller | | Applique des effets dans une zone |
         | Powercell | | Transfert d'énergie sans fil |
@@ -642,14 +717,17 @@
             - **Chunk loading** intégré optionnel
             - Peut charger les items dans l'inventaire du joueur
 
+        !!! success "Réseau Global Sans Fil"
+            Tous vos générateurs alimentent un **Flux Point**, tous vos consommateurs reçoivent via **Flux Plugs**. Plus aucun câble, plus de goulot d'étranglement. Le **Flux Controller** gère les priorités d'alimentation par machine.
+
     === "Objets Importants"
 
         | Objet | Priorité | Description |
         |-------|:--------:|-------------|
         | Flux Dust | :zap: RUSH | Matériau de base (Redstone + feu) |
-        | Flux Plug | :star: | Input d'énergie vers le réseau |
-        | Flux Point | :star: | Output d'énergie depuis le réseau |
-        | Flux Controller | :star: | Gestion centralisée du réseau |
+        | Flux Plug | - | Input d'énergie vers le réseau |
+        | Flux Point | - | Output d'énergie depuis le réseau |
+        | Flux Controller | - | Gestion centralisée du réseau |
         | Flux Storage | | Stockage d'énergie dans le réseau |
 
     **Guides:** [Automatiser la Flux Dust](https://wiki.enigmatica.net/enigmatica6/gameplay/how-to.../flux-networks-automating-flux-dust) | [Guide Reddit](https://www.reddit.com/r/feedthebeast/comments/9oc4j3/flux_networks_guide/)
@@ -678,13 +756,19 @@
         !!! tip "Programming"
             - Les programmes sont en **Lua** - langage simple à apprendre
             - **Pastebin** intégré pour télécharger des programmes de la communauté
+            - **N'hésitez pas à utiliser une IA** pour générer du code CC:Tweaked !
+
+        !!! success "Programmes Utiles"
+            - **Geo Scanner Pocket** + programme de recherche de blocs = trouver minerais rares (Allthemodium, etc.)
+            - **Reactor Controllers** : [ReactorController](https://github.com/Kasra-G/ReactorController) | [Extreme Reactor Control](https://gitlab.com/seekerscomputercraft/extremereactorcontrol/)
+            - Chercher sur Pastebin les programmes populaires de la communauté
 
     === "Objets Importants"
 
         | Objet | Priorité | Description |
         |-------|:--------:|-------------|
-        | Computer | :star: | Ordinateur de base pour programmer |
-        | Mining Turtle | :star: | Turtle avec pickaxe intégrée |
+        | Computer | - | Ordinateur de base pour programmer |
+        | Mining Turtle | - | Turtle avec pickaxe intégrée |
         | Wireless Modem | | Communication sans fil |
         | Monitor | | Écran externe configurable |
         | Disk Drive | | Partage de programmes |
@@ -716,14 +800,128 @@
 
         | Objet | Priorité | Description |
         |-------|:--------:|-------------|
-        | Controller | :star: | Cerveau du réseau, configure les transferts |
-        | XNet Cable | :star: | Câble universel |
-        | Connector | :star: | Connecte un bloc au réseau |
+        | Controller | - | Cerveau du réseau, configure les transferts |
+        | XNet Cable | - | Câble universel |
+        | Connector | - | Connecte un bloc au réseau |
         | Advanced Connector | | Version avec plus de channels |
         | Router | | Étend la portée du réseau |
         | Wireless Router | | Connexion sans fil entre réseaux |
 
+    **Addon:** [XNet Gases](https://www.curseforge.com/minecraft/mc-mods/xnet-gases) - Support des gaz Mekanism
+
     **Guide:** [Guide Officiel](https://www.mcjty.eu/docs/mods/xnet)
+
+??? note "Refined Storage"
+
+    [CurseForge](https://www.curseforge.com/minecraft/mc-mods/refined-storage) | [Guide Officiel](https://refinedmods.com/refined-storage/getting-started.html)
+
+    !!! success "Quick Start"
+        1. Craft un **Controller** et alimente-le en énergie
+        2. Craft un **Disk Drive** et des **Storage Disks**
+        3. Craft un **Grid** pour accéder au stockage
+        4. Utilise **Importers/Exporters** pour l'automatisation
+
+    === "Tips"
+
+        !!! tip "Alternative à AE2"
+            - Plus simple que AE2 (pas de channels)
+            - Système de stockage digital complet
+            - Compatible avec beaucoup de mods
+
+    === "Objets Importants"
+
+        | Objet | Priorité | Description |
+        |-------|:--------:|-------------|
+        | Controller | - | Cerveau du réseau |
+        | Disk Drive | - | Contient les disques |
+        | Grid | - | Interface utilisateur |
+        | Crafter | | Autocrafting |
+        | Importer/Exporter | | Automatisation |
+
+    **Addons:** [Cable Tiers](https://www.curseforge.com/minecraft/mc-mods/cable-tiers) | [Extra Storage](https://www.curseforge.com/minecraft/mc-mods/extrastorage) | [Extra Disks](https://www.curseforge.com/minecraft/mc-mods/extra-disks) | [RS Requestify](https://www.curseforge.com/minecraft/mc-mods/rs-requestify)
+
+??? note "NuclearCraft"
+
+    [CurseForge](https://www.curseforge.com/minecraft/mc-mods/nuclearcraft-mod)
+
+    === "Tips"
+
+        !!! warning "Configuration"
+            - Vérifier si la **config a été modifiée** sur le modpack
+            - Utiliser le **Discord du mod** pour aide
+            - Les générateurs en ligne aident à optimiser les réacteurs
+
+    === "Guides & Outils"
+
+        - [LEU-235 Reactor Planner](https://leu-235.com/) - Générateur de réacteurs en ligne
+        - [NC Reactor Planner GitHub](https://github.com/hellrage/NC-Reactor-Planner)
+        - [Guide FTB](https://ftb.fandom.com/wiki/Getting_Started_(NuclearCraft))
+        - [Tutoriel Build Réacteur (Vidéo)](https://www.youtube.com/watch?v=xMahsOUl24c)
+
+??? note "Extreme Reactors"
+
+    [CurseForge](https://www.curseforge.com/minecraft/mc-mods/extreme-reactors)
+
+    === "Tips"
+
+        !!! tip "Réacteurs Efficaces"
+            - Utiliser des **moderators** pour améliorer l'efficacité
+            - Le design du réacteur impacte beaucoup les performances
+            - Les turbines sont plus efficaces que les réacteurs directs
+
+    === "Guides"
+
+        - [Guide ATM - Moderators](https://allthemods.github.io/alltheguides/atm9/extremereactors/#moderators)
+        - [Meilleur Réacteur Reddit](https://www.reddit.com/r/allthemods/comments/1cd85tw/atm9_in_my_opinion_the_best_extreme_reactors/)
+
+??? note "Deep Resonance"
+
+    [CurseForge](https://www.curseforge.com/minecraft/mc-mods/deep-resonance) | [Guide Wiki](https://github.com/McJtyMods/DeepResonance/wiki)
+
+    === "Tips"
+
+        !!! tip "Génération d'Énergie"
+            - Système de cristaux pour génération d'énergie
+            - Les cristaux peuvent être purifiés pour plus d'efficacité
+            - Alternative intéressante aux autres systèmes d'énergie
+
+??? note "FTB Industrial Contraptions"
+
+    [CurseForge](https://www.curseforge.com/minecraft/mc-mods/ftb-industrial-contraptions-forge)
+
+    === "Tips"
+
+        !!! tip "Équipement"
+            - **Armure électrique** modulaire
+            - Machines industrielles variées
+
+??? note "GregTech CE Unofficial"
+
+    [CurseForge](https://www.curseforge.com/minecraft/mc-mods/gregtech-ce-unofficial)
+
+    !!! warning "Mod Expert"
+        GregTech est un mod **très complexe** et **long** à progresser. Réservé aux joueurs expérimentés!
+
+    === "Guides"
+
+        - [Automatiser Assembly Line avec OpenComputers](https://github.com/botn365/assembling-line-automation-OC/tree/parrallel_processing)
+        - [Automatisation Assembly Line (Vidéo)](https://www.youtube.com/watch?v=N_0ay7YLcdI)
+        - [Optimiser les Crafts (Vidéo)](https://www.youtube.com/watch?v=EcjxtFIuZlU)
+
+??? note "Super Factory Manager (SFM)"
+
+    [CurseForge](https://www.curseforge.com/minecraft/mc-mods/super-factory-manager)
+
+    === "Tips"
+
+        !!! tip "Automatisation Avancée"
+            - Système de programmation visuel pour automation complexe
+            - Peut gérer des setups multi-machines
+            - Alternative puissante à Integrated Dynamics
+
+    === "Scripts & Exemples"
+
+        - [Automated Bees + HNN + Mekanism Mob Farm + Seed Farm](https://www.reddit.com/r/allthemods/comments/1llv4nt/automated_bees_hnn_mekanism_mob_farm_seed_farm/) - Script complet d'automation
 
 ---
 
@@ -751,6 +949,14 @@
             - Système de **logique programmable** très puissant
             - Les **Variables** stockent des valeurs (items, nombres, booleans)
             - Peut lire inventaires, tanks, energy storage, et plus
+            - Bien plus puissant que la redstone pour des **automatisations complexes**
+
+        !!! success "Filtres Avancés"
+            Apprendre à utiliser les filtres sur **tags, regex et NBT** avec Integrated Dynamics est extrêmement puissant !
+
+            - Lire l'état de n'importe quel bloc (niveau de fluide, inventaire, énergie)
+            - Déclencher des actions conditionnelles complexes
+            - Parfait pour automatiser ce que les autres mods ne peuvent pas faire
 
         !!! tip "Addons"
             - **Integrated Tunnels** addon pour transport automatique
@@ -761,8 +967,8 @@
 
         | Objet | Priorité | Description |
         |-------|:--------:|-------------|
-        | Logic Cable | :star: | Connecte le réseau |
-        | Logic Programmer | :star: | Crée des variables et conditions |
+        | Logic Cable | - | Connecte le réseau |
+        | Logic Programmer | - | Crée des variables et conditions |
         | Variable Store | | Stocke les variables |
         | Part Reader | | Lit les données des blocs adjacents |
         | Part Writer | | Écrit des données vers les blocs |
@@ -792,16 +998,19 @@
             - **Staff of Power** = outil ultime (mine, combat, vol)
             - **Celestial Manipulator** pour changer météo et time
 
+        !!! example "Automation Fusion Altar"
+            Pour automatiser le **Draconic Fusion Crafting**, chercher "Draconic evolution fusion automation" sur Discord/Reddit - des solutions existent déjà !
+
     === "Objets Importants"
 
         | Objet | Priorité | Description |
         |-------|:--------:|-------------|
-        | Fusion Crafting Core | :star: | Crafting avancé |
-        | Wyvern Armor/Tools | :star: | Tier 1 end-game |
-        | Draconic Armor/Tools | :star: | Tier 2 end-game |
+        | Fusion Crafting Core | - | Crafting avancé |
+        | Wyvern Armor/Tools | - | Tier 1 end-game |
+        | Draconic Armor/Tools | - | Tier 2 end-game |
         | Chaotic Armor/Tools | | Tier 3 ultime |
-        | Staff of Power | :star: | Multi-tool ultime |
-        | Energy Core | :star: | Stockage massif (tiers 1-8) |
+        | Staff of Power | - | Multi-tool ultime |
+        | Energy Core | - | Stockage massif (tiers 1-8) |
         | Draconic Reactor | | Génération massive mais risquée |
         | Dislocator | | Téléportation sauvegardée |
         | Mob Grinder | | Tue et collecte automatiquement |

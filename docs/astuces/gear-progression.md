@@ -338,9 +338,9 @@ flowchart TB
 
 | Rating | Ceinture | Effets |
 |--------|----------|--------|
-| :star::star::star::star::star: | **Sojourner's Sash** (Botania) | Step Assist, Speed boost, Jump boost, Fall damage reduction - **LE MEILLEUR accessoire early-mid game** |
-| :star::star::star::star: | **Spectral Sash** (Upgrade) | Tous les effets de Sojourner's + Phasing through walls (shift) - Nécessite Gaia drops |
-| :star::star::star::star: | **Superexhaling Sash** (Botania) | Underwater breathing, Water speed boost - Pour exploration océanique |
+| ----- | **Sojourner's Sash** (Botania) | Step Assist, Speed boost, Jump boost, Fall damage reduction - **LE MEILLEUR accessoire early-mid game** |
+| ---- | **Spectral Sash** (Upgrade) | Tous les effets de Sojourner's + Phasing through walls (shift) - Nécessite Gaia drops |
+| ---- | **Superexhaling Sash** (Botania) | Underwater breathing, Water speed boost - Pour exploration océanique |
 
 #### Charms & Relics
 

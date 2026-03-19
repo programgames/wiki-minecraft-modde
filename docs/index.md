@@ -216,7 +216,7 @@ Le guide ultime pour dominer les modpacks Minecraft expert ! ATM, FTB, GregTech.
 | [:arrow_forward: Getting Started](astuces/getting-started.md) | Premiers pas dans un modpack |
 | [:seedling: Early Game](astuces/early-game.md) | Stratégies de début de partie |
 | [:chart_with_upwards_trend: Mid Game](astuces/mid-game.md) | Progression intermédiaire |
-| [:star: Late Game](astuces/late-game.md) | Contenu endgame |
+| [- Late Game](astuces/late-game.md) | Contenu endgame |
 | [:keyboard: Keybinds](astuces/keybinds.md) | Raccourcis clavier |
 | [:mag: JEI Mastery](astuces/jei-mastery.md) | Maîtriser JEI/REI |
 | [:warning: Erreurs Communes](astuces/erreurs-communes.md) | Pièges à éviter |

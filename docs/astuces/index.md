@@ -130,7 +130,7 @@
 
 !!! abstract "Objectifs Late Game"
 
-    - [ ] :star: **AE2** ou **RS** pour stockage digital + autocrafting
+    - [ ] - **AE2** ou **RS** pour stockage digital + autocrafting
     - [ ] :atom_symbol: **Mekanism** ore processing 4x/5x
     - [ ] :shield: **Equipement** : Draconic, MekaSuit ou Silent Gear max
     - [ ] :sparkles: **Apotheosis** : Enchanting niveau 150

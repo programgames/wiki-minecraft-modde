@@ -41,17 +41,17 @@
 
     [:octicons-arrow-down-24: Voir les mods secondaires](#mods-secondaires)
 
-## Comparaison des Mods
+## Comparaison Rapide
 
-| Mod | Difficulté | Production | Stockage | Utilité | Phase |
-|-----|:----------:|:----------:|:--------:|:-------:|:-----:|
-| Powah | :star::star: | :star::star::star::star: | :star::star::star: | :star::star::star::star: | Early → Late |
-| Mekanism Generators | :star::star::star::star: | :star::star::star::star::star: | :star::star::star::star: | :star::star::star::star::star: | Early → Late |
-| Thermal Dynamos | :star::star: | :star::star::star: | :star::star::star: | :star::star::star::star: | Early → Mid |
-| Flux Networks | :star::star: | - | :star::star::star::star::star: | :star::star::star::star::star: | Mid → Late |
-| Immersive Engineering | :star::star::star: | :star::star::star: | :star::star: | :star::star::star: | Early → Mid |
-| Extreme Reactors | :star::star::star: | :star::star::star::star: | :star::star: | :star::star::star::star: | Mid → Late |
-| Draconic Evolution | :star::star::star::star::star: | :star::star::star::star::star: | :star::star::star::star::star: | :star::star::star::star: | Late |
+| Mod | Difficulté | Production | Phase | Recommandé pour |
+|-----|:----------:|:----------:|:-----:|-----------------|
+| Powah | 2/5 | 4/5 | Early → Late | Progression simple, Ender Cells |
+| Mekanism Generators | 4/5 | 5/5 | Early → Late | Fusion Reactor end-game |
+| Thermal Dynamos | 2/5 | 3/5 | Early → Mid | Dynamos modulaires |
+| Flux Networks | 2/5 | - | Mid → Late | Distribution sans fil |
+| Immersive Engineering | 3/5 | 3/5 | Early → Mid | Style industriel réaliste |
+| Extreme Reactors | 3/5 | 4/5 | Mid → Late | Réacteurs configurables |
+| Draconic Evolution | 5/5 | 5/5 | Late | Énergie massive (dangereux) |
 
 ## Progression Recommandée
 
@@ -137,14 +137,14 @@
     |-------|:--------:|-------------|
     | Energizing Orb | :zap: RUSH | Crafting avec énergie (obligatoire pour progression) |
     | Furnator | :zap: RUSH | Génère avec combustibles solides |
-    | Magmator | :star: | Génère avec lave (efficace mid-game) |
-    | Thermo Generator | :star: | Génère avec différence de température |
-    | Solar Panel | :star: | Génère avec la lumière du soleil |
-    | Reactor | :star::star: | Génération massive avec Uraninite |
-    | Energy Cell | :star: | Stockage d'énergie (même tiers que générateurs) |
-    | Ender Cell | :star::star: | Transfert sans fil cross-dimension |
-    | Ender Gate | :star: | Connecte au réseau Ender Cell |
-    | Energy Cable | :star: | Câbles d'énergie (tiers) |
+    | Magmator | - | Génère avec lave (efficace mid-game) |
+    | Thermo Generator | - | Génère avec différence de température |
+    | Solar Panel | - | Génère avec la lumière du soleil |
+    | Reactor | -- | Génération massive avec Uraninite |
+    | Energy Cell | - | Stockage d'énergie (même tiers que générateurs) |
+    | Ender Cell | -- | Transfert sans fil cross-dimension |
+    | Ender Gate | - | Connecte au réseau Ender Cell |
+    | Energy Cable | - | Câbles d'énergie (tiers) |
     | Player Transmitter | | Charge l'inventaire du joueur |
 
 === "Guides"
@@ -199,15 +199,15 @@
     | Objet | Priorité | Description |
     |-------|:--------:|-------------|
     | Heat Generator | :zap: RUSH | Génération passive avec lave dessous |
-    | Solar Generator | :star: | Énergie solaire basique (~50 RF/t) |
-    | Advanced Solar Generator | :star: | Version améliorée du Solar |
-    | Wind Generator | :star: | Production variable selon altitude |
-    | Bio Generator | :star: | Utilise Bio Fuel (~200 RF/t) |
-    | Gas-Burning Generator | :star::star: | Ethylene = ~400 RF/t |
-    | Fission Reactor | :star::star: | ~500k RF/t (dangereux) |
-    | Industrial Turbine | :star::star: | Convertit Steam en énergie |
-    | Fusion Reactor | :star::star::star: | Millions de RF/t (end-game) |
-    | Energy Cube | :star: | Stockage d'énergie (tiers) |
+    | Solar Generator | - | Énergie solaire basique (~50 RF/t) |
+    | Advanced Solar Generator | - | Version améliorée du Solar |
+    | Wind Generator | - | Production variable selon altitude |
+    | Bio Generator | - | Utilise Bio Fuel (~200 RF/t) |
+    | Gas-Burning Generator | -- | Ethylene = ~400 RF/t |
+    | Fission Reactor | -- | ~500k RF/t (dangereux) |
+    | Industrial Turbine | -- | Convertit Steam en énergie |
+    | Fusion Reactor | --- | Millions de RF/t (end-game) |
+    | Energy Cube | - | Stockage d'énergie (tiers) |
 
 === "Guides"
 
@@ -260,16 +260,16 @@
     | Objet | Priorité | Description |
     |-------|:--------:|-------------|
     | Steam Dynamo | :zap: RUSH | Dynamo basique (eau + charbon) |
-    | Magmatic Dynamo | :star: | Utilise la lave (40-200 RF/t) |
-    | Compression Dynamo | :star::star: | Fuel liquide (très efficace) |
-    | Lapidary Dynamo | :star: | Gems → énergie |
+    | Magmatic Dynamo | - | Utilise la lave (40-200 RF/t) |
+    | Compression Dynamo | -- | Fuel liquide (très efficace) |
+    | Lapidary Dynamo | - | Gems → énergie |
     | Disenchantment Dynamo | | Recycle les enchantements |
     | Numismatic Dynamo | | Coins → énergie |
     | Transmission Coil | :zap: RUSH | Augmente l'output RF/t |
-    | Fuel Catalyzer | :star: | Augmente l'efficacité du fuel |
-    | Ignition Plugs | :star: | +vitesse Compression Dynamo |
-    | Energy Cell | :star: | Stockage d'énergie Thermal |
-    | Fluxduct | :star: | Câbles d'énergie configurables |
+    | Fuel Catalyzer | - | Augmente l'efficacité du fuel |
+    | Ignition Plugs | - | +vitesse Compression Dynamo |
+    | Energy Cell | - | Stockage d'énergie Thermal |
+    | Fluxduct | - | Câbles d'énergie configurables |
 
 === "Guides"
 
@@ -319,10 +319,10 @@
     |-------|:--------:|-------------|
     | Flux Dust | :zap: RUSH | Matériau de base (redstone + charbon dans feu) |
     | Flux Controller | :zap: RUSH | Gestion centralisée du réseau |
-    | Flux Plug | :star: | Input d'énergie vers le réseau |
-    | Flux Point | :star: | Output d'énergie depuis le réseau |
-    | Flux Storage | :star::star: | Stockage dans le réseau (buffer) |
-    | Flux Configurator | :star: | Copie les configurations |
+    | Flux Plug | - | Input d'énergie vers le réseau |
+    | Flux Point | - | Output d'énergie depuis le réseau |
+    | Flux Storage | -- | Stockage dans le réseau (buffer) |
+    | Flux Configurator | - | Copie les configurations |
 
 === "Guides"
 
@@ -364,9 +364,9 @@
         |-------|:--------:|-------------|
         | Water Wheel | :zap: RUSH | Génération passive avec eau |
         | Kinetic Dynamo | :zap: RUSH | Convertit rotation en RF |
-        | Diesel Generator | :star: | Multiblock puissant |
-        | Capacitor (LV/MV/HV) | :star: | Stockage d'énergie |
-        | Wires (LV/MV/HV) | :star: | Câbles avec capacité variable |
+        | Diesel Generator | - | Multiblock puissant |
+        | Capacitor (LV/MV/HV) | - | Stockage d'énergie |
+        | Wires (LV/MV/HV) | - | Câbles avec capacité variable |
 
 ??? note "Extreme Reactors"
 
@@ -399,12 +399,12 @@
 
         | Objet | Priorité | Description |
         |-------|:--------:|-------------|
-        | Reactor Casing | :star: | Structure du réacteur |
-        | Fuel Rod | :star: | Contient le Yellorium |
-        | Control Rod | :star: | Contrôle la réaction |
-        | Reactor Power Tap | :star: | Output d'énergie |
+        | Reactor Casing | - | Structure du réacteur |
+        | Fuel Rod | - | Contient le Yellorium |
+        | Control Rod | - | Contrôle la réaction |
+        | Reactor Power Tap | - | Output d'énergie |
         | Yellorium Ingot | :zap: RUSH | Fuel principal |
-        | Cryotheum Bucket | :star: | Meilleur coolant |
+        | Cryotheum Bucket | - | Meilleur coolant |
 
 ??? note "Draconic Evolution"
 
@@ -439,11 +439,11 @@
 
         | Objet | Priorité | Description |
         |-------|:--------:|-------------|
-        | Draconic Reactor | :star::star::star: | Génération massive (dangereux) |
+        | Draconic Reactor | --- | Génération massive (dangereux) |
         | Flux Gate | :zap: RUSH | Contrôle du flux d'énergie |
-        | Energy Core | :star::star: | Stockage massif (tiers) |
-        | Reactor Stabilizer | :star: | Composant du reactor |
-        | Awakened Draconium | :star: | Fuel du reactor |
+        | Energy Core | -- | Stockage massif (tiers) |
+        | Reactor Stabilizer | - | Composant du reactor |
+        | Awakened Draconium | - | Fuel du reactor |
 
 ??? note "RFTools Power"
 
@@ -470,10 +470,10 @@
 
         | Objet | Priorité | Description |
         |-------|:--------:|-------------|
-        | Powercell | :star: | Stockage wireless linkable |
-        | Powercell Card | :star: | Lie les Powercells |
+        | Powercell | - | Stockage wireless linkable |
+        | Powercell Card | - | Lie les Powercells |
         | Coal Generator | :zap: RUSH | Génération basique |
-        | Blazing Generator | :star: | Utilise Blaze Rods |
+        | Blazing Generator | - | Utilise Blaze Rods |
 
 ---
 

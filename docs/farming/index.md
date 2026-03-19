@@ -41,17 +41,17 @@
 
     [:octicons-arrow-down-24: Voir les mods secondaires](#mods-secondaires)
 
-## Comparaison des Mods
+## Comparaison Rapide
 
-| Mod | Difficulté | Automation | Ressources | Utilité | Phase |
-|-----|:----------:|:----------:|:----------:|:-------:|:-----:|
-| Mystical Agriculture | :star::star: | :star::star::star::star::star: | :star::star::star::star::star: | :star::star::star::star::star: | Early → Late |
-| Productive Bees | :star::star::star: | :star::star::star::star: | :star::star::star::star::star: | :star::star::star::star: | Mid → Late |
-| Farmer's Delight | :star: | :star::star: | :star::star: | :star::star::star::star: | Early → Mid |
-| Botany Pots | :star: | :star::star::star::star::star: | :star::star::star: | :star::star::star::star: | Early → Late |
-| Industrial Foregoing | :star::star: | :star::star::star::star::star: | :star::star::star: | :star::star::star::star: | Mid → Late |
-| Cyclic | :star: | :star::star::star: | :star: | :star::star::star: | Early |
-| Bonsai Trees | :star: | :star::star::star::star: | :star::star: | :star::star::star: | Early → Mid |
+| Mod | Difficulté | Phase | Recommandé pour |
+|-----|:----------:|:-----:|-----------------|
+| Mystical Agriculture | 2/5 | Early → Late | Cultiver TOUTES les ressources |
+| Productive Bees | 3/5 | Mid → Late | Ressources via abeilles |
+| Farmer's Delight | 1/5 | Early → Mid | Nourriture avec buffs |
+| Botany Pots | 1/5 | Early → Late | Farming passif compact |
+| Industrial Foregoing | 2/5 | Mid → Late | Full automation farming |
+| Cyclic | 1/5 | Early | Sprinkler pour croissance |
+| Bonsai Trees | 1/5 | Early → Mid | Arbres miniatures |
 
 ## Progression Recommandée
 
@@ -118,6 +118,8 @@
         - Planter sur **farmland du même tier** = +10% supplémentaire de seeds
         - Les crops **ignorent la lumière** et n'ont pas besoin d'eau
         - Les **Growth Accelerators** se stackent sous le farmland (max 64 en dessous)
+        - Combiner **Lily Pad of Fertility + Harvester Pylon + Mystical Fertilizer** = farm ultra-rapide
+        - Stack jusqu'à **64 Growth Accelerators** sous une seule plante = croissance quasi-instantanée
 
     !!! tip "Automation & Crafting"
         - Automatiser le **Watering Can** avec Modular Router ou fake player
@@ -139,11 +141,11 @@
     | Objet | Priorité | Description |
     |-------|:--------:|-------------|
     | Scythe | :zap: RUSH | Harvest en AOE (3x3 à 7x7 selon tier) |
-    | Inferium Seeds | :star: | Base de toutes les essences |
-    | Essence Farmland | :star: | Sol qui boost les drops (+10% Inferium, +50% Supremium) |
-    | Growth Accelerator | :star: | Accélère la croissance (stackable jusqu'à 64 sous le sol) |
-    | Infusion Crystal | :star: | Requis pour craft les seeds (1000 uses) |
-    | Master Infusion Crystal | :star: | Version durabilité infinie |
+    | Inferium Seeds | - | Base de toutes les essences |
+    | Essence Farmland | - | Sol qui boost les drops (+10% Inferium, +50% Supremium) |
+    | Growth Accelerator | - | Accélère la croissance (stackable jusqu'à 64 sous le sol) |
+    | Infusion Crystal | - | Requis pour craft les seeds (1000 uses) |
+    | Master Infusion Crystal | - | Version durabilité infinie |
     | Soul Jar | | Stocke les âmes de mobs pour seeds |
     | Watering Can | | Accélère manuellement (automatisable avec fake player) |
     | Soul Siphoning Enchant | | +soul drops des mobs, mettre sur ton épée |
@@ -200,20 +202,23 @@
         | Behavior | Metaturnal | Travaille jour et nuit |
         | Weather Tolerance | Any | Travaille sous la pluie |
 
+    !!! success "Conseil Important"
+        Pour les bees et crops, utiliser très rapidement les **genes/niveau de seed au maximum** dès que possible - ça permet de gagner énormément de temps sur la durée !
+
 === "Objets Importants"
 
     | Objet | Priorité | Description |
     |-------|:--------:|-------------|
     | Nest Locator | :zap: RUSH | Pour trouver les nids sauvages |
-    | Bee Cage | :star: | Stockage portable, stack à 64 |
-    | Advanced Beehive | :star: | Ruche améliorée avec slots d'upgrade |
-    | Expansion Box | :star: | Augmente capacité de la ruche (jusqu'à 5 abeilles) |
-    | Breeding Chamber | :star: | Breeding automatisé avec contrôle des gènes |
+    | Bee Cage | - | Stockage portable, stack à 64 |
+    | Advanced Beehive | - | Ruche améliorée avec slots d'upgrade |
+    | Expansion Box | - | Augmente capacité de la ruche (jusqu'à 5 abeilles) |
+    | Breeding Chamber | - | Breeding automatisé avec contrôle des gènes |
     | Incubator | | Accélère l'éclosion significativement |
     | Gene Sampler | | Extrait les gènes des abeilles |
     | Gene Indexer | | Stocke les gènes |
-    | Honey Treat | :star: | Combine avec gènes pour les transférer |
-    | Centrifuge / Powered Centrifuge | :star: | Extrait les produits des combs |
+    | Honey Treat | - | Combine avec gènes pour les transférer |
+    | Centrifuge / Powered Centrifuge | - | Extrait les produits des combs |
     | Feeding Slab | | Nourrit les abeilles sans fleurs |
     | Honey Generator | | Génère RF avec miel |
     | Bottler | | Met le miel en bouteilles |
@@ -268,9 +273,9 @@
     |-------|:--------:|-------------|
     | Cutting Board | :zap: RUSH | Découpe les aliments (nouvelles recettes) |
     | Knife | :zap: RUSH | Outil pour la cutting board |
-    | Cooking Pot | :star: | Cuisine les plats élaborés |
-    | Stove | :star: | Four pour la cuisine |
-    | Rich Soil | :star: | Sol qui auto-bone meal les crops |
+    | Cooking Pot | - | Cuisine les plats élaborés |
+    | Stove | - | Four pour la cuisine |
+    | Rich Soil | - | Sol qui auto-bone meal les crops |
     | Skillet | | Poêle pour griller |
     | Cabinet | | Stockage de nourriture |
     | Basket | | Collecte les items comme un hopper |
@@ -318,8 +323,8 @@
     | Objet | Priorité | Description |
     |-------|:--------:|-------------|
     | Botany Pot | :zap: RUSH | Pot de base pour cultiver |
-    | Hopper Botany Pot | :star: | Exporte automatiquement les drops |
-    | Différents sols | :star: | Terre, farmland, soul sand, etc. |
+    | Hopper Botany Pot | - | Exporte automatiquement les drops |
+    | Différents sols | - | Terre, farmland, soul sand, etc. |
 
 === "Guides"
 
@@ -364,10 +369,10 @@
         | Objet | Priorité | Description |
         |-------|:--------:|-------------|
         | Presser | :zap: RUSH | Crée huiles, tofu, fromage |
-        | Cutting Board | :star: | Découpe les ingrédients |
-        | Market | :star: | Achète des graines avec émeraudes |
+        | Cutting Board | - | Découpe les ingrédients |
+        | Market | - | Achète des graines avec émeraudes |
         | Shipping Bin | | Vend automatiquement |
-        | Arbres fruitiers | :star: | Fruits renouvelables |
+        | Arbres fruitiers | - | Fruits renouvelables |
 
 ??? note "AgriCraft"
 
@@ -403,10 +408,10 @@
         | Objet | Priorité | Description |
         |-------|:--------:|-------------|
         | Crop Sticks | :zap: RUSH | Support pour les plants |
-        | Seed Analyzer | :star: | Analyse les stats des seeds |
-        | Journal | :star: | Montre les mutations |
+        | Seed Analyzer | - | Analyse les stats des seeds |
+        | Journal | - | Montre les mutations |
         | Clipper | | Copie les seeds sans les casser |
-        | Sprinkler | :star: | Accélère la croissance |
+        | Sprinkler | - | Accélère la croissance |
 
 ??? note "Forestry"
 
@@ -442,9 +447,9 @@
         | Objet | Priorité | Description |
         |-------|:--------:|-------------|
         | Scoop | :zap: RUSH | Récolte les nids d'abeilles |
-        | Apiary | :star: | Ruche principale |
-        | Frames | :star: | Augmentent la production |
-        | Beealyzer | :star: | Analyse les traits des abeilles |
+        | Apiary | - | Ruche principale |
+        | Frames | - | Augmentent la production |
+        | Beealyzer | - | Analyse les traits des abeilles |
         | Squeezer | | Presse les items |
         | Centrifuge | | Sépare les combs |
 
@@ -475,10 +480,10 @@
 
         | Objet | Priorité | Description |
         |-------|:--------:|-------------|
-        | Plant Sower | :star: | Plante automatiquement |
-        | Plant Gatherer | :star: | Récolte automatiquement |
-        | Plant Fertilizer | :star: | Applique bone meal auto |
-        | Hydroponic Bed | :star: | Sol très rapide |
+        | Plant Sower | - | Plante automatiquement |
+        | Plant Gatherer | - | Récolte automatiquement |
+        | Plant Fertilizer | - | Applique bone meal auto |
+        | Hydroponic Bed | - | Sol très rapide |
         | Animal Rancher | | Collecte laine, lait, etc. |
         | Animal Baby Separator | | Sépare les bébés des adultes |
         | Meat Feeder | | Mange automatiquement |
@@ -499,7 +504,7 @@
         | Objet | Priorité | Description |
         |-------|:--------:|-------------|
         | Sprinkler | :zap: RUSH | Accélère les crops en zone |
-        | Terra Preta | :star: | Sol amélioré |
+        | Terra Preta | - | Sol amélioré |
 
 ??? note "Bonsai Trees"
 
@@ -516,8 +521,8 @@
 
         | Objet | Priorité | Description |
         |-------|:--------:|-------------|
-        | Bonsai Pot | :star: | Pot pour faire pousser des arbres |
-        | Hopping Bonsai Pot | :star: | Version avec export auto |
+        | Bonsai Pot | - | Pot pour faire pousser des arbres |
+        | Hopping Bonsai Pot | - | Version avec export auto |
 
 ??? note "Cooking for Blockheads"
 
@@ -534,8 +539,8 @@
 
         | Objet | Priorité | Description |
         |-------|:--------:|-------------|
-        | Cooking Table | :star: | Montre toutes les recettes craftables |
-        | Fridge | :star: | Stockage qui se connecte à la table |
+        | Cooking Table | - | Montre toutes les recettes craftables |
+        | Fridge | - | Stockage qui se connecte à la table |
         | Kitchen Counter | | Stockage décoratif |
         | Sink | | Source d'eau infinie |
 
@@ -549,6 +554,44 @@
             - Ajoute des centaines de crops et recettes
             - Génère naturellement dans le monde
             - Combiner avec Farmer's Delight pour plus de variété
+
+??? note "Productive Trees"
+
+    [CurseForge](https://www.curseforge.com/minecraft/mc-mods/productivetrees) | [Guide Vidéo](https://www.youtube.com/watch?v=8YnCfQVL1iM)
+
+    === "Tips"
+
+        !!! tip "Arbres Productifs"
+            - Arbres qui produisent des ressources variées
+            - Système de génétique similaire à Productive Bees
+            - Combiner avec le système de bees pour plus d'efficacité
+
+    === "Objets Importants"
+
+        | Objet | Priorité | Description |
+        |-------|:--------:|-------------|
+        | Stripper | - | Retire l'écorce des arbres |
+        | Sawmill | - | Transforme les logs |
+        | Tree Cutter | | Coupe automatiquement |
+
+??? note "Aquaculture 2"
+
+    [CurseForge](https://www.curseforge.com/minecraft/mc-mods/aquaculture)
+
+    === "Tips"
+
+        !!! tip "Pêche Améliorée"
+            - Système de pêche amélioré avec nouveaux poissons
+            - Cannes à pêche upgradables
+            - Boîtes de loot spéciales de pêche
+
+    === "Objets Importants"
+
+        | Objet | Priorité | Description |
+        |-------|:--------:|-------------|
+        | Armure Neptune (verte) | - | Armure complète de pêche avec buffs aquatiques |
+        | Iron Fishing Rod | - | Canne à pêche améliorable |
+        | Tackle Box | | Stockage pour le matériel de pêche |
 
 ??? note "Accélérateurs de Croissance"
 

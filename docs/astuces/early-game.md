@@ -23,7 +23,7 @@
     | FTB Ultimine                 | FTB                                        | :zap: RUSH | Miner plusieurs blocs à la fois  |
     | Ore Excavation / VeinMiner   | -                                          | :zap: RUSH | Alternative à Ultimine           |
     | Sledgehammer                 | :hammer_and_wrench: Tinker's               | :zap: RUSH | Miner rapidement sand, cobble... |
-    | Pulverizer                   | :fire: Thermal                             | :star:     | Doublage de minerais             |
+    | Pulverizer                   | :fire: Thermal                             | -     | Doublage de minerais             |
 
     !!! example "Astuce Doublage"
         Regarder les options de doublage de minerais : Pulverizer :fire: Thermal, Enrichment Chamber :gear: Mekanism, etc.
@@ -38,7 +38,7 @@
     | Magnet                     | -                       | :zap: RUSH | Ramasser automatiquement les drops|
     | Ender Bag                  | Ender Utilities         | :zap: RUSH | Accès distant à l'inventaire      |
     | Cyclic inventory upgrade   | :package: Cyclic        | :zap: RUSH | Plus de slots d'inventaire        |
-    | Clay Bucket                | Ceramics                | :star:     | Transporter liquides sans fer     |
+    | Clay Bucket                | Ceramics                | -     | Transporter liquides sans fer     |
 
     !!! tip "Recherche JEI"
         Chercher `bag` dans JEI pour voir toutes les options de sacs disponibles dans le modpack.
@@ -55,15 +55,15 @@
     | Explorer Compass  | -                                                              | :zap: RUSH | Trouver structures            |
     | Nature's Compass  | -                                                              | :zap: RUSH | Trouver biomes                |
     | Ender Book        | :package: Cyclic                                               | :zap: RUSH | Téléportation sauvegardée     |
-    | Jetpack           | Iron Jetpacks / :gear: Mekanism / Simply Jetpacks              | :star:     | Vol (vérifier le prix)        |
+    | Jetpack           | Iron Jetpacks / :gear: Mekanism / Simply Jetpacks              | -     | Vol (vérifier le prix)        |
 
 === "Éclairage"
 
     | Item            | Mod | Priorité   | Description                    |
     |-----------------|-----|------------|--------------------------------|
     | Torch Launcher  | -   | :zap: RUSH | Lancer des torches à distance  |
-    | Mega Torch      | -   | :star:     | Grande zone sans spawn de mobs |
-    | Torches sans bois | - | :star:     | Économiser le bois             |
+    | Mega Torch      | -   | -     | Grande zone sans spawn de mobs |
+    | Torches sans bois | - | -     | Économiser le bois             |
 
     !!! tip "Off-hand"
         Utiliser l'off-hand pour placer des torches en minant - garde la main principale libre pour la pioche !
@@ -73,8 +73,8 @@
     | Item          | Mod              | Priorité   | Description                   |
     |---------------|------------------|------------|-------------------------------|
     | Batteries     | -                | :zap: RUSH | Stockage d'énergie portable   |
-    | Tiny Charcoal | -                | :star:     | Combustible économique        |
-    | Bucket Mode   | :gear: Mekanism  | :star:     | Génération d'énergie facile   |
+    | Tiny Charcoal | -                | -     | Combustible économique        |
+    | Bucket Mode   | :gear: Mekanism  | -     | Génération d'énergie facile   |
 
     !!! warning "Priorité Batteries"
         Faire des batteries le plus vite possible pour alimenter vos machines !
@@ -84,18 +84,18 @@
     | Item                       | Mod                    | Priorité   | Description                    |
     |----------------------------|------------------------|------------|--------------------------------|
     | Mechanical Saw + Hand Crank| :wrench: Create        | :zap: RUSH | Bois facile en early           |
-    | Botany Pots                | -                      | :star:     | Farming passif (vérifier prix) |
-    | Iron Furnaces              | Iron Furnaces          | :star:     | Fours améliorés                |
-    | Wooden Hopper              | -                      | :star:     | Hopper économique              |
+    | Botany Pots                | -                      | -     | Farming passif (vérifier prix) |
+    | Iron Furnaces              | Iron Furnaces          | -     | Fours améliorés                |
+    | Wooden Hopper              | -                      | -     | Hopper économique              |
 
 === "Buffs"
 
     | Item                  | Type         | Priorité | Description         |
     |-----------------------|--------------|----------|---------------------|
-    | Ring / Amulet / Glove | Accessoire   | :star:   | Bonus passifs       |
-    | Anklet / Charm        | Accessoire   | :star:   | Bonus passifs       |
-    | Glyph of Leap         | Enchantement | :star:   | Saut amélioré       |
-    | Feet Affix            | Apotheosis   | :star:   | Bonus de bottes     |
+    | Ring / Amulet / Glove | Accessoire   | -   | Bonus passifs       |
+    | Anklet / Charm        | Accessoire   | -   | Bonus passifs       |
+    | Glyph of Leap         | Enchantement | -   | Saut amélioré       |
+    | Feet Affix            | Apotheosis   | -   | Bonus de bottes     |
 
     !!! tip "Recherche JEI"
         Rechercher : `ring`, `amulet`, `glove`, `hand`, `anklet`, `charm` dans JEI pour trouver tous les accessoires.
@@ -110,9 +110,9 @@
     |-----------------------|------------------------------|------------|---------------------------|
     | Water Candle          | :package: Cyclic             | :zap: RUSH | Augmente le spawn rate    |
     | Monolith of Spawning  | Ender Utilities              | :zap: RUSH | Zone de spawn améliorée   |
-    | Leads                 | Vanilla                      | :star:     | Déplacer les mobs         |
-    | Safari Net / Lasso    | -                            | :star:     | Capturer les mobs         |
-    | Mob Imprisonment Tool | :factory: Industrial Foregoing| :star:    | Capturer les mobs         |
+    | Leads                 | Vanilla                      | -     | Déplacer les mobs         |
+    | Safari Net / Lasso    | -                            | -     | Capturer les mobs         |
+    | Mob Imprisonment Tool | :factory: Industrial Foregoing| -    | Capturer les mobs         |
 
 === "Industrial Foregoing"
 
@@ -141,15 +141,15 @@
     | Item                  | Mod                          | Priorité   | Description              |
     |-----------------------|------------------------------|------------|--------------------------|
     | Sprinkler             | :package: Cyclic             | :zap: RUSH | Accélère croissance + hydrate |
-    | Multi Hoe             | -                            | :star:     | Labourer plusieurs blocs |
-    | Crop Support          | :lung: PneumaticCraft        | :star:     | Support de culture       |
-    | Phyto-Gro             | :fire: Thermal               | :star:     | Fertilisant puissant     |
-    | Garden Cloche         | :construction: Immersive Engineering | :star: | Farming automatique    |
-    | Growth Accelerators   | -                            | :star:     | Accélère croissance      |
-    | Terra Preta           | :package: Cyclic             | :star:     | Sol fertile              |
-    | Growth Crystal Tier 3 | Tiny Progression             | :star:     | Accélération de zone     |
-    | [Hydrogel](https://www.curseforge.com/minecraft/mc-mods/hydrogel) | - | :star: | Hydratation automatique |
-    | SNAD                  | -                            | :star:     | Sable accélérateur       |
+    | Multi Hoe             | -                            | -     | Labourer plusieurs blocs |
+    | Crop Support          | :lung: PneumaticCraft        | -     | Support de culture       |
+    | Phyto-Gro             | :fire: Thermal               | -     | Fertilisant puissant     |
+    | Garden Cloche         | :construction: Immersive Engineering | - | Farming automatique    |
+    | Growth Accelerators   | -                            | -     | Accélère croissance      |
+    | Terra Preta           | :package: Cyclic             | -     | Sol fertile              |
+    | Growth Crystal Tier 3 | Tiny Progression             | -     | Accélération de zone     |
+    | [Hydrogel](https://www.curseforge.com/minecraft/mc-mods/hydrogel) | - | - | Hydratation automatique |
+    | SNAD                  | -                            | -     | Sable accélérateur       |
 
     !!! tip "Recherche JEI"
         Chercher `#crop` dans JEI pour trouver tous les accélérateurs de croissance disponibles.

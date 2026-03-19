@@ -41,18 +41,18 @@
 
     [:octicons-arrow-down-24: Voir les mods secondaires](#mods-secondaires)
 
-## Comparaison des Mods
+## Comparaison Rapide
 
-| Mod | Difficulté | Vitesse | Téléportation | Utilité | Phase |
-|-----|:----------:|:-------:|:-------------:|:-------:|:-----:|
-| Iron Jetpacks | :star::star: | :star::star::star::star::star: | | :star::star::star::star: | Early → Late |
-| Waystones | :star: | :star::star::star: | :star::star::star::star::star: | :star::star::star::star::star: | Early → Late |
-| Explorer's Compass | :star: | | | :star::star::star::star::star: | Early |
-| Nature's Compass | :star: | | | :star::star::star::star::star: | Early |
-| Tempad | :star::star: | :star::star::star: | :star::star::star::star::star: | :star::star::star::star: | Mid → Late |
-| Carry On | :star: | | | :star::star::star: | Early → Late |
-| Mekanism Jetpack | :star::star::star: | :star::star::star::star::star: | | :star::star::star::star: | Mid → Late |
-| Angel Ring | :star::star::star::star: | :star::star::star: | | :star::star::star::star::star: | Late |
+| Mod | Difficulté | Phase | Recommandé pour |
+|-----|:----------:|:-----:|-----------------|
+| Iron Jetpacks | 2/5 | Early → Late | Vol accessible par tiers |
+| Waystones | 1/5 | Early → Late | Téléportation de base |
+| Explorer's Compass | 1/5 | Early | Trouver des structures |
+| Nature's Compass | 1/5 | Early | Trouver des biomes |
+| Tempad | 2/5 | Mid → Late | TP style Loki cross-dimension |
+| Carry On | 1/5 | Early → Late | Porter coffres et machines |
+| Mekanism Jetpack | 3/5 | Mid → Late | Vol rapide avec infrastructure |
+| Angel Ring | 4/5 | Late | Vol créatif permanent |
 
 ## Progression Recommandée
 
@@ -136,12 +136,12 @@
     | Objet | Priorité | Description |
     |-------|:--------:|-------------|
     | Stone Jetpack | :zap: RUSH | Premier jetpack craftable, très accessible |
-    | Iron Jetpack | :star::star: | Upgrade bon rapport qualité/prix |
-    | Diamond Jetpack | :star::star::star: | Excellente vitesse mid-game |
-    | Nitro Jetpack | :star::star::star::star::star: | Jetpack le plus rapide, end-game |
-    | Cell | :star: | Batterie, premier composant à crafter |
-    | Thruster | :star: | Propulseur, second composant |
-    | Capacitor | :star: | Améliore la capacité énergétique |
+    | Iron Jetpack | Bas | Upgrade bon rapport qualité/prix |
+    | Diamond Jetpack | Moyen | Excellente vitesse mid-game |
+    | Nitro Jetpack | Top | Jetpack le plus rapide, end-game |
+    | Cell | - | Batterie, premier composant à crafter |
+    | Thruster | - | Propulseur, second composant |
+    | Capacitor | - | Améliore la capacité énergétique |
 
 === "Guides"
 
@@ -192,11 +192,11 @@
     |-------|:--------:|-------------|
     | Waystone | :zap: RUSH | Point de téléportation fixe, craft ou villages |
     | Warp Stone | :zap: RUSH | TP portable avec cooldown, indispensable |
-    | Shareable Waystone | :star::star::star: | Waystone accessible par tous les joueurs |
-    | Bound Scroll | :star::star: | TP infini vers un waystone spécifique |
-    | Return Scroll | :star: | Retour au dernier waystone utilisé |
-    | Warp Scroll | :star: | TP unique consommable, craft de secours |
-    | Portstone | :star: | Version portable du waystone |
+    | Shareable Waystone | Moyen | Waystone accessible par tous les joueurs |
+    | Bound Scroll | Bas | TP infini vers un waystone spécifique |
+    | Return Scroll | - | Retour au dernier waystone utilisé |
+    | Warp Scroll | - | TP unique consommable, craft de secours |
+    | Portstone | - | Version portable du waystone |
 
 === "Guides"
 
@@ -336,8 +336,8 @@
 
         | Objet | Priorité | Description |
         |-------|:--------:|-------------|
-        | Tempad | :star::star::star: | Dispositif de téléportation principal |
-        | He Who Remains' Tempad | :star::star::star::star::star: | Version créatif sans cooldown |
+        | Tempad | Moyen | Dispositif de téléportation principal |
+        | He Who Remains' Tempad | Top | Version créatif sans cooldown |
 
 ??? note "Carry On"
 
@@ -407,10 +407,10 @@
 
         | Objet | Priorité | Description |
         |-------|:--------:|-------------|
-        | Jetpack | :star::star::star: | Vol avec Hydrogen, rapide |
-        | Armored Jetpack | :star::star::star::star: | Jetpack + protection |
-        | Mekasuit + Module | :star::star::star::star::star: | Meilleur jetpack end-game |
-        | Portable Chemical Tank | :star::star: | Réserve d'Hydrogen portable |
+        | Jetpack | Moyen | Vol avec Hydrogen, rapide |
+        | Armored Jetpack | Haut | Jetpack + protection |
+        | Mekasuit + Module | Top | Meilleur jetpack end-game |
+        | Portable Chemical Tank | Bas | Réserve d'Hydrogen portable |
 
 ??? note "Angel Ring"
 
@@ -445,7 +445,7 @@
 
         | Objet | Priorité | Description |
         |-------|:--------:|-------------|
-        | Angel Ring | :star::star::star::star::star: | Vol créatif permanent, objectif ultime |
+        | Angel Ring | Top | Vol créatif permanent, objectif ultime |
 
 ??? note "Pretty Pipes"
 
@@ -480,11 +480,11 @@
 
         | Objet | Priorité | Description |
         |-------|:--------:|-------------|
-        | Pipe | :star::star: | Connecteur de base |
-        | Extraction Module | :star::star: | Nécessaire pour tirer les items |
-        | Filter Module | :star: | Contrôle du flux |
-        | Speed Module | :star: | Accélération du transfert |
-        | Item Terminal | :star::star: | Interface de requête centralisée |
+        | Pipe | Bas | Connecteur de base |
+        | Extraction Module | Bas | Nécessaire pour tirer les items |
+        | Filter Module | - | Contrôle du flux |
+        | Speed Module | - | Accélération du transfert |
+        | Item Terminal | Bas | Interface de requête centralisée |
 
 ??? note "Elevators"
 
@@ -518,8 +518,8 @@
 
         | Objet | Priorité | Description |
         |-------|:--------:|-------------|
-        | Elevator Block | :star::star: | Téléportation verticale instantanée |
-        | Colored Variants | :star: | 16 couleurs disponibles |
+        | Elevator Block | Bas | Téléportation verticale instantanée |
+        | Colored Variants | - | 16 couleurs disponibles |
 
 ??? note "Elytra Slot / Curious Elytra"
 
@@ -549,8 +549,8 @@
 
         | Objet | Priorité | Description |
         |-------|:--------:|-------------|
-        | Elytra (slot Curios) | :star: | Vol + protection |
-        | Firework Rockets | :star: | Boost de vitesse |
+        | Elytra (slot Curios) | - | Vol + protection |
+        | Firework Rockets | - | Boost de vitesse |
 
 ??? note "Paragliders"
 
@@ -586,7 +586,7 @@
         | Objet | Priorité | Description |
         |-------|:--------:|-------------|
         | Deku Leaf | :zap: RUSH | Planeur early game |
-        | Paraglider | :star: | Planeur amélioré |
+        | Paraglider | - | Planeur amélioré |
         | Spirit Orbs | | Augmentent la stamina |
         | Stamina Vessels | | Plus de stamina |
 

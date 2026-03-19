@@ -41,17 +41,17 @@
 
     [:octicons-arrow-down-24: Voir les mods secondaires](#mods-secondaires)
 
-## Comparaison des Mods
+## Comparaison Rapide
 
-| Mod | Difficulté | Automation | Combat | Utilité | Phase |
-|-----|:----------:|:----------:|:------:|:-------:|:-----:|
-| Tinker's Construct | :star::star: | :star::star: | :star::star::star::star: | :star::star::star::star: | Early → Late |
-| Silent Gear | :star::star::star: | :star: | :star::star::star::star::star: | :star::star::star: | Mid → Late |
-| Apotheosis | :star::star::star: | :star::star::star: | :star::star::star::star::star: | :star::star::star::star::star: | Mid → Late |
-| Iron's Spells | :star::star: | :star: | :star::star::star::star::star: | :star::star: | Early → Late |
-| Twilight Forest | :star::star: | :star: | :star::star::star::star: | :star::star::star: | Early → Mid |
-| Cataclysm | :star::star::star::star: | :star: | :star::star::star::star::star: | :star::star: | Late |
-| Hostile Neural Networks | :star::star: | :star::star::star::star::star: | :star: | :star::star::star::star: | Mid → Late |
+| Mod | Difficulté | Combat | Phase | Recommandé pour |
+|-----|:----------:|:------:|:-----:|-----------------|
+| Tinker's Construct | 2/5 | 4/5 | Early → Late | Débutants, outils évolutifs |
+| Silent Gear | 3/5 | 5/5 | Mid → Late | Builds customisés |
+| Apotheosis | 3/5 | 5/5 | Mid → Late | Enchantements + Gems OP |
+| Iron's Spells | 2/5 | 5/5 | Early → Late | Combat magique |
+| Twilight Forest | 2/5 | 4/5 | Early → Mid | Exploration, loot unique |
+| Cataclysm | 4/5 | 5/5 | Late | Défis difficiles |
+| Hostile Neural Networks | 2/5 | 1/5 | Mid → Late | Farm de drops sans combat |
 
 ## Progression Recommandée
 
@@ -118,7 +118,8 @@
         - **Manyullyn** = meilleurs dégâts (Head)
         - **Cobalt** = vitesse d'attaque rapide
         - **Paper** pour le Binding = +1 modifier slot gratuit
-        - Les **nuggets** réparent autant qu'un ingot proportionnellement
+        - Les **nuggets** réparent autant qu'un ingot proportionnellement (économise des ressources!)
+        - **Rotten Flesh** peut être fondu dans la Smeltery pour obtenir du Blood
 
     !!! tip "Armes Recommandées"
         - :crossed_swords: **Cleaver** : Dégâts massifs + beheading (skull drops)
@@ -144,11 +145,11 @@
     |-------|:--------:|-------------|
     | Smeltery | :zap: RUSH | Structure qui fond les métaux et double les minerais |
     | Cleaver | :zap: RUSH | Meilleure arme early (dégâts + beheading) |
-    | Tool Station | :star: | Assemble et modifie les outils |
-    | Part Builder | :star: | Crée les parties d'outils |
-    | Casting Basin/Table | :star: | Moules pour lingots et parties |
-    | Rapier | :star: | Ignore armure, attaque rapide |
-    | Longsword | :star: | Sweep attack puissant |
+    | Tool Station | - | Assemble et modifie les outils |
+    | Part Builder | - | Crée les parties d'outils |
+    | Casting Basin/Table | - | Moules pour lingots et parties |
+    | Rapier | - | Ignore armure, attaque rapide |
+    | Longsword | - | Sweep attack puissant |
     | Slimesling | | Propulsion rapide |
     | Piggybackpack | | Porte des mobs/joueurs |
 
@@ -179,10 +180,12 @@
         - Le **Material Grader** montre les stats exactes
         - Chercher `@silentgear` dans JEI pour tous les blueprints
 
-    !!! tip "Synergies"
+    !!! tip "Synergies de Matériaux"
         - **Synergy Bonus** quand les parties sont compatibles
         - Les outils peuvent avoir **plusieurs matériaux** (tip ≠ body)
         - Combiner intelligemment pour maximiser les bonus
+        - **Crimson Iron** donne Flaming, **Enderite** donne Telekinesis
+        - Certains packs ajoutent des traits custom non-documentés → vérifier dans JEI
 
     !!! warning "Compatibilité Apotheosis"
         - Silent Gear + Apotheosis = builds **extrêmement puissants**
@@ -201,10 +204,10 @@
     |-------|:--------:|-------------|
     | Blueprint | :zap: RUSH | Recettes pour chaque partie (Paper + Stick) |
     | Material Grader | :zap: RUSH | Analyse les stats des matériaux |
-    | Sword Parts | :star: | Blade, Guard, Handle |
-    | Repair Kit | :star: | Répare sur le terrain |
-    | Salvager | :star: | Récupère les matériaux des outils |
-    | Tool Rod / Binding / Head | :star: | Parties standards pour outils |
+    | Sword Parts | - | Blade, Guard, Handle |
+    | Repair Kit | - | Répare sur le terrain |
+    | Salvager | - | Récupère les matériaux des outils |
+    | Tool Rod / Binding / Head | - | Parties standards pour outils |
 
 === "Guides"
 
@@ -255,12 +258,12 @@
     | Objet | Priorité | Description |
     |-------|:--------:|-------------|
     | Hellshelf | :zap: RUSH | Bookshelf x2 puissance (4 niveaux) |
-    | Gem Cutting Table | :star: | Upgrade et coupe les gems |
-    | Reforging Table | :star: | Reroll les affixes |
-    | Salvaging Table | :star: | Récupère les enchants |
-    | Seashelf | :star: | Augmente chance treasure enchants |
-    | Affix Items | :star: | Équipement avec bonus aléatoires |
-    | Gems | :star: | Ajoutent des affixes permanents |
+    | Gem Cutting Table | - | Upgrade et coupe les gems |
+    | Reforging Table | - | Reroll les affixes |
+    | Salvaging Table | - | Récupère les enchants |
+    | Seashelf | - | Augmente chance treasure enchants |
+    | Affix Items | - | Équipement avec bonus aléatoires |
+    | Gems | - | Ajoutent des affixes permanents |
     | Extraction Table | | Retire enchants sans détruire l'item |
 
 === "Guides"
@@ -268,6 +271,19 @@
     - [Guide complet Reddit](https://www.reddit.com/r/allthemods/comments/1cw7dnn/complete_apotheosis_guide_everything_you_need_to/)
     - [Setup max enchanting vidéo](https://www.youtube.com/watch?v=M0t_EBrutJ0)
     - [Farm gems vidéo](https://www.youtube.com/watch?v=JTheR4sG9Ag)
+    - [Spreadsheet Apotheosis](https://docs.google.com/spreadsheets/d/1G6iHXoQY7m6gWreSiKpW0dBuPRs6SsQWHGGzpF49RRM/) - Toutes les stats détaillées
+
+!!! abstract "Guide Enchantements Avancés"
+
+    **Niveaux max et dépassement :**
+
+    - Regarder dans **JEI** le niveau max de chaque enchantement (limite de l'anvil normale)
+    - **Fortune, Power, Sharpness** : max niveau 15, uniquement via boss/mobs Apotheosis
+    - **Iesnium Anvil** (Occultism) : permet +1 niveau au-dessus du cap, une seule fois
+    - **Pressure Chamber** (PneumaticCraft) : peut appliquer des enchantements incompatibles sur le même item (ex: Decrepitude + Sanctified)
+
+    !!! tip "Astuce Spreadsheet"
+        Pour tous les mods d'amélioration d'armes, chercher "Nom du mod spreadsheet" sur Google pour trouver les données complètes.
 
 ---
 
@@ -318,10 +334,10 @@
     | Objet | Priorité | Description |
     |-------|:--------:|-------------|
     | Spell Book | :zap: RUSH | Contient jusqu'à 10+ spells selon tier |
-    | Arcane Anvil | :star: | Upgrade spellbooks avec scrolls |
-    | Scroll | :star: | Apprend un nouveau sort |
-    | Wizard Armor | :star: | Boost les stats magiques par école |
-    | Mana Regeneration Ring | :star: | Accélère la regen de mana |
+    | Arcane Anvil | - | Upgrade spellbooks avec scrolls |
+    | Scroll | - | Apprend un nouveau sort |
+    | Wizard Armor | - | Boost les stats magiques par école |
+    | Mana Regeneration Ring | - | Accélère la regen de mana |
     | Inscription Table | | Crée des scrolls |
     | Mana Potion | | Regen de mana d'urgence |
 
@@ -341,9 +357,9 @@
 |------|-----|:--------:|-------|
 | [Charm of Undying](https://www.curseforge.com/minecraft/mc-mods/charm-of-undying) | Charm of Undying | :zap: RUSH | Totem permanent en Curio slot |
 | [Baubley Heart Canisters](https://www.curseforge.com/minecraft/mc-mods/baubley-heart-canisters) | Baubley | :zap: RUSH | +2 coeurs par canister |
-| Ring of Last Chance | Nature's Aura | :star: | Totem intégré |
-| Ankh Shield | Artifacts | :star: | Protection contre multiple effets |
-| Sojourner's Sash | Botania | :star: | Vitesse + step assist |
+| Ring of Last Chance | Nature's Aura | - | Totem intégré |
+| Ankh Shield | Artifacts | - | Protection contre multiple effets |
+| Sojourner's Sash | Botania | - | Vitesse + step assist |
 
 ---
 
@@ -383,11 +399,11 @@
         | Objet | Priorité | Description |
         |-------|:--------:|-------------|
         | Aether Portal | :zap: RUSH | Cadre de Glowstone + eau |
-        | Gravitite Armor | :star: | Permet de sauter très haut |
-        | Zanite Tools | :star: | Plus efficaces quand usés |
-        | Moa | :star: | Monture volante |
+        | Gravitite Armor | - | Permet de sauter très haut |
+        | Zanite Tools | - | Plus efficaces quand usés |
+        | Moa | - | Monture volante |
         | Cloud Staff | | Place des blocs de nuage temporaires |
-        | Valkyrie Equipment | :star: | Loot des boss donjons |
+        | Valkyrie Equipment | - | Loot des boss donjons |
 
 ??? note "Alex's Mobs"
 
@@ -427,10 +443,10 @@
         | Objet | Priorité | Description |
         |-------|:--------:|-------------|
         | Animal Dictionary | :zap: RUSH | Guide de tous les mobs |
-        | Roadrunner Feather | :star: | Crafts liés à la vitesse |
-        | Crocodile Armor | :star: | Respiration aquatique |
-        | Endergrade Cape | :star: | Téléportation améliorée |
-        | Void Worm Mandible | :star: | Arme end-game |
+        | Roadrunner Feather | - | Crafts liés à la vitesse |
+        | Crocodile Armor | - | Respiration aquatique |
+        | Endergrade Cape | - | Téléportation améliorée |
+        | Void Worm Mandible | - | Arme end-game |
 
 ??? note "Ice and Fire: Dragons"
 
@@ -466,11 +482,11 @@
 
         | Objet | Priorité | Description |
         |-------|:--------:|-------------|
-        | Dragon Egg | :star: | À faire éclore |
-        | Dragon Bone Sword | :star: | Arme très puissante |
-        | Dragon Scale Armor | :star: | Meilleure armure du mod |
-        | Dragonforge | :star: | Crafting avancé |
-        | Dragon Staff | :star: | Contrôle ton dragon |
+        | Dragon Egg | - | À faire éclore |
+        | Dragon Bone Sword | - | Arme très puissante |
+        | Dragon Scale Armor | - | Meilleure armure du mod |
+        | Dragonforge | - | Crafting avancé |
+        | Dragon Staff | - | Contrôle ton dragon |
         | Hippogryph | :zap: RUSH | Monture volante accessible |
         | Bestiary | :zap: RUSH | Guide des créatures |
 
@@ -502,9 +518,9 @@
 
         | Objet | Priorité | Description |
         |-------|:--------:|-------------|
-        | Heart of the Deep | :star: | Active le portail |
-        | Warden Armor | :star: | Armure très puissante |
-        | Sculk Items | :star: | Crafts uniques |
+        | Heart of the Deep | - | Active le portail |
+        | Warden Armor | - | Armure très puissante |
+        | Sculk Items | - | Crafts uniques |
 
 ??? note "Twilight Forest"
 
@@ -534,11 +550,12 @@
 
         | Objet | Priorité | Description |
         |-------|:--------:|-------------|
-        | Fiery Armor | :star: | Protection + dégâts de feu passifs |
-        | Naga Scale | :star: | Armure early du premier boss |
-        | Lich Scepters | :star: | Wands magiques puissants |
+        | Fiery Armor | :zap: RUSH | Protection + dégâts de feu passifs aux attaquants |
+        | Naga Scale | - | Armure early du premier boss |
+        | Lich Scepters | - | Wands magiques puissants |
         | Ironwood | | Matériau unique pour craft |
         | Steeleaf | | Matériau d'armure mid-tier |
+        | Knightmetal | | Matériau end-game de la dimension |
 
 ??? note "Blue Skies"
 
@@ -562,9 +579,9 @@
 
         | Objet | Priorité | Description |
         |-------|:--------:|-------------|
-        | Portal Keys | :star: | Nécessaires pour activer les portails |
-        | Dimension Armor Sets | :star: | Armures uniques de chaque dimension |
-        | Boss Drops | :star: | Armes et outils spéciaux |
+        | Portal Keys | - | Nécessaires pour activer les portails |
+        | Dimension Armor Sets | - | Armures uniques de chaque dimension |
+        | Boss Drops | - | Armes et outils spéciaux |
 
 ??? note "Cataclysm"
 
@@ -593,10 +610,10 @@
 
         | Objet | Priorité | Description |
         |-------|:--------:|-------------|
-        | Ignis Fury | :star: | Épée de feu du boss Ignis |
-        | Leviathan Axe | :star: | Hache du boss Leviathan |
-        | Void Forge | :star: | Station de craft spéciale |
-        | Boss Armors | :star: | Sets d'armure très puissants |
+        | Ignis Fury | - | Épée de feu du boss Ignis |
+        | Leviathan Axe | - | Hache du boss Leviathan |
+        | Void Forge | - | Station de craft spéciale |
+        | Boss Armors | - | Sets d'armure très puissants |
 
 ??? note "Mob Grinding Utils"
 
@@ -622,9 +639,9 @@
         | Objet | Priorité | Description |
         |-------|:--------:|-------------|
         | Mob Masher | :zap: RUSH | Tue les mobs automatiquement |
-        | Fan | :star: | Pousse les mobs |
-        | Absorption Hopper | :star: | Collecte drops + XP |
-        | XP Tap | :star: | Extrait l'XP |
+        | Fan | - | Pousse les mobs |
+        | Absorption Hopper | - | Collecte drops + XP |
+        | XP Tap | - | Extrait l'XP |
         | Spikes | | Alternative au Mob Masher |
 
 ??? note "Hostile Neural Networks"
@@ -649,7 +666,7 @@
             - :skull: **Wither Skeleton** (Wither Skulls)
             - :purple_square: **Shulker** (Shulker Shells)
             - :black_circle: **Enderman** (Ender Pearls)
-            - :star: **Wither** (Nether Stars sans le combat!)
+            - - **Wither** (Nether Stars sans le combat!)
 
         !!! warning "Coût de Simulation"
             - Nécessite des **Prediction Matrices**
@@ -661,10 +678,10 @@
         | Objet | Priorité | Description |
         |-------|:--------:|-------------|
         | Deep Learner | :zap: RUSH | Portable pour train en explorant |
-        | Data Model | :star: | Un par type de mob |
-        | Simulation Chamber | :star: | Simule les mobs |
-        | Loot Fabricator | :star: | Produit le loot |
-        | Prediction Matrix | :star: | Consommable pour simulation |
+        | Data Model | - | Un par type de mob |
+        | Simulation Chamber | - | Simule les mobs |
+        | Loot Fabricator | - | Produit le loot |
+        | Prediction Matrix | - | Consommable pour simulation |
 
 ??? note "Reliquary Reincarnations"
 
@@ -692,11 +709,12 @@
 
         | Objet | Priorité | Description |
         |-------|:--------:|-------------|
-        | Emperor Chalice | :star: | Bucket d'eau infini |
-        | Mob Charm | :star: | Protection contre un type de mob |
-        | Twilight Cloak | :star: | Invisibilité passive la nuit |
-        | Witherless Rose | :star: | Immunité au Wither effect |
-        | Magicbane | | Épée qui utilise l'XP pour dégâts |
+        | Emperor Chalice | :zap: RUSH | Bucket d'eau INFINI (très utile!) |
+        | Lily Pad of Fertility | :zap: RUSH | Accélère croissance autour (OP pour farms) |
+        | Mob Charm | - | Protection contre un type de mob |
+        | Twilight Cloak | - | Invisibilité passive la nuit |
+        | Witherless Rose | - | Immunité au Wither effect |
+        | Magicbane | - | Épée qui scale avec l'XP |
         | Alkahestry Tome | | Transmutation d'items |
         | Sojourner's Staff | | Téléportation |
-        | Lily Pad of Fertility | | Accélère croissance autour |
+        | Potions variées | | Combat buffs puissants |

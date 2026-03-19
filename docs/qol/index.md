@@ -41,18 +41,18 @@
 
     [:octicons-arrow-down-24: Voir les mods secondaires](#mods-secondaires)
 
-## Comparaison des Mods
+## Comparaison Rapide
 
-| Mod | Difficulté | Interface | Confort | Utilité | Phase |
-|-----|:----------:|:---------:|:-------:|:-------:|:-----:|
-| JEI | :star: | :star::star::star::star::star: | :star::star::star::star::star: | :star::star::star::star::star: | All |
-| JourneyMap | :star: | :star::star::star::star::star: | :star::star::star::star: | :star::star::star::star::star: | All |
-| FTB Ultimine | :star: | :star::star: | :star::star::star::star::star: | :star::star::star::star: | All |
-| Controlling | :star: | :star::star::star::star: | :star::star::star: | :star::star::star::star: | All |
-| AppleSkin | :star: | :star::star::star::star: | :star::star::star::star: | :star::star::star: | All |
-| Inventory Tweaks | :star: | :star::star::star: | :star::star::star::star::star: | :star::star::star::star: | All |
-| BetterF3 | :star: | :star::star::star::star::star: | :star::star: | :star::star::star: | All |
-| Extreme Sound Muffler | :star: | :star::star::star: | :star::star::star::star::star: | :star::star::star: | All |
+| Mod | Type | Recommandé pour |
+|-----|------|-----------------|
+| JEI | Interface | Recherche de recettes (indispensable) |
+| JourneyMap | Navigation | Carte et waypoints |
+| FTB Ultimine | Mining | Miner des veines entières |
+| Controlling | Config | Gérer les conflits de touches |
+| AppleSkin | Interface | Voir la saturation et faim |
+| Inventory Tweaks | Inventaire | Tri automatique |
+| BetterF3 | Debug | Infos techniques améliorées |
+| Extreme Sound Muffler | Audio | Réduire les bruits de machines |
 
 ## Progression Recommandée
 
@@ -137,8 +137,8 @@
     | Barre de recherche | :zap: RUSH | Filtre les items par nom, mod, tag |
     | Touche R | :zap: RUSH | Affiche la recette d'un item |
     | Touche U | :zap: RUSH | Affiche les usages d'un item |
-    | Bookmarks | :star: | Sauvegarde tes recettes favorites |
-    | Filtres | :star: | Cache les items non pertinents |
+    | Bookmarks | - | Sauvegarde tes recettes favorites |
+    | Filtres | - | Cache les items non pertinents |
     | Mode Cheat | | Donne les items en créatif |
 
 === "Guides"
@@ -196,10 +196,10 @@
     | Objet | Priorité | Description |
     |-------|:--------:|-------------|
     | Touche J | :zap: RUSH | Ouvre la carte en plein écran |
-    | Touche B | :star: | Ouvre la liste des waypoints |
+    | Touche B | - | Ouvre la liste des waypoints |
     | Minimap | :zap: RUSH | Carte en temps réel dans le coin |
-    | Waypoints | :star: | Marque des positions importantes |
-    | Cave Mode | :star: | Affiche les grottes automatiquement |
+    | Waypoints | - | Marque des positions importantes |
+    | Cave Mode | - | Affiche les grottes automatiquement |
     | Radar Mobs | | Affiche les mobs sur la carte |
 
 === "Guides"
@@ -250,9 +250,9 @@
     | Objet | Priorité | Description |
     |-------|:--------:|-------------|
     | Touche Ultimine | :zap: RUSH | Active le minage groupé |
-    | Shape Selector | :star: | Change la forme de minage (tunnel, veine) |
-    | Config Limite | :star: | Ajuste le nombre max de blocs |
-    | Harvest Mode | :star: | Récolte les cultures automatiquement |
+    | Shape Selector | - | Change la forme de minage (tunnel, veine) |
+    | Config Limite | - | Ajuste le nombre max de blocs |
+    | Harvest Mode | - | Récolte les cultures automatiquement |
 
 === "Guides"
 
@@ -300,7 +300,7 @@
     |-------|:--------:|-------------|
     | Barre de recherche | :zap: RUSH | Filtre les keybindings par nom |
     | Show Conflicts | :zap: RUSH | Affiche les touches en conflit |
-    | Catégories | :star: | Filtre par type de contrôle |
+    | Catégories | - | Filtre par type de contrôle |
     | Reset All | | Remet toutes les touches par défaut |
 
 === "Guides"
@@ -503,11 +503,11 @@
 
         | Objet | Priorité | Description |
         |-------|:--------:|-------------|
-        | Safe | :star: | Coffre privé sécurisé |
-        | Sack | :star: | Bag portable |
-        | Jar | :star: | Stockage décoratif |
-        | Cage | :star: | Capture et transport de mobs |
-        | Rope | :star: | Corde fonctionnelle |
+        | Safe | - | Coffre privé sécurisé |
+        | Sack | - | Bag portable |
+        | Jar | - | Stockage décoratif |
+        | Cage | - | Capture et transport de mobs |
+        | Rope | - | Corde fonctionnelle |
         | Flags | | Bannières décoratives |
 
 ??? note "AppleSkin"
@@ -537,8 +537,8 @@
         | Objet | Priorité | Description |
         |-------|:--------:|-------------|
         | Overlay Saturation | :zap: RUSH | Montre la saturation sur la barre de faim |
-        | Food Tooltip | :star: | Affiche les stats des aliments au survol |
-        | Health Regen Preview | :star: | Prédit la régénération de vie |
+        | Food Tooltip | - | Affiche les stats des aliments au survol |
+        | Health Regen Preview | - | Prédit la régénération de vie |
 
 ??? note "Inventory Tweaks Refoxed"
 
@@ -568,8 +568,8 @@
         | Objet | Priorité | Description |
         |-------|:--------:|-------------|
         | Bouton de tri | :zap: RUSH | Trie l'inventaire automatiquement |
-        | Slots verrouillés | :star: | Empêche les items de bouger |
-        | Tri automatique | :star: | Trie à l'ouverture des coffres |
+        | Slots verrouillés | - | Empêche les items de bouger |
+        | Tri automatique | - | Trie à l'ouverture des coffres |
 
 ??? note "Crafting Tweaks"
 
@@ -598,9 +598,9 @@
 
         | Objet | Priorité | Description |
         |-------|:--------:|-------------|
-        | Bouton Rotate | :star: | Tourne le pattern de craft |
-        | Bouton Balance | :star: | Équilibre les quantités |
-        | Bouton Clear | :star: | Vide la grille de craft |
+        | Bouton Rotate | - | Tourne le pattern de craft |
+        | Bouton Balance | - | Équilibre les quantités |
+        | Bouton Clear | - | Vide la grille de craft |
 
 ??? note "BetterF3"
 
@@ -631,8 +631,8 @@
         | Objet | Priorité | Description |
         |-------|:--------:|-------------|
         | Touche F3 | :zap: RUSH | Affiche le debug screen amélioré |
-        | Config Modules | :star: | Personnalise les infos affichées |
-        | F3 + Q | :star: | Liste toutes les commandes F3 |
+        | Config Modules | - | Personnalise les infos affichées |
+        | F3 + Q | - | Liste toutes les commandes F3 |
 
 ??? note "Extreme Sound Muffler"
 
@@ -663,8 +663,8 @@
         | Objet | Priorité | Description |
         |-------|:--------:|-------------|
         | Menu Principal | :zap: RUSH | Interface pour muter les sons |
-        | Sound Anchor | :star: | Mute les sons dans une zone |
-        | Profiles | :star: | Sauvegarde différentes configs |
+        | Sound Anchor | - | Mute les sons dans une zone |
+        | Profiles | - | Sauvegarde différentes configs |
 
 ??? note "Just Zoom"
 
@@ -688,7 +688,7 @@
         | Objet | Priorité | Description |
         |-------|:--------:|-------------|
         | Touche Zoom | :zap: RUSH | Active le zoom |
-        | Molette | :star: | Ajuste le niveau de zoom |
+        | Molette | - | Ajuste le niveau de zoom |
 
 ??? note "More Overlays Updated"
 
@@ -716,8 +716,8 @@
         | Objet | Priorité | Description |
         |-------|:--------:|-------------|
         | Touche F7 | :zap: RUSH | Affiche les zones de spawn |
-        | Croix Jaunes | :star: | Spawn possible la nuit |
-        | Croix Rouges | :star: | Spawn possible maintenant |
+        | Croix Jaunes | - | Spawn possible la nuit |
+        | Croix Rouges | - | Spawn possible maintenant |
 
 ??? note "Clumps"
 
@@ -786,7 +786,7 @@
 
         | Objet | Priorité | Description |
         |-------|:--------:|-------------|
-        | Touche FindMe | :star: | Illumine les coffres avec l'item |
+        | Touche FindMe | - | Illumine les coffres avec l'item |
 
 ??? note "Harvest with Ease"
 

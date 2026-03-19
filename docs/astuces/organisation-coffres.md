@@ -147,11 +147,11 @@ Ces mods transforment votre expérience de stockage dès le début :
 
 | Mod | Description | Priorité |
 |-----|-------------|----------|
-| :package: **Iron Chests** | Coffres plus grands (Iron, Gold, Diamond, Obsidian) | :star::star::star: |
-| :file_cabinet: **Storage Drawers** | Stockage compact pour items en masse | :star::star::star: |
-| :label: **Storage Labels** | Labels visuels pour vos coffres | :star::star: |
-| :mag: **Inventory Tweaks Renewed** | Auto-sort et raccourcis | :star::star::star: |
-| :computer: **Inventory Profiles Next** | Gestion d'inventaire avancée | :star::star: |
+| :package: **Iron Chests** | Coffres plus grands (Iron, Gold, Diamond, Obsidian) | --- |
+| :file_cabinet: **Storage Drawers** | Stockage compact pour items en masse | --- |
+| :label: **Storage Labels** | Labels visuels pour vos coffres | -- |
+| :mag: **Inventory Tweaks Renewed** | Auto-sort et raccourcis | --- |
+| :computer: **Inventory Profiles Next** | Gestion d'inventaire avancée | -- |
 
 !!! note "Compatibilité"
     Vérifiez que ces mods sont compatibles avec votre version de modpack !

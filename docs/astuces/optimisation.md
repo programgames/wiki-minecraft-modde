@@ -55,13 +55,13 @@
 
 | Mod | Catégorie | Effet | Gain Performance | Difficulté |
 |-----|:---------:|-------|:----------------:|:----------:|
-| [Rubidium](https://www.curseforge.com/minecraft/mc-mods/rubidium) | Graphiques | Refonte du rendu | :star::star::star::star::star: | :star: |
-| [Clumps](https://www.curseforge.com/minecraft/mc-mods/clumps) | Entités | Regroupe XP orbs | :star::star::star::star: | :star: |
-| [AI Improvements](https://www.curseforge.com/minecraft/mc-mods/ai-improvements) | Serveur | Optimise IA mobs | :star::star::star::star: | :star: |
-| [FastFurnace](https://www.curseforge.com/minecraft/mc-mods/fastfurnace) | Processing | Accélère fours | :star::star::star: | :star: |
-| [Farsight](https://www.curseforge.com/minecraft/mc-mods/farsight) | Rendu | Cache chunks distants | :star::star::star: | :star: |
-| [Connectivity](https://www.curseforge.com/minecraft/mc-mods/connectivity) | Réseau | Stabilise connexion | :star::star::star: | :star: |
-| [Spark](https://www.curseforge.com/minecraft/mc-mods/spark) | Debug | Profiling complet | N/A (diagnostic) | :star::star: |
+| [Rubidium](https://www.curseforge.com/minecraft/mc-mods/rubidium) | Graphiques | Refonte du rendu | ----- | - |
+| [Clumps](https://www.curseforge.com/minecraft/mc-mods/clumps) | Entités | Regroupe XP orbs | ---- | - |
+| [AI Improvements](https://www.curseforge.com/minecraft/mc-mods/ai-improvements) | Serveur | Optimise IA mobs | ---- | - |
+| [FastFurnace](https://www.curseforge.com/minecraft/mc-mods/fastfurnace) | Processing | Accélère fours | --- | - |
+| [Farsight](https://www.curseforge.com/minecraft/mc-mods/farsight) | Rendu | Cache chunks distants | --- | - |
+| [Connectivity](https://www.curseforge.com/minecraft/mc-mods/connectivity) | Réseau | Stabilise connexion | --- | - |
+| [Spark](https://www.curseforge.com/minecraft/mc-mods/spark) | Debug | Profiling complet | N/A (diagnostic) | -- |
 
 ---
 
@@ -75,8 +75,8 @@
     | Mod | Description | Priorité |
     |-----|-------------|:--------:|
     | [Rubidium](https://www.curseforge.com/minecraft/mc-mods/rubidium) | Port de Sodium pour Forge - refonte complète du rendu | :zap: RUSH |
-    | [Makeup Ultra Fast Shader](https://www.curseforge.com/minecraft/shaders/makeup-ultra-fast-shader) | Shaders ultra légers pour PC modestes | :star: |
-    | [FlickerFix](https://www.curseforge.com/minecraft/mc-mods/flickerfix) | Corrige le scintillement des textures | :star: |
+    | [Makeup Ultra Fast Shader](https://www.curseforge.com/minecraft/shaders/makeup-ultra-fast-shader) | Shaders ultra légers pour PC modestes | - |
+    | [FlickerFix](https://www.curseforge.com/minecraft/mc-mods/flickerfix) | Corrige le scintillement des textures | - |
 
     !!! tip "Rubidium vs Sodium"
         - **Rubidium** = Port Forge de Sodium (utiliser sur Forge/NeoForge)
@@ -90,8 +90,8 @@
 
     | Mod | Description | Priorité |
     |-----|-------------|:--------:|
-    | [Farsight](https://www.curseforge.com/minecraft/mc-mods/farsight) | Garde les chunks distants en mémoire | :star: |
-    | [Fast Leaf Decay](https://www.curseforge.com/minecraft/mc-mods/fast-leaf-decay) | Les feuilles disparaissent rapidement | :star: |
+    | [Farsight](https://www.curseforge.com/minecraft/mc-mods/farsight) | Garde les chunks distants en mémoire | - |
+    | [Fast Leaf Decay](https://www.curseforge.com/minecraft/mc-mods/fast-leaf-decay) | Les feuilles disparaissent rapidement | - |
 
     !!! warning "Attention"
         - **Farsight** augmente la RAM utilisée
@@ -106,10 +106,10 @@
     | Mod | Description | Priorité |
     |-----|-------------|:--------:|
     | [Clumps](https://www.curseforge.com/minecraft/mc-mods/clumps) | Regroupe les XP orbs (essentiel pour mob farms) | :zap: RUSH |
-    | [FastFurnace](https://www.curseforge.com/minecraft/mc-mods/fastfurnace) | Optimise les opérations des fours | :star: |
-    | [FastSuite](https://www.curseforge.com/minecraft/mc-mods/fastsuite) | Optimise les lookups de recettes | :star: |
+    | [FastFurnace](https://www.curseforge.com/minecraft/mc-mods/fastfurnace) | Optimise les opérations des fours | - |
+    | [FastSuite](https://www.curseforge.com/minecraft/mc-mods/fastsuite) | Optimise les lookups de recettes | - |
     | [AI Improvements](https://www.curseforge.com/minecraft/mc-mods/ai-improvements) | Réduit le lag de l'IA des mobs | :zap: RUSH |
-    | [Get It Together, Drops!](https://www.curseforge.com/minecraft/mc-mods/get-it-together-drops) | Regroupe les drops au sol | :star: |
+    | [Get It Together, Drops!](https://www.curseforge.com/minecraft/mc-mods/get-it-together-drops) | Regroupe les drops au sol | - |
 
     !!! example "Impact sur les Mob Farms"
         Une mob farm sans optimisation peut générer 500+ entités XP orbs.
@@ -122,9 +122,9 @@
 
     | Mod | Description | Priorité |
     |-----|-------------|:--------:|
-    | [Connectivity](https://www.curseforge.com/minecraft/mc-mods/connectivity) | Améliore la connexion client/serveur | :star: |
-    | [Packet Fixer](https://www.curseforge.com/minecraft/mc-mods/packet-fixer) | Corrige les problèmes de paquets réseau | :star: |
-    | [Login Protection](https://www.curseforge.com/minecraft/mc-mods/login-protection) | Protège les joueurs pendant le chargement | :star: |
+    | [Connectivity](https://www.curseforge.com/minecraft/mc-mods/connectivity) | Améliore la connexion client/serveur | - |
+    | [Packet Fixer](https://www.curseforge.com/minecraft/mc-mods/packet-fixer) | Corrige les problèmes de paquets réseau | - |
+    | [Login Protection](https://www.curseforge.com/minecraft/mc-mods/login-protection) | Protège les joueurs pendant le chargement | - |
 
     !!! tip "Pour les Serveurs"
         - **Connectivity** est essentiel si tu as des déconnexions fréquentes
@@ -139,8 +139,8 @@
     | Mod | Description | Priorité |
     |-----|-------------|:--------:|
     | [Spark](https://www.curseforge.com/minecraft/mc-mods/spark) | Profiler de performance complet | :zap: RUSH |
-    | [Observable](https://www.curseforge.com/minecraft/mc-mods/observable) | Visualise ce qui cause le lag | :star: |
-    | [BetterF3](https://www.curseforge.com/minecraft/mc-mods/betterf3) | Écran debug amélioré et coloré | :star: |
+    | [Observable](https://www.curseforge.com/minecraft/mc-mods/observable) | Visualise ce qui cause le lag | - |
+    | [BetterF3](https://www.curseforge.com/minecraft/mc-mods/betterf3) | Écran debug amélioré et coloré | - |
 
     !!! tip "Utiliser Spark"
         1. `/spark profiler start` - Démarre le profiling
@@ -159,10 +159,10 @@
 
     | Mod | Description | Priorité |
     |-----|-------------|:--------:|
-    | [Crash Assistant](https://www.curseforge.com/minecraft/mc-mods/crash-assistant) | Aide à comprendre les crashes | :star: |
-    | [Crash Utilities](https://www.curseforge.com/minecraft/mc-mods/crash-utilities) | Outils pour débugger les crashes | :star: |
-    | [Better Compatibility Checker](https://www.curseforge.com/minecraft/mc-mods/better-compatibility-checker) | Vérifie la compatibilité des mods | :star: |
-    | [Attribute Fix](https://www.curseforge.com/minecraft/mc-mods/attributefix) | Corrige les limites d'attributs vanilla | :star: |
+    | [Crash Assistant](https://www.curseforge.com/minecraft/mc-mods/crash-assistant) | Aide à comprendre les crashes | - |
+    | [Crash Utilities](https://www.curseforge.com/minecraft/mc-mods/crash-utilities) | Outils pour débugger les crashes | - |
+    | [Better Compatibility Checker](https://www.curseforge.com/minecraft/mc-mods/better-compatibility-checker) | Vérifie la compatibilité des mods | - |
+    | [Attribute Fix](https://www.curseforge.com/minecraft/mc-mods/attributefix) | Corrige les limites d'attributs vanilla | - |
 
     !!! warning "En cas de Crash"
         1. Lis le **crash report** (dans le dossier `crash-reports/`)
@@ -176,8 +176,8 @@
 
     | Mod | Description | Priorité |
     |-----|-------------|:--------:|
-    | [Almost Unified](https://www.curseforge.com/minecraft/mc-mods/almost-unified) | Unifie les items similaires (copper, etc.) | :star: |
-    | [Common Capabilities](https://www.curseforge.com/minecraft/mc-mods/common-capabilities) | API commune entre mods tech | :star: |
+    | [Almost Unified](https://www.curseforge.com/minecraft/mc-mods/almost-unified) | Unifie les items similaires (copper, etc.) | - |
+    | [Common Capabilities](https://www.curseforge.com/minecraft/mc-mods/common-capabilities) | API commune entre mods tech | - |
 
     !!! tip "Almost Unified"
         - Empêche les doublons d'items (ex: 5 types de copper ingot)
@@ -290,7 +290,7 @@
     - Spark (diagnostic)
     - Simple Backups (sécurité)
 
-    **Tier 2 - Fortement Recommandés** :star:
+    **Tier 2 - Fortement Recommandés** -
 
     - FastFurnace / FastSuite
     - Connectivity

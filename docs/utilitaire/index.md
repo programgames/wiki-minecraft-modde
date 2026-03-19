@@ -41,19 +41,19 @@
 
     [:octicons-arrow-down-24: Voir les mods secondaires](#mods-secondaires)
 
-## Comparaison des Mods
+## Comparaison Rapide
 
-| Mod | Difficulté | Automation | Combat | Utilité | Phase |
-|-----|:----------:|:----------:|:------:|:-------:|:-----:|
-| Apotheosis | :star::star::star: | :star::star: | :star::star::star::star::star: | :star::star::star::star: | Mid → Late |
-| Modular Routers | :star::star: | :star::star::star::star::star: | :star: | :star::star::star::star::star: | Early → Late |
-| Functional Storage | :star: | :star::star::star::star: | :star: | :star::star::star::star::star: | Early → Late |
-| Cyclic | :star: | :star::star::star::star: | :star::star: | :star::star::star::star::star: | Early → Late |
-| Tinker's Construct | :star::star: | :star: | :star::star::star::star: | :star::star::star: | Early → Mid |
-| Waystones | :star: | :star: | :star: | :star::star::star::star::star: | Early |
-| Easy Villagers | :star: | :star::star::star: | :star: | :star::star::star::star: | Early → Mid |
-| Torch Master | :star: | :star: | :star: | :star::star::star::star: | Early |
-| Entangled | :star: | :star::star::star::star: | :star: | :star::star::star::star: | Mid |
+| Mod | Difficulté | Phase | Recommandé pour |
+|-----|:----------:|:-----:|-----------------|
+| Apotheosis | 3/5 | Mid → Late | Enchants lvl 150, gems, spawners |
+| Modular Routers | 2/5 | Early → Late | Transport items ultra-rapide |
+| Functional Storage | 1/5 | Early → Late | Stockage de masse (drawers) |
+| Cyclic | 1/5 | Early → Late | Utilitaires variés |
+| Tinker's Construct | 2/5 | Early → Mid | Outils customisés |
+| Waystones | 1/5 | Early | Téléportation simple |
+| Easy Villagers | 1/5 | Early → Mid | Trading automatisé |
+| Torch Master | 1/5 | Early | Anti-spawn de zone |
+| Entangled | 1/5 | Mid | Accès distant aux blocs |
 
 ## Progression Recommandée
 
@@ -141,17 +141,17 @@
 
     | Objet | Priorité | Description |
     |-------|:--------:|-------------|
-    | Hellshelf | :star: | Bookshelf x2 puissance (+4 Eterna) |
-    | Seashelf | :star: | Augmente chance treasure enchants |
+    | Hellshelf | - | Bookshelf x2 puissance (+4 Eterna) |
+    | Seashelf | - | Augmente chance treasure enchants |
     | Infused Hellshelf | | Version améliorée du Hellshelf |
-    | Enderscribe Shelf | :star: | Bias vers un enchant spécifique |
+    | Enderscribe Shelf | - | Bias vers un enchant spécifique |
     | Extraction Table | :zap: RUSH | Retire enchants sans détruire l'item |
-    | Reforging Table | :star: | Reroll les affixes de l'équipement |
+    | Reforging Table | - | Reroll les affixes de l'équipement |
     | Salvaging Table | | Récupère les enchants des items |
-    | Gem Cutting Table | :star: | Upgrade et coupe les gems |
+    | Gem Cutting Table | - | Upgrade et coupe les gems |
     | Ender Library | | Stocke les livres enchantés |
     | Ender Lead | | Lead qui fonctionne sur Endermen |
-    | Spawner Modifiers | :star: | Items pour améliorer spawners |
+    | Spawner Modifiers | - | Items pour améliorer spawners |
 
 === "Guides"
 
@@ -184,6 +184,14 @@
         - **Vacuum Module** collecte les items par terre (6 blocs, upgradable)
         - **Inspection Module** filtre par NBT, dégâts, enchants
         - **Detector Module** émet redstone selon conditions
+        - Un seul Router avec **Sender + Puller + Distributor + Activator** remplace des réseaux entiers de pipes
+
+    !!! success "Filtres Avancés"
+        Apprendre à utiliser les filtres sur les **tags, regex et NBT** est extrêmement puissant !
+
+        - Filtrer par **tag Forge** : `#forge:ingots/iron`
+        - Filtrer par **regex** : `minecraft:.*_ore`
+        - Filtrer par **NBT** : enchantements, durabilité, données custom
 
     !!! warning "Attention"
         - **Stack Upgrade est ESSENTIEL** - sans lui, seulement 1 item/tick
@@ -200,10 +208,10 @@
     | Objet | Priorité | Description |
     |-------|:--------:|-------------|
     | Modular Router | :zap: RUSH | Bloc central du mod |
-    | Puller Module | :star: | Tire items d'un inventaire adjacent |
-    | Sender Module | :star: | Envoie items vers inventaire distant |
-    | Sender Mk2 | :star: | Envoie cross-dimension |
-    | Vacuum Module | :star: | Collecte items par terre |
+    | Puller Module | - | Tire items d'un inventaire adjacent |
+    | Sender Module | - | Envoie items vers inventaire distant |
+    | Sender Mk2 | - | Envoie cross-dimension |
+    | Vacuum Module | - | Collecte items par terre |
     | Dropper Module | | Drop items dans le monde |
     | Placer Module | | Place des blocs |
     | Breaker Module | | Casse des blocs |
@@ -258,18 +266,18 @@
     | Objet | Priorité | Description |
     |-------|:--------:|-------------|
     | 1x1 Drawer | :zap: RUSH | Stockage de masse (1 type) |
-    | 2x2 Drawer | :star: | 4 types d'items |
+    | 2x2 Drawer | - | 4 types d'items |
     | 4x4 Drawer | | 16 types d'items |
-    | Compacting Drawer | :star: | Auto ingot/block/nugget |
+    | Compacting Drawer | - | Auto ingot/block/nugget |
     | Storage Controller | :zap: RUSH | Accès centralisé aux drawers |
     | Linking Tool | :zap: RUSH | Lie drawers au controller |
-    | Ender Drawer | :star: | Synchronisé cross-dimension |
+    | Ender Drawer | - | Synchronisé cross-dimension |
     | Armory Cabinet | | Stockage d'armures |
     | Puller Upgrade | | Tire items des inventaires adjacents |
     | Pusher Upgrade | | Pousse items vers inventaires |
     | Collector Upgrade | | Vacuum items par terre |
     | Void Upgrade | | Détruit le surplus |
-    | Storage Upgrades | :star: | Augmente capacité (très puissants) |
+    | Storage Upgrades | - | Augmente capacité (très puissants) |
 
 === "Guides"
 
@@ -311,6 +319,9 @@
         - **Heart Containers** : +HP permanent stackable
         - **Monster Ball** : capture des mobs
 
+    !!! success "Powered Diamond Anvil"
+        Le **Powered Diamond Anvil** peut recharger beaucoup d'armes/outils qui utilisent le système de durabilité comme ressource : guns, charges, balles, etc. Très utile pour les armes de mods qui ne se rechargent pas normalement!
+
 === "Objets Importants"
 
     | Objet | Priorité | Description |
@@ -318,21 +329,26 @@
     | Ender Book | :zap: RUSH | Téléportation sauvegardée (waystone portable) |
     | Water Candle | :zap: RUSH | Augmente spawn mobs |
     | Sprinkler | :zap: RUSH | Accélère croissance crops |
-    | Ender Pouch | :star: | Accès portable à l'Ender Chest |
-    | Harvester | :star: | Auto-récolte et replante crops |
-    | Collector | :star: | Vacuum hopper pour items |
+    | Powered Diamond Anvil | - | Recharge armes/outils via durabilité (guns, etc.) |
+    | Ender Pouch | - | Accès portable à l'Ender Chest |
+    | Harvester | - | Auto-récolte et replante crops |
+    | Collector | - | Vacuum hopper pour items |
+    | Fluid Collector | | Collecte les fluides |
+    | Fluid Placer | | Place des fluides |
     | Player Launcher | | Lance le joueur (transport) |
-    | Wireless Transmitter | :star: | Transfert RF/items/fluides sans fil |
-    | Wireless Receiver | :star: | Reçoit du transmitter |
+    | Wireless Transmitter | - | Transfert RF/items/fluides sans fil |
+    | Wireless Receiver | - | Reçoit du transmitter |
     | Automated User | | Simule les clics joueur |
     | Peat Generator | | Génération RF avec peat |
-    | Heart Container | :star: | +HP permanent |
+    | Heart Container | - | +HP permanent |
     | Glove of Building | | Place en 3x3 |
     | Terra Preta | | Sol accélérateur de crops |
     | Scythe | | Récolte en AOE |
     | Block Miner | | Mine automatique |
     | Monster Ball | | Capture des mobs |
     | Mob Slaughter | | Tue mobs et collecte drops |
+    | Bag | | Stockage portable |
+    | Water Froster | | Gèle l'eau |
 
 === "Guides"
 
@@ -379,13 +395,13 @@
         | Objet | Priorité | Description |
         |-------|:--------:|-------------|
         | Smeltery | :zap: RUSH | Double les minerais |
-        | Tool Station | :star: | Craft et upgrade outils |
+        | Tool Station | - | Craft et upgrade outils |
         | Tool Forge | | Version avancée du Tool Station |
-        | Casting Basin/Table | :star: | Moules pour lingots/parts |
-        | Seared Bricks | :star: | Blocs de base smeltery |
+        | Casting Basin/Table | - | Moules pour lingots/parts |
+        | Seared Bricks | - | Blocs de base smeltery |
         | Sledgehammer | :zap: RUSH | Mine vite sable/gravel/cobble |
-        | Cleaver | :star: | Gros dégâts + beheading |
-        | Rapier | :star: | Ignore armure |
+        | Cleaver | - | Gros dégâts + beheading |
+        | Rapier | - | Ignore armure |
         | Slimesling | | Propulsion rapide |
         | Silky Jewel | | Ajoute Silk Touch |
 
@@ -418,7 +434,7 @@
         | Objet | Priorité | Description |
         |-------|:--------:|-------------|
         | Waystone | :zap: RUSH | Point de téléportation fixe |
-        | Warp Stone | :star: | Téléportation portable (cooldown) |
+        | Warp Stone | - | Téléportation portable (cooldown) |
         | Warp Scroll | | Téléportation one-use |
         | Sharestone | | Waystones partagées en groupe |
 
@@ -437,8 +453,8 @@
 
         | Objet | Priorité | Description |
         |-------|:--------:|-------------|
-        | Trader Block | :star: | Villager en bloc pour trading |
-        | Breeder Block | :star: | Breeding automatique |
+        | Trader Block | - | Villager en bloc pour trading |
+        | Breeder Block | - | Breeding automatique |
         | Converter Block | | Convertit zombie villager |
         | Farmer Block | | Farming automatique |
         | Auto Trader | | Trading automatisé |
@@ -477,8 +493,8 @@
 
         | Objet | Priorité | Description |
         |-------|:--------:|-------------|
-        | Entangled Block | :star: | Se lie à un autre bloc |
-        | Entangled Binder | :star: | Outil pour lier les blocs |
+        | Entangled Block | - | Se lie à un autre bloc |
+        | Entangled Binder | - | Outil pour lier les blocs |
 
 ??? note "Ender Chests / Ender Tanks"
 
@@ -495,9 +511,9 @@
 
         | Objet | Priorité | Description |
         |-------|:--------:|-------------|
-        | Ender Chest | :star: | Items partagés cross-dimension |
-        | Ender Tank | :star: | Fluides partagés cross-dimension |
-        | Ender Pouch | :star: | Accès portable à l'Ender Chest |
+        | Ender Chest | - | Items partagés cross-dimension |
+        | Ender Tank | - | Fluides partagés cross-dimension |
+        | Ender Pouch | - | Accès portable à l'Ender Chest |
 
 ??? note "Mini Utilities"
 
@@ -514,7 +530,7 @@
 
         | Objet | Priorité | Description |
         |-------|:--------:|-------------|
-        | Spike | :star: | Tue les mobs automatiquement |
+        | Spike | - | Tue les mobs automatiquement |
         | Ore Finder | | Highlight les minerais |
         | Ethereal Glass | | Verre traversable (une direction) |
 
@@ -533,12 +549,12 @@
 
         | Objet | Priorité | Description |
         |-------|:--------:|-------------|
-        | Sack | :star: | Shulker box early game |
+        | Sack | - | Shulker box early game |
         | Safe | | Coffre sécurisé (code) |
         | Rope | | Corde climbable |
         | Pedestal | | Display d'items |
 
-??? note "QuarryPlus"
+??? note "QuarryPlus / Additional Enchanted Miner"
 
     [CurseForge](https://www.curseforge.com/minecraft/mc-mods/additional-enchanted-miner) | [Wiki](https://github.com/Kotori316/QuarryPlus/wiki)
 
@@ -548,11 +564,54 @@
             - Quarry avec support d'enchantements
             - **Fortune** et **Silk Touch** fonctionnent!
             - Peut être configuré pour zones spécifiques
+            - Ajouter des **enchants sur la quarry** pour améliorer les drops
+
+        !!! success "Enchantements Utiles"
+            - **Fortune** : Plus de drops de minerais
+            - **Silk Touch** : Récupère les blocs intacts
+            - **Efficiency** : Mine plus vite
 
     === "Objets Importants"
 
         | Objet | Priorité | Description |
         |-------|:--------:|-------------|
-        | QuarryPlus | :star: | Quarry enchantable |
+        | QuarryPlus | - | Quarry enchantable |
         | Chunk Destroyer | | Version plus puissante |
-        | Pump Plus | | Pompe les fluides |
+        | Pump Plus | - | Pompe les fluides |
+        | Exp Pump | | Pompe l'XP des spawners |
+
+??? note "More Villagers"
+
+    [CurseForge](https://www.curseforge.com/minecraft/mc-mods/more-villagers)
+
+    === "Tips"
+
+        !!! tip "Nouveaux Villagers"
+            - Ajoute de nouveaux types de villagers avec trades uniques
+            - **Générateur d'iron** via certains trades
+
+    === "Objets Importants"
+
+        | Objet | Priorité | Description |
+        |-------|:--------:|-------------|
+        | Nouveaux métiers | - | Trades uniques |
+
+??? note "Utilitix"
+
+    [CurseForge](https://www.curseforge.com/minecraft/mc-mods/utilitix)
+
+    === "Tips"
+
+        !!! tip "Utilitaires Variés"
+            - Collection de petits outils utiles
+            - **Ancient Compass** pour trouver des structures
+            - **Mob Yoinker** pour capturer des mobs facilement
+
+    === "Objets Importants"
+
+        | Objet | Priorité | Description |
+        |-------|:--------:|-------------|
+        | Ancient Compass | - | Trouve les structures anciennes |
+        | Mob Bell | | Attire les mobs |
+        | Mob Yoinker | - | Capture les mobs facilement |
+        | Armor Stand | | Stand d'armure amélioré |

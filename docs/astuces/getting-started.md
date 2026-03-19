@@ -24,7 +24,7 @@ timeline
 
     ---
 
-    **Heures 1-5** | Difficulte : :star:
+    **Heures 1-5** | Difficulte : -
 
     Etablir une base securisee avec abri, nourriture et outils de base.
 
@@ -32,7 +32,7 @@ timeline
 
     ---
 
-    **Heures 5-10** | Difficulte : :star::star:
+    **Heures 5-10** | Difficulte : --
 
     Decouvrir les outils moddes et l'energie basique.
 
@@ -40,7 +40,7 @@ timeline
 
     ---
 
-    **Heures 10-15** | Difficulte : :star::star::star:
+    **Heures 10-15** | Difficulte : ---
 
     Automatiser les taches repetitives avec pipes et fermes.
 
@@ -48,7 +48,7 @@ timeline
 
     ---
 
-    **Heures 15-20** | Difficulte : :star::star::star::star:
+    **Heures 15-20** | Difficulte : ----
 
     Etendre vos capacites avec energie avancee et dimensions.
 
@@ -56,7 +56,7 @@ timeline
 
     ---
 
-    **Heures 20-25** | Difficulte : :star::star::star::star::star:
+    **Heures 20-25** | Difficulte : -----
 
     Optimiser et organiser avec systeme ME/RS et auto-crafting.
 
@@ -89,8 +89,8 @@ timeline
 
     | Mod                                              | Utilite                                                   | Priorite              |
     |:-------------------------------------------------|:----------------------------------------------------------|:----------------------|
-    | :mag: **JEI**                                    | Recherche de recettes (**`R`** / **`U`**)                 | :star: **Essentiel**  |
-    | :book: **Patchouli**                             | Guides in-game des mods                                   | :star: **Essentiel**  |
+    | :mag: **JEI**                                    | Recherche de recettes (**`R`** / **`U`**)                 | - **Essentiel**  |
+    | :book: **Patchouli**                             | Guides in-game des mods                                   | - **Essentiel**  |
     | :school_satchel: **Sophisticated Backpacks**    | Extension d'inventaire                                    | :arrow_up: Haute      |
     | :hammer_and_wrench: **Tinkers' Construct**       | Outils ameliorables                                       | :arrow_up: Haute      |
     | :cook: **Cooking for Blockheads**                | Cuisine simplifiee                                        | :arrow_right: Moyenne |
@@ -182,8 +182,8 @@ timeline
 
     | Mod                                              | Utilite                           | Priorite              |
     |:-------------------------------------------------|:----------------------------------|:----------------------|
-    | :hammer_and_wrench: **Tinkers' Construct**       | Outils personnalisables           | :star: **Essentiel**  |
-    | :tools: **Silent Gear**                          | Alternative a Tinkers'            | :star: **Essentiel**  |
+    | :hammer_and_wrench: **Tinkers' Construct**       | Outils personnalisables           | - **Essentiel**  |
+    | :tools: **Silent Gear**                          | Alternative a Tinkers'            | - **Essentiel**  |
     | :milky_way: **Waystones**                        | Teleportation rapide              | :arrow_up: Haute      |
     | :shield: **FTB Utilities**                       | Claims et homes                   | :arrow_up: Haute      |
     | :gear: **Mekanism** / :fire: **Thermal**         | Energie et machines               | :arrow_up: Haute      |
@@ -295,8 +295,8 @@ timeline
 
     | Mod                                              | Utilite                           | Priorite              |
     |:-------------------------------------------------|:----------------------------------|:----------------------|
-    | :gear: **Pipez / XNet / Mekanism Pipes**         | Transport d'items                 | :star: **Essentiel**  |
-    | :file_cabinet: **Storage Drawers**               | Stockage bulk                     | :star: **Essentiel**  |
+    | :gear: **Pipez / XNet / Mekanism Pipes**         | Transport d'items                 | - **Essentiel**  |
+    | :file_cabinet: **Storage Drawers**               | Stockage bulk                     | - **Essentiel**  |
     | :floppy_disk: **Applied Energistics 2**          | Systeme ME                        | :arrow_up: Haute      |
     | :cd: **Refined Storage**                         | Alternative a AE2                 | :arrow_up: Haute      |
     | :tractor: **Industrial Foregoing**               | Farming automatique               | :arrow_up: Haute      |
@@ -437,7 +437,7 @@ timeline
 
     | Mod                                              | Utilite                           | Priorite              |
     |:-------------------------------------------------|:----------------------------------|:----------------------|
-    | :gear: **Mekanism**                              | Ore 5x, energie                   | :star: **Essentiel**  |
+    | :gear: **Mekanism**                              | Ore 5x, energie                   | - **Essentiel**  |
     | :fire: **Thermal Series**                        | Machines polyvalentes             | :arrow_up: Haute      |
     | :herb: **Botania**                               | Magie naturelle                   | :arrow_up: Haute      |
     | :drop_of_blood: **Blood Magic**                  | Magie de sang                     | :arrow_right: Moyenne |
@@ -568,8 +568,8 @@ timeline
 
     | Mod                                              | Utilite                           | Priorite              |
     |:-------------------------------------------------|:----------------------------------|:----------------------|
-    | :floppy_disk: **Applied Energistics 2**          | Stockage digital ME               | :star: **Essentiel**  |
-    | :cd: **Refined Storage**                         | Alternative RS                    | :star: **Essentiel**  |
+    | :floppy_disk: **Applied Energistics 2**          | Stockage digital ME               | - **Essentiel**  |
+    | :cd: **Refined Storage**                         | Alternative RS                    | - **Essentiel**  |
     | :sparkles: **Apotheosis**                        | Enchantements ameliores           | :arrow_up: Haute      |
     | :tractor: **Industrial Foregoing**               | Mob farm avancee                  | :arrow_up: Haute      |
     | :dragon: **Draconic Evolution**                  | End game                          | :arrow_right: Moyenne |

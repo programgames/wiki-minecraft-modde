@@ -49,17 +49,17 @@
 
 ---
 
-## Tableau Comparatif
+## Comparaison Rapide
 
-| Mod | Difficulté | Blocs | Décoration | Utilité | Phase |
-|-----|:----------:|:-----:|:----------:|:-------:|:-----:|
-| Chipped | :star: | :star::star::star::star::star: | :star::star::star::star::star: | :star::star: | Early |
-| Building Gadgets | :star::star: | :star: | :star: | :star::star::star::star::star: | Early |
-| Construction Wand | :star: | :star: | :star: | :star::star::star::star::star: | Early |
-| Chisel | :star: | :star::star::star::star: | :star::star::star::star: | :star::star: | Early |
-| Framed Blocks | :star::star::star: | :star::star::star: | :star::star::star::star::star: | :star::star::star: | Mid |
-| Handcrafted | :star: | :star::star::star: | :star::star::star::star::star: | :star::star: | Early |
-| Exchangers | :star::star: | :star: | :star: | :star::star::star::star: | Mid |
+| Mod | Difficulté | Phase | Recommandé pour |
+|-----|:----------:|:-----:|-----------------|
+| Chipped | 1/5 | Early | Centaines de variations de blocs |
+| Building Gadgets | 2/5 | Early | Placement en masse (murs, escaliers) |
+| Construction Wand | 1/5 | Early | Extension rapide de surfaces |
+| Chisel | 1/5 | Early | Connected textures, variations |
+| Framed Blocks | 3/5 | Mid | Pentes, coins, formes spéciales |
+| Handcrafted | 1/5 | Early | Meubles réalistes |
+| Exchangers | 2/5 | Mid | Remplacement de blocs en zone |
 
 ---
 
@@ -130,11 +130,11 @@
     |-------|:--------:|-------------|
     | Botanist's Workbench | :zap: RUSH | Variations de blocs naturels et végétaux |
     | Mason Table | :zap: RUSH | Variations de pierre, brique, cobble |
-    | Carpenters Table | :star::star::star: | Variations de bois et planches |
-    | Glassblower | :star::star::star: | Variations de verre (coloré, texturé) |
-    | Loom Table | :star::star: | Variations de laine et tissus |
-    | Alchemy Bench | :star::star: | Variations de blocs magiques |
-    | Tinkering Table | :star::star: | Variations de blocs métalliques |
+    | Carpenters Table | --- | Variations de bois et planches |
+    | Glassblower | --- | Variations de verre (coloré, texturé) |
+    | Loom Table | -- | Variations de laine et tissus |
+    | Alchemy Bench | -- | Variations de blocs magiques |
+    | Tinkering Table | -- | Variations de blocs métalliques |
 
 === "Guides"
 
@@ -178,9 +178,9 @@
     |-------|:--------:|-------------|
     | Building Gadget | :zap: RUSH | Place des blocs en lignes, murs, escaliers |
     | Exchanging Gadget | :zap: RUSH | Remplace des blocs par d'autres instantanément |
-    | Copy Paste Gadget | :star::star::star: | Copie et colle des structures entières |
-    | Destruction Gadget | :star::star: | Détruit des blocs en zone |
-    | Template Manager | :star::star: | Sauvegarde/charge des designs sur Template Cards |
+    | Copy Paste Gadget | --- | Copie et colle des structures entières |
+    | Destruction Gadget | -- | Détruit des blocs en zone |
+    | Template Manager | -- | Sauvegarde/charge des designs sur Template Cards |
 
 === "Guides"
 
@@ -219,9 +219,9 @@
     | Objet | Priorité | Description |
     |-------|:--------:|-------------|
     | Stone Wand | :zap: RUSH | 8 blocs max - Super économique en early game |
-    | Iron Wand | :star::star::star: | 64 blocs max - Bon rapport qualité/prix |
-    | Diamond Wand | :star::star::star: | 256 blocs max - Pour les gros projets |
-    | Infinity Wand | :star::star: | 1024 blocs max - End-game, nécessite ender pearls |
+    | Iron Wand | --- | 64 blocs max - Bon rapport qualité/prix |
+    | Diamond Wand | --- | 256 blocs max - Pour les gros projets |
+    | Infinity Wand | -- | 1024 blocs max - End-game, nécessite ender pearls |
 
 === "Guides"
 
@@ -259,9 +259,9 @@
     | Objet | Priorité | Description |
     |-------|:--------:|-------------|
     | Iron Chisel | :zap: RUSH | Chisel de base, économique à crafter |
-    | Diamond Chisel | :star::star::star: | Plus durable, moins de crafts à répéter |
-    | Hitech Chisel | :star::star: | Durabilité infinie - End-game |
-    | Auto Chisel | :star::star: | Transformation automatique avec RF |
+    | Diamond Chisel | --- | Plus durable, moins de crafts à répéter |
+    | Hitech Chisel | -- | Durabilité infinie - End-game |
+    | Auto Chisel | -- | Transformation automatique avec RF |
 
 === "Guides"
 
