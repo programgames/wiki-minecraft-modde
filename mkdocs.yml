@@ -68,7 +68,7 @@ markdown_extensions:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/julmusic/minecraft-modded-wiki
+      link: https://github.com/programgames/wiki-minecraft-modde
   generator: false
 
 copyright: Copyright &copy; 2024 Julien
