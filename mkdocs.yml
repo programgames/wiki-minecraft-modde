@@ -1,6 +1,9 @@
 site_name: Wiki Minecraft Moddé
+site_url: https://programgames.github.io/wiki-minecraft-modde/
 site_description: Guide complet des mods Minecraft - Objets, Astuces, Guides
 site_author: Julien
+repo_url: https://github.com/programgames/wiki-minecraft-modde
+repo_name: programgames/wiki-minecraft-modde
 
 theme:
   name: material
