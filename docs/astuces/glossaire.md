@@ -202,6 +202,116 @@ Ce glossaire regroupe les termes techniques et abréviations couramment utilisé
     | Head | Couvre-chefs | Goggles of Revealing |
     | Back | Dos | Elytra, Capes |
 
+=== "Farming"
+
+    ## Termes liés au farming
+
+    L'agriculture moddée va bien au-delà du blé et des carottes.
+
+    Inferium
+    :   Essence de base de Mystical Agriculture. Se combine en tiers supérieurs : Prudentium → Tertium → Imperium → Supremium.
+
+    Growth Accelerator
+    :   Bloc de Mystical Agriculture placé sous le farmland. Accélère la croissance des plantes. Stack jusqu'à 64 sous un bloc.
+
+    Bee Gene
+    :   Caractéristique génétique des abeilles Productive Bees. Productivity, Endurance, Temper, Behavior, Weather Tolerance.
+
+    Centrifuge
+    :   Machine traitant les rayons de miel pour extraire les ressources. Version Powered = automatisable.
+
+    Comb
+    :   Rayon produit par les abeilles. Chaque type d'abeille produit des combs spécifiques contenant différentes ressources.
+
+    Breeding Chamber
+    :   Bloc pour croiser les abeilles et améliorer leurs gènes. Le parent de gauche transmet ses gènes en priorité.
+
+    Soulium Dagger
+    :   Dague de Mystical Agriculture. Tue les mobs avec une chance de drop des Mob Chunks pour crafter les seeds.
+
+    Farmland Essence
+    :   Type de farmland de Mystical Agriculture. Supremium Farmland = +50% de drops.
+
+    Lily Pad of Fertility
+    :   Objet de Cyclic. Accélère la croissance des plantes dans un rayon autour.
+
+    Phytogenic Insolator
+    :   Machine Thermal cultivant les plantes automatiquement avec de l'énergie et du Phyto-Gro.
+
+    ### Tiers Mystical Agriculture
+
+    | Tier | Essence | Couleur | Crafts débloqués |
+    |------|---------|---------|------------------|
+    | 1 | Inferium | Vert clair | Seeds basiques |
+    | 2 | Prudentium | Vert | Seeds intermédiaires |
+    | 3 | Tertium | Orange | Seeds avancées |
+    | 4 | Imperium | Cyan | Seeds rares |
+    | 5 | Supremium | Rouge | Seeds end-game |
+    | 6 | Insanium | Violet | Seeds Insanium (addon) |
+
+=== "Magie"
+
+    ## Termes magiques
+
+    Les systèmes magiques ont leur propre vocabulaire.
+
+    Source (Ars Nouveau)
+    :   Énergie magique d'Ars Nouveau. Générée passivement près de certains blocs naturels.
+
+    Source Jar
+    :   Conteneur de Source. Se remplit automatiquement près de sources naturelles (fleurs, arbres).
+
+    Glyph
+    :   Composant de sort Ars Nouveau. Combinés pour créer des effets personnalisés.
+
+    Spell Book
+    :   Livre contenant les sorts créés. Permet de lancer des combinaisons de glyphes.
+
+    Starbuncle
+    :   Familier Ars Nouveau collecteur d'items. Très utile pour l'automation early game.
+
+    Drygmy
+    :   Familier Ars Nouveau générant des drops de mobs passifs proches. Fonctionne sur les boss!
+
+    Mana Pool
+    :   Stockage de mana Botania. Base de tout système Botania.
+
+    Mana Spreader
+    :   Transporteur de mana Botania. Tire des bursts de mana vers les pools ou machines.
+
+    Spark
+    :   Entité Botania pour transfert de mana entre pools. Plus efficace que les spreaders pour grandes quantités.
+
+    Generating Flora
+    :   Fleurs Botania produisant du mana (Endoflame, Gourmaryllis, etc.).
+
+    Functional Flora
+    :   Fleurs Botania consommant du mana pour un effet (Hopperhock, Bellethorne, etc.).
+
+    Terrasteel
+    :   Matériau end-game Botania. Crafté sur une Terrestrial Agglomeration Plate avec beaucoup de mana.
+
+    Blood Altar
+    :   Structure centrale de Blood Magic. Upgrade en tiers pour débloquer plus de crafts.
+
+    LP (Life Points)
+    :   Énergie Blood Magic obtenue en sacrifiant sa vie. Stockée dans le Soul Network.
+
+    Living Armor
+    :   Armure Blood Magic évoluant avec l'usage. Gagne des upgrades passifs.
+
+    Demon Will
+    :   Ressource avancée Blood Magic obtenue des démons. Quatre types : Default, Corrosive, Vengeful, Steadfast.
+
+    ### Comparaison systèmes magiques
+
+    | Mod | Énergie | Stockage | Transport |
+    |-----|---------|----------|-----------|
+    | Botania | Mana | Mana Pool | Spreader/Spark |
+    | Ars Nouveau | Source | Source Jar | Relay |
+    | Blood Magic | LP | Soul Network | Rituel |
+    | Astral Sorcery | Starlight | Collector | Liens |
+
 === "Général"
 
     ## Termes généraux
@@ -267,6 +377,8 @@ Ce glossaire regroupe les termes techniques et abréviations couramment utilisé
 | AE2 | Applied Energistics 2 |
 | IE | Immersive Engineering |
 | TE | Thermal Expansion |
+| TF | Thermal Foundation |
+| TD | Thermal Dynamics |
 | IF | Industrial Foregoing |
 | IC2 | IndustrialCraft 2 |
 | TC | Tinker's Construct |
@@ -275,16 +387,70 @@ Ce glossaire regroupe les termes techniques et abréviations couramment utilisé
 | PNC | PneumaticCraft |
 | CC | ComputerCraft / CC: Tweaked |
 | OC | OpenComputers |
+| RS | Refined Storage |
+| MA | Mystical Agriculture |
+| PB | Productive Bees |
+| FD | Farmer's Delight |
+| AN | Ars Nouveau |
+| BM | Blood Magic |
+| DE | Draconic Evolution |
+| ER | Extreme Reactors |
+| FN | Flux Networks |
+| MR | Modular Routers |
+| HNN | Hostile Neural Networks |
+| MGU | Mob Grinding Utils |
 | QOL | Quality of Life |
 | OP | Overpowered |
 | RNG | Random Number Generator |
 | AOE | Area of Effect |
 | NBT | Named Binary Tag (données d'items) |
+| GUI | Graphical User Interface |
+| API | Application Programming Interface |
+| FPS | Frames Per Second |
+| RTD | Right To Dial (Stargate) |
+| SBU | Speed Bonus Unit |
+| GC | Growth Crystal / Growth Accelerator |
+
+---
+
+## Termes de Modpacks
+
+| Terme | Description |
+|-------|-------------|
+| Expert Mode | Mode de jeu avec recettes modifiées, plus difficiles |
+| Gated Progression | Progression verrouillée par étapes (doit compléter X avant Y) |
+| Kitchen Sink | Modpack sans thème précis, beaucoup de mods sans intégration |
+| Skyblock | Type de map commençant sur une île flottante |
+| Hardcore Questing | Système de quêtes avec vies limitées |
+| Tech Tree | Arbre de technologies à débloquer progressivement |
+| Worldgen | Génération du monde (biomes, structures, minerais) |
+| Retrogen | Génération de nouveaux éléments dans des chunks existants |
+| Ore Dictionary | Système unifiant les minerais entre mods (deprecated en 1.13+) |
+| Tags | Système remplaçant Ore Dictionary depuis 1.13 |
+| Loot Table | Tables définissant les drops des mobs/coffres |
+| Recipe Viewer | Mod affichant les recettes (JEI, REI, EMI) |
+
+## Termes Techniques Avancés
+
+| Terme | Description |
+|-------|-------------|
+| Chunk Loading | Garder des chunks actifs même sans joueur présent |
+| Lazy Chunk | Chunk chargé mais avec activité réduite |
+| Tick Rate | Fréquence de mise à jour du jeu (20/sec normal) |
+| Entity Culling | Optimisation n'affichant pas les entités non visibles |
+| Mipmap | Niveaux de détail des textures à distance |
+| VBO | Vertex Buffer Objects (rendu optimisé) |
+| Shader | Programme graphique modifiant le rendu |
+| Occlusion Culling | Ne pas rendre ce qui est caché |
+| Garbage Collection | Nettoyage mémoire Java (source de lag spikes) |
+| Memory Leak | Fuite mémoire causant des crashes |
 
 ---
 
 ## Voir aussi
 
-- [Mods QOL](../qol/index.md) - Mods améliorant le confort de jeu
-- [Énergie](../energie/index.md) - Guide complet sur les systèmes énergétiques
-- [Stockage](../stockage/index.md) - Systèmes de stockage détaillés
+- [:octicons-arrow-right-24: Mods QOL](../qol/index.md) - Mods améliorant le confort de jeu
+- [:octicons-arrow-right-24: Énergie](../energie/index.md) - Guide complet sur les systèmes énergétiques
+- [:octicons-arrow-right-24: Stockage](../stockage/index.md) - Systèmes de stockage détaillés
+- [:octicons-arrow-right-24: Astuces Avancées](advanced-tips.md) - Techniques de pro
+- [:octicons-arrow-right-24: Synergies](synergies.md) - Combinaisons de mods

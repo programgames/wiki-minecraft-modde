@@ -68,7 +68,7 @@ markdown_extensions:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/
+      link: https://github.com/julmusic/minecraft-modded-wiki
   generator: false
 
 copyright: Copyright &copy; 2024 Julien
@@ -96,6 +96,14 @@ nav:
       - Préparation Boss: astuces/boss-prep.md
       - Progression Équipement: astuces/gear-progression.md
       - Dimensions: astuces/dimensions.md
+    - Guides Avancés:
+      - Astuces Avancées: astuces/advanced-tips.md
+      - Synergies Inter-Mods: astuces/synergies.md
+      - Setups Détaillés: astuces/setups.md
+      - Guide du Vol: astuces/flight-guide.md
+      - Farming Mob Drops: astuces/mob-drops-guide.md
+      - Multiblocks: astuces/multiblocks.md
+      - Integrated Dynamics: astuces/integrated-dynamics.md
     - Optimisation: astuces/optimisation.md
     - Erreurs Communes: astuces/erreurs-communes.md
     - Glossaire: astuces/glossaire.md

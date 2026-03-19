@@ -256,7 +256,7 @@ Le guide ultime pour dominer les modpacks Minecraft expert ! ATM, FTB, GregTech.
 
     Ce wiki est open source ! Contribuez en ajoutant des guides, corrigeant des erreurs ou suggérant des améliorations.
 
-    [:octicons-arrow-right-24: Contribuer sur GitHub](https://github.com)
+    [:octicons-arrow-right-24: Contribuer sur GitHub](https://github.com/julmusic/minecraft-modded-wiki)
 
 -   :material-message-text:{ .lg .middle } **Feedback**
 
@@ -264,7 +264,7 @@ Le guide ultime pour dominer les modpacks Minecraft expert ! ATM, FTB, GregTech.
 
     Une suggestion ? Un bug ? N'hésitez pas à ouvrir une issue ou à nous contacter.
 
-    [:octicons-arrow-right-24: Signaler un problème](https://github.com)
+    [:octicons-arrow-right-24: Signaler un problème](https://github.com/julmusic/minecraft-modded-wiki/issues)
 
 </div>
 
